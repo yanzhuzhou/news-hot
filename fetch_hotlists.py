@@ -29,22 +29,27 @@ SOURCES = {
     "weibo": [
         "https://api.vvhan.com/api/hotlist?type=weibo",
         "https://api.guiguiya.com/api/hotlist?type=weibo",
+        "https://tenapi.cn/v2/hotlist?type=weibo",
     ],
     "zhihu": [
         "https://api.vvhan.com/api/hotlist?type=zhihu",
         "https://api.guiguiya.com/api/hotlist?type=zhihu",
+        "https://tenapi.cn/v2/hotlist?type=zhihu",
     ],
     "douyin": [
         "https://api.vvhan.com/api/hotlist?type=douyin",
         "https://api.guiguiya.com/api/hotlist?type=douyin",
+        "https://tenapi.cn/v2/hotlist?type=douyin",
     ],
     "bilibili": [
         "https://api.vvhan.com/api/hotlist?type=bilibili",
         "https://api.guiguiya.com/api/hotlist?type=bilibili",
+        "https://tenapi.cn/v2/hotlist?type=bilibili",
     ],
     "xiaohongshu": [
         "https://api.vvhan.com/api/hotlist?type=xiaohongshu",
         "https://api.vvhan.com/api/hotlist?type=xhs",
+        "https://tenapi.cn/v2/hotlist?type=xiaohongshu",
     ],
 }
 
@@ -249,6 +254,14 @@ def platform_heat_stats(platforms_data):
 
 # ---------- 主流程 ----------
 def main():
+    # 加载旧数据（用于部分失败时补充缺失平台）
+    old_data = {}
+    if os.path.exists(OUTPUT):
+        try:
+            old_data = json.load(open(OUTPUT, "r", encoding="utf-8"))
+        except Exception:
+            pass
+
     platforms_data = {}
     for pkey, urls in SOURCES.items():
         for url in urls:
@@ -266,20 +279,20 @@ def main():
             except Exception as e:
                 print(f"[FAIL] {pkey} <- {url}: {e}", file=sys.stderr)
                 continue
+        # 所有源都失败：从旧数据补充
+        if pkey not in platforms_data and pkey in old_data.get("platforms", {}):
+            platforms_data[pkey] = old_data["platforms"][pkey]
+            print(f"[KEEP] {pkey}: 保留上次数据（{len(platforms_data[pkey].get('list',[]))} 条）", file=sys.stderr)
 
     # 全部失败：保留旧数据，仅更新时间戳
     if not platforms_data:
         print("[WARN] 所有数据源失败，保留旧 data.json", file=sys.stderr)
-        if os.path.exists(OUTPUT):
-            try:
-                old = json.load(open(OUTPUT, "r", encoding="utf-8"))
-                old["updateTime"] = datetime.datetime.now(
-                    datetime.timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
-                old["source"] = old.get("source", "") + "（本次抓取失败，保留上次数据）"
-                json.dump(old, open(OUTPUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-                return
-            except Exception:
-                pass
+        if old_data:
+            old_data["updateTime"] = datetime.datetime.now(
+                datetime.timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
+            old_data["source"] = old_data.get("source", "") + "（本次抓取失败，保留上次数据）"
+            json.dump(old_data, open(OUTPUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+            return
         print("[ERROR] 无可用数据且无旧 data.json", file=sys.stderr)
         sys.exit(1)
 
@@ -290,11 +303,11 @@ def main():
     total = sum(len(pf["list"]) for pf in platforms_data.values())
     new_count = sum(1 for pf in platforms_data.values() for it in pf["list"] if it.get("isNew"))
 
+    now = datetime.datetime.now(datetime.timezone.utc).astimezone()
     result = {
-        "updateTime": datetime.datetime.now(
-            datetime.timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M"),
+        "updateTime": now.strftime("%Y-%m-%d %H:%M"),
         "updateTimestamp": int(time.time()),
-        "source": "GitHub Actions 自动抓取（vvhan/guigui API 聚合）",
+        "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
         "summary": {
             "totalTopics": total,
             "platforms": len(platforms_data),

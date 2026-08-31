@@ -1,122 +1,586 @@
 {
-  "updateTime": "2026-08-31 08:30",
-  "updateTimestamp": 1788136200,
-  "source": "各平台公开热榜聚合（tophub.today / regeng.net / rshub.site / vvhan API 等）",
+  "updateTime": "2026-08-31 08:36",
+  "updateTimestamp": 1788165367,
+  "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
     "totalTopics": 50,
     "platforms": 5,
-    "newTopics": 12
+    "newTopics": 13
   },
   "overall": [
-    {"rank": 1, "title": "西藏吉隆泥石流灾害", "heatText": "抖音1199万 · 快手1235万 · 百度780万", "heatValue": 4049, "platforms": ["weibo", "douyin", "bilibili"], "category": "灾害", "desc": "西藏吉隆口岸发生特大泥石流灾害，已致16死546失联，多平台霸榜，抢险救援与新闻发布持续占据热度榜首。"},
-    {"rank": 2, "title": "中国女排2:3泰国女排 无缘直通奥运", "heatText": "抖音1118万 · 快手1203万 · 微博118万", "heatValue": 3216, "platforms": ["weibo", "douyin", "zhihu"], "category": "体育", "desc": "2026女排亚锦赛决赛中国女排2比3不敌泰国，错失直通奥运资格，赛事结果引爆全网讨论。"},
-    {"rank": 3, "title": "官方回应“取消ETC”", "heatText": "抖音1209万 · 快手1227万", "heatValue": 2436, "platforms": ["douyin"], "category": "政策", "desc": "网传“建议取消ETC设备使用”引发热议，交通运输部出面回应，政策类话题短时间冲上榜首。"},
-    {"rank": 4, "title": "习近平抵达比什凯克出席上合峰会", "heatText": "百度790万 · 快手1292万", "heatValue": 2082, "platforms": [], "category": "时政", "desc": "国家主席抵达吉尔吉斯斯坦出席上海合作组织成员国元首理事会，登上百度与快手热榜。"},
-    {"rank": 5, "title": "国家动物博物馆小孩损毁珍贵标本", "heatText": "知乎741万 · 贴吧96万", "heatValue": 837, "platforms": ["zhihu"], "category": "社会", "desc": "两小孩在国家动物博物馆手抓脚踢致莽山原矛头蝮标本受损，父亲在场未制止，追责讨论登上知乎榜首。"},
-    {"rank": 6, "title": "网易云音乐疑似官宣适配鸿蒙", "heatText": "知乎414万 · IT之家热榜", "heatValue": 414, "platforms": ["zhihu"], "category": "科技", "desc": "网易云音乐长期缺席后疑似官宣适配鸿蒙HarmonyOS，科技圈与花粉群体高度关注其能否挽回流失用户。"},
-    {"rank": 7, "title": "官方通报博主街头除钉因扬尘被叫停", "heatText": "知乎409万", "heatValue": 409, "platforms": ["zhihu"], "category": "社会", "desc": "博主自发街头除钉因扬尘影响环保被叫停，官方通报称工作人员沟通方式造成误解，引发“好心办坏事”讨论。"},
-    {"rank": 8, "title": "网传南极水银释放量激增550%", "heatText": "知乎338万", "heatValue": 338, "platforms": ["zhihu"], "category": "科研", "desc": "研究警告南极水银（汞）释放量激增550%，真实性及其对生态与气候的影响引发知乎热议。"},
-    {"rank": 9, "title": "许晴花少2表现被理解", "heatText": "微博79万", "heatValue": 79, "platforms": ["weibo"], "category": "娱乐", "desc": "综艺节目《花儿与少年2》中许晴的表现随时间推移被重新理解，怀旧向话题登上微博热搜。"},
-    {"rank": 10, "title": "华为李小龙称花11年把梦想照进现实", "heatText": "微博热搜 · 12.6万", "heatValue": 13, "platforms": ["weibo"], "category": "科技", "desc": "华为相关产品历经11年研发终于落地，高管发言引发“长期主义”共鸣，登上微博热搜。"}
+    {
+      "rank": 1,
+      "title": "开学与家人临别那一刻",
+      "heatText": "综合热度 1211.7 万",
+      "heatValue": 1211.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1211.7万热度值。"
+    },
+    {
+      "rank": 2,
+      "title": "西藏泥石流已致16死546失联",
+      "heatText": "综合热度 1111.8 万",
+      "heatValue": 1111.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1111.8万热度值。"
+    },
+    {
+      "rank": 3,
+      "title": "8月制造业PMI上升0.6个百分点",
+      "heatText": "综合热度 1109.6 万",
+      "heatValue": 1109.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1109.6万热度值。"
+    },
+    {
+      "rank": 4,
+      "title": "网警公布10起涉吉隆泥石流谣言案例",
+      "heatText": "综合热度 1101.4 万",
+      "heatValue": 1101.4,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1101.4万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "当我执意报考省外大学",
+      "heatText": "综合热度 1044.0 万",
+      "heatValue": 1044.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1044.0万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "净网：造谣外卖员向饮料加百草枯者被罚",
+      "heatText": "综合热度 1042.0 万",
+      "heatValue": 1042.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1042.0万热度值。"
+    },
+    {
+      "rank": 7,
+      "title": "国安部披露军工双料间谍案细节",
+      "heatText": "综合热度 921.9 万",
+      "heatValue": 921.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 921.9万热度值。"
+    },
+    {
+      "rank": 8,
+      "title": "预习我的早秋穿搭",
+      "heatText": "综合热度 921.1 万",
+      "heatValue": 921.1,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 921.1万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "用万能旅行拍照姿势美美出片",
+      "heatText": "综合热度 918.6 万",
+      "heatValue": 918.6,
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
+    },
+    {
+      "rank": 10,
+      "title": "8月的最后一天许个愿吧",
+      "heatText": "综合热度 914.7 万",
+      "heatValue": 914.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 914.7万热度值。"
+    }
   ],
   "platforms": {
     "weibo": {
       "name": "微博热搜",
       "unit": "万热度",
       "list": [
-        {"rank": 1, "title": "女排 朱婷", "heatText": "117.8万热度", "heatValue": 117.8, "isNew": false},
-        {"rank": 2, "title": "吉隆口岸大楼现状", "heatText": "97.8万热度", "heatValue": 97.8, "isNew": false},
-        {"rank": 3, "title": "许晴花少2表现被理解", "heatText": "79万热度", "heatValue": 79, "isNew": false},
-        {"rank": 4, "title": "西藏吉隆泥石流灾害新闻发布会实录", "heatText": "66.8万热度", "heatValue": 66.8, "isNew": false},
-        {"rank": 5, "title": "李昀锐王者英雄全球品牌代言人", "heatText": "63.5万热度", "heatValue": 63.5, "isNew": false},
-        {"rank": 6, "title": "俄乌冲突三大高危信号", "heatText": "68.3万热度", "heatValue": 68.3, "isNew": false},
-        {"rank": 7, "title": "早春晴朗", "heatText": "—", "heatValue": 50, "isNew": false},
-        {"rank": 8, "title": "我国从月球传照片4分钟缩到12秒", "heatText": "—", "heatValue": 45, "isNew": false},
-        {"rank": 9, "title": "华为李小龙称花11年把梦想照进现实", "heatText": "12.6万热度", "heatValue": 12.6, "isNew": true},
-        {"rank": 10, "title": "南航波音777虹桥机场误放滑梯", "heatText": "—", "heatValue": 40, "isNew": true}
+        {
+          "rank": 1,
+          "title": "绝味鸭脖为啥卖不动了",
+          "heatText": "112.4万热度",
+          "heatValue": 112.4,
+          "isNew": true
+        },
+        {
+          "rank": 2,
+          "title": "建议全国都普及这种宿舍",
+          "heatText": "79.1万热度",
+          "heatValue": 79.1,
+          "isNew": true
+        },
+        {
+          "rank": 3,
+          "title": "9图读懂上合组织峰会",
+          "heatText": "75.1万热度",
+          "heatValue": 75.1,
+          "isNew": true
+        },
+        {
+          "rank": 4,
+          "title": "至今不知道杨洋丢失那一晚发生了什么",
+          "heatText": "74.5万热度",
+          "heatValue": 74.5,
+          "isNew": false
+        },
+        {
+          "rank": 5,
+          "title": "芭莎之夜阵容预告",
+          "heatText": "70.8万热度",
+          "heatValue": 70.8,
+          "isNew": false
+        },
+        {
+          "rank": 6,
+          "title": "年轻人不爱当班主任了",
+          "heatText": "32.6万热度",
+          "heatValue": 32.6,
+          "isNew": false
+        },
+        {
+          "rank": 7,
+          "title": "别被配料表的这些话术误导了",
+          "heatText": "32.6万热度",
+          "heatValue": 32.6,
+          "isNew": false
+        },
+        {
+          "rank": 8,
+          "title": "吉隆泥石流受灾核心区寻获婴儿车",
+          "heatText": "32.6万热度",
+          "heatValue": 32.6,
+          "isNew": false
+        },
+        {
+          "rank": 9,
+          "title": "早春晴朗",
+          "heatText": "32.6万热度",
+          "heatValue": 32.6,
+          "isNew": false
+        },
+        {
+          "rank": 10,
+          "title": "罗子君的衣服是马伊琍去服装店选的",
+          "heatText": "32.6万热度",
+          "heatValue": 32.6,
+          "isNew": false
+        }
       ]
     },
     "zhihu": {
       "name": "知乎热榜",
       "unit": "万热度",
       "list": [
-        {"rank": 1, "title": "国家动物博物馆小孩损毁莽山原矛头蝮标本，谁该担责？", "heatText": "741万", "heatValue": 741, "isNew": false},
-        {"rank": 2, "title": "网易云音乐疑似官宣适配鸿蒙，长期缺席后为何此时适配？", "heatText": "414万", "heatValue": 414, "isNew": false},
-        {"rank": 3, "title": "官方通报「博主街头除钉因扬尘影响环保被叫停」", "heatText": "409万", "heatValue": 409, "isNew": false},
-        {"rank": 4, "title": "网传南极水银释放量激增550%，是真的吗？", "heatText": "338万", "heatValue": 338, "isNew": false},
-        {"rank": 5, "title": "樊振东在德甲打高排名选手容易输球，如何破解？", "heatText": "244万", "heatValue": 244, "isNew": false},
-        {"rank": 6, "title": "如何评价蒋炎岩「没有Token的CS学生应该立刻退学」？", "heatText": "225万", "heatValue": 225, "isNew": false},
-        {"rank": 7, "title": "新版《国防动员法》2026年10月1日实施，哪些信息值得关注？", "heatText": "—", "heatValue": 180, "isNew": true},
-        {"rank": 8, "title": "如何评价清华大学宣布废除GPA排名，实施推免综合评价？", "heatText": "—", "heatValue": 160, "isNew": true},
-        {"rank": 9, "title": "2026女排亚锦赛决赛，中国女排2比3不敌泰国女排，如何评价？", "heatText": "—", "heatValue": 140, "isNew": true},
-        {"rank": 10, "title": "为什么很多大学生更喜欢买标准版iPhone，而不是Pro？", "heatText": "—", "heatValue": 120, "isNew": false}
+        {
+          "rank": 1,
+          "title": "国家动物博物馆小孩损毁莽山原矛头蝮标本，谁该担责？",
+          "heatText": "741万",
+          "heatValue": 741,
+          "isNew": false
+        },
+        {
+          "rank": 2,
+          "title": "网易云音乐疑似官宣适配鸿蒙，长期缺席后为何此时适配？",
+          "heatText": "414万",
+          "heatValue": 414,
+          "isNew": false
+        },
+        {
+          "rank": 3,
+          "title": "官方通报「博主街头除钉因扬尘影响环保被叫停」",
+          "heatText": "409万",
+          "heatValue": 409,
+          "isNew": false
+        },
+        {
+          "rank": 4,
+          "title": "网传南极水银释放量激增550%，是真的吗？",
+          "heatText": "338万",
+          "heatValue": 338,
+          "isNew": false
+        },
+        {
+          "rank": 5,
+          "title": "樊振东在德甲打高排名选手容易输球，如何破解？",
+          "heatText": "244万",
+          "heatValue": 244,
+          "isNew": false
+        },
+        {
+          "rank": 6,
+          "title": "如何评价蒋炎岩「没有Token的CS学生应该立刻退学」？",
+          "heatText": "225万",
+          "heatValue": 225,
+          "isNew": false
+        },
+        {
+          "rank": 7,
+          "title": "新版《国防动员法》2026年10月1日实施，哪些信息值得关注？",
+          "heatText": "—",
+          "heatValue": 180,
+          "isNew": true
+        },
+        {
+          "rank": 8,
+          "title": "如何评价清华大学宣布废除GPA排名，实施推免综合评价？",
+          "heatText": "—",
+          "heatValue": 160,
+          "isNew": true
+        },
+        {
+          "rank": 9,
+          "title": "2026女排亚锦赛决赛，中国女排2比3不敌泰国女排，如何评价？",
+          "heatText": "—",
+          "heatValue": 140,
+          "isNew": true
+        },
+        {
+          "rank": 10,
+          "title": "为什么很多大学生更喜欢买标准版iPhone，而不是Pro？",
+          "heatText": "—",
+          "heatValue": 120,
+          "isNew": false
+        }
       ]
     },
     "douyin": {
       "name": "抖音热搜",
       "unit": "万热度值",
       "list": [
-        {"rank": 1, "title": "官方回应“取消ETC”", "heatText": "1209.2万", "heatValue": 1209.2, "isNew": false},
-        {"rank": 2, "title": "西藏泥石流已致16死546失联", "heatText": "1199.2万", "heatValue": 1199.2, "isNew": false},
-        {"rank": 3, "title": "直击吉隆口岸抢险救援一线", "heatText": "1149万", "heatValue": 1149, "isNew": false},
-        {"rank": 4, "title": "中国女排2:3泰国女排", "heatText": "1117.8万", "heatValue": 1117.8, "isNew": false},
-        {"rank": 5, "title": "军训结束回家的我belike", "heatText": "1052万", "heatValue": 1052, "isNew": false},
-        {"rank": 6, "title": "吉隆口岸工作的小邬警官确认平安", "heatText": "808万", "heatValue": 808, "isNew": true},
-        {"rank": 7, "title": "狄龙向白晶发起百分挑战", "heatText": "800万", "heatValue": 800, "isNew": true},
-        {"rank": 8, "title": "你怎么舍得让我的泪流向海", "heatText": "784万", "heatValue": 784, "isNew": false},
-        {"rank": 9, "title": "嗑上熟男熟女氛围感仅需一分钟", "heatText": "783万", "heatValue": 783, "isNew": true},
-        {"rank": 10, "title": "幸福和快乐是结局", "heatText": "783万", "heatValue": 783, "isNew": false}
+        {
+          "rank": 1,
+          "title": "开学与家人临别那一刻",
+          "heatText": "1211.7万热度值",
+          "heatValue": 1211.7,
+          "isNew": true
+        },
+        {
+          "rank": 2,
+          "title": "西藏泥石流已致16死546失联",
+          "heatText": "1111.8万热度值",
+          "heatValue": 1111.8,
+          "isNew": true
+        },
+        {
+          "rank": 3,
+          "title": "8月制造业PMI上升0.6个百分点",
+          "heatText": "1109.6万热度值",
+          "heatValue": 1109.6,
+          "isNew": true
+        },
+        {
+          "rank": 4,
+          "title": "网警公布10起涉吉隆泥石流谣言案例",
+          "heatText": "1101.4万热度值",
+          "heatValue": 1101.4,
+          "isNew": false
+        },
+        {
+          "rank": 5,
+          "title": "当我执意报考省外大学",
+          "heatText": "1044.0万热度值",
+          "heatValue": 1044.0,
+          "isNew": false
+        },
+        {
+          "rank": 6,
+          "title": "净网：造谣外卖员向饮料加百草枯者被罚",
+          "heatText": "1042.0万热度值",
+          "heatValue": 1042.0,
+          "isNew": false
+        },
+        {
+          "rank": 7,
+          "title": "国安部披露军工双料间谍案细节",
+          "heatText": "921.9万热度值",
+          "heatValue": 921.9,
+          "isNew": false
+        },
+        {
+          "rank": 8,
+          "title": "预习我的早秋穿搭",
+          "heatText": "921.1万热度值",
+          "heatValue": 921.1,
+          "isNew": false
+        },
+        {
+          "rank": 9,
+          "title": "8月的最后一天许个愿吧",
+          "heatText": "914.7万热度值",
+          "heatValue": 914.7,
+          "isNew": false
+        },
+        {
+          "rank": 10,
+          "title": "穿成想成为的样子",
+          "heatText": "908.6万热度值",
+          "heatValue": 908.6,
+          "isNew": false
+        }
       ]
     },
     "bilibili": {
       "name": "B站热门",
       "unit": "万播放",
       "list": [
-        {"rank": 1, "title": "【明日方舟×女神异闻录3 Reload】SideStory「月行水上」活动宣传PV", "heatText": "405.4万播放", "heatValue": 405.4, "isNew": false},
-        {"rank": 2, "title": "当你的资产缩水到A0层级，挑选优质桥洞的六大方案！", "heatText": "386.1万播放", "heatValue": 386.1, "isNew": false},
-        {"rank": 3, "title": "耗时一年，救赎相信光的小女孩，完整后续来了！", "heatText": "354万播放", "heatValue": 354, "isNew": false},
-        {"rank": 4, "title": "《下一个是谁》恐怖特辑——无限循环的寺庙", "heatText": "220.2万播放", "heatValue": 220.2, "isNew": false},
-        {"rank": 5, "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？", "heatText": "131.7万播放", "heatValue": 131.7, "isNew": true},
-        {"rank": 6, "title": "去了一趟西班牙2.0（荒岛四兄弟篇）", "heatText": "110.1万播放", "heatValue": 110.1, "isNew": false},
-        {"rank": 7, "title": "FALSITY…（完整版电影 / 官方正版）", "heatText": "65.9万播放", "heatValue": 65.9, "isNew": false},
-        {"rank": 8, "title": "币圈富豪孙宇晨手撕景甜，索赔3千万彩礼", "heatText": "—", "heatValue": 60, "isNew": true},
-        {"rank": 9, "title": "《小杨有约29#》：陈泽", "heatText": "—", "heatValue": 50, "isNew": false},
-        {"rank": 10, "title": "我在PVZ中添加了大果", "heatText": "—", "heatValue": 45, "isNew": false}
+        {
+          "rank": 1,
+          "title": "【明日方舟×女神异闻录3 Reload】SideStory「月行水上」活动宣传PV",
+          "heatText": "405.4万播放",
+          "heatValue": 405.4,
+          "isNew": false
+        },
+        {
+          "rank": 2,
+          "title": "当你的资产缩水到A0层级，挑选优质桥洞的六大方案！",
+          "heatText": "386.1万播放",
+          "heatValue": 386.1,
+          "isNew": false
+        },
+        {
+          "rank": 3,
+          "title": "耗时一年，救赎相信光的小女孩，完整后续来了！",
+          "heatText": "354万播放",
+          "heatValue": 354,
+          "isNew": false
+        },
+        {
+          "rank": 4,
+          "title": "《下一个是谁》恐怖特辑——无限循环的寺庙",
+          "heatText": "220.2万播放",
+          "heatValue": 220.2,
+          "isNew": false
+        },
+        {
+          "rank": 5,
+          "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
+          "heatText": "131.7万播放",
+          "heatValue": 131.7,
+          "isNew": true
+        },
+        {
+          "rank": 6,
+          "title": "去了一趟西班牙2.0（荒岛四兄弟篇）",
+          "heatText": "110.1万播放",
+          "heatValue": 110.1,
+          "isNew": false
+        },
+        {
+          "rank": 7,
+          "title": "FALSITY…（完整版电影 / 官方正版）",
+          "heatText": "65.9万播放",
+          "heatValue": 65.9,
+          "isNew": false
+        },
+        {
+          "rank": 8,
+          "title": "币圈富豪孙宇晨手撕景甜，索赔3千万彩礼",
+          "heatText": "—",
+          "heatValue": 60,
+          "isNew": true
+        },
+        {
+          "rank": 9,
+          "title": "《小杨有约29#》：陈泽",
+          "heatText": "—",
+          "heatValue": 50,
+          "isNew": false
+        },
+        {
+          "rank": 10,
+          "title": "我在PVZ中添加了大果",
+          "heatText": "—",
+          "heatValue": 45,
+          "isNew": false
+        }
       ]
     },
     "xiaohongshu": {
       "name": "小红书热搜",
       "unit": "万",
       "list": [
-        {"rank": 1, "title": "用万能旅行拍照姿势美美出片", "heatText": "918.6万", "heatValue": 918.6, "isNew": false},
-        {"rank": 2, "title": "耗时三年拍下古诗词里的中国", "heatText": "907万", "heatValue": 907, "isNew": false},
-        {"rank": 3, "title": "我拍到了海鸥雨", "heatText": "887.5万", "heatValue": 887.5, "isNew": false},
-        {"rank": 4, "title": "超日常美食教程速来get", "heatText": "867.6万", "heatValue": 867.6, "isNew": false},
-        {"rank": 5, "title": "早秋韩系毛衣穿搭示范", "heatText": "—（全网热点补充）", "heatValue": 700, "isNew": false},
-        {"rank": 6, "title": "醋意摇脚势舞来袭", "heatText": "—（全网热点补充）", "heatValue": 650, "isNew": false},
-        {"rank": 7, "title": "嗑上熟男熟女氛围感仅需一分钟", "heatText": "783万（全网热点补充）", "heatValue": 783, "isNew": true},
-        {"rank": 8, "title": "下意识的偏爱真的藏不住", "heatText": "—（全网热点补充）", "heatValue": 600, "isNew": false},
-        {"rank": 9, "title": "万物皆可燕麦系", "heatText": "—（全网热点补充）", "heatValue": 580, "isNew": false},
-        {"rank": 10, "title": "旺仔小乔解封", "heatText": "—（全网热点补充）", "heatValue": 550, "isNew": true}
+        {
+          "rank": 1,
+          "title": "用万能旅行拍照姿势美美出片",
+          "heatText": "918.6万",
+          "heatValue": 918.6,
+          "isNew": false
+        },
+        {
+          "rank": 2,
+          "title": "耗时三年拍下古诗词里的中国",
+          "heatText": "907万",
+          "heatValue": 907,
+          "isNew": false
+        },
+        {
+          "rank": 3,
+          "title": "我拍到了海鸥雨",
+          "heatText": "887.5万",
+          "heatValue": 887.5,
+          "isNew": false
+        },
+        {
+          "rank": 4,
+          "title": "超日常美食教程速来get",
+          "heatText": "867.6万",
+          "heatValue": 867.6,
+          "isNew": false
+        },
+        {
+          "rank": 5,
+          "title": "早秋韩系毛衣穿搭示范",
+          "heatText": "—（全网热点补充）",
+          "heatValue": 700,
+          "isNew": false
+        },
+        {
+          "rank": 6,
+          "title": "醋意摇脚势舞来袭",
+          "heatText": "—（全网热点补充）",
+          "heatValue": 650,
+          "isNew": false
+        },
+        {
+          "rank": 7,
+          "title": "嗑上熟男熟女氛围感仅需一分钟",
+          "heatText": "783万（全网热点补充）",
+          "heatValue": 783,
+          "isNew": true
+        },
+        {
+          "rank": 8,
+          "title": "下意识的偏爱真的藏不住",
+          "heatText": "—（全网热点补充）",
+          "heatValue": 600,
+          "isNew": false
+        },
+        {
+          "rank": 9,
+          "title": "万物皆可燕麦系",
+          "heatText": "—（全网热点补充）",
+          "heatValue": 580,
+          "isNew": false
+        },
+        {
+          "rank": 10,
+          "title": "旺仔小乔解封",
+          "heatText": "—（全网热点补充）",
+          "heatValue": 550,
+          "isNew": true
+        }
       ]
     }
   },
   "fastestGrowing": [
-    {"rank": 1, "title": "西藏吉隆泥石流灾害", "rate": "极速", "platforms": ["weibo", "douyin", "bilibili"], "desc": "突发特大灾害，24小时内微博/抖音/快手/百度/B站多平台同时霸榜飙升"},
-    {"rank": 2, "title": "中国女排2:3泰国女排 无缘直通奥运", "rate": "极速", "platforms": ["weibo", "douyin", "zhihu"], "desc": "亚锦赛决赛结果突发，赛事话题在5个平台同时冲榜"},
-    {"rank": 3, "title": "官方回应“取消ETC”", "rate": "爆发", "platforms": ["douyin"], "desc": "政策传闻突发，抖音快手短时间冲至榜首"},
-    {"rank": 4, "title": "国家动物博物馆小孩损毁标本", "rate": "爆发", "platforms": ["zhihu"], "desc": "突发社会事件，知乎741万热度冲至榜首"},
-    {"rank": 5, "title": "网易云音乐疑似官宣适配鸿蒙", "rate": "爆发", "platforms": ["zhihu"], "desc": "科技突发，知乎414万 + IT之家热榜"},
-    {"rank": 6, "title": "新版《国防动员法》10月1日实施", "rate": "飙升", "platforms": ["zhihu"], "desc": "政策突发，知乎热榜新上榜"},
-    {"rank": 7, "title": "清华大学宣布废除GPA排名", "rate": "飙升", "platforms": ["zhihu"], "desc": "教育突发，知乎热榜新上榜引发广泛讨论"},
-    {"rank": 8, "title": "孙宇晨手撕景甜索赔3千万彩礼", "rate": "飙升", "platforms": ["bilibili"], "desc": "娱乐+金融突发，B站与全网同时发酵"},
-    {"rank": 9, "title": "旺仔小乔解封", "rate": "飙升", "platforms": ["xiaohongshu"], "desc": "网红事件突发，千万粉丝主账号解除禁止关注"},
-    {"rank": 10, "title": "博主街头除钉因扬尘被叫停", "rate": "飙升", "platforms": ["zhihu"], "desc": "社会突发，知乎409万热度新上榜"}
+    {
+      "rank": 1,
+      "title": "开学与家人临别那一刻",
+      "rate": "极速",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 2,
+      "title": "西藏泥石流已致16死546失联",
+      "rate": "极速",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 3,
+      "title": "8月制造业PMI上升0.6个百分点",
+      "rate": "爆发",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 4,
+      "title": "绝味鸭脖为啥卖不动了",
+      "rate": "爆发",
+      "platforms": [
+        "weibo"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 5,
+      "title": "建议全国都普及这种宿舍",
+      "rate": "爆发",
+      "platforms": [
+        "weibo"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 6,
+      "title": "9图读懂上合组织峰会",
+      "rate": "飙升",
+      "platforms": [
+        "weibo"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 7,
+      "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
+      "rate": "飙升",
+      "platforms": [
+        "bilibili"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    }
   ],
   "categoryStats": {
-    "社会": 14, "科技": 9, "体育": 6, "娱乐": 7, "政策": 5, "财经": 3, "科研": 2, "灾害": 2, "时政": 2
+    "社会": 47,
+    "灾害": 5,
+    "时政": 1,
+    "科技": 2,
+    "科研": 1,
+    "政策": 2,
+    "体育": 1,
+    "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 117.8, "zhihu": 741, "douyin": 1209.2, "bilibili": 405.4, "xiaohongshu": 918.6
+    "weibo": 112.4,
+    "zhihu": 741,
+    "douyin": 1211.7,
+    "bilibili": 405.4,
+    "xiaohongshu": 918.6
   }
 }
