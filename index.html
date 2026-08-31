@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全网社交平台热点榜单 · 实时数据看板</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg1:#f5f7fb; --bg2:#eaeef7;
+  --card:#ffffff; --card2:#fbfcfe;
+  --border:#e6ecf5; --border2:#d8e0ee;
+  --text:#2d3748; --text2:#1a2236; --muted:#718096; --muted2:#a0aec0;
+  --primary:#5b8def; --primary-bg:#eaf1ff;
+  --warm:#f59e0b; --warm-bg:#fdf3e0;
+  --green:#10b981; --green-bg:#e6f9f1;
+  --purple:#8b5cf6; --purple-bg:#f3edff;
+  --red:#ef4444; --red-bg:#fdeaea;
+  --weibo:#e6162d; --zhihu:#0084ff; --douyin:#161823; --bili:#fb7299; --xhs:#ff2442;
+  --shadow:0 4px 20px rgba(45,55,72,.06); --shadow2:0 8px 30px rgba(45,55,72,.10);
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans CJK SC','WenQuanYi Micro Hei','Microsoft YaHei',-apple-system,sans-serif;color:var(--text);line-height:1.65;background:linear-gradient(160deg,var(--bg1),var(--bg2));min-height:100vh}
+
+/* 头部 */
+.header{background:linear-gradient(135deg,#ffffff 0%,#f3f7ff 100%);border-bottom:1px solid var(--border);padding:44px 20px 36px;text-align:center;position:relative;overflow:hidden}
+.header::after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--primary),var(--warm),var(--green))}
+.header h1{font-size:clamp(24px,4.5vw,38px);font-weight:800;color:var(--text2);letter-spacing:.5px;margin-bottom:10px}
+.header .sub{font-size:14px;color:var(--muted);margin-bottom:14px}
+.header .pills{display:inline-flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.header .pill{font-size:12px;background:var(--card);border:1px solid var(--border2);color:var(--muted);padding:5px 14px;border-radius:20px;font-weight:500}
+.header .pill.live{color:var(--green);border-color:var(--green);background:var(--green-bg)}
+.header .pill.live::before{content:'';display:inline-block;width:7px;height:7px;background:var(--green);border-radius:50%;margin-right:6px;vertical-align:middle;animation:pulse 1.8s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.stale-banner{background:var(--warm-bg);border:1px solid #f6d98a;color:#92660a;font-size:13px;padding:10px 16px;text-align:center;display:none}
+.stale-banner.show{display:block}
+
+/* 容器 */
+.container{max-width:1180px;margin:0 auto;padding:0 20px 50px}
+
+/* 区块 */
+.section{margin-top:38px}
+.section-head{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.section-head .bar{width:4px;height:24px;border-radius:3px;background:linear-gradient(180deg,var(--primary),var(--purple))}
+.section-head h2{font-size:20px;font-weight:700;color:var(--text2)}
+.section-head .tag{font-size:12px;color:var(--muted);background:var(--card);border:1px solid var(--border);padding:3px 11px;border-radius:11px}
+
+/* KPI 卡片 */
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.kpi .label{font-size:13px;color:var(--muted);margin-bottom:8px}
+.kpi .value{font-size:28px;font-weight:800;color:var(--text2)}
+.kpi .value small{font-size:14px;font-weight:600;color:var(--muted);margin-left:3px}
+.kpi .ic{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:16px}
+.kpi.k1 .ic{background:var(--primary-bg);color:var(--primary)}
+.kpi.k2 .ic{background:var(--green-bg);color:var(--green)}
+.kpi.k3 .ic{background:var(--warm-bg);color:var(--warm)}
+.kpi.k4 .ic{background:var(--purple-bg);color:var(--purple)}
+
+/* 数据分析区 */
+.analysis{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+.chart-card h3{font-size:15px;font-weight:700;color:var(--text2);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.chart-card h3 .dot{width:8px;height:8px;border-radius:50%;background:var(--primary)}
+.chart-wrap{position:relative;height:240px}
+.insight{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-top:14px;font-size:13px;color:var(--muted);line-height:1.8}
+.insight b{color:var(--text2)}
+
+/* 综合榜 */
+.overall-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.ocard{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s;position:relative;overflow:hidden}
+.ocard:hover{transform:translateY(-3px);box-shadow:var(--shadow2)}
+.ocard::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px}
+.ocard[data-rank="1"]::before{background:linear-gradient(180deg,#ffd700,#daa520)}
+.ocard[data-rank="2"]::before{background:linear-gradient(180deg,#c0c0c0,#a0a0a0)}
+.ocard[data-rank="3"]::before{background:linear-gradient(180deg,#cd7f32,#a0522d)}
+.ocard:not([data-rank="1"]):not([data-rank="2"]):not([data-rank="3"])::before{background:linear-gradient(180deg,var(--primary),var(--purple))}
+.ocard .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.ocard .rn{font-size:12px;color:var(--muted);font-weight:600}
+.ocard .rn b{font-size:22px;color:var(--text2);margin-right:3px}
+.ocard[data-rank="1"] .rn b{color:#b8860b}
+.ocard[data-rank="2"] .rn b{color:#888}
+.ocard[data-rank="3"] .rn b{color:#b87333}
+.ocard .cat{font-size:11px;font-weight:600;padding:3px 9px;border-radius:10px}
+.ocard .title{font-size:16px;font-weight:700;color:var(--text2);margin-bottom:8px;line-height:1.4}
+.ocard .desc{font-size:13px;color:var(--muted);line-height:1.7;margin-bottom:12px}
+.ocard .heat{font-size:12px;color:var(--warm);font-weight:600;margin-bottom:12px}
+.ocard .heat span{background:var(--warm-bg);padding:3px 10px;border-radius:10px}
+.plats{display:flex;flex-wrap:wrap;gap:6px}
+.pchip{font-size:11px;padding:3px 9px;border-radius:10px;font-weight:600;border:1px solid}
+.pchip.weibo{color:var(--weibo);border-color:#f5c0c6;background:#fceef0}
+.pchip.zhihu{color:var(--zhihu);border-color:#b3d9ff;background:#e8f4ff}
+.pchip.douyin{color:#444;border-color:#d0d4dd;background:#eef0f4}
+.pchip.bili{color:var(--bili);border-color:#fbc4d4;background:#fde8f0}
+.pchip.xhs{color:var(--xhs);border-color:#f5b0b8;background:#fdeef0}
+.pchip.none{color:var(--muted);border-color:var(--border2);background:var(--card2)}
+
+/* 平台切换 */
+.platforms{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.ptab{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--border)}
+.ptab button{flex:1;min-width:110px;padding:15px 8px;background:none;border:none;color:var(--muted);font-size:14px;font-weight:600;cursor:pointer;position:relative;transition:color .2s;font-family:inherit}
+.ptab button:hover{color:var(--text2)}
+.ptab button.active{color:var(--text2)}
+.ptab button.active::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:3px;border-radius:2px}
+.ptab button[data-p="weibo"].active::after{background:var(--weibo)}
+.ptab button[data-p="zhihu"].active::after{background:var(--zhihu)}
+.ptab button[data-p="douyin"].active::after{background:#444}
+.ptab button[data-p="bilibili"].active::after{background:var(--bili)}
+.ptab button[data-p="xiaohongshu"].active::after{background:var(--xhs)}
+.pcontent{padding:6px 22px}
+.pcontent>div{display:none}
+.pcontent>div.show{display:block;animation:fade .35s}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.plist{list-style:none}
+.plist li{display:flex;align-items:center;gap:14px;padding:13px 6px;border-bottom:1px solid var(--border)}
+.plist li:last-child{border-bottom:none}
+.plist .num{width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;border-radius:8px;background:var(--bg1);color:var(--muted);flex-shrink:0}
+.plist li:nth-child(1) .num{background:linear-gradient(135deg,#ffd700,#daa520);color:#5a4500}
+.plist li:nth-child(2) .num{background:linear-gradient(135deg,#d8d8d8,#a8a8a8);color:#333}
+.plist li:nth-child(3) .num{background:linear-gradient(135deg,#cd7f32,#a0522d);color:#fff}
+.plist .ptitle{flex:1;font-size:14.5px;font-weight:500;color:var(--text2)}
+.plist .pheat{font-size:13px;color:var(--warm);font-weight:600;white-space:nowrap}
+.pnew{font-size:10px;background:var(--green);color:#fff;padding:2px 6px;border-radius:6px;margin-left:6px;font-weight:700;vertical-align:middle}
+
+/* 增长最快 */
+.rise-grid{display:grid;gap:11px}
+.rcard{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;box-shadow:var(--shadow);transition:transform .2s,border-color .2s}
+.rcard:hover{transform:translateX(5px);border-color:var(--green)}
+.rcard .rrank{width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;border-radius:9px;flex-shrink:0;background:var(--green-bg);border:1px solid #aef0d8;color:var(--green)}
+.rcard .rinfo{flex:1}
+.rcard .rtitle{font-size:15px;font-weight:600;color:var(--text2);margin-bottom:3px}
+.rcard .rdesc{font-size:13px;color:var(--muted)}
+.rcard .rrate{font-size:18px;font-weight:800;white-space:nowrap}
+.rcard .rrate.fast{color:var(--red)}
+.rcard .rrate.burst{color:var(--warm)}
+.rcard .rrate.rise{color:var(--green)}
+
+/* 页脚 */
+.footer{text-align:center;padding:36px 20px 28px;border-top:1px solid var(--border);margin-top:24px}
+.footer p{font-size:12px;color:var(--muted2);line-height:1.85;max-width:740px;margin:0 auto 8px}
+.footer .src{display:inline-flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:10px}
+.footer .src span{font-size:11px;background:var(--card);border:1px solid var(--border);padding:3px 10px;border-radius:10px;color:var(--muted)}
+
+@media(max-width:760px){
+  .analysis{grid-template-columns:1fr}
+  .overall-grid{grid-template-columns:1fr}
+  .header{padding:32px 16px 26px}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <h1>全网社交平台热点榜单</h1>
+  <div class="sub">微博 · 小红书 · 知乎 · 抖音 · B站 五大平台实时聚合 · 数据分析看板</div>
+  <div class="pills" id="pills">
+    <span class="pill live">实时数据</span>
+    <span class="pill" id="timePill">数据时间：—</span>
+    <span class="pill" id="srcPill">来源：—</span>
+  </div>
+</header>
+<div class="stale-banner" id="staleBanner">⚠ 当前为本地预览，使用数据快照（非实时）。部署到 GitHub Pages 后将通过 GitHub Actions 自动更新数据。</div>
+
+<div class="container">
+
+  <!-- KPI 总览 -->
+  <section class="section">
+    <div class="section-head"><div class="bar"></div><h2>数据总览</h2><span class="tag">关键指标</span></div>
+    <div class="kpi-grid" id="kpiGrid"></div>
+  </section>
+
+  <!-- 数据分析 -->
+  <section class="section">
+    <div class="section-head"><div class="bar"></div><h2>热点数据分析</h2><span class="tag">参考数据看板模板</span></div>
+    <div class="analysis">
+      <div class="chart-card">
+        <h3><span class="dot" style="background:var(--primary)"></span>各平台最高热度对比</h3>
+        <div class="chart-wrap"><canvas id="platformChart"></canvas></div>
+        <div class="insight" id="platformInsight"></div>
+      </div>
+      <div class="chart-card">
+        <h3><span class="dot" style="background:var(--purple)"></span>话题类别分布</h3>
+        <div class="chart-wrap"><canvas id="categoryChart"></canvas></div>
+        <div class="insight" id="categoryInsight"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 跨平台综合十大 -->
+  <section class="section">
+    <div class="section-head"><div class="bar"></div><h2>跨平台综合十大热点</h2><span class="tag">按全网综合热度排序</span></div>
+    <div class="overall-grid" id="overallGrid"></div>
+  </section>
+
+  <!-- 分平台榜单 -->
+  <section class="section">
+    <div class="section-head"><div class="bar"></div><h2>分平台十大热点</h2><span class="tag">点击切换平台</span></div>
+    <div class="platforms">
+      <div class="ptab" id="ptab"></div>
+      <div class="pcontent" id="pcontent"></div>
+    </div>
+  </section>
+
+  <!-- 24h增长最快 -->
+  <section class="section">
+    <div class="section-head"><div class="bar"></div><h2>24小时热度增长最快十大</h2><span class="tag">对比昨日同时段</span></div>
+    <div class="rise-grid" id="riseGrid"></div>
+  </section>
+
+</div>
+
+<footer class="footer">
+  <p>数据说明：本榜单为抓取时刻快照，热度值取各平台公开热榜接口与聚合源。各平台热度口径不同（微博/知乎为“万热度”，抖音为“万热度值”，B站为“万播放”，小红书为“万”），跨平台对比仅供参考。小红书第 5-10 条为全网热点补充条目，已标注。</p>
+  <p>实时更新机制：部署到 GitHub Pages 后，由 GitHub Actions 每小时自动运行抓取脚本更新 data.json，网页读取最新数据动态渲染。</p>
+  <div class="src">
+    <span>tophub.today</span><span>regeng.net</span><span>rshub.site</span><span>vvhan API</span><span>各平台官方热榜</span>
+  </div>
+</footer>
+
+<script>
+// ============ 内置快照数据（本地预览回退，部署后由 data.json 实时覆盖）============
+const FALLBACK_DATA = {
+  updateTime:"2026-08-31 08:30",source:"各平台公开热榜聚合（tophub.today / regeng.net / rshub.site / vvhan API 等）",
+  summary:{totalTopics:50,platforms:5,newTopics:12},
+  overall:[
+    {rank:1,title:"西藏吉隆泥石流灾害",heatText:"抖音1199万 · 快手1235万 · 百度780万",heatValue:4049,platforms:["weibo","douyin","bilibili"],category:"灾害",desc:"西藏吉隆口岸发生特大泥石流灾害，已致16死546失联，多平台霸榜，抢险救援与新闻发布持续占据热度榜首。"},
+    {rank:2,title:"中国女排2:3泰国女排 无缘直通奥运",heatText:"抖音1118万 · 快手1203万 · 微博118万",heatValue:3216,platforms:["weibo","douyin","zhihu"],category:"体育",desc:"2026女排亚锦赛决赛中国女排2比3不敌泰国，错失直通奥运资格，赛事结果引爆全网讨论。"},
+    {rank:3,title:"官方回应“取消ETC”",heatText:"抖音1209万 · 快手1227万",heatValue:2436,platforms:["douyin"],category:"政策",desc:"网传“建议取消ETC设备使用”引发热议，交通运输部出面回应，政策类话题短时间冲上榜首。"},
+    {rank:4,title:"习近平抵达比什凯克出席上合峰会",heatText:"百度790万 · 快手1292万",heatValue:2082,platforms:[],category:"时政",desc:"国家主席抵达吉尔吉斯斯坦出席上海合作组织成员国元首理事会，登上百度与快手热榜。"},
+    {rank:5,title:"国家动物博物馆小孩损毁珍贵标本",heatText:"知乎741万 · 贴吧96万",heatValue:837,platforms:["zhihu"],category:"社会",desc:"两小孩在国家动物博物馆手抓脚踢致莽山原矛头蝮标本受损，父亲在场未制止，追责讨论登上知乎榜首。"},
+    {rank:6,title:"网易云音乐疑似官宣适配鸿蒙",heatText:"知乎414万 · IT之家热榜",heatValue:414,platforms:["zhihu"],category:"科技",desc:"网易云音乐长期缺席后疑似官宣适配鸿蒙HarmonyOS，科技圈与花粉群体高度关注其能否挽回流失用户。"},
+    {rank:7,title:"官方通报博主街头除钉因扬尘被叫停",heatText:"知乎409万",heatValue:409,platforms:["zhihu"],category:"社会",desc:"博主自发街头除钉因扬尘影响环保被叫停，官方通报称工作人员沟通方式造成误解，引发“好心办坏事”讨论。"},
+    {rank:8,title:"网传南极水银释放量激增550%",heatText:"知乎338万",heatValue:338,platforms:["zhihu"],category:"科研",desc:"研究警告南极水银（汞）释放量激增550%，真实性及其对生态与气候的影响引发知乎热议。"},
+    {rank:9,title:"许晴花少2表现被理解",heatText:"微博79万",heatValue:79,platforms:["weibo"],category:"娱乐",desc:"综艺节目《花儿与少年2》中许晴的表现随时间推移被重新理解，怀旧向话题登上微博热搜。"},
+    {rank:10,title:"华为李小龙称花11年把梦想照进现实",heatText:"微博热搜 · 12.6万",heatValue:13,platforms:["weibo"],category:"科技",desc:"华为相关产品历经11年研发终于落地，高管发言引发“长期主义”共鸣，登上微博热搜。"}
+  ],
+  platforms:{
+    weibo:{name:"微博热搜",unit:"万热度",list:[
+      {rank:1,title:"女排 朱婷",heatText:"117.8万热度",heatValue:117.8,isNew:false},
+      {rank:2,title:"吉隆口岸大楼现状",heatText:"97.8万热度",heatValue:97.8,isNew:false},
+      {rank:3,title:"许晴花少2表现被理解",heatText:"79万热度",heatValue:79,isNew:false},
+      {rank:4,title:"西藏吉隆泥石流灾害新闻发布会实录",heatText:"66.8万热度",heatValue:66.8,isNew:false},
+      {rank:5,title:"李昀锐王者英雄全球品牌代言人",heatText:"63.5万热度",heatValue:63.5,isNew:false},
+      {rank:6,title:"俄乌冲突三大高危信号",heatText:"68.3万热度",heatValue:68.3,isNew:false},
+      {rank:7,title:"早春晴朗",heatText:"—",heatValue:50,isNew:false},
+      {rank:8,title:"我国从月球传照片4分钟缩到12秒",heatText:"—",heatValue:45,isNew:false},
+      {rank:9,title:"华为李小龙称花11年把梦想照进现实",heatText:"12.6万热度",heatValue:12.6,isNew:true},
+      {rank:10,title:"南航波音777虹桥机场误放滑梯",heatText:"—",heatValue:40,isNew:true}
+    ]},
+    zhihu:{name:"知乎热榜",unit:"万热度",list:[
+      {rank:1,title:"国家动物博物馆小孩损毁莽山原矛头蝮标本，谁该担责？",heatText:"741万",heatValue:741,isNew:false},
+      {rank:2,title:"网易云音乐疑似官宣适配鸿蒙，长期缺席后为何此时适配？",heatText:"414万",heatValue:414,isNew:false},
+      {rank:3,title:"官方通报「博主街头除钉因扬尘影响环保被叫停」",heatText:"409万",heatValue:409,isNew:false},
+      {rank:4,title:"网传南极水银释放量激增550%，是真的吗？",heatText:"338万",heatValue:338,isNew:false},
+      {rank:5,title:"樊振东在德甲打高排名选手容易输球，如何破解？",heatText:"244万",heatValue:244,isNew:false},
+      {rank:6,title:"如何评价蒋炎岩「没有Token的CS学生应该立刻退学」？",heatText:"225万",heatValue:225,isNew:false},
+      {rank:7,title:"新版《国防动员法》2026年10月1日实施，哪些信息值得关注？",heatText:"—",heatValue:180,isNew:true},
+      {rank:8,title:"如何评价清华大学宣布废除GPA排名，实施推免综合评价？",heatText:"—",heatValue:160,isNew:true},
+      {rank:9,title:"2026女排亚锦赛决赛，中国女排2比3不敌泰国女排，如何评价？",heatText:"—",heatValue:140,isNew:true},
+      {rank:10,title:"为什么很多大学生更喜欢买标准版iPhone，而不是Pro？",heatText:"—",heatValue:120,isNew:false}
+    ]},
+    douyin:{name:"抖音热搜",unit:"万热度值",list:[
+      {rank:1,title:"官方回应“取消ETC”",heatText:"1209.2万",heatValue:1209.2,isNew:false},
+      {rank:2,title:"西藏泥石流已致16死546失联",heatText:"1199.2万",heatValue:1199.2,isNew:false},
+      {rank:3,title:"直击吉隆口岸抢险救援一线",heatText:"1149万",heatValue:1149,isNew:false},
+      {rank:4,title:"中国女排2:3泰国女排",heatText:"1117.8万",heatValue:1117.8,isNew:false},
+      {rank:5,title:"军训结束回家的我belike",heatText:"1052万",heatValue:1052,isNew:false},
+      {rank:6,title:"吉隆口岸工作的小邬警官确认平安",heatText:"808万",heatValue:808,isNew:true},
+      {rank:7,title:"狄龙向白晶发起百分挑战",heatText:"800万",heatValue:800,isNew:true},
+      {rank:8,title:"你怎么舍得让我的泪流向海",heatText:"784万",heatValue:784,isNew:false},
+      {rank:9,title:"嗑上熟男熟女氛围感仅需一分钟",heatText:"783万",heatValue:783,isNew:true},
+      {rank:10,title:"幸福和快乐是结局",heatText:"783万",heatValue:783,isNew:false}
+    ]},
+    bilibili:{name:"B站热门",unit:"万播放",list:[
+      {rank:1,title:"【明日方舟×女神异闻录3 Reload】SideStory「月行水上」活动宣传PV",heatText:"405.4万播放",heatValue:405.4,isNew:false},
+      {rank:2,title:"当你的资产缩水到A0层级，挑选优质桥洞的六大方案！",heatText:"386.1万播放",heatValue:386.1,isNew:false},
+      {rank:3,title:"耗时一年，救赎相信光的小女孩，完整后续来了！",heatText:"354万播放",heatValue:354,isNew:false},
+      {rank:4,title:"《下一个是谁》恐怖特辑——无限循环的寺庙",heatText:"220.2万播放",heatValue:220.2,isNew:false},
+      {rank:5,title:"【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",heatText:"131.7万播放",heatValue:131.7,isNew:true},
+      {rank:6,title:"去了一趟西班牙2.0（荒岛四兄弟篇）",heatText:"110.1万播放",heatValue:110.1,isNew:false},
+      {rank:7,title:"FALSITY…（完整版电影 / 官方正版）",heatText:"65.9万播放",heatValue:65.9,isNew:false},
+      {rank:8,title:"币圈富豪孙宇晨手撕景甜，索赔3千万彩礼",heatText:"—",heatValue:60,isNew:true},
+      {rank:9,title:"《小杨有约29#》：陈泽",heatText:"—",heatValue:50,isNew:false},
+      {rank:10,title:"我在PVZ中添加了大果",heatText:"—",heatValue:45,isNew:false}
+    ]},
+    xiaohongshu:{name:"小红书热搜",unit:"万",list:[
+      {rank:1,title:"用万能旅行拍照姿势美美出片",heatText:"918.6万",heatValue:918.6,isNew:false},
+      {rank:2,title:"耗时三年拍下古诗词里的中国",heatText:"907万",heatValue:907,isNew:false},
+      {rank:3,title:"我拍到了海鸥雨",heatText:"887.5万",heatValue:887.5,isNew:false},
+      {rank:4,title:"超日常美食教程速来get",heatText:"867.6万",heatValue:867.6,isNew:false},
+      {rank:5,title:"早秋韩系毛衣穿搭示范",heatText:"—（全网热点补充）",heatValue:700,isNew:false},
+      {rank:6,title:"醋意摇脚势舞来袭",heatText:"—（全网热点补充）",heatValue:650,isNew:false},
+      {rank:7,title:"嗑上熟男熟女氛围感仅需一分钟",heatText:"783万（全网热点补充）",heatValue:783,isNew:true},
+      {rank:8,title:"下意识的偏爱真的藏不住",heatText:"—（全网热点补充）",heatValue:600,isNew:false},
+      {rank:9,title:"万物皆可燕麦系",heatText:"—（全网热点补充）",heatValue:580,isNew:false},
+      {rank:10,title:"旺仔小乔解封",heatText:"—（全网热点补充）",heatValue:550,isNew:true}
+    ]}
+  },
+  fastestGrowing:[
+    {rank:1,title:"西藏吉隆泥石流灾害",rate:"极速",platforms:["weibo","douyin","bilibili"],desc:"突发特大灾害，24小时内微博/抖音/快手/百度/B站多平台同时霸榜飙升"},
+    {rank:2,title:"中国女排2:3泰国女排 无缘直通奥运",rate:"极速",platforms:["weibo","douyin","zhihu"],desc:"亚锦赛决赛结果突发，赛事话题在5个平台同时冲榜"},
+    {rank:3,title:"官方回应“取消ETC”",rate:"爆发",platforms:["douyin"],desc:"政策传闻突发，抖音快手短时间冲至榜首"},
+    {rank:4,title:"国家动物博物馆小孩损毁标本",rate:"爆发",platforms:["zhihu"],desc:"突发社会事件，知乎741万热度冲至榜首"},
+    {rank:5,title:"网易云音乐疑似官宣适配鸿蒙",rate:"爆发",platforms:["zhihu"],desc:"科技突发，知乎414万 + IT之家热榜"},
+    {rank:6,title:"新版《国防动员法》10月1日实施",rate:"飙升",platforms:["zhihu"],desc:"政策突发，知乎热榜新上榜"},
+    {rank:7,title:"清华大学宣布废除GPA排名",rate:"飙升",platforms:["zhihu"],desc:"教育突发，知乎热榜新上榜引发广泛讨论"},
+    {rank:8,title:"孙宇晨手撕景甜索赔3千万彩礼",rate:"飙升",platforms:["bilibili"],desc:"娱乐+金融突发，B站与全网同时发酵"},
+    {rank:9,title:"旺仔小乔解封",rate:"飙升",platforms:["xiaohongshu"],desc:"网红事件突发，千万粉丝主账号解除禁止关注"},
+    {rank:10,title:"博主街头除钉因扬尘被叫停",rate:"飙升",platforms:["zhihu"],desc:"社会突发，知乎409万热度新上榜"}
+  ],
+  categoryStats:{"社会":14,"科技":9,"体育":6,"娱乐":7,"政策":5,"财经":3,"科研":2,"灾害":2,"时政":2},
+  platformHeatStats:{weibo:117.8,zhihu:741,douyin:1209.2,bilibili:405.4,xiaohongshu:918.6}
+};
+
+const platNames = {weibo:"微博",zhihu:"知乎",douyin:"抖音",bilibili:"B站",xiaohongshu:"小红书"};
+let DATA = FALLBACK_DATA;
+let charts = {};
+
+// ============ 获取数据 ============
+async function loadData(){
+  try{
+    const res = await fetch('data.json',{cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    if(!data.overall) throw new Error('invalid data');
+    DATA = data;
+    document.getElementById('staleBanner').classList.remove('show');
+  }catch(e){
+    DATA = FALLBACK_DATA;
+    document.getElementById('staleBanner').classList.add('show');
+  }
+  render();
+}
+
+// ============ 渲染 ============
+function chip(p){const k={weibo:"weibo",zhihu:"zhihu",douyin:"douyin",bilibili:"bili",xiaohongshu:"xhs"}[p]||"none";return `<span class="pchip ${k}">${platNames[p]||p}</span>`}
+
+function render(){
+  // 头部
+  document.getElementById('timePill').textContent = '数据时间：'+DATA.updateTime;
+  document.getElementById('srcPill').textContent = '来源：'+(DATA.source||'聚合源').slice(0,18)+'…';
+
+  // KPI
+  const s = DATA.summary||{};
+  const topHeat = DATA.overall && DATA.overall[0] ? DATA.overall[0].heatValue : 0;
+  const kpi = document.getElementById('kpiGrid');
+  kpi.innerHTML = `
+    <div class="kpi k1"><div class="ic">📊</div><div class="label">累计热点话题</div><div class="value">${s.totalTopics||'—'}<small>条</small></div></div>
+    <div class="kpi k2"><div class="ic">🌐</div><div class="label">覆盖平台数</div><div class="value">${s.platforms||'—'}<small>个</small></div></div>
+    <div class="kpi k3"><div class="ic">🔥</div><div class="label">最高热度值</div><div class="value">${topHeat}<small>万</small></div></div>
+    <div class="kpi k4"><div class="ic">📈</div><div class="label">24h新增话题</div><div class="value">${s.newTopics||'—'}<small>条</small></div></div>`;
+
+  // 综合榜
+  const og = document.getElementById('overallGrid');
+  og.innerHTML = DATA.overall.map(it=>`
+    <div class="ocard" data-rank="${it.rank}">
+      <div class="top"><div class="rn">No.<b>${it.rank}</b></div><div class="cat" style="background:var(--primary-bg);color:var(--primary)">${it.category||'综合'}</div></div>
+      <div class="title">${it.title}</div>
+      <div class="desc">${it.desc}</div>
+      <div class="heat"><span>${it.heatText}</span></div>
+      <div class="plats">${it.platforms && it.platforms.length ? it.platforms.map(chip).join('') : '<span class="pchip none">多平台</span>'}</div>
+    </div>`).join('');
+
+  // 平台榜
+  const tabs = document.getElementById('ptab');
+  const content = document.getElementById('pcontent');
+  tabs.innerHTML=''; content.innerHTML='';
+  Object.keys(DATA.platforms).forEach((p,i)=>{
+    const pf = DATA.platforms[p];
+    tabs.insertAdjacentHTML('beforeend', `<button data-p="${p}" class="${i===0?'active':''}">${pf.name}</button>`);
+    content.insertAdjacentHTML('beforeend', `<div data-p="${p}" class="${i===0?'show':''}"><ul class="plist">${pf.list.map(it=>`
+      <li><span class="num">${it.rank}</span><span class="ptitle">${it.title}${it.isNew?'<span class="pnew">新</span>':''}</span><span class="pheat">${it.heatText}</span></li>`).join('')}</ul></div>`);
+  });
+  tabs.onclick = e=>{
+    const b = e.target.closest('button'); if(!b) return;
+    tabs.querySelectorAll('button').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    content.querySelectorAll(':scope > div').forEach(x=>x.classList.remove('show'));
+    const target = content.querySelector(`div[data-p="${b.dataset.p}"]`);
+    if(target) target.classList.add('show');
+  };
+
+  // 增长最快
+  const rg = document.getElementById('riseGrid');
+  rg.innerHTML = DATA.fastestGrowing.map(it=>{
+    const cls = it.rate==='极速'?'fast':(it.rate==='爆发'?'burst':'rise');
+    return `<div class="rcard">
+      <div class="rrank">${it.rank}</div>
+      <div class="rinfo"><div class="rtitle">${it.title} <span style="font-size:12px">${it.platforms.map(chip).join('')}</span></div><div class="rdesc">${it.desc}</div></div>
+      <div class="rrate ${cls}">${it.rate}</div>
+    </div>`}).join('');
+
+  renderCharts();
+  renderInsights();
+}
+
+function renderCharts(){
+  Object.values(charts).forEach(c=>{try{c.destroy()}catch(e){}});
+  charts={};
+  if(typeof Chart==='undefined') return;
+
+  // 平台热度
+  const ps = DATA.platformHeatStats||{};
+  const pKeys = Object.keys(ps);
+  Chart.defaults.color = '#718096';
+  Chart.defaults.font.family = "'Noto Sans CJK SC','Microsoft YaHei',sans-serif";
+  charts.platform = new Chart(document.getElementById('platformChart'),{
+    type:'bar',
+    data:{labels:pKeys.map(k=>platNames[k]),datasets:[{data:pKeys.map(k=>ps[k]),backgroundColor:['#5b8def','#0084ff','#888','#fb7299','#ff2442'],borderRadius:6,maxBarThickness:42}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.x+' 万'}}},scales:{x:{grid:{color:'#eef2f7'}},y:{grid:{display:false}}}}
+  });
+
+  // 类别分布
+  const cs = DATA.categoryStats||{};
+  const cKeys = Object.keys(cs);
+  charts.category = new Chart(document.getElementById('categoryChart'),{
+    type:'doughnut',
+    data:{labels:cKeys,datasets:[{data:cKeys.map(k=>cs[k]),backgroundColor:['#5b8def','#8b5cf6','#10b981','#f59e0b','#ef4444','#06b6d4','#ec4899','#84cc16','#a78bfa'],borderColor:'#fff',borderWidth:2}]},
+    options:{cutout:'58%',plugins:{legend:{position:'right',labels:{boxWidth:12,font:{size:11},padding:8}}}}
+  });
+}
+
+function renderInsights(){
+  // 平台洞察
+  const ps = DATA.platformHeatStats||{};
+  const psArr = Object.entries(ps).map(([k,v])=>[platNames[k],v]).sort((a,b)=>b[1]-a[1]);
+  const topP = psArr[0];
+  const minP = psArr[psArr.length-1];
+  document.getElementById('platformInsight').innerHTML = `📊 <b>${topP[0]}</b> 头部热度最高（${topP[1]}万），<b>${minP[0]}</b> 头部热度最低（${minP[1]}万）。抖音以短视频爆发力占据热度榜首，知乎则呈现深度话题特征，微博热度值偏低但话题覆盖面广。`;
+
+  // 类别洞察
+  const cs = DATA.categoryStats||{};
+  const csArr = Object.entries(cs).sort((a,b)=>b[1]-a[1]);
+  const topC = csArr[0];
+  const total = csArr.reduce((s,x)=>s+x[1],0);
+  const pct = (topC[1]/total*100).toFixed(0);
+  document.getElementById('categoryInsight').innerHTML = `📈 <b>${topC[0]}</b> 类话题占比最高（${topC[1]} 条，约 ${pct}%）。今日全网由突发灾害、体育赛事与政策议题主导，科技与娱乐话题紧随其后，反映事件驱动型热度结构。`;
+}
+
+loadData();
+</script>
+</body>
+</html>
