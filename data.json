@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-08-31 17:17",
-  "updateTimestamp": 1788167850,
+  "updateTime": "2026-09-01 00:17",
+  "updateTimestamp": 1788193049,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,94 +11,75 @@
   "overall": [
     {
       "rank": 1,
-      "title": "开学与家人临别那一刻",
-      "heatText": "综合热度 1209.7 万",
-      "heatValue": 1209.7,
+      "title": "阿根廷队长宣布国家队退役",
+      "heatText": "综合热度 1760.3 万",
+      "heatValue": 1760.3,
       "platforms": [
+        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1209.7万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 657.8万热度。"
     },
     {
       "rank": 2,
-      "title": "西藏泥石流已致16死546失联",
-      "heatText": "综合热度 1123.9 万",
-      "heatValue": 1123.9,
+      "title": "杨瀚森绝杀",
+      "heatText": "综合热度 1361.5 万",
+      "heatValue": 1361.5,
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1123.9万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：微博热搜热度 140.2万热度。"
     },
     {
       "rank": 3,
-      "title": "8月制造业PMI上升0.6个百分点",
-      "heatText": "综合热度 1109.4 万",
-      "heatValue": 1109.4,
+      "title": "多架次直升机驰援吉隆灾区",
+      "heatText": "综合热度 1264.3 万",
+      "heatValue": 1264.3,
       "platforms": [
+        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1109.4万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 109.8万热度。"
     },
     {
       "rank": 4,
-      "title": "网警公布10起涉吉隆泥石流谣言案例",
-      "heatText": "综合热度 1108.1 万",
-      "heatValue": 1108.1,
+      "title": "西藏泥石流已致16死546失联",
+      "heatText": "综合热度 1213.5 万",
+      "heatValue": 1213.5,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1108.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1213.5万热度值。"
     },
     {
       "rank": 5,
-      "title": "8月的最后一天许个愿吧",
-      "heatText": "综合热度 1048.1 万",
-      "heatValue": 1048.1,
+      "title": "中国男篮89:87黎巴嫩男篮",
+      "heatText": "综合热度 1032.0 万",
+      "heatValue": 1032.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1048.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1032.0万热度值。"
     },
     {
       "rank": 6,
-      "title": "净网：造谣外卖员向饮料加百草枯者被罚",
-      "heatText": "综合热度 1046.1 万",
-      "heatValue": 1046.1,
+      "title": "沙德尔残涡或重新加强为台风",
+      "heatText": "综合热度 1029.9 万",
+      "heatValue": 1029.9,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1046.1万热度值。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1029.9万热度值。"
     },
     {
       "rank": 7,
-      "title": "国安部披露军工双料间谍案细节",
-      "heatText": "综合热度 933.6 万",
-      "heatValue": 933.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 933.6万热度值。"
-    },
-    {
-      "rank": 8,
-      "title": "预习我的早秋穿搭",
-      "heatText": "综合热度 925.6 万",
-      "heatValue": 925.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 925.6万热度值。"
-    },
-    {
-      "rank": 9,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -109,8 +90,8 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 10,
-      "title": "你怎么舍得让我的泪流向海",
+      "rank": 8,
+      "title": "开学与家人临别那一刻",
       "heatText": "综合热度 912.8 万",
       "heatValue": 912.8,
       "platforms": [
@@ -118,6 +99,28 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：抖音热搜热度 912.8万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "耗时三年拍下古诗词里的中国",
+      "heatText": "综合热度 907 万",
+      "heatValue": 907,
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 907万。"
+    },
+    {
+      "rank": 10,
+      "title": "穿成想成为的样子",
+      "heatText": "综合热度 902.6 万",
+      "heatValue": 902.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 902.6万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +130,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "中国羽毛球协会副主席夏煊泽被查",
-          "heatText": "118.5万热度",
-          "heatValue": 118.5,
+          "title": "阿根廷队长宣布国家队退役",
+          "heatText": "657.8万热度",
+          "heatValue": 657.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "建议全国都普及这种宿舍",
-          "heatText": "85.4万热度",
-          "heatValue": 85.4,
+          "title": "杨瀚森绝杀",
+          "heatText": "140.2万热度",
+          "heatValue": 140.2,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "9图读懂上合组织峰会",
-          "heatText": "74.4万热度",
-          "heatValue": 74.4,
+          "title": "多架次直升机驰援吉隆灾区",
+          "heatText": "109.8万热度",
+          "heatValue": 109.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "绝味鸭脖为啥卖不动了",
-          "heatText": "73.0万热度",
-          "heatValue": 73.0,
+          "title": "好直观的降本增效",
+          "heatText": "37.4万热度",
+          "heatValue": 37.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "宇树股价正式腰斩",
-          "heatText": "50.9万热度",
-          "heatValue": 50.9,
+          "title": "郑钦文vs柳托娃",
+          "heatText": "33.3万热度",
+          "heatValue": 33.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "4月龄幼虎被踢后浑身僵直应激",
-          "heatText": "44.3万热度",
-          "heatValue": 44.3,
+          "title": "还我季洁",
+          "heatText": "28.6万热度",
+          "heatValue": 28.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "芭莎之夜阵容预告",
-          "heatText": "39.4万热度",
-          "heatValue": 39.4,
+          "title": "子涵梓萱的时代已成过去式",
+          "heatText": "27.8万热度",
+          "heatValue": 27.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "班主任每月补贴几百还是没人愿意当",
-          "heatText": "29.2万热度",
-          "heatValue": 29.2,
+          "title": "杨瀚森打出NBA级竞技水平",
+          "heatText": "27.5万热度",
+          "heatValue": 27.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "早春晴朗",
-          "heatText": "29.0万热度",
-          "heatValue": 29.0,
+          "title": "早春晴朗25.6",
+          "heatText": "27.3万热度",
+          "heatValue": 27.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "罗子君的衣服是马伊琍去服装店选的",
-          "heatText": "28.7万热度",
-          "heatValue": 28.7,
+          "title": "吉隆口岸唯一能看到的建筑",
+          "heatText": "26.9万热度",
+          "heatValue": 26.9,
           "isNew": false
         }
       ]
@@ -279,72 +282,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "开学与家人临别那一刻",
-          "heatText": "1209.7万热度值",
-          "heatValue": 1209.7,
+          "title": "杨瀚森绝杀",
+          "heatText": "1221.3万热度值",
+          "heatValue": 1221.3,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "西藏泥石流已致16死546失联",
-          "heatText": "1123.9万热度值",
-          "heatValue": 1123.9,
+          "heatText": "1213.5万热度值",
+          "heatValue": 1213.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "8月制造业PMI上升0.6个百分点",
-          "heatText": "1109.4万热度值",
-          "heatValue": 1109.4,
+          "title": "多架次直升机驰援吉隆灾区",
+          "heatText": "1154.5万热度值",
+          "heatValue": 1154.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "网警公布10起涉吉隆泥石流谣言案例",
-          "heatText": "1108.1万热度值",
-          "heatValue": 1108.1,
+          "title": "梅西宣布从阿根廷国家队退役",
+          "heatText": "1102.5万热度值",
+          "heatValue": 1102.5,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "8月的最后一天许个愿吧",
-          "heatText": "1048.1万热度值",
-          "heatValue": 1048.1,
+          "title": "中国男篮89:87黎巴嫩男篮",
+          "heatText": "1032.0万热度值",
+          "heatValue": 1032.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "净网：造谣外卖员向饮料加百草枯者被罚",
-          "heatText": "1046.1万热度值",
-          "heatValue": 1046.1,
+          "title": "沙德尔残涡或重新加强为台风",
+          "heatText": "1029.9万热度值",
+          "heatValue": 1029.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "国安部披露军工双料间谍案细节",
-          "heatText": "933.6万热度值",
-          "heatValue": 933.6,
-          "isNew": false
-        },
-        {
-          "rank": 8,
-          "title": "预习我的早秋穿搭",
-          "heatText": "925.6万热度值",
-          "heatValue": 925.6,
-          "isNew": false
-        },
-        {
-          "rank": 9,
-          "title": "你怎么舍得让我的泪流向海",
+          "title": "开学与家人临别那一刻",
           "heatText": "912.8万热度值",
           "heatValue": 912.8,
           "isNew": false
         },
         {
+          "rank": 8,
+          "title": "穿成想成为的样子",
+          "heatText": "902.6万热度值",
+          "heatValue": 902.6,
+          "isNew": false
+        },
+        {
+          "rank": 9,
+          "title": "预习我的早秋穿搭",
+          "heatText": "901.6万热度值",
+          "heatValue": 901.6,
+          "isNew": false
+        },
+        {
           "rank": 10,
-          "title": "当我执意报考省外大学",
-          "heatText": "908.6万热度值",
-          "heatValue": 908.6,
+          "title": "江苏省委常委刘建洋被查",
+          "heatText": "859.6万热度值",
+          "heatValue": 859.6,
           "isNew": false
         }
       ]
@@ -505,62 +508,47 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "开学与家人临别那一刻",
+      "title": "杨瀚森绝杀",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
-      "title": "西藏泥石流已致16死546失联",
+      "title": "多架次直升机驰援吉隆灾区",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 3,
-      "title": "8月制造业PMI上升0.6个百分点",
+      "title": "阿根廷队长宣布国家队退役",
       "rate": "爆发",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 4,
-      "title": "中国羽毛球协会副主席夏煊泽被查",
+      "title": "西藏泥石流已致16死546失联",
       "rate": "爆发",
       "platforms": [
-        "weibo"
+        "douyin"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 5,
-      "title": "建议全国都普及这种宿舍",
-      "rate": "爆发",
-      "platforms": [
-        "weibo"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 6,
-      "title": "9图读懂上合组织峰会",
-      "rate": "飙升",
-      "platforms": [
-        "weibo"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 7,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
-      "rate": "飙升",
+      "rate": "爆发",
       "platforms": [
         "bilibili"
       ],
@@ -568,19 +556,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 46,
+    "社会": 49,
     "灾害": 4,
-    "时政": 2,
-    "财经": 2,
     "科技": 2,
     "科研": 1,
     "政策": 2,
-    "体育": 1
+    "体育": 1,
+    "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 118.5,
+    "weibo": 657.8,
     "zhihu": 741,
-    "douyin": 1209.7,
+    "douyin": 1221.3,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
