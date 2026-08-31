@@ -1,6 +1,7 @@
 {
-  "updateTime": "2026-08-31 08:56",
-  "updateTimestamp": 1788166564,
+  "updateTime": "2026-08-31 17:17",
+  "updateTimestamp": 1788167850,
+  "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
     "totalTopics": 50,
@@ -11,90 +12,90 @@
     {
       "rank": 1,
       "title": "开学与家人临别那一刻",
-      "heatText": "综合热度 1211.9 万",
-      "heatValue": 1211.9,
+      "heatText": "综合热度 1209.7 万",
+      "heatValue": 1209.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1211.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1209.7万热度值。"
     },
     {
       "rank": 2,
       "title": "西藏泥石流已致16死546失联",
-      "heatText": "综合热度 1109.1 万",
-      "heatValue": 1109.1,
+      "heatText": "综合热度 1123.9 万",
+      "heatValue": 1123.9,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1109.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1123.9万热度值。"
     },
     {
       "rank": 3,
       "title": "8月制造业PMI上升0.6个百分点",
-      "heatText": "综合热度 1102.4 万",
-      "heatValue": 1102.4,
+      "heatText": "综合热度 1109.4 万",
+      "heatValue": 1109.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1102.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1109.4万热度值。"
     },
     {
       "rank": 4,
       "title": "网警公布10起涉吉隆泥石流谣言案例",
-      "heatText": "综合热度 1099.8 万",
-      "heatValue": 1099.8,
+      "heatText": "综合热度 1108.1 万",
+      "heatValue": 1108.1,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1099.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1108.1万热度值。"
     },
     {
       "rank": 5,
-      "title": "当我执意报考省外大学",
-      "heatText": "综合热度 1040.8 万",
-      "heatValue": 1040.8,
+      "title": "8月的最后一天许个愿吧",
+      "heatText": "综合热度 1048.1 万",
+      "heatValue": 1048.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1040.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1048.1万热度值。"
     },
     {
       "rank": 6,
       "title": "净网：造谣外卖员向饮料加百草枯者被罚",
-      "heatText": "综合热度 1040.6 万",
-      "heatValue": 1040.6,
+      "heatText": "综合热度 1046.1 万",
+      "heatValue": 1046.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1040.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1046.1万热度值。"
     },
     {
       "rank": 7,
       "title": "国安部披露军工双料间谍案细节",
-      "heatText": "综合热度 926.0 万",
-      "heatValue": 926.0,
+      "heatText": "综合热度 933.6 万",
+      "heatValue": 933.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 926.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 933.6万热度值。"
     },
     {
       "rank": 8,
       "title": "预习我的早秋穿搭",
-      "heatText": "综合热度 922.4 万",
-      "heatValue": 922.4,
+      "heatText": "综合热度 925.6 万",
+      "heatValue": 925.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 922.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 925.6万热度值。"
     },
     {
       "rank": 9,
@@ -109,14 +110,14 @@
     },
     {
       "rank": 10,
-      "title": "8月的最后一天许个愿吧",
-      "heatText": "综合热度 913.7 万",
-      "heatValue": 913.7,
+      "title": "你怎么舍得让我的泪流向海",
+      "heatText": "综合热度 912.8 万",
+      "heatValue": 912.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 913.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 912.8万热度值。"
     }
   ],
   "platforms": {
@@ -126,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "建议全国都普及这种宿舍",
-          "heatText": "112.5万热度",
-          "heatValue": 112.5,
+          "title": "中国羽毛球协会副主席夏煊泽被查",
+          "heatText": "118.5万热度",
+          "heatValue": 118.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "绝味鸭脖为啥卖不动了",
-          "heatText": "82.0万热度",
-          "heatValue": 82.0,
+          "title": "建议全国都普及这种宿舍",
+          "heatText": "85.4万热度",
+          "heatValue": 85.4,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "9图读懂上合组织峰会",
-          "heatText": "66.6万热度",
-          "heatValue": 66.6,
+          "heatText": "74.4万热度",
+          "heatValue": 74.4,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "至今不知道杨洋丢失那一晚发生了什么",
-          "heatText": "65.4万热度",
-          "heatValue": 65.4,
+          "title": "绝味鸭脖为啥卖不动了",
+          "heatText": "73.0万热度",
+          "heatValue": 73.0,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "芭莎之夜阵容预告",
-          "heatText": "45.8万热度",
-          "heatValue": 45.8,
+          "title": "宇树股价正式腰斩",
+          "heatText": "50.9万热度",
+          "heatValue": 50.9,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "4月龄幼虎被踢后浑身僵直应激",
-          "heatText": "45.5万热度",
-          "heatValue": 45.5,
+          "heatText": "44.3万热度",
+          "heatValue": 44.3,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "宇树股价正式腰斩",
-          "heatText": "43.9万热度",
-          "heatValue": 43.9,
+          "title": "芭莎之夜阵容预告",
+          "heatText": "39.4万热度",
+          "heatValue": 39.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "年轻人不爱当班主任了",
-          "heatText": "40.8万热度",
-          "heatValue": 40.8,
+          "title": "班主任每月补贴几百还是没人愿意当",
+          "heatText": "29.2万热度",
+          "heatValue": 29.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "罗子君的衣服是马伊琍去服装店选的",
-          "heatText": "39.0万热度",
-          "heatValue": 39.0,
+          "title": "早春晴朗",
+          "heatText": "29.0万热度",
+          "heatValue": 29.0,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "早春晴朗",
-          "heatText": "38.2万热度",
-          "heatValue": 38.2,
+          "title": "罗子君的衣服是马伊琍去服装店选的",
+          "heatText": "28.7万热度",
+          "heatValue": 28.7,
           "isNew": false
         }
       ]
@@ -279,71 +280,71 @@
         {
           "rank": 1,
           "title": "开学与家人临别那一刻",
-          "heatText": "1211.9万热度值",
-          "heatValue": 1211.9,
+          "heatText": "1209.7万热度值",
+          "heatValue": 1209.7,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "西藏泥石流已致16死546失联",
-          "heatText": "1109.1万热度值",
-          "heatValue": 1109.1,
+          "heatText": "1123.9万热度值",
+          "heatValue": 1123.9,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "8月制造业PMI上升0.6个百分点",
-          "heatText": "1102.4万热度值",
-          "heatValue": 1102.4,
+          "heatText": "1109.4万热度值",
+          "heatValue": 1109.4,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "网警公布10起涉吉隆泥石流谣言案例",
-          "heatText": "1099.8万热度值",
-          "heatValue": 1099.8,
+          "heatText": "1108.1万热度值",
+          "heatValue": 1108.1,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "当我执意报考省外大学",
-          "heatText": "1040.8万热度值",
-          "heatValue": 1040.8,
+          "title": "8月的最后一天许个愿吧",
+          "heatText": "1048.1万热度值",
+          "heatValue": 1048.1,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "净网：造谣外卖员向饮料加百草枯者被罚",
-          "heatText": "1040.6万热度值",
-          "heatValue": 1040.6,
+          "heatText": "1046.1万热度值",
+          "heatValue": 1046.1,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "国安部披露军工双料间谍案细节",
-          "heatText": "926.0万热度值",
-          "heatValue": 926.0,
+          "heatText": "933.6万热度值",
+          "heatValue": 933.6,
           "isNew": false
         },
         {
           "rank": 8,
           "title": "预习我的早秋穿搭",
-          "heatText": "922.4万热度值",
-          "heatValue": 922.4,
+          "heatText": "925.6万热度值",
+          "heatValue": 925.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "8月的最后一天许个愿吧",
-          "heatText": "913.7万热度值",
-          "heatValue": 913.7,
+          "title": "你怎么舍得让我的泪流向海",
+          "heatText": "912.8万热度值",
+          "heatValue": 912.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "穿成想成为的样子",
-          "heatText": "909.3万热度值",
-          "heatValue": 909.3,
+          "title": "当我执意报考省外大学",
+          "heatText": "908.6万热度值",
+          "heatValue": 908.6,
           "isNew": false
         }
       ]
@@ -531,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "建议全国都普及这种宿舍",
+      "title": "中国羽毛球协会副主席夏煊泽被查",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -540,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "绝味鸭脖为啥卖不动了",
+      "title": "建议全国都普及这种宿舍",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -567,9 +568,9 @@
     }
   ],
   "categoryStats": {
-    "社会": 47,
+    "社会": 46,
     "灾害": 4,
-    "时政": 1,
+    "时政": 2,
     "财经": 2,
     "科技": 2,
     "科研": 1,
@@ -577,9 +578,9 @@
     "体育": 1
   },
   "platformHeatStats": {
-    "weibo": 112.5,
+    "weibo": 118.5,
     "zhihu": 741,
-    "douyin": 1211.9,
+    "douyin": 1209.7,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }

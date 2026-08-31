@@ -21,6 +21,13 @@ import datetime
 import urllib.request
 import urllib.error
 
+# 北京时间（UTC+8）
+BEIJING_TZ = datetime.timezone(datetime.timedelta(hours=8))
+
+def now_beijing():
+    """返回当前北京时间的 datetime 对象。"""
+    return datetime.datetime.now(BEIJING_TZ)
+
 # ---------- 配置 ----------
 OUTPUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.json")
 
@@ -288,8 +295,7 @@ def main():
     if not platforms_data:
         print("[WARN] 所有数据源失败，保留旧 data.json", file=sys.stderr)
         if old_data:
-            old_data["updateTime"] = datetime.datetime.now(
-                datetime.timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
+            old_data["updateTime"] = now_beijing().strftime("%Y-%m-%d %H:%M")
             old_data["source"] = old_data.get("source", "") + "（本次抓取失败，保留上次数据）"
             json.dump(old_data, open(OUTPUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
             return
@@ -303,10 +309,11 @@ def main():
     total = sum(len(pf["list"]) for pf in platforms_data.values())
     new_count = sum(1 for pf in platforms_data.values() for it in pf["list"] if it.get("isNew"))
 
-    now = datetime.datetime.now(datetime.timezone.utc).astimezone()
+    now = now_beijing()
     result = {
         "updateTime": now.strftime("%Y-%m-%d %H:%M"),
         "updateTimestamp": int(time.time()),
+        "timeZone": "Asia/Shanghai (UTC+8)",
         "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
         "summary": {
             "totalTopics": total,

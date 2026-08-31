@@ -31,7 +31,8 @@ body{font-family:'Noto Sans CJK SC','WenQuanYi Micro Hei','Microsoft YaHei',-app
 .header .pills{display:inline-flex;flex-wrap:wrap;gap:8px;justify-content:center}
 .header .pill{font-size:12px;background:var(--card);border:1px solid var(--border2);color:var(--muted);padding:5px 14px;border-radius:20px;font-weight:500}
 .header .pill.live{color:var(--green);border-color:var(--green);background:var(--green-bg)}
-.header .pill.live::before{content:'';display:inline-block;width:7px;height:7px;background:var(--green);border-radius:50%;margin-right:6px;vertical-align:middle;animation:pulse 1.8s infinite}
+.header .pill.live .live-dot{display:inline-block;width:7px;height:7px;background:var(--green);border-radius:50%;margin-right:6px;vertical-align:middle;animation:pulse 1.8s infinite}
+.header .pill.refreshing{color:var(--primary);border-color:var(--primary);background:var(--primary-bg)}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 .stale-banner{background:var(--warm-bg);border:1px solid #f6d98a;color:#92660a;font-size:13px;padding:10px 16px;text-align:center;display:none}
 .stale-banner.show{display:block}
@@ -155,8 +156,9 @@ body{font-family:'Noto Sans CJK SC','WenQuanYi Micro Hei','Microsoft YaHei',-app
   <h1>全网社交平台热点榜单</h1>
   <div class="sub">微博 · 小红书 · 知乎 · 抖音 · B站 五大平台实时聚合 · 数据分析看板</div>
   <div class="pills" id="pills">
-    <span class="pill live">实时数据</span>
+    <span class="pill live"><span class="live-dot"></span>自动刷新</span>
     <span class="pill" id="timePill">数据时间：—</span>
+    <span class="pill" id="freshPill">—</span>
     <span class="pill" id="srcPill">来源：—</span>
   </div>
 </header>
@@ -316,22 +318,66 @@ const FALLBACK_DATA = {
 const platNames = {weibo:"微博",zhihu:"知乎",douyin:"抖音",bilibili:"B站",xiaohongshu:"小红书"};
 let DATA = FALLBACK_DATA;
 let charts = {};
+let lastTimestamp = 0;
+
+// ============ 格式化"多久前" ============
+function timeAgo(ts){
+  const diff = Math.floor(Date.now()/1000) - ts;
+  if(diff < 60) return diff+'秒前更新';
+  if(diff < 3600) return Math.floor(diff/60)+'分钟前更新';
+  if(diff < 86400) return Math.floor(diff/3600)+'小时前更新';
+  return Math.floor(diff/86400)+'天前更新';
+}
+
+function updateFreshPill(){
+  const ts = DATA.updateTimestamp || 0;
+  const el = document.getElementById('freshPill');
+  if(!el) return;
+  if(ts > 0){
+    const diff = Math.floor(Date.now()/1000) - ts;
+    el.textContent = timeAgo(ts);
+    if(diff > 3600){
+      el.style.color = '#f59e0b';
+      el.style.borderColor = '#f59e0b';
+      el.style.background = '#fdf3e0';
+    }
+  }
+}
 
 // ============ 获取数据 ============
-async function loadData(){
+async function loadData(isAutoRefresh=false){
+  const livePill = document.querySelector('.pill.live');
+  if(isAutoRefresh && livePill) livePill.classList.add('refreshing');
+  let hasNew = false;
   try{
     const res = await fetch('data.json',{cache:'no-store'});
     if(!res.ok) throw new Error('HTTP '+res.status);
     const data = await res.json();
     if(!data.overall) throw new Error('invalid data');
-    DATA = data;
+    if(data.updateTimestamp !== lastTimestamp){
+      DATA = data;
+      lastTimestamp = data.updateTimestamp;
+      hasNew = true;
+    }
     document.getElementById('staleBanner').classList.remove('show');
   }catch(e){
-    DATA = FALLBACK_DATA;
+    if(!lastTimestamp){
+      DATA = FALLBACK_DATA;
+      lastTimestamp = FALLBACK_DATA.updateTimestamp || 0;
+      hasNew = true;
+    }
     document.getElementById('staleBanner').classList.add('show');
   }
-  render();
+  if(hasNew) render();
+  updateFreshPill();
+  if(isAutoRefresh && livePill) setTimeout(()=>livePill.classList.remove('refreshing'), 800);
 }
+
+// ============ 自动刷新 ============
+// 每 60 秒检查一次新数据
+setInterval(()=>loadData(true), 60000);
+// 每 30 秒更新一次"多久前更新"的显示
+setInterval(updateFreshPill, 30000);
 
 // ============ 渲染 ============
 function chip(p){const k={weibo:"weibo",zhihu:"zhihu",douyin:"douyin",bilibili:"bili",xiaohongshu:"xhs"}[p]||"none";return `<span class="pchip ${k}">${platNames[p]||p}</span>`}
@@ -340,6 +386,7 @@ function render(){
   // 头部
   document.getElementById('timePill').textContent = '数据时间：'+DATA.updateTime;
   document.getElementById('srcPill').textContent = '来源：'+(DATA.source||'聚合源').slice(0,18)+'…';
+  updateFreshPill();
 
   // KPI
   const s = DATA.summary||{};
