@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-02 05:30",
-  "updateTimestamp": 1788298214,
+  "updateTime": "2026-09-02 07:41",
+  "updateTimestamp": 1788306064,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,71 +12,104 @@
     {
       "rank": 1,
       "title": "多款手机正式涨价",
-      "heatText": "综合热度 1210.1 万",
-      "heatValue": 1210.1,
+      "heatText": "综合热度 1210.3 万",
+      "heatValue": 1210.3,
       "platforms": [
         "douyin"
       ],
       "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.3万热度值。"
     },
     {
       "rank": 2,
-      "title": "开学第一天",
-      "heatText": "综合热度 1117.5 万",
-      "heatValue": 1117.5,
+      "title": "大连开海仪式太震撼了",
+      "heatText": "综合热度 1182.5 万",
+      "heatValue": 1182.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1117.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1182.5万热度值。"
     },
     {
       "rank": 3,
       "title": "全力打通核心救援区的电力通道",
-      "heatText": "综合热度 1109.3 万",
-      "heatValue": 1109.3,
+      "heatText": "综合热度 1164.5 万",
+      "heatValue": 1164.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1109.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1164.5万热度值。"
     },
     {
       "rank": 4,
-      "title": "一年一度的包书皮又开始了",
-      "heatText": "综合热度 1104.8 万",
-      "heatValue": 1104.8,
+      "title": "开学互助指南",
+      "heatText": "综合热度 1158.0 万",
+      "heatValue": 1158.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1104.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1158.0万热度值。"
     },
     {
       "rank": 5,
-      "title": "用20万颗拼豆手搓20秒动画",
-      "heatText": "综合热度 1043.6 万",
-      "heatValue": 1043.6,
+      "title": "人会在自然里长出生命力",
+      "heatText": "综合热度 1068.0 万",
+      "heatValue": 1068.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1043.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1068.0万热度值。"
     },
     {
       "rank": 6,
-      "title": "学功夫练武术",
-      "heatText": "综合热度 1032.9 万",
-      "heatValue": 1032.9,
+      "title": "新台风科罗旺生成",
+      "heatText": "综合热度 1065.6 万",
+      "heatValue": 1065.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1065.6万热度值。"
+    },
+    {
+      "rank": 7,
+      "title": "开学非标准建议请查收",
+      "heatText": "综合热度 941.1 万",
+      "heatValue": 941.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1032.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 941.1万热度值。"
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "智神星一号运载火箭首飞成功",
+      "heatText": "综合热度 933.6 万",
+      "heatValue": 933.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 933.6万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "欧美日英多国债市遭遇抛售潮",
+      "heatText": "综合热度 927.7 万",
+      "heatValue": 927.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 927.7万热度值。"
+    },
+    {
+      "rank": 10,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -85,39 +118,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
-    },
-    {
-      "rank": 8,
-      "title": "大连开海仪式太震撼了",
-      "heatText": "综合热度 912.9 万",
-      "heatValue": 912.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 912.9万热度值。"
-    },
-    {
-      "rank": 9,
-      "title": "人会在自然里长出生命力",
-      "heatText": "综合热度 912.4 万",
-      "heatValue": 912.4,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 912.4万热度值。"
-    },
-    {
-      "rank": 10,
-      "title": "开学互助指南",
-      "heatText": "综合热度 911.9 万",
-      "heatValue": 911.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 911.9万热度值。"
     }
   ],
   "platforms": {
@@ -128,71 +128,71 @@
         {
           "rank": 1,
           "title": "手机涨价 卖不动",
-          "heatText": "16.4万热度",
-          "heatValue": 16.4,
+          "heatText": "97.7万热度",
+          "heatValue": 97.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "张一山演技",
-          "heatText": "11.9万热度",
-          "heatValue": 11.9,
+          "title": "美国银行副总裁时代广场被刺身亡",
+          "heatText": "70.8万热度",
+          "heatValue": 70.8,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "上合示范区释放区域经贸合作新动能",
-          "heatText": "9.1万热度",
-          "heatValue": 9.1,
+          "title": "吉隆口岸上游堰塞湖已完全泄洪",
+          "heatText": "57.4万热度",
+          "heatValue": 57.4,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "苹果CEO特努斯入驻微博",
-          "heatText": "5.2万热度",
-          "heatValue": 5.2,
+          "title": "张一山演技",
+          "heatText": "39.4万热度",
+          "heatValue": 39.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "杨洋花少口碑",
-          "heatText": "4.4万热度",
-          "heatValue": 4.4,
+          "title": "男子盘手串包浆后被妻子用刷子搓干净",
+          "heatText": "38.8万热度",
+          "heatValue": 38.8,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "那个用防窥屏的朋友",
-          "heatText": "4.1万热度",
-          "heatValue": 4.1,
+          "title": "曝花少2没有母带了",
+          "heatText": "36.5万热度",
+          "heatValue": 36.5,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "才知道老一辈做饭比我们更狠",
-          "heatText": "3.5万热度",
-          "heatValue": 3.5,
+          "title": "于适且初洗护发代言人",
+          "heatText": "36.0万热度",
+          "heatValue": 36.0,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "花少2",
-          "heatText": "3.4万热度",
-          "heatValue": 3.4,
+          "title": "曼城1.46亿欧元签下恩佐",
+          "heatText": "33.7万热度",
+          "heatValue": 33.7,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "花少2分析",
-          "heatText": "3.3万热度",
-          "heatValue": 3.3,
+          "title": "美国遭遇股债汇三杀",
+          "heatText": "25.4万热度",
+          "heatValue": 25.4,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "手机涨价",
-          "heatText": "3.3万热度",
-          "heatValue": 3.3,
+          "title": "苹果CEO特努斯入驻微博",
+          "heatText": "24.9万热度",
+          "heatValue": 24.9,
           "isNew": false
         }
       ]
@@ -280,71 +280,71 @@
         {
           "rank": 1,
           "title": "多款手机正式涨价",
-          "heatText": "1210.1万热度值",
-          "heatValue": 1210.1,
+          "heatText": "1210.3万热度值",
+          "heatValue": 1210.3,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "开学第一天",
-          "heatText": "1117.5万热度值",
-          "heatValue": 1117.5,
+          "title": "大连开海仪式太震撼了",
+          "heatText": "1182.5万热度值",
+          "heatValue": 1182.5,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "全力打通核心救援区的电力通道",
-          "heatText": "1109.3万热度值",
-          "heatValue": 1109.3,
+          "heatText": "1164.5万热度值",
+          "heatValue": 1164.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "一年一度的包书皮又开始了",
-          "heatText": "1104.8万热度值",
-          "heatValue": 1104.8,
+          "title": "开学互助指南",
+          "heatText": "1158.0万热度值",
+          "heatValue": 1158.0,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "用20万颗拼豆手搓20秒动画",
-          "heatText": "1043.6万热度值",
-          "heatValue": 1043.6,
+          "title": "人会在自然里长出生命力",
+          "heatText": "1068.0万热度值",
+          "heatValue": 1068.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "学功夫练武术",
-          "heatText": "1032.9万热度值",
-          "heatValue": 1032.9,
+          "title": "新台风科罗旺生成",
+          "heatText": "1065.6万热度值",
+          "heatValue": 1065.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "大连开海仪式太震撼了",
-          "heatText": "912.9万热度值",
-          "heatValue": 912.9,
+          "title": "开学非标准建议请查收",
+          "heatText": "941.1万热度值",
+          "heatValue": 941.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "人会在自然里长出生命力",
-          "heatText": "912.4万热度值",
-          "heatValue": 912.4,
+          "title": "智神星一号运载火箭首飞成功",
+          "heatText": "933.6万热度值",
+          "heatValue": 933.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "开学互助指南",
-          "heatText": "911.9万热度值",
-          "heatValue": 911.9,
+          "title": "欧美日英多国债市遭遇抛售潮",
+          "heatText": "927.7万热度值",
+          "heatValue": 927.7,
           "isNew": false
         },
         {
           "rank": 10,
           "title": "足协杯大连英博1:0上海申花",
-          "heatText": "910.9万热度值",
-          "heatValue": 910.9,
+          "heatText": "915.7万热度值",
+          "heatValue": 915.7,
           "isNew": false
         }
       ]
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "开学第一天",
+      "title": "大连开海仪式太震撼了",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "张一山演技",
+      "title": "美国银行副总裁时代广场被刺身亡",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "上合示范区释放区域经贸合作新动能",
+      "title": "吉隆口岸上游堰塞湖已完全泄洪",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,19 +568,19 @@
     }
   ],
   "categoryStats": {
-    "科技": 7,
-    "社会": 43,
-    "娱乐": 4,
-    "时政": 1,
+    "科技": 6,
+    "社会": 44,
+    "灾害": 2,
+    "娱乐": 2,
+    "财经": 2,
     "科研": 1,
     "政策": 2,
-    "体育": 1,
-    "财经": 1
+    "体育": 1
   },
   "platformHeatStats": {
-    "weibo": 16.4,
+    "weibo": 97.7,
     "zhihu": 741,
-    "douyin": 1210.1,
+    "douyin": 1210.3,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
