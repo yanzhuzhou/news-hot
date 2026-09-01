@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-01 05:31",
-  "updateTimestamp": 1788211919,
+  "updateTime": "2026-09-01 08:54",
+  "updateTimestamp": 1788224084,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,113 +12,112 @@
     {
       "rank": 1,
       "title": "杨瀚森绝杀",
-      "heatText": "综合热度 1165.0 万",
-      "heatValue": 1165.0,
+      "heatText": "综合热度 1186.3 万",
+      "heatValue": 1186.3,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 3.7万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1186.3万热度值。"
     },
     {
       "rank": 2,
       "title": "西藏泥石流已致16死546失联",
-      "heatText": "综合热度 1131.8 万",
-      "heatValue": 1131.8,
+      "heatText": "综合热度 1153.6 万",
+      "heatValue": 1153.6,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1131.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1153.6万热度值。"
     },
     {
       "rank": 3,
       "title": "多架次直升机驰援吉隆灾区",
-      "heatText": "综合热度 1126.6 万",
-      "heatValue": 1126.6,
+      "heatText": "综合热度 1132.0 万",
+      "heatValue": 1132.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1126.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1132.0万热度值。"
     },
     {
       "rank": 4,
       "title": "江苏省委常委刘建洋被查",
-      "heatText": "综合热度 1121.6 万",
-      "heatValue": 1121.6,
+      "heatText": "综合热度 1131.2 万",
+      "heatValue": 1131.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1121.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1131.2万热度值。"
     },
     {
       "rank": 5,
-      "title": "中国男篮89:87黎巴嫩男篮",
-      "heatText": "综合热度 1054.6 万",
-      "heatValue": 1054.6,
+      "title": "英超阿斯顿维拉0:1阿森纳",
+      "heatText": "综合热度 1055.1 万",
+      "heatValue": 1055.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1054.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1055.1万热度值。"
     },
     {
       "rank": 6,
-      "title": "沙德尔残涡或重新加强为台风",
-      "heatText": "综合热度 1052.3 万",
-      "heatValue": 1052.3,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1052.3万热度值。"
-    },
-    {
-      "rank": 7,
-      "title": "中式早餐包罗万味",
-      "heatText": "综合热度 938.8 万",
-      "heatValue": 938.8,
+      "title": "分别总是在九月 回忆是思念的愁",
+      "heatText": "综合热度 1054.8 万",
+      "heatValue": 1054.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 938.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1054.8万热度值。"
+    },
+    {
+      "rank": 7,
+      "title": "中国男篮89:87黎巴嫩男篮",
+      "heatText": "综合热度 943.2 万",
+      "heatValue": 943.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 943.2万热度值。"
     },
     {
       "rank": 8,
       "title": "开学与家人临别那一刻",
-      "heatText": "综合热度 937.7 万",
-      "heatValue": 937.7,
+      "heatText": "综合热度 941.4 万",
+      "heatValue": 941.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 937.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 941.4万热度值。"
     },
     {
       "rank": 9,
       "title": "预习我的早秋穿搭",
-      "heatText": "综合热度 928.0 万",
-      "heatValue": 928.0,
+      "heatText": "综合热度 941.0 万",
+      "heatValue": 941.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 928.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 941.0万热度值。"
     },
     {
       "rank": 10,
       "title": "穿成想成为的样子",
-      "heatText": "综合热度 922.8 万",
-      "heatValue": 922.8,
+      "heatText": "综合热度 932.9 万",
+      "heatValue": 932.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 922.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 932.9万热度值。"
     }
   ],
   "platforms": {
@@ -128,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "郑钦文2比1柳托娃",
-          "heatText": "16.7万热度",
-          "heatValue": 16.7,
+          "title": "多款手机正式涨价",
+          "heatText": "224.2万热度",
+          "heatValue": 224.2,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "一个超好用的情绪控制技巧",
-          "heatText": "12.4万热度",
-          "heatValue": 12.4,
+          "title": "库克正式卸任苹果CEO",
+          "heatText": "95.2万热度",
+          "heatValue": 95.2,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "20项措施推动消费扩容升级",
-          "heatText": "9.4万热度",
-          "heatValue": 9.4,
+          "heatText": "78.9万热度",
+          "heatValue": 78.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "尼泊尔泥石流已致939遇难3925失联",
-          "heatText": "5.2万热度",
-          "heatValue": 5.2,
+          "title": "一个超好用的情绪控制技巧",
+          "heatText": "53.9万热度",
+          "heatValue": 53.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "阿根廷国家队致敬队长",
-          "heatText": "4.7万热度",
-          "heatValue": 4.7,
+          "title": "美国炸鸡巨头中国首店开业",
+          "heatText": "52.2万热度",
+          "heatValue": 52.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "特朗普称伊朗已死",
-          "heatText": "4.4万热度",
-          "heatValue": 4.4,
+          "title": "郑钦文2比1柳托娃",
+          "heatText": "29.4万热度",
+          "heatValue": 29.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "还我季洁",
-          "heatText": "3.8万热度",
-          "heatValue": 3.8,
+          "title": "开学健康第一课",
+          "heatText": "29.2万热度",
+          "heatValue": 29.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "杨瀚森绝杀",
-          "heatText": "3.7万热度",
-          "heatValue": 3.7,
+          "title": "郑钦文终结柳托娃9连胜",
+          "heatText": "28.6万热度",
+          "heatValue": 28.6,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "好直观的降本增效",
-          "heatText": "3.7万热度",
-          "heatValue": 3.7,
+          "heatText": "25.4万热度",
+          "heatValue": 25.4,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "重案六组",
-          "heatText": "3.7万热度",
-          "heatValue": 3.7,
+          "title": "赵今麦躺在王安宇的怀里",
+          "heatText": "25.1万热度",
+          "heatValue": 25.1,
           "isNew": false
         }
       ]
@@ -281,71 +280,71 @@
         {
           "rank": 1,
           "title": "杨瀚森绝杀",
-          "heatText": "1161.3万热度值",
-          "heatValue": 1161.3,
+          "heatText": "1186.3万热度值",
+          "heatValue": 1186.3,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "西藏泥石流已致16死546失联",
-          "heatText": "1131.8万热度值",
-          "heatValue": 1131.8,
+          "heatText": "1153.6万热度值",
+          "heatValue": 1153.6,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "多架次直升机驰援吉隆灾区",
-          "heatText": "1126.6万热度值",
-          "heatValue": 1126.6,
+          "heatText": "1132.0万热度值",
+          "heatValue": 1132.0,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "江苏省委常委刘建洋被查",
-          "heatText": "1121.6万热度值",
-          "heatValue": 1121.6,
+          "heatText": "1131.2万热度值",
+          "heatValue": 1131.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "中国男篮89:87黎巴嫩男篮",
-          "heatText": "1054.6万热度值",
-          "heatValue": 1054.6,
+          "title": "英超阿斯顿维拉0:1阿森纳",
+          "heatText": "1055.1万热度值",
+          "heatValue": 1055.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "沙德尔残涡或重新加强为台风",
-          "heatText": "1052.3万热度值",
-          "heatValue": 1052.3,
+          "title": "分别总是在九月 回忆是思念的愁",
+          "heatText": "1054.8万热度值",
+          "heatValue": 1054.8,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "中式早餐包罗万味",
-          "heatText": "938.8万热度值",
-          "heatValue": 938.8,
+          "title": "中国男篮89:87黎巴嫩男篮",
+          "heatText": "943.2万热度值",
+          "heatValue": 943.2,
           "isNew": false
         },
         {
           "rank": 8,
           "title": "开学与家人临别那一刻",
-          "heatText": "937.7万热度值",
-          "heatValue": 937.7,
+          "heatText": "941.4万热度值",
+          "heatValue": 941.4,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "预习我的早秋穿搭",
-          "heatText": "928.0万热度值",
-          "heatValue": 928.0,
+          "heatText": "941.0万热度值",
+          "heatValue": 941.0,
           "isNew": false
         },
         {
           "rank": 10,
           "title": "穿成想成为的样子",
-          "heatText": "922.8万热度值",
-          "heatValue": 922.8,
+          "heatText": "932.9万热度值",
+          "heatValue": 932.9,
           "isNew": false
         }
       ]
@@ -509,10 +508,9 @@
       "title": "杨瀚森绝杀",
       "rate": "极速",
       "platforms": [
-        "douyin",
-        "weibo"
+        "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 2,
@@ -534,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "郑钦文2比1柳托娃",
+      "title": "多款手机正式涨价",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "一个超好用的情绪控制技巧",
+      "title": "库克正式卸任苹果CEO",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -570,18 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 48,
-    "灾害": 5,
-    "科技": 2,
+    "社会": 49,
+    "灾害": 2,
+    "科技": 4,
     "科研": 1,
     "政策": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 16.7,
+    "weibo": 224.2,
     "zhihu": 741,
-    "douyin": 1161.3,
+    "douyin": 1186.3,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
