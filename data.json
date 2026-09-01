@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-01 08:54",
-  "updateTimestamp": 1788224084,
+  "updateTime": "2026-09-01 13:52",
+  "updateTimestamp": 1788241971,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,113 +11,113 @@
   "overall": [
     {
       "rank": 1,
-      "title": "杨瀚森绝杀",
-      "heatText": "综合热度 1186.3 万",
-      "heatValue": 1186.3,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1186.3万热度值。"
-    },
-    {
-      "rank": 2,
-      "title": "西藏泥石流已致16死546失联",
-      "heatText": "综合热度 1153.6 万",
-      "heatValue": 1153.6,
+      "title": "西藏悼念吉隆泥石流灾害遇难者",
+      "heatText": "综合热度 1143.1 万",
+      "heatValue": 1143.1,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1153.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1143.1万热度值。"
+    },
+    {
+      "rank": 2,
+      "title": "西藏泥石流已致16死546失联",
+      "heatText": "综合热度 1138.0 万",
+      "heatValue": 1138.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1138.0万热度值。"
     },
     {
       "rank": 3,
-      "title": "多架次直升机驰援吉隆灾区",
-      "heatText": "综合热度 1132.0 万",
-      "heatValue": 1132.0,
+      "title": "消费品以旧换新持续释放消费潜力",
+      "heatText": "综合热度 1118.7 万",
+      "heatValue": 1118.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1132.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1118.7万热度值。"
     },
     {
       "rank": 4,
-      "title": "江苏省委常委刘建洋被查",
-      "heatText": "综合热度 1131.2 万",
-      "heatValue": 1131.2,
+      "title": "开学第一天",
+      "heatText": "综合热度 1115.7 万",
+      "heatValue": 1115.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1131.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1115.7万热度值。"
     },
     {
       "rank": 5,
-      "title": "英超阿斯顿维拉0:1阿森纳",
-      "heatText": "综合热度 1055.1 万",
-      "heatValue": 1055.1,
+      "title": "多款手机正式涨价",
+      "heatText": "综合热度 1053.4 万",
+      "heatValue": 1053.4,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1055.1万热度值。"
+      "category": "科技",
+      "desc": "跨平台热度话题：抖音热搜热度 1053.4万热度值。"
     },
     {
       "rank": 6,
-      "title": "分别总是在九月 回忆是思念的愁",
-      "heatText": "综合热度 1054.8 万",
-      "heatValue": 1054.8,
+      "title": "台风沙德尔“复活”",
+      "heatText": "综合热度 1047.1 万",
+      "heatValue": 1047.1,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1054.8万热度值。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1047.1万热度值。"
     },
     {
       "rank": 7,
-      "title": "中国男篮89:87黎巴嫩男篮",
-      "heatText": "综合热度 943.2 万",
-      "heatValue": 943.2,
+      "title": "抖音推荐 难看",
+      "heatText": "综合热度 989.5 万",
+      "heatValue": 989.5,
       "platforms": [
-        "douyin"
+        "weibo"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 943.2万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 989.5万热度。"
     },
     {
       "rank": 8,
-      "title": "开学与家人临别那一刻",
-      "heatText": "综合热度 941.4 万",
-      "heatValue": 941.4,
+      "title": "中国男篮89:87黎巴嫩男篮",
+      "heatText": "综合热度 929.5 万",
+      "heatValue": 929.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 941.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 929.5万热度值。"
     },
     {
       "rank": 9,
-      "title": "预习我的早秋穿搭",
-      "heatText": "综合热度 941.0 万",
-      "heatValue": 941.0,
+      "title": "杨瀚森绝杀",
+      "heatText": "综合热度 928.7 万",
+      "heatValue": 928.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 941.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 928.7万热度值。"
     },
     {
       "rank": 10,
-      "title": "穿成想成为的样子",
-      "heatText": "综合热度 932.9 万",
-      "heatValue": 932.9,
+      "title": "英超阿斯顿维拉0:1阿森纳",
+      "heatText": "综合热度 928.3 万",
+      "heatValue": 928.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 932.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 928.3万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "多款手机正式涨价",
-          "heatText": "224.2万热度",
-          "heatValue": 224.2,
+          "title": "抖音推荐 难看",
+          "heatText": "989.5万热度",
+          "heatValue": 989.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "库克正式卸任苹果CEO",
-          "heatText": "95.2万热度",
-          "heatValue": 95.2,
+          "title": "抖音 误入中老年频道",
+          "heatText": "188.5万热度",
+          "heatValue": 188.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "20项措施推动消费扩容升级",
-          "heatText": "78.9万热度",
-          "heatValue": 78.9,
+          "title": "救援核心区已有基本通信保障",
+          "heatText": "143.0万热度",
+          "heatValue": 143.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "一个超好用的情绪控制技巧",
-          "heatText": "53.9万热度",
-          "heatValue": 53.9,
+          "title": "内存涨价",
+          "heatText": "43.0万热度",
+          "heatValue": 43.0,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "美国炸鸡巨头中国首店开业",
-          "heatText": "52.2万热度",
-          "heatValue": 52.2,
+          "title": "20后入学家长年龄相差近30岁",
+          "heatText": "34.0万热度",
+          "heatValue": 34.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "郑钦文2比1柳托娃",
-          "heatText": "29.4万热度",
-          "heatValue": 29.4,
+          "title": "披荆斩棘二公小考",
+          "heatText": "33.9万热度",
+          "heatValue": 33.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "开学健康第一课",
-          "heatText": "29.2万热度",
-          "heatValue": 29.2,
+          "title": "喝无醇啤酒开车不算酒驾系谣言",
+          "heatText": "33.8万热度",
+          "heatValue": 33.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "郑钦文终结柳托娃9连胜",
-          "heatText": "28.6万热度",
-          "heatValue": 28.6,
+          "title": "尚之桃吻栾念的背",
+          "heatText": "33.4万热度",
+          "heatValue": 33.4,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "好直观的降本增效",
-          "heatText": "25.4万热度",
-          "heatValue": 25.4,
+          "title": "华为小米荣耀回应手机涨价",
+          "heatText": "31.7万热度",
+          "heatValue": 31.7,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "赵今麦躺在王安宇的怀里",
-          "heatText": "25.1万热度",
-          "heatValue": 25.1,
+          "title": "早春晴朗",
+          "heatText": "29.6万热度",
+          "heatValue": 29.6,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "杨瀚森绝杀",
-          "heatText": "1186.3万热度值",
-          "heatValue": 1186.3,
+          "title": "西藏悼念吉隆泥石流灾害遇难者",
+          "heatText": "1143.1万热度值",
+          "heatValue": 1143.1,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "西藏泥石流已致16死546失联",
-          "heatText": "1153.6万热度值",
-          "heatValue": 1153.6,
+          "heatText": "1138.0万热度值",
+          "heatValue": 1138.0,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "多架次直升机驰援吉隆灾区",
-          "heatText": "1132.0万热度值",
-          "heatValue": 1132.0,
+          "title": "消费品以旧换新持续释放消费潜力",
+          "heatText": "1118.7万热度值",
+          "heatValue": 1118.7,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "江苏省委常委刘建洋被查",
-          "heatText": "1131.2万热度值",
-          "heatValue": 1131.2,
+          "title": "开学第一天",
+          "heatText": "1115.7万热度值",
+          "heatValue": 1115.7,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "英超阿斯顿维拉0:1阿森纳",
-          "heatText": "1055.1万热度值",
-          "heatValue": 1055.1,
+          "title": "多款手机正式涨价",
+          "heatText": "1053.4万热度值",
+          "heatValue": 1053.4,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "分别总是在九月 回忆是思念的愁",
-          "heatText": "1054.8万热度值",
-          "heatValue": 1054.8,
+          "title": "台风沙德尔“复活”",
+          "heatText": "1047.1万热度值",
+          "heatValue": 1047.1,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "中国男篮89:87黎巴嫩男篮",
-          "heatText": "943.2万热度值",
-          "heatValue": 943.2,
+          "heatText": "929.5万热度值",
+          "heatValue": 929.5,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "开学与家人临别那一刻",
-          "heatText": "941.4万热度值",
-          "heatValue": 941.4,
+          "title": "杨瀚森绝杀",
+          "heatText": "928.7万热度值",
+          "heatValue": 928.7,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "预习我的早秋穿搭",
-          "heatText": "941.0万热度值",
-          "heatValue": 941.0,
+          "title": "英超阿斯顿维拉0:1阿森纳",
+          "heatText": "928.3万热度值",
+          "heatValue": 928.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "穿成想成为的样子",
-          "heatText": "932.9万热度值",
-          "heatValue": 932.9,
+          "title": "2026中国羽毛球大师赛官宣",
+          "heatText": "923.8万热度值",
+          "heatValue": 923.8,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "杨瀚森绝杀",
+      "title": "西藏悼念吉隆泥石流灾害遇难者",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +523,7 @@
     },
     {
       "rank": 3,
-      "title": "多架次直升机驰援吉隆灾区",
+      "title": "消费品以旧换新持续释放消费潜力",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "多款手机正式涨价",
+      "title": "抖音推荐 难看",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "库克正式卸任苹果CEO",
+      "title": "抖音 误入中老年频道",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "20项措施推动消费扩容升级",
+      "title": "救援核心区已有基本通信保障",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,18 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 49,
-    "灾害": 2,
-    "科技": 4,
+    "灾害": 6,
+    "社会": 43,
+    "科技": 5,
+    "政策": 3,
     "科研": 1,
-    "政策": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 224.2,
+    "weibo": 989.5,
     "zhihu": 741,
-    "douyin": 1186.3,
+    "douyin": 1143.1,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
