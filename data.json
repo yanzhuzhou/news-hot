@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-03 00:43",
-  "updateTimestamp": 1788367411,
+  "updateTime": "2026-09-03 03:33",
+  "updateTimestamp": 1788377626,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,113 +12,113 @@
     {
       "rank": 1,
       "title": "吉隆泥石流遇难21人失联541人",
-      "heatText": "综合热度 1220.0 万",
-      "heatValue": 1220.0,
+      "heatText": "综合热度 1213.1 万",
+      "heatValue": 1213.1,
       "platforms": [
         "weibo",
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：微博热搜热度 18.6万热度。"
+      "desc": "跨平台热度话题：微博热搜热度 5.3万热度。"
     },
     {
       "rank": 2,
       "title": "泰国取消60日免签政策",
-      "heatText": "综合热度 1210.1 万",
-      "heatValue": 1210.1,
+      "heatText": "综合热度 1210.3 万",
+      "heatValue": 1210.3,
       "platforms": [
         "douyin"
       ],
       "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.3万热度值。"
     },
     {
       "rank": 3,
       "title": "餐车从定日来到吉隆",
-      "heatText": "综合热度 1187.2 万",
-      "heatValue": 1187.2,
+      "heatText": "综合热度 1164.2 万",
+      "heatValue": 1164.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1187.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1164.2万热度值。"
     },
     {
       "rank": 4,
-      "title": "台风沙德尔或登陆粤东沿海",
-      "heatText": "综合热度 1145.9 万",
-      "heatValue": 1145.9,
+      "title": "梅姨案已进入审判阶段",
+      "heatText": "综合热度 1137.6 万",
+      "heatValue": 1137.6,
       "platforms": [
         "douyin"
       ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1145.9万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1137.6万热度值。"
     },
     {
       "rank": 5,
-      "title": "原来是我们离不开孩子",
-      "heatText": "综合热度 1058.6 万",
-      "heatValue": 1058.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1058.6万热度值。"
-    },
-    {
-      "rank": 6,
-      "title": "浙江遭遇“隔山打牛式”特大暴雨",
-      "heatText": "综合热度 1043.6 万",
-      "heatValue": 1043.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1043.6万热度值。"
-    },
-    {
-      "rank": 7,
-      "title": "9月将有2至3个台风登陆或影响我国",
-      "heatText": "综合热度 932.8 万",
-      "heatValue": 932.8,
+      "title": "台风沙德尔或登陆粤东沿海",
+      "heatText": "综合热度 1059.6 万",
+      "heatValue": 1059.6,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 932.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1059.6万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "原来是我们离不开孩子",
+      "heatText": "综合热度 1058.2 万",
+      "heatValue": 1058.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1058.2万热度值。"
+    },
+    {
+      "rank": 7,
+      "title": "浙江遭遇“隔山打牛式”特大暴雨",
+      "heatText": "综合热度 943.4 万",
+      "heatValue": 943.4,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 943.4万热度值。"
     },
     {
       "rank": 8,
-      "title": "用万能旅行拍照姿势美美出片",
-      "heatText": "综合热度 918.6 万",
-      "heatValue": 918.6,
+      "title": "9月将有2至3个台风登陆或影响我国",
+      "heatText": "综合热度 934.5 万",
+      "heatValue": 934.5,
       "platforms": [
-        "xiaohongshu"
+        "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 934.5万热度值。"
     },
     {
       "rank": 9,
-      "title": "梅姨案已进入审判阶段",
-      "heatText": "综合热度 918.0 万",
-      "heatValue": 918.0,
+      "title": "抖音独家直播耐高新赛季",
+      "heatText": "综合热度 931.0 万",
+      "heatValue": 931.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 918.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 931.0万热度值。"
     },
     {
       "rank": 10,
-      "title": "苹果官方X账号取关库克",
-      "heatText": "综合热度 917.0 万",
-      "heatValue": 917.0,
+      "title": "火影手游情报君萌黄cos",
+      "heatText": "综合热度 919.9 万",
+      "heatValue": 919.9,
       "platforms": [
         "douyin"
       ],
-      "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 917.0万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 919.9万热度值。"
     }
   ],
   "platforms": {
@@ -128,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "家长在班级群自报干部身份",
-          "heatText": "111.5万热度",
-          "heatValue": 111.5,
+          "title": "微信新功能专治各种看不见",
+          "heatText": "13.1万热度",
+          "heatValue": 13.1,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "微信新功能专治各种看不见",
-          "heatText": "62.4万热度",
-          "heatValue": 62.4,
+          "title": "priest入围2027纽曼华语文学奖",
+          "heatText": "8.1万热度",
+          "heatValue": 8.1,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "开局之年看山西",
-          "heatText": "49.3万热度",
-          "heatValue": 49.3,
+          "heatText": "5.8万热度",
+          "heatValue": 5.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "刘宇宁邀你瓜分百万超市卡",
-          "heatText": "48.4万热度",
-          "heatValue": 48.4,
+          "title": "奇瑞捷豹路虎神行者8盛大上市",
+          "heatText": "5.8万热度",
+          "heatValue": 5.8,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "priest入围2027纽曼华语文学奖",
-          "heatText": "46.8万热度",
-          "heatValue": 46.8,
+          "title": "花少2毛阿敏放现在算虐待老人",
+          "heatText": "5.6万热度",
+          "heatValue": 5.6,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "花少2毛阿敏放现在算虐待老人",
-          "heatText": "40.9万热度",
-          "heatValue": 40.9,
+          "title": "好讨厌需要靠争抢来的东西",
+          "heatText": "5.4万热度",
+          "heatValue": 5.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "李月汝护照遗失缺席世界杯",
-          "heatText": "33.0万热度",
-          "heatValue": 33.0,
+          "title": "吉隆泥石流遇难21人失联541人",
+          "heatText": "5.3万热度",
+          "heatValue": 5.3,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "吾恩见不得粉丝为我难过",
-          "heatText": "24.5万热度",
-          "heatValue": 24.5,
+          "title": "为什么爱流向不缺爱的人",
+          "heatText": "5.0万热度",
+          "heatValue": 5.0,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "张雪惊讶97岁李锦记掌门人喝冰可乐",
-          "heatText": "22.1万热度",
-          "heatValue": 22.1,
+          "title": "李月汝护照遗失缺席世界杯",
+          "heatText": "4.8万热度",
+          "heatValue": 4.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "吉隆泥石流遇难21人失联541人",
-          "heatText": "18.6万热度",
-          "heatValue": 18.6,
+          "title": "独居真的只适合个别人",
+          "heatText": "4.3万热度",
+          "heatValue": 4.3,
           "isNew": false
         }
       ]
@@ -281,71 +281,71 @@
         {
           "rank": 1,
           "title": "泰国取消60日免签政策",
-          "heatText": "1210.1万热度值",
-          "heatValue": 1210.1,
+          "heatText": "1210.3万热度值",
+          "heatValue": 1210.3,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "西藏泥石流21人遇难541人失联",
-          "heatText": "1201.4万热度值",
-          "heatValue": 1201.4,
+          "heatText": "1207.8万热度值",
+          "heatValue": 1207.8,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "餐车从定日来到吉隆",
-          "heatText": "1187.2万热度值",
-          "heatValue": 1187.2,
+          "heatText": "1164.2万热度值",
+          "heatValue": 1164.2,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "台风沙德尔或登陆粤东沿海",
-          "heatText": "1145.9万热度值",
-          "heatValue": 1145.9,
+          "title": "梅姨案已进入审判阶段",
+          "heatText": "1137.6万热度值",
+          "heatValue": 1137.6,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "原来是我们离不开孩子",
-          "heatText": "1058.6万热度值",
-          "heatValue": 1058.6,
+          "title": "台风沙德尔或登陆粤东沿海",
+          "heatText": "1059.6万热度值",
+          "heatValue": 1059.6,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "浙江遭遇“隔山打牛式”特大暴雨",
-          "heatText": "1043.6万热度值",
-          "heatValue": 1043.6,
+          "title": "原来是我们离不开孩子",
+          "heatText": "1058.2万热度值",
+          "heatValue": 1058.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "9月将有2至3个台风登陆或影响我国",
-          "heatText": "932.8万热度值",
-          "heatValue": 932.8,
+          "title": "浙江遭遇“隔山打牛式”特大暴雨",
+          "heatText": "943.4万热度值",
+          "heatValue": 943.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "梅姨案已进入审判阶段",
-          "heatText": "918.0万热度值",
-          "heatValue": 918.0,
+          "title": "9月将有2至3个台风登陆或影响我国",
+          "heatText": "934.5万热度值",
+          "heatValue": 934.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "苹果官方X账号取关库克",
-          "heatText": "917.0万热度值",
-          "heatValue": 917.0,
+          "title": "抖音独家直播耐高新赛季",
+          "heatText": "931.0万热度值",
+          "heatValue": 931.0,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "万物皆可贴秋膘",
-          "heatText": "914.4万热度值",
-          "heatValue": 914.4,
+          "title": "火影手游情报君萌黄cos",
+          "heatText": "919.9万热度值",
+          "heatValue": 919.9,
           "isNew": false
         }
       ]
@@ -534,7 +534,7 @@
     },
     {
       "rank": 4,
-      "title": "家长在班级群自报干部身份",
+      "title": "微信新功能专治各种看不见",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "微信新功能专治各种看不见",
+      "title": "priest入围2027纽曼华语文学奖",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -581,17 +581,17 @@
   "categoryStats": {
     "灾害": 7,
     "政策": 4,
-    "社会": 41,
-    "科技": 4,
+    "社会": 43,
     "娱乐": 1,
+    "科技": 2,
     "科研": 1,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 111.5,
+    "weibo": 13.1,
     "zhihu": 741,
-    "douyin": 1210.1,
+    "douyin": 1210.3,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
