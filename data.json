@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-02 20:10",
-  "updateTimestamp": 1788351053,
+  "updateTime": "2026-09-03 00:43",
+  "updateTimestamp": 1788367411,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,81 +11,81 @@
   "overall": [
     {
       "rank": 1,
-      "title": "泰国取消60日免签政策",
-      "heatText": "综合热度 1207.4 万",
-      "heatValue": 1207.4,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1207.4万热度值。"
-    },
-    {
-      "rank": 2,
-      "title": "吉隆口岸核心区救援通道已抢通",
-      "heatText": "综合热度 1166.3 万",
-      "heatValue": 1166.3,
+      "title": "吉隆泥石流遇难21人失联541人",
+      "heatText": "综合热度 1220.0 万",
+      "heatValue": 1220.0,
       "platforms": [
         "weibo",
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 62.2万热度。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：微博热搜热度 18.6万热度。"
     },
     {
-      "rank": 3,
-      "title": "福建迎来新一轮持续性强降雨",
-      "heatText": "综合热度 1153.9 万",
-      "heatValue": 1153.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1153.9万热度值。"
-    },
-    {
-      "rank": 4,
-      "title": "浙江遭遇“隔山打牛式”特大暴雨",
-      "heatText": "综合热度 1092.7 万",
-      "heatValue": 1092.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1092.7万热度值。"
-    },
-    {
-      "rank": 5,
-      "title": "普京硬核回应俄日关系恶化",
-      "heatText": "综合热度 1034.3 万",
-      "heatValue": 1034.3,
+      "rank": 2,
+      "title": "泰国取消60日免签政策",
+      "heatText": "综合热度 1210.1 万",
+      "heatValue": 1210.1,
       "platforms": [
         "douyin"
       ],
       "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1034.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.1万热度值。"
+    },
+    {
+      "rank": 3,
+      "title": "餐车从定日来到吉隆",
+      "heatText": "综合热度 1187.2 万",
+      "heatValue": 1187.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1187.2万热度值。"
+    },
+    {
+      "rank": 4,
+      "title": "台风沙德尔或登陆粤东沿海",
+      "heatText": "综合热度 1145.9 万",
+      "heatValue": 1145.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1145.9万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "原来是我们离不开孩子",
+      "heatText": "综合热度 1058.6 万",
+      "heatValue": 1058.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1058.6万热度值。"
     },
     {
       "rank": 6,
-      "title": "深圳校服为什么能火出圈",
-      "heatText": "综合热度 1032.0 万",
-      "heatValue": 1032.0,
+      "title": "浙江遭遇“隔山打牛式”特大暴雨",
+      "heatText": "综合热度 1043.6 万",
+      "heatValue": 1043.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1032.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1043.6万热度值。"
     },
     {
       "rank": 7,
-      "title": "中国男篮亚运会12人名单出炉",
-      "heatText": "综合热度 922.4 万",
-      "heatValue": 922.4,
+      "title": "9月将有2至3个台风登陆或影响我国",
+      "heatText": "综合热度 932.8 万",
+      "heatValue": 932.8,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 922.4万热度值。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 932.8万热度值。"
     },
     {
       "rank": 8,
@@ -100,25 +100,25 @@
     },
     {
       "rank": 9,
-      "title": "9月将有2至3个台风登陆或影响我国",
-      "heatText": "综合热度 912.7 万",
-      "heatValue": 912.7,
+      "title": "梅姨案已进入审判阶段",
+      "heatText": "综合热度 918.0 万",
+      "heatValue": 918.0,
       "platforms": [
         "douyin"
       ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 912.7万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 918.0万热度值。"
     },
     {
       "rank": 10,
-      "title": "耗时三年拍下古诗词里的中国",
-      "heatText": "综合热度 907 万",
-      "heatValue": 907,
+      "title": "苹果官方X账号取关库克",
+      "heatText": "综合热度 917.0 万",
+      "heatValue": 917.0,
       "platforms": [
-        "xiaohongshu"
+        "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 907万。"
+      "category": "科技",
+      "desc": "跨平台热度话题：抖音热搜热度 917.0万热度值。"
     }
   ],
   "platforms": {
@@ -128,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "富爸爸穷爸爸作者自曝负债12亿美元",
-          "heatText": "107.3万热度",
-          "heatValue": 107.3,
+          "title": "家长在班级群自报干部身份",
+          "heatText": "111.5万热度",
+          "heatValue": 111.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "温州苍南特大暴雨致积涝",
-          "heatText": "79.4万热度",
-          "heatValue": 79.4,
+          "title": "微信新功能专治各种看不见",
+          "heatText": "62.4万热度",
+          "heatValue": 62.4,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "吉隆口岸核心区救援通道已抢通",
-          "heatText": "62.2万热度",
-          "heatValue": 62.2,
+          "title": "开局之年看山西",
+          "heatText": "49.3万热度",
+          "heatValue": 49.3,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "直观感受到长期大量阅读的好处",
-          "heatText": "41.2万热度",
-          "heatValue": 41.2,
+          "title": "刘宇宁邀你瓜分百万超市卡",
+          "heatText": "48.4万热度",
+          "heatValue": 48.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "3899元的戴森牙刷真不坑穷人",
-          "heatText": "26.4万热度",
-          "heatValue": 26.4,
+          "title": "priest入围2027纽曼华语文学奖",
+          "heatText": "46.8万热度",
+          "heatValue": 46.8,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "官方回应家长提议集资请保洁原因",
-          "heatText": "25.5万热度",
-          "heatValue": 25.5,
+          "title": "花少2毛阿敏放现在算虐待老人",
+          "heatText": "40.9万热度",
+          "heatValue": 40.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "温州瑞安高速路口强降雨致人员死亡系谣言",
-          "heatText": "22.7万热度",
-          "heatValue": 22.7,
+          "title": "李月汝护照遗失缺席世界杯",
+          "heatText": "33.0万热度",
+          "heatValue": 33.0,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "花儿与少年2026官宣",
-          "heatText": "21.7万热度",
-          "heatValue": 21.7,
+          "title": "吾恩见不得粉丝为我难过",
+          "heatText": "24.5万热度",
+          "heatValue": 24.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "花少2毛阿敏放现在算虐待老人",
-          "heatText": "20.9万热度",
-          "heatValue": 20.9,
+          "title": "张雪惊讶97岁李锦记掌门人喝冰可乐",
+          "heatText": "22.1万热度",
+          "heatValue": 22.1,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "国台办回应周子瑜来内地发展",
-          "heatText": "20.8万热度",
-          "heatValue": 20.8,
+          "title": "吉隆泥石流遇难21人失联541人",
+          "heatText": "18.6万热度",
+          "heatValue": 18.6,
           "isNew": false
         }
       ]
@@ -281,71 +281,71 @@
         {
           "rank": 1,
           "title": "泰国取消60日免签政策",
-          "heatText": "1207.4万热度值",
-          "heatValue": 1207.4,
+          "heatText": "1210.1万热度值",
+          "heatValue": 1210.1,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "福建迎来新一轮持续性强降雨",
-          "heatText": "1153.9万热度值",
-          "heatValue": 1153.9,
+          "title": "西藏泥石流21人遇难541人失联",
+          "heatText": "1201.4万热度值",
+          "heatValue": 1201.4,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "吉隆口岸核心区救援通道已抢通",
-          "heatText": "1104.1万热度值",
-          "heatValue": 1104.1,
+          "title": "餐车从定日来到吉隆",
+          "heatText": "1187.2万热度值",
+          "heatValue": 1187.2,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "浙江遭遇“隔山打牛式”特大暴雨",
-          "heatText": "1092.7万热度值",
-          "heatValue": 1092.7,
+          "title": "台风沙德尔或登陆粤东沿海",
+          "heatText": "1145.9万热度值",
+          "heatValue": 1145.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "普京硬核回应俄日关系恶化",
-          "heatText": "1034.3万热度值",
-          "heatValue": 1034.3,
+          "title": "原来是我们离不开孩子",
+          "heatText": "1058.6万热度值",
+          "heatValue": 1058.6,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "深圳校服为什么能火出圈",
-          "heatText": "1032.0万热度值",
-          "heatValue": 1032.0,
+          "title": "浙江遭遇“隔山打牛式”特大暴雨",
+          "heatText": "1043.6万热度值",
+          "heatValue": 1043.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "中国男篮亚运会12人名单出炉",
-          "heatText": "922.4万热度值",
-          "heatValue": 922.4,
+          "title": "9月将有2至3个台风登陆或影响我国",
+          "heatText": "932.8万热度值",
+          "heatValue": 932.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "9月将有2至3个台风登陆或影响我国",
-          "heatText": "912.7万热度值",
-          "heatValue": 912.7,
+          "title": "梅姨案已进入审判阶段",
+          "heatText": "918.0万热度值",
+          "heatValue": 918.0,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "我的开学第一课观后感",
-          "heatText": "893.8万热度值",
-          "heatValue": 893.8,
+          "title": "苹果官方X账号取关库克",
+          "heatText": "917.0万热度值",
+          "heatValue": 917.0,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "歌舞里的中华情",
-          "heatText": "879.8万热度值",
-          "heatValue": 879.8,
+          "title": "万物皆可贴秋膘",
+          "heatText": "914.4万热度值",
+          "heatValue": 914.4,
           "isNew": false
         }
       ]
@@ -506,7 +506,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "吉隆口岸核心区救援通道已抢通",
+      "title": "吉隆泥石流遇难21人失联541人",
       "rate": "极速",
       "platforms": [
         "weibo",
@@ -525,7 +525,7 @@
     },
     {
       "rank": 3,
-      "title": "福建迎来新一轮持续性强降雨",
+      "title": "餐车从定日来到吉隆",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -534,7 +534,7 @@
     },
     {
       "rank": 4,
-      "title": "富爸爸穷爸爸作者自曝负债12亿美元",
+      "title": "家长在班级群自报干部身份",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "温州苍南特大暴雨致积涝",
+      "title": "微信新功能专治各种看不见",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -552,6 +552,24 @@
     },
     {
       "rank": 6,
+      "title": "开局之年看山西",
+      "rate": "飙升",
+      "platforms": [
+        "weibo"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 7,
+      "title": "西藏泥石流21人遇难541人失联",
+      "rate": "飙升",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -561,19 +579,19 @@
     }
   ],
   "categoryStats": {
-    "政策": 8,
-    "社会": 44,
-    "灾害": 2,
+    "灾害": 7,
+    "政策": 4,
+    "社会": 41,
+    "科技": 4,
     "娱乐": 1,
-    "科技": 2,
     "科研": 1,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 107.3,
+    "weibo": 111.5,
     "zhihu": 741,
-    "douyin": 1207.4,
+    "douyin": 1210.1,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
