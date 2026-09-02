@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-02 10:01",
-  "updateTimestamp": 1788314492,
+  "updateTime": "2026-09-02 15:11",
+  "updateTimestamp": 1788333116,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,114 +11,115 @@
   "overall": [
     {
       "rank": 1,
-      "title": "台风",
-      "heatText": "综合热度 1262.5 万",
-      "heatValue": 1262.5,
+      "title": "福建福鼎强降雨积水漫过一楼",
+      "heatText": "综合热度 1184.7 万",
+      "heatValue": 1184.7,
       "platforms": [
-        "weibo",
         "douyin"
       ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：微博热搜热度 53.5万热度。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1184.7万热度值。"
     },
     {
       "rank": 2,
-      "title": "大连开海仪式太震撼了",
-      "heatText": "综合热度 1181.6 万",
-      "heatValue": 1181.6,
+      "title": "沙德尔将再度拐弯西移",
+      "heatText": "综合热度 1178.4 万",
+      "heatValue": 1178.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1181.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1178.4万热度值。"
     },
     {
       "rank": 3,
-      "title": "全力打通核心救援区的电力通道",
-      "heatText": "综合热度 1146.8 万",
-      "heatValue": 1146.8,
+      "title": "美军轰炸伊朗南部多地",
+      "heatText": "综合热度 1138.1 万",
+      "heatValue": 1138.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1146.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1138.1万热度值。"
     },
     {
       "rank": 4,
-      "title": "开学互助指南",
-      "heatText": "综合热度 1108.2 万",
-      "heatValue": 1108.2,
+      "title": "福建迎来新一轮持续性强降雨",
+      "heatText": "综合热度 1101.4 万",
+      "heatValue": 1101.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1108.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1101.4万热度值。"
     },
     {
       "rank": 5,
-      "title": "我的开学第一课观后感",
-      "heatText": "综合热度 1046.3 万",
-      "heatValue": 1046.3,
+      "title": "曼城官宣恩佐加盟",
+      "heatText": "综合热度 1035.0 万",
+      "heatValue": 1035.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1046.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1035.0万热度值。"
     },
     {
       "rank": 6,
       "title": "人会在自然里长出生命力",
-      "heatText": "综合热度 1042.2 万",
-      "heatValue": 1042.2,
+      "heatText": "综合热度 1024.6 万",
+      "heatValue": 1024.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1042.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1024.6万热度值。"
     },
     {
       "rank": 7,
-      "title": "媒体：皇马请使用“中国西藏”",
-      "heatText": "综合热度 925.2 万",
-      "heatValue": 925.2,
+      "title": "万千气象看北京",
+      "heatText": "综合热度 983.9 万",
+      "heatValue": 983.9,
       "platforms": [
+        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 925.2万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 69.0万热度。"
     },
     {
       "rank": 8,
-      "title": "比亚迪8月销量超44万辆",
-      "heatText": "综合热度 922.7 万",
-      "heatValue": 922.7,
+      "title": "反中乱港分子黄之锋当庭认罪",
+      "heatText": "综合热度 955.3 万",
+      "heatValue": 955.3,
       "platforms": [
+        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 922.7万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 42.7万热度。"
     },
     {
       "rank": 9,
-      "title": "智神星一号运载火箭首飞成功",
-      "heatText": "综合热度 918.9 万",
-      "heatValue": 918.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 918.9万热度值。"
-    },
-    {
-      "rank": 10,
-      "title": "开学的味道我知道",
+      "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 918.6万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
+    },
+    {
+      "rank": 10,
+      "title": "耗时三年拍下古诗词里的中国",
+      "heatText": "综合热度 907 万",
+      "heatValue": 907,
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 907万。"
     }
   ],
   "platforms": {
@@ -128,72 +129,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "早春晴朗第九集抽烟镜头被删了",
-          "heatText": "110.9万热度",
-          "heatValue": 110.9,
+          "title": "失联人员深埋巨石和淤泥之下",
+          "heatText": "116.8万热度",
+          "heatValue": 116.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "深圳校服火了背后是教育边界问题",
-          "heatText": "104.1万热度",
-          "heatValue": 104.1,
+          "title": "花儿与少年2026官宣",
+          "heatText": "82.6万热度",
+          "heatValue": 82.6,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "吉隆口岸上游堰塞湖已完全泄洪",
-          "heatText": "99.5万热度",
-          "heatValue": 99.5,
+          "title": "万千气象看北京",
+          "heatText": "69.0万热度",
+          "heatValue": 69.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "花少2被爆料大量未播细节",
-          "heatText": "99.4万热度",
-          "heatValue": 99.4,
+          "title": "小米澎程正式发布定档9月7日",
+          "heatText": "67.3万热度",
+          "heatValue": 67.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "多去接近你根本配不上的人",
-          "heatText": "99.1万热度",
-          "heatValue": 99.1,
+          "title": "许晴当年花少2发的动态",
+          "heatText": "66.0万热度",
+          "heatValue": 66.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "男子盘手串包浆后被妻子用刷子搓干净",
-          "heatText": "57.4万热度",
-          "heatValue": 57.4,
+          "title": "原来银行卡上的金色卡片是真金",
+          "heatText": "63.7万热度",
+          "heatValue": 63.7,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "罗永浩称手工耿是艺术家",
-          "heatText": "57.4万热度",
-          "heatValue": 57.4,
+          "title": "幼儿园里别人是水杯他是奶瓶",
+          "heatText": "54.1万热度",
+          "heatValue": 54.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "跟任何人相处都大大方方的秘诀",
-          "heatText": "55.3万热度",
-          "heatValue": 55.3,
+          "title": "王者荣耀典藏包第2弹现已上线",
+          "heatText": "51.8万热度",
+          "heatValue": 51.8,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "台风",
-          "heatText": "53.5万热度",
-          "heatValue": 53.5,
+          "title": "教体局介入家长群提议集资请保洁",
+          "heatText": "50.3万热度",
+          "heatValue": 50.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "宁静回应杨洋走丢",
-          "heatText": "53.2万热度",
-          "heatValue": 53.2,
+          "title": "反中乱港分子黄之锋当庭认罪",
+          "heatText": "42.7万热度",
+          "heatValue": 42.7,
           "isNew": false
         }
       ]
@@ -280,72 +281,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "新台风科罗旺生成",
-          "heatText": "1209.0万热度值",
-          "heatValue": 1209.0,
+          "title": "福建福鼎强降雨积水漫过一楼",
+          "heatText": "1184.7万热度值",
+          "heatValue": 1184.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "大连开海仪式太震撼了",
-          "heatText": "1181.6万热度值",
-          "heatValue": 1181.6,
+          "title": "沙德尔将再度拐弯西移",
+          "heatText": "1178.4万热度值",
+          "heatValue": 1178.4,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "全力打通核心救援区的电力通道",
-          "heatText": "1146.8万热度值",
-          "heatValue": 1146.8,
+          "title": "美军轰炸伊朗南部多地",
+          "heatText": "1138.1万热度值",
+          "heatValue": 1138.1,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "开学互助指南",
-          "heatText": "1108.2万热度值",
-          "heatValue": 1108.2,
+          "title": "福建迎来新一轮持续性强降雨",
+          "heatText": "1101.4万热度值",
+          "heatValue": 1101.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "我的开学第一课观后感",
-          "heatText": "1046.3万热度值",
-          "heatValue": 1046.3,
+          "title": "曼城官宣恩佐加盟",
+          "heatText": "1035.0万热度值",
+          "heatValue": 1035.0,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "人会在自然里长出生命力",
-          "heatText": "1042.2万热度值",
-          "heatValue": 1042.2,
+          "heatText": "1024.6万热度值",
+          "heatValue": 1024.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "媒体：皇马请使用“中国西藏”",
-          "heatText": "925.2万热度值",
-          "heatValue": 925.2,
+          "title": "万千气象看北京",
+          "heatText": "914.9万热度值",
+          "heatValue": 914.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "比亚迪8月销量超44万辆",
-          "heatText": "922.7万热度值",
-          "heatValue": 922.7,
+          "title": "黄之锋当庭认罪",
+          "heatText": "912.6万热度值",
+          "heatValue": 912.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "智神星一号运载火箭首飞成功",
-          "heatText": "918.9万热度值",
-          "heatValue": 918.9,
+          "title": "初秋叠穿我想好了",
+          "heatText": "906.7万热度值",
+          "heatValue": 906.7,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "开学的味道我知道",
-          "heatText": "918.6万热度值",
-          "heatValue": 918.6,
+          "title": "火影手游情报君萌黄cos",
+          "heatText": "899.8万热度值",
+          "heatValue": 899.8,
           "isNew": false
         }
       ]
@@ -506,17 +507,16 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "台风",
+      "title": "福建福鼎强降雨积水漫过一楼",
       "rate": "极速",
       "platforms": [
-        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 2,
-      "title": "大连开海仪式太震撼了",
+      "title": "沙德尔将再度拐弯西移",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -525,7 +525,7 @@
     },
     {
       "rank": 3,
-      "title": "全力打通核心救援区的电力通道",
+      "title": "美军轰炸伊朗南部多地",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -534,7 +534,7 @@
     },
     {
       "rank": 4,
-      "title": "早春晴朗第九集抽烟镜头被删了",
+      "title": "失联人员深埋巨石和淤泥之下",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "深圳校服火了背后是教育边界问题",
+      "title": "花儿与少年2026官宣",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -552,7 +552,7 @@
     },
     {
       "rank": 6,
-      "title": "吉隆口岸上游堰塞湖已完全泄洪",
+      "title": "万千气象看北京",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -561,15 +561,6 @@
     },
     {
       "rank": 7,
-      "title": "新台风科罗旺生成",
-      "rate": "飙升",
-      "platforms": [
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -579,19 +570,19 @@
     }
   ],
   "categoryStats": {
-    "灾害": 3,
-    "社会": 48,
+    "社会": 51,
+    "灾害": 1,
     "娱乐": 1,
-    "政策": 3,
     "科技": 2,
     "科研": 1,
+    "政策": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 110.9,
+    "weibo": 116.8,
     "zhihu": 741,
-    "douyin": 1209.0,
+    "douyin": 1184.7,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
