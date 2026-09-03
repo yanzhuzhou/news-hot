@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-03 08:24",
-  "updateTimestamp": 1788395073,
+  "updateTime": "2026-09-03 12:47",
+  "updateTimestamp": 1788410864,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,114 +11,114 @@
   "overall": [
     {
       "rank": 1,
-      "title": "台风沙德尔第3次登陆",
-      "heatText": "综合热度 1209.6 万",
-      "heatValue": 1209.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1209.6万热度值。"
-    },
-    {
-      "rank": 2,
-      "title": "西藏泥石流21人遇难541人失联",
-      "heatText": "综合热度 1198.9 万",
-      "heatValue": 1198.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1198.9万热度值。"
-    },
-    {
-      "rank": 3,
-      "title": "餐车从定日来到吉隆",
-      "heatText": "综合热度 1153.9 万",
-      "heatValue": 1153.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1153.9万热度值。"
-    },
-    {
-      "rank": 4,
-      "title": "香港演员刘兆铭去世",
-      "heatText": "综合热度 1141.5 万",
-      "heatValue": 1141.5,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "娱乐",
-      "desc": "跨平台热度话题：抖音热搜热度 1141.5万热度值。"
-    },
-    {
-      "rank": 5,
-      "title": "泰国取消60日免签政策",
-      "heatText": "综合热度 1066.7 万",
-      "heatValue": 1066.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1066.7万热度值。"
-    },
-    {
-      "rank": 6,
-      "title": "梅姨案已进入审判阶段",
-      "heatText": "综合热度 1057.3 万",
-      "heatValue": 1057.3,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1057.3万热度值。"
-    },
-    {
-      "rank": 7,
-      "title": "快船队被罚3000万美元",
-      "heatText": "综合热度 1022.9 万",
-      "heatValue": 1022.9,
+      "title": "微信 单删提示",
+      "heatText": "综合热度 1394.0 万",
+      "heatValue": 1394.0,
       "platforms": [
         "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 82.6万热度。"
+      "desc": "跨平台热度话题：微博热搜热度 614.4万热度。"
+    },
+    {
+      "rank": 2,
+      "title": "台风沙德尔第3次登陆",
+      "heatText": "综合热度 1177.5 万",
+      "heatValue": 1177.5,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1177.5万热度值。"
+    },
+    {
+      "rank": 3,
+      "title": "西藏泥石流21人遇难541人失联",
+      "heatText": "综合热度 1121.6 万",
+      "heatValue": 1121.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1121.6万热度值。"
+    },
+    {
+      "rank": 4,
+      "title": "秋粮主产区分类施策力夺丰收",
+      "heatText": "综合热度 1093.8 万",
+      "heatValue": 1093.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1093.8万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "梅姨案已进入审判阶段",
+      "heatText": "综合热度 1080.9 万",
+      "heatValue": 1080.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1080.9万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "中国人民抗战胜利81周年",
+      "heatText": "综合热度 1011.3 万",
+      "heatValue": 1011.3,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1011.3万热度值。"
+    },
+    {
+      "rank": 7,
+      "title": "用万能旅行拍照姿势美美出片",
+      "heatText": "综合热度 918.6 万",
+      "heatValue": 918.6,
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
       "rank": 8,
-      "title": "原来是我们离不开孩子",
-      "heatText": "综合热度 941.5 万",
-      "heatValue": 941.5,
+      "title": "耗时三年拍下古诗词里的中国",
+      "heatText": "综合热度 907 万",
+      "heatValue": 907,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 941.5万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
       "rank": 9,
-      "title": "初秋叠穿我想好了",
-      "heatText": "综合热度 936.4 万",
-      "heatValue": 936.4,
+      "title": "原来是我们离不开孩子",
+      "heatText": "综合热度 897.8 万",
+      "heatValue": 897.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 936.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 897.8万热度值。"
     },
     {
       "rank": 10,
-      "title": "浙江遭遇“隔山打牛式”特大暴雨",
-      "heatText": "综合热度 929.3 万",
-      "heatValue": 929.3,
+      "title": "我拍到了海鸥雨",
+      "heatText": "综合热度 887.5 万",
+      "heatValue": 887.5,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 929.3万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
     }
   ],
   "platforms": {
@@ -128,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "全球股市大反转",
-          "heatText": "111.1万热度",
-          "heatValue": 111.1,
+          "title": "微信 单删提示",
+          "heatText": "614.4万热度",
+          "heatValue": 614.4,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "快船队被罚3000万美元",
-          "heatText": "82.6万热度",
-          "heatValue": 82.6,
+          "title": "花少4 被低估",
+          "heatText": "148.1万热度",
+          "heatValue": 148.1,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "开局之年看山西",
-          "heatText": "79.6万热度",
-          "heatValue": 79.6,
+          "title": "19人搜救突击队如何挺进灾害核心区",
+          "heatText": "118.2万热度",
+          "heatValue": 118.2,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "难怪陈意涵花少2能一直忍着不闹脾气",
-          "heatText": "76.5万热度",
-          "heatValue": 76.5,
+          "title": "井柏然 升咖",
+          "heatText": "100.4万热度",
+          "heatValue": 100.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "好讨厌需要靠争抢来的东西",
-          "heatText": "58.6万热度",
-          "heatValue": 58.6,
+          "title": "这辈子最想撤回的一条外卖聊天记录",
+          "heatText": "64.8万热度",
+          "heatValue": 64.8,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "娄艺潇被积压12年的剧要播了",
-          "heatText": "38.5万热度",
-          "heatValue": 38.5,
+          "title": "陈意涵说杨洋走丢就是看的那样",
+          "heatText": "63.2万热度",
+          "heatValue": 63.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "李月汝护照遗失缺席世界杯",
-          "heatText": "32.0万热度",
-          "heatValue": 32.0,
+          "title": "福建内涝",
+          "heatText": "58.7万热度",
+          "heatValue": 58.7,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "花少2在保护艺人的情况下播出",
-          "heatText": "31.5万热度",
-          "heatValue": 31.5,
+          "title": "家长群自报干部身份纪检组介入调查",
+          "heatText": "47.4万热度",
+          "heatValue": 47.4,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "微信新功能专治各种看不见",
-          "heatText": "31.3万热度",
-          "heatValue": 31.3,
+          "title": "福州全市停课",
+          "heatText": "47.2万热度",
+          "heatValue": 47.2,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "宇树科技回应只有罚几乎没有奖",
-          "heatText": "29.9万热度",
-          "heatValue": 29.9,
+          "title": "曝华为Mate90系列提前发布",
+          "heatText": "46.9万热度",
+          "heatValue": 46.9,
           "isNew": false
         }
       ]
@@ -281,71 +281,71 @@
         {
           "rank": 1,
           "title": "台风沙德尔第3次登陆",
-          "heatText": "1209.6万热度值",
-          "heatValue": 1209.6,
+          "heatText": "1177.5万热度值",
+          "heatValue": 1177.5,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "西藏泥石流21人遇难541人失联",
-          "heatText": "1198.9万热度值",
-          "heatValue": 1198.9,
+          "heatText": "1121.6万热度值",
+          "heatValue": 1121.6,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "餐车从定日来到吉隆",
-          "heatText": "1153.9万热度值",
-          "heatValue": 1153.9,
+          "title": "秋粮主产区分类施策力夺丰收",
+          "heatText": "1093.8万热度值",
+          "heatValue": 1093.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "香港演员刘兆铭去世",
-          "heatText": "1141.5万热度值",
-          "heatValue": 1141.5,
+          "title": "梅姨案已进入审判阶段",
+          "heatText": "1080.9万热度值",
+          "heatValue": 1080.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "泰国取消60日免签政策",
-          "heatText": "1066.7万热度值",
-          "heatValue": 1066.7,
+          "title": "中国人民抗战胜利81周年",
+          "heatText": "1011.3万热度值",
+          "heatValue": 1011.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "梅姨案已进入审判阶段",
-          "heatText": "1057.3万热度值",
-          "heatValue": 1057.3,
+          "title": "原来是我们离不开孩子",
+          "heatText": "897.8万热度值",
+          "heatValue": 897.8,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "原来是我们离不开孩子",
-          "heatText": "941.5万热度值",
-          "heatValue": 941.5,
+          "title": "快船被罚5首轮和3000万美元",
+          "heatText": "783.9万热度值",
+          "heatValue": 783.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "快船被罚5首轮和3000万美元",
-          "heatText": "940.3万热度值",
-          "heatValue": 940.3,
+          "title": "香港演员刘兆铭去世",
+          "heatText": "783.4万热度值",
+          "heatValue": 783.4,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "初秋叠穿我想好了",
-          "heatText": "936.4万热度值",
-          "heatValue": 936.4,
+          "title": "微信回应单删提示",
+          "heatText": "779.6万热度值",
+          "heatValue": 779.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "浙江遭遇“隔山打牛式”特大暴雨",
-          "heatText": "929.3万热度值",
-          "heatValue": 929.3,
+          "title": "学校回应家长自报干部身份",
+          "heatText": "777.6万热度值",
+          "heatValue": 777.6,
           "isNew": false
         }
       ]
@@ -506,6 +506,16 @@
   "fastestGrowing": [
     {
       "rank": 1,
+      "title": "微信 单删提示",
+      "rate": "极速",
+      "platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
+    },
+    {
+      "rank": 2,
       "title": "台风沙德尔第3次登陆",
       "rate": "极速",
       "platforms": [
@@ -514,17 +524,8 @@
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
-      "rank": 2,
-      "title": "西藏泥石流21人遇难541人失联",
-      "rate": "极速",
-      "platforms": [
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
       "rank": 3,
-      "title": "餐车从定日来到吉隆",
+      "title": "西藏泥石流21人遇难541人失联",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -533,7 +534,7 @@
     },
     {
       "rank": 4,
-      "title": "全球股市大反转",
+      "title": "花少4 被低估",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -542,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "快船队被罚3000万美元",
+      "title": "19人搜救突击队如何挺进灾害核心区",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -551,10 +552,10 @@
     },
     {
       "rank": 6,
-      "title": "开局之年看山西",
+      "title": "秋粮主产区分类施策力夺丰收",
       "rate": "飙升",
       "platforms": [
-        "weibo"
+        "douyin"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
@@ -569,19 +570,19 @@
     }
   ],
   "categoryStats": {
-    "灾害": 4,
-    "社会": 40,
-    "娱乐": 5,
-    "政策": 5,
-    "财经": 2,
-    "科技": 2,
+    "社会": 43,
+    "灾害": 5,
+    "娱乐": 2,
+    "科技": 3,
     "科研": 1,
-    "体育": 1
+    "政策": 4,
+    "体育": 1,
+    "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 111.1,
+    "weibo": 614.4,
     "zhihu": 741,
-    "douyin": 1209.6,
+    "douyin": 1177.5,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
