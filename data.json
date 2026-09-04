@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-04 06:21",
-  "updateTimestamp": 1788474104,
+  "updateTime": "2026-09-04 08:12",
+  "updateTimestamp": 1788480763,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,69 +11,69 @@
   "overall": [
     {
       "rank": 1,
-      "title": "外交部正告日本右翼势力",
-      "heatText": "综合热度 1153.8 万",
-      "heatValue": 1153.8,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "时政",
-      "desc": "跨平台热度话题：抖音热搜热度 1153.8万热度值。"
-    },
-    {
-      "rank": 2,
-      "title": "看看你的暑期社会实践",
-      "heatText": "综合热度 1144.9 万",
-      "heatValue": 1144.9,
+      "title": "厄尔尼诺将发展为超强级别",
+      "heatText": "综合热度 1199.3 万",
+      "heatValue": 1199.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1144.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1199.3万热度值。"
+    },
+    {
+      "rank": 2,
+      "title": "等到了秋天我们再去散步好不好",
+      "heatText": "综合热度 1184.8 万",
+      "heatValue": 1184.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1184.8万热度值。"
     },
     {
       "rank": 3,
       "title": "促进中小企业发展十五五规划来了",
-      "heatText": "综合热度 1111.5 万",
-      "heatValue": 1111.5,
+      "heatText": "综合热度 1177.7 万",
+      "heatValue": 1177.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1111.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1177.7万热度值。"
     },
     {
       "rank": 4,
+      "title": "外交部正告日本右翼势力",
+      "heatText": "综合热度 1165.8 万",
+      "heatValue": 1165.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "时政",
+      "desc": "跨平台热度话题：抖音热搜热度 1165.8万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "看看你的暑期社会实践",
+      "heatText": "综合热度 1094.5 万",
+      "heatValue": 1094.5,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1094.5万热度值。"
+    },
+    {
+      "rank": 6,
       "title": "AI圈来了位天才",
-      "heatText": "综合热度 1084.5 万",
-      "heatValue": 1084.5,
+      "heatText": "综合热度 1064.9 万",
+      "heatValue": 1064.9,
       "platforms": [
         "douyin"
       ],
       "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 1084.5万热度值。"
-    },
-    {
-      "rank": 5,
-      "title": "等到了秋天我们再去散步好不好",
-      "heatText": "综合热度 1027.3 万",
-      "heatValue": 1027.3,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1027.3万热度值。"
-    },
-    {
-      "rank": 6,
-      "title": "在宿舍的第一个晚上",
-      "heatText": "综合热度 1021.9 万",
-      "heatValue": 1021.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1021.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1064.9万热度值。"
     },
     {
       "rank": 7,
@@ -88,36 +88,36 @@
     },
     {
       "rank": 8,
-      "title": "厄尔尼诺将发展为超强级别",
-      "heatText": "综合热度 912.7 万",
-      "heatValue": 912.7,
+      "title": "离家前的饺子是不舍的味道",
+      "heatText": "综合热度 917.7 万",
+      "heatValue": 917.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 912.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 917.7万热度值。"
     },
     {
       "rank": 9,
-      "title": "中国全额缴纳2026年联合国会费",
-      "heatText": "综合热度 909.9 万",
-      "heatValue": 909.9,
+      "title": "在宿舍的第一个晚上",
+      "heatText": "综合热度 913.6 万",
+      "heatValue": 913.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 909.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 913.6万热度值。"
     },
     {
       "rank": 10,
-      "title": "耗时三年拍下古诗词里的中国",
-      "heatText": "综合热度 907 万",
-      "heatValue": 907,
+      "title": "外交部驳斥越南西沙群岛主权主张",
+      "heatText": "综合热度 913.5 万",
+      "heatValue": 913.5,
       "platforms": [
-        "xiaohongshu"
+        "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 907万。"
+      "category": "时政",
+      "desc": "跨平台热度话题：抖音热搜热度 913.5万热度值。"
     }
   ],
   "platforms": {
@@ -128,71 +128,71 @@
         {
           "rank": 1,
           "title": "人人影视变正版了",
-          "heatText": "39.0万热度",
-          "heatValue": 39.0,
+          "heatText": "115.3万热度",
+          "heatValue": 115.3,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "没有人会教你真正核心的东西",
-          "heatText": "28.7万热度",
-          "heatValue": 28.7,
+          "title": "郑钦文首胜普丁塞娃",
+          "heatText": "85.9万热度",
+          "heatValue": 85.9,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "中埃两大文明双向奔赴",
-          "heatText": "23.0万热度",
-          "heatValue": 23.0,
+          "heatText": "63.6万热度",
+          "heatValue": 63.6,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "问界M9Ultimate展车进店",
-          "heatText": "19.8万热度",
-          "heatValue": 19.8,
+          "title": "武大大可不必等86页PDF逼出来",
+          "heatText": "60.7万热度",
+          "heatValue": 60.7,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "宁静内涵花少2有人干涉剪辑",
-          "heatText": "17.3万热度",
-          "heatValue": 17.3,
+          "title": "小米手环11",
+          "heatText": "55.9万热度",
+          "heatValue": 55.9,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "美网女单第二轮",
-          "heatText": "16.9万热度",
-          "heatValue": 16.9,
+          "title": "吉隆口岸淤泥里发现警服",
+          "heatText": "53.3万热度",
+          "heatValue": 53.3,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "人总是下意识地忽略自己的珍贵",
-          "heatText": "8.5万热度",
-          "heatValue": 8.5,
+          "title": "没有人会教你真正核心的东西",
+          "heatText": "46.8万热度",
+          "heatValue": 46.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "长生 退役",
-          "heatText": "8.2万热度",
-          "heatValue": 8.2,
+          "title": "普通人没必要追求电子产品顶配",
+          "heatText": "35.5万热度",
+          "heatValue": 35.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "普通人没必要追求电子产品顶配",
-          "heatText": "7.9万热度",
-          "heatValue": 7.9,
+          "title": "宁静内涵花少2有人干涉剪辑",
+          "heatText": "33.7万热度",
+          "heatValue": 33.7,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "刘琳评论区妈声一片",
-          "heatText": "7.4万热度",
-          "heatValue": 7.4,
+          "title": "林俊杰张凌赫逐玉的缘分",
+          "heatText": "31.5万热度",
+          "heatValue": 31.5,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "外交部正告日本右翼势力",
-          "heatText": "1153.8万热度值",
-          "heatValue": 1153.8,
+          "title": "厄尔尼诺将发展为超强级别",
+          "heatText": "1199.3万热度值",
+          "heatValue": 1199.3,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "看看你的暑期社会实践",
-          "heatText": "1144.9万热度值",
-          "heatValue": 1144.9,
+          "title": "等到了秋天我们再去散步好不好",
+          "heatText": "1184.8万热度值",
+          "heatValue": 1184.8,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "促进中小企业发展十五五规划来了",
-          "heatText": "1111.5万热度值",
-          "heatValue": 1111.5,
+          "heatText": "1177.7万热度值",
+          "heatValue": 1177.7,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "AI圈来了位天才",
-          "heatText": "1084.5万热度值",
-          "heatValue": 1084.5,
+          "title": "外交部正告日本右翼势力",
+          "heatText": "1165.8万热度值",
+          "heatValue": 1165.8,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "等到了秋天我们再去散步好不好",
-          "heatText": "1027.3万热度值",
-          "heatValue": 1027.3,
+          "title": "看看你的暑期社会实践",
+          "heatText": "1094.5万热度值",
+          "heatValue": 1094.5,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "在宿舍的第一个晚上",
-          "heatText": "1021.9万热度值",
-          "heatValue": 1021.9,
+          "title": "AI圈来了位天才",
+          "heatText": "1064.9万热度值",
+          "heatValue": 1064.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "厄尔尼诺将发展为超强级别",
-          "heatText": "912.7万热度值",
-          "heatValue": 912.7,
+          "title": "离家前的饺子是不舍的味道",
+          "heatText": "917.7万热度值",
+          "heatValue": 917.7,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "中国全额缴纳2026年联合国会费",
-          "heatText": "909.9万热度值",
-          "heatValue": 909.9,
+          "title": "在宿舍的第一个晚上",
+          "heatText": "913.6万热度值",
+          "heatValue": 913.6,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "外交部驳斥越南西沙群岛主权主张",
-          "heatText": "905.2万热度值",
-          "heatValue": 905.2,
+          "heatText": "913.5万热度值",
+          "heatValue": 913.5,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "全员进入Luke穿搭时代",
-          "heatText": "876.0万热度值",
-          "heatValue": 876.0,
+          "title": "中国驻俄使馆发布赴俄留学提醒",
+          "heatText": "910.7万热度值",
+          "heatValue": 910.7,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "外交部正告日本右翼势力",
+      "title": "厄尔尼诺将发展为超强级别",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "看看你的暑期社会实践",
+      "title": "等到了秋天我们再去散步好不好",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "没有人会教你真正核心的东西",
+      "title": "郑钦文首胜普丁塞娃",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -568,19 +568,19 @@
     }
   ],
   "categoryStats": {
-    "时政": 3,
-    "社会": 47,
+    "社会": 45,
+    "时政": 4,
     "科技": 4,
+    "科研": 2,
     "娱乐": 1,
-    "科研": 1,
     "政策": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 39.0,
+    "weibo": 115.3,
     "zhihu": 741,
-    "douyin": 1153.8,
+    "douyin": 1199.3,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
