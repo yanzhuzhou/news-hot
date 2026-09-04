@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-04 17:12",
-  "updateTimestamp": 1788513124,
+  "updateTime": "2026-09-04 21:38",
+  "updateTimestamp": 1788529088,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,69 +11,71 @@
   "overall": [
     {
       "rank": 1,
-      "title": "女篮世界杯中国vs美国",
-      "heatText": "综合热度 1098.8 万",
-      "heatValue": 1098.8,
+      "title": "中国女篮vs美国女篮",
+      "heatText": "综合热度 1201.3 万",
+      "heatValue": 1201.3,
       "platforms": [
+        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1098.8万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 47.7万热度。"
     },
     {
       "rank": 2,
-      "title": "各省文旅都成“搬运工”了",
-      "heatText": "综合热度 1036.5 万",
-      "heatValue": 1036.5,
+      "title": "吉隆泥石流遇难31人失联531人",
+      "heatText": "综合热度 1186.8 万",
+      "heatValue": 1186.8,
       "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1036.5万热度值。"
-    },
-    {
-      "rank": 3,
-      "title": "从六张网看投资向新向优",
-      "heatText": "综合热度 1034.7 万",
-      "heatValue": 1034.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1034.7万热度值。"
-    },
-    {
-      "rank": 4,
-      "title": "在世界最深实验室里寻找暗物质",
-      "heatText": "综合热度 1023.3 万",
-      "heatValue": 1023.3,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1023.3万热度值。"
-    },
-    {
-      "rank": 5,
-      "title": "当我有一件燕麦格雷外套",
-      "heatText": "综合热度 945.0 万",
-      "heatValue": 945.0,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 945.0万热度值。"
-    },
-    {
-      "rank": 6,
-      "title": "台风科罗旺逼近24小时警戒线",
-      "heatText": "综合热度 928.1 万",
-      "heatValue": 928.1,
-      "platforms": [
+        "weibo",
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 928.1万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 29.9万热度。"
+    },
+    {
+      "rank": 3,
+      "title": "22封请战书都是去吉隆",
+      "heatText": "综合热度 1110.5 万",
+      "heatValue": 1110.5,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1110.5万热度值。"
+    },
+    {
+      "rank": 4,
+      "title": "菲律宾副总统莎拉被下逮捕令",
+      "heatText": "综合热度 1071.8 万",
+      "heatValue": 1071.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1071.8万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "各省文旅都成“搬运工”了",
+      "heatText": "综合热度 1007.0 万",
+      "heatValue": 1007.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1007.0万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "中方将赴俄参加扫雷实兵演习",
+      "heatText": "综合热度 1002.4 万",
+      "heatValue": 1002.4,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "娱乐",
+      "desc": "跨平台热度话题：抖音热搜热度 1002.4万热度值。"
     },
     {
       "rank": 7,
@@ -99,6 +101,17 @@
     },
     {
       "rank": 9,
+      "title": "美国8月非农大超预期",
+      "heatText": "综合热度 889.3 万",
+      "heatValue": 889.3,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 889.3万热度值。"
+    },
+    {
+      "rank": 10,
       "title": "我拍到了海鸥雨",
       "heatText": "综合热度 887.5 万",
       "heatValue": 887.5,
@@ -107,17 +120,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
-    },
-    {
-      "rank": 10,
-      "title": "超日常美食教程速来get",
-      "heatText": "综合热度 867.6 万",
-      "heatValue": 867.6,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 867.6万。"
     }
   ],
   "platforms": {
@@ -127,72 +129,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "Pro Max大乱斗",
-          "heatText": "115.5万热度",
-          "heatValue": 115.5,
+          "title": "教育部回应教师不敢管学生",
+          "heatText": "110.9万热度",
+          "heatValue": 110.9,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "灵活就业人员医保新政来了",
-          "heatText": "81.5万热度",
-          "heatValue": 81.5,
+          "title": "栾念盯着前男友照顾尚之桃",
+          "heatText": "79.0万热度",
+          "heatValue": 79.0,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "吉隆口岸临时供电线路已抢通",
-          "heatText": "66.9万热度",
-          "heatValue": 66.9,
+          "title": "亚运会中国体育代表团成立现场图",
+          "heatText": "65.3万热度",
+          "heatValue": 65.3,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "问界M9Ultimate展车进店",
-          "heatText": "63.9万热度",
-          "heatValue": 63.9,
+          "title": "这季花少保好看的",
+          "heatText": "56.0万热度",
+          "heatValue": 56.0,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "井柏然直播澄清",
-          "heatText": "61.6万热度",
-          "heatValue": 61.6,
+          "title": "路人根本没兴趣和耐心回看花少6",
+          "heatText": "50.5万热度",
+          "heatValue": 50.5,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "有人想靠复盘花少6洗白",
-          "heatText": "60.5万热度",
-          "heatValue": 60.5,
+          "title": "中国女篮vs美国女篮",
+          "heatText": "47.7万热度",
+          "heatValue": 47.7,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "小姑娘第一天上幼儿园视频火了",
-          "heatText": "50.2万热度",
-          "heatValue": 50.2,
+          "title": "邓为花少8情商",
+          "heatText": "39.9万热度",
+          "heatValue": 39.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "李宇春三生花品牌全球代言人",
-          "heatText": "48.2万热度",
-          "heatValue": 48.2,
+          "title": "开学社团摸底小考",
+          "heatText": "34.6万热度",
+          "heatValue": 34.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "麻了开学第一天被学姐立规矩",
-          "heatText": "38.2万热度",
-          "heatValue": 38.2,
+          "title": "披荆斩棘直播",
+          "heatText": "33.5万热度",
+          "heatValue": 33.5,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "不敢相信这是合租房",
-          "heatText": "36.6万热度",
-          "heatValue": 36.6,
+          "title": "吉隆泥石流遇难31人失联531人",
+          "heatText": "29.9万热度",
+          "heatValue": 29.9,
           "isNew": false
         }
       ]
@@ -279,72 +281,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "女篮世界杯中国vs美国",
-          "heatText": "1098.8万热度值",
-          "heatValue": 1098.8,
+          "title": "西藏泥石流31人遇难531人失联",
+          "heatText": "1156.9万热度值",
+          "heatValue": 1156.9,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "各省文旅都成“搬运工”了",
-          "heatText": "1036.5万热度值",
-          "heatValue": 1036.5,
+          "title": "女篮世界杯中国vs美国",
+          "heatText": "1153.6万热度值",
+          "heatValue": 1153.6,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "从六张网看投资向新向优",
-          "heatText": "1034.7万热度值",
-          "heatValue": 1034.7,
+          "title": "22封请战书都是去吉隆",
+          "heatText": "1110.5万热度值",
+          "heatValue": 1110.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "在世界最深实验室里寻找暗物质",
-          "heatText": "1023.3万热度值",
-          "heatValue": 1023.3,
+          "title": "菲律宾副总统莎拉被下逮捕令",
+          "heatText": "1071.8万热度值",
+          "heatValue": 1071.8,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "当我有一件燕麦格雷外套",
-          "heatText": "945.0万热度值",
-          "heatValue": 945.0,
+          "title": "各省文旅都成“搬运工”了",
+          "heatText": "1007.0万热度值",
+          "heatValue": 1007.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "台风科罗旺逼近24小时警戒线",
-          "heatText": "928.1万热度值",
-          "heatValue": 928.1,
+          "title": "中方将赴俄参加扫雷实兵演习",
+          "heatText": "1002.4万热度值",
+          "heatValue": 1002.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "女高音歌唱家龚爽去世",
-          "heatText": "811.5万热度值",
-          "heatValue": 811.5,
+          "title": "美国8月非农大超预期",
+          "heatText": "889.3万热度值",
+          "heatValue": 889.3,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "菲律宾副总统莎拉被下逮捕令",
-          "heatText": "792.6万热度值",
-          "heatValue": 792.6,
+          "title": "在世界最深实验室里寻找暗物质",
+          "heatText": "878.0万热度值",
+          "heatValue": 878.0,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "张雪机车出战大海道越野拉力赛",
-          "heatText": "785.7万热度值",
-          "heatValue": 785.7,
+          "title": "9月11日24时油价预计上涨",
+          "heatText": "874.1万热度值",
+          "heatValue": 874.1,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "薪火相传我们的长征故事",
-          "heatText": "780.5万热度值",
-          "heatValue": 780.5,
+          "title": "多国从美国运回黄金",
+          "heatText": "842.0万热度值",
+          "heatValue": 842.0,
           "isNew": false
         }
       ]
@@ -505,25 +507,27 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "女篮世界杯中国vs美国",
+      "title": "中国女篮vs美国女篮",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
-      "title": "各省文旅都成“搬运工”了",
+      "title": "吉隆泥石流遇难31人失联531人",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 3,
-      "title": "从六张网看投资向新向优",
+      "title": "22封请战书都是去吉隆",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +536,7 @@
     },
     {
       "rank": 4,
-      "title": "Pro Max大乱斗",
+      "title": "教育部回应教师不敢管学生",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +545,7 @@
     },
     {
       "rank": 5,
-      "title": "灵活就业人员医保新政来了",
+      "title": "栾念盯着前男友照顾尚之桃",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +554,7 @@
     },
     {
       "rank": 6,
-      "title": "吉隆口岸临时供电线路已抢通",
+      "title": "亚运会中国体育代表团成立现场图",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -559,6 +563,24 @@
     },
     {
       "rank": 7,
+      "title": "西藏泥石流31人遇难531人失联",
+      "rate": "飙升",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 8,
+      "title": "女篮世界杯中国vs美国",
+      "rate": "飙升",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 9,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -568,19 +590,19 @@
     }
   ],
   "categoryStats": {
-    "社会": 50,
-    "灾害": 2,
-    "娱乐": 1,
+    "社会": 42,
+    "灾害": 3,
+    "娱乐": 5,
+    "政策": 3,
+    "体育": 2,
     "科技": 2,
     "科研": 1,
-    "政策": 2,
-    "体育": 1,
-    "财经": 1
+    "财经": 2
   },
   "platformHeatStats": {
-    "weibo": 115.5,
+    "weibo": 110.9,
     "zhihu": 741,
-    "douyin": 1098.8,
+    "douyin": 1156.9,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
