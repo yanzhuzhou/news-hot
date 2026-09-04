@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-04 08:12",
-  "updateTimestamp": 1788480763,
+  "updateTime": "2026-09-04 12:49",
+  "updateTimestamp": 1788497367,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,113 +11,115 @@
   "overall": [
     {
       "rank": 1,
-      "title": "厄尔尼诺将发展为超强级别",
-      "heatText": "综合热度 1199.3 万",
-      "heatValue": 1199.3,
+      "title": "吉隆泥石流灾害核心区恢复供电",
+      "heatText": "综合热度 1316.1 万",
+      "heatValue": 1316.1,
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1199.3万热度值。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：微博热搜热度 135.9万热度。"
     },
     {
       "rank": 2,
-      "title": "等到了秋天我们再去散步好不好",
-      "heatText": "综合热度 1184.8 万",
-      "heatValue": 1184.8,
+      "title": "各省文旅都成“搬运工”了",
+      "heatText": "综合热度 1210.6 万",
+      "heatValue": 1210.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1184.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.6万热度值。"
     },
     {
       "rank": 3,
-      "title": "促进中小企业发展十五五规划来了",
-      "heatText": "综合热度 1177.7 万",
-      "heatValue": 1177.7,
+      "title": "女篮世界杯中国vs美国",
+      "heatText": "综合热度 1210.5 万",
+      "heatValue": 1210.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1177.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.5万热度值。"
     },
     {
       "rank": 4,
-      "title": "外交部正告日本右翼势力",
-      "heatText": "综合热度 1165.8 万",
-      "heatValue": 1165.8,
+      "title": "厄尔尼诺将发展为超强级别",
+      "heatText": "综合热度 1168.2 万",
+      "heatValue": 1168.2,
       "platforms": [
         "douyin"
       ],
-      "category": "时政",
-      "desc": "跨平台热度话题：抖音热搜热度 1165.8万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1168.2万热度值。"
     },
     {
       "rank": 5,
-      "title": "看看你的暑期社会实践",
-      "heatText": "综合热度 1094.5 万",
-      "heatValue": 1094.5,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1094.5万热度值。"
-    },
-    {
-      "rank": 6,
-      "title": "AI圈来了位天才",
-      "heatText": "综合热度 1064.9 万",
-      "heatValue": 1064.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 1064.9万热度值。"
-    },
-    {
-      "rank": 7,
-      "title": "用万能旅行拍照姿势美美出片",
-      "heatText": "综合热度 918.6 万",
-      "heatValue": 918.6,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
-    },
-    {
-      "rank": 8,
-      "title": "离家前的饺子是不舍的味道",
-      "heatText": "综合热度 917.7 万",
-      "heatValue": 917.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 917.7万热度值。"
-    },
-    {
-      "rank": 9,
-      "title": "在宿舍的第一个晚上",
-      "heatText": "综合热度 913.6 万",
-      "heatValue": 913.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 913.6万热度值。"
-    },
-    {
-      "rank": 10,
       "title": "外交部驳斥越南西沙群岛主权主张",
-      "heatText": "综合热度 913.5 万",
-      "heatValue": 913.5,
+      "heatText": "综合热度 1085.1 万",
+      "heatValue": 1085.1,
       "platforms": [
         "douyin"
       ],
       "category": "时政",
-      "desc": "跨平台热度话题：抖音热搜热度 913.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1085.1万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "龚爽去世",
+      "heatText": "综合热度 1076.8 万",
+      "heatValue": 1076.8,
+      "platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：微博热搜热度 138.4万热度。"
+    },
+    {
+      "rank": 7,
+      "title": "福州的雨势为何如此凶猛",
+      "heatText": "综合热度 1059.6 万",
+      "heatValue": 1059.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1059.6万热度值。"
+    },
+    {
+      "rank": 8,
+      "title": "人民锐评饭圈霸占12345",
+      "heatText": "综合热度 938.1 万",
+      "heatValue": 938.1,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 938.1万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "台风科罗旺逼近24小时警戒线",
+      "heatText": "综合热度 930.9 万",
+      "heatValue": 930.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 930.9万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "等到了秋天我们再去散步好不好",
+      "heatText": "综合热度 928.4 万",
+      "heatValue": 928.4,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 928.4万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +129,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "人人影视变正版了",
-          "heatText": "115.3万热度",
-          "heatValue": 115.3,
+          "title": "男子欠债想轻生学胖东来还清105万",
+          "heatText": "139.1万热度",
+          "heatValue": 139.1,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "郑钦文首胜普丁塞娃",
-          "heatText": "85.9万热度",
-          "heatValue": 85.9,
+          "title": "龚爽去世",
+          "heatText": "138.4万热度",
+          "heatValue": 138.4,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "中埃两大文明双向奔赴",
-          "heatText": "63.6万热度",
-          "heatValue": 63.6,
+          "title": "吉隆泥石流灾害核心区恢复供电",
+          "heatText": "135.9万热度",
+          "heatValue": 135.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "武大大可不必等86页PDF逼出来",
-          "heatText": "60.7万热度",
-          "heatValue": 60.7,
+          "title": "这季花少保好看的",
+          "heatText": "135.7万热度",
+          "heatValue": 135.7,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "小米手环11",
-          "heatText": "55.9万热度",
-          "heatValue": 55.9,
+          "title": "武大举报事件男方为安徽大学副校长",
+          "heatText": "135.6万热度",
+          "heatValue": 135.6,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "吉隆口岸淤泥里发现警服",
-          "heatText": "53.3万热度",
-          "heatValue": 53.3,
+          "title": "韩警方认定遇害女生与嫌犯曾是恋人",
+          "heatText": "113.4万热度",
+          "heatValue": 113.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "没有人会教你真正核心的东西",
-          "heatText": "46.8万热度",
-          "heatValue": 46.8,
+          "title": "王楚钦因伤退出澳门冠军赛",
+          "heatText": "91.0万热度",
+          "heatValue": 91.0,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "普通人没必要追求电子产品顶配",
-          "heatText": "35.5万热度",
-          "heatValue": 35.5,
+          "title": "孟子义红之品牌代言人",
+          "heatText": "90.5万热度",
+          "heatValue": 90.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "宁静内涵花少2有人干涉剪辑",
-          "heatText": "33.7万热度",
-          "heatValue": 33.7,
+          "title": "毛阿敏对许晴称呼的变化",
+          "heatText": "81.4万热度",
+          "heatValue": 81.4,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "林俊杰张凌赫逐玉的缘分",
-          "heatText": "31.5万热度",
-          "heatValue": 31.5,
+          "title": "婚外胚胎案",
+          "heatText": "81.3万热度",
+          "heatValue": 81.3,
           "isNew": false
         }
       ]
@@ -279,72 +281,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "厄尔尼诺将发展为超强级别",
-          "heatText": "1199.3万热度值",
-          "heatValue": 1199.3,
+          "title": "各省文旅都成“搬运工”了",
+          "heatText": "1210.6万热度值",
+          "heatValue": 1210.6,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "等到了秋天我们再去散步好不好",
-          "heatText": "1184.8万热度值",
-          "heatValue": 1184.8,
+          "title": "女篮世界杯中国vs美国",
+          "heatText": "1210.5万热度值",
+          "heatValue": 1210.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "促进中小企业发展十五五规划来了",
-          "heatText": "1177.7万热度值",
-          "heatValue": 1177.7,
+          "title": "西藏吉隆泥石流灾害核心区通电",
+          "heatText": "1180.2万热度值",
+          "heatValue": 1180.2,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "外交部正告日本右翼势力",
-          "heatText": "1165.8万热度值",
-          "heatValue": 1165.8,
+          "title": "厄尔尼诺将发展为超强级别",
+          "heatText": "1168.2万热度值",
+          "heatValue": 1168.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "看看你的暑期社会实践",
-          "heatText": "1094.5万热度值",
-          "heatValue": 1094.5,
+          "title": "外交部驳斥越南西沙群岛主权主张",
+          "heatText": "1085.1万热度值",
+          "heatValue": 1085.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "AI圈来了位天才",
-          "heatText": "1064.9万热度值",
-          "heatValue": 1064.9,
+          "title": "福州的雨势为何如此凶猛",
+          "heatText": "1059.6万热度值",
+          "heatValue": 1059.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "离家前的饺子是不舍的味道",
-          "heatText": "917.7万热度值",
-          "heatValue": 917.7,
+          "title": "女高音歌唱家龚爽去世",
+          "heatText": "938.4万热度值",
+          "heatValue": 938.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "在宿舍的第一个晚上",
-          "heatText": "913.6万热度值",
-          "heatValue": 913.6,
+          "title": "人民锐评饭圈霸占12345",
+          "heatText": "938.1万热度值",
+          "heatValue": 938.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "外交部驳斥越南西沙群岛主权主张",
-          "heatText": "913.5万热度值",
-          "heatValue": 913.5,
+          "title": "台风科罗旺逼近24小时警戒线",
+          "heatText": "930.9万热度值",
+          "heatValue": 930.9,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "中国驻俄使馆发布赴俄留学提醒",
-          "heatText": "910.7万热度值",
-          "heatValue": 910.7,
+          "title": "等到了秋天我们再去散步好不好",
+          "heatText": "928.4万热度值",
+          "heatValue": 928.4,
           "isNew": false
         }
       ]
@@ -505,16 +507,17 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "厄尔尼诺将发展为超强级别",
+      "title": "吉隆泥石流灾害核心区恢复供电",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
-      "title": "等到了秋天我们再去散步好不好",
+      "title": "各省文旅都成“搬运工”了",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +526,7 @@
     },
     {
       "rank": 3,
-      "title": "促进中小企业发展十五五规划来了",
+      "title": "女篮世界杯中国vs美国",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +535,7 @@
     },
     {
       "rank": 4,
-      "title": "人人影视变正版了",
+      "title": "男子欠债想轻生学胖东来还清105万",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +544,7 @@
     },
     {
       "rank": 5,
-      "title": "郑钦文首胜普丁塞娃",
+      "title": "龚爽去世",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,10 +553,10 @@
     },
     {
       "rank": 6,
-      "title": "中埃两大文明双向奔赴",
+      "title": "西藏吉隆泥石流灾害核心区通电",
       "rate": "飙升",
       "platforms": [
-        "weibo"
+        "douyin"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
@@ -568,19 +571,20 @@
     }
   ],
   "categoryStats": {
-    "社会": 45,
-    "时政": 4,
-    "科技": 4,
-    "科研": 2,
+    "灾害": 5,
+    "社会": 44,
+    "时政": 2,
     "娱乐": 1,
+    "体育": 2,
+    "科技": 2,
+    "科研": 1,
     "政策": 2,
-    "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 115.3,
+    "weibo": 139.1,
     "zhihu": 741,
-    "douyin": 1199.3,
+    "douyin": 1210.6,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
