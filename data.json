@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-05 19:19",
-  "updateTimestamp": 1788607163,
+  "updateTime": "2026-09-05 21:55",
+  "updateTimestamp": 1788616548,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,72 +11,84 @@
   "overall": [
     {
       "rank": 1,
-      "title": "台风科罗旺突破24小时警戒线",
-      "heatText": "综合热度 1211.8 万",
-      "heatValue": 1211.8,
+      "title": "张雪机车德比斯第一回合季军",
+      "heatText": "综合热度 1250.2 万",
+      "heatValue": 1250.2,
+      "platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：微博热搜热度 39.2万热度。"
+    },
+    {
+      "rank": 2,
+      "title": "福建莆田多地出现洪涝灾害",
+      "heatText": "综合热度 1210.4 万",
+      "heatValue": 1210.4,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1211.8万热度值。"
-    },
-    {
-      "rank": 2,
-      "title": "泡椒美食唤醒我的舌尖味蕾",
-      "heatText": "综合热度 1148.5 万",
-      "heatValue": 1148.5,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1148.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.4万热度值。"
     },
     {
       "rank": 3,
-      "title": "数说中埃经贸",
-      "heatText": "综合热度 1111.7 万",
-      "heatValue": 1111.7,
+      "title": "我国将加快建设六张网项目库",
+      "heatText": "综合热度 1198.5 万",
+      "heatValue": 1198.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1111.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1198.5万热度值。"
     },
     {
       "rank": 4,
-      "title": "你在哪里追秋",
-      "heatText": "综合热度 1107.4 万",
-      "heatValue": 1107.4,
+      "title": "台风科罗旺突破24小时警戒线",
+      "heatText": "综合热度 1198.4 万",
+      "heatValue": 1198.4,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1107.4万热度值。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1198.4万热度值。"
     },
     {
       "rank": 5,
-      "title": "新闻联播",
-      "heatText": "综合热度 1022.8 万",
-      "heatValue": 1022.8,
+      "title": "这届农人是懂丰收的",
+      "heatText": "综合热度 1132.5 万",
+      "heatValue": 1132.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1022.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1132.5万热度值。"
     },
     {
       "rank": 6,
-      "title": "一场直播看遍院团好戏",
-      "heatText": "综合热度 1019.2 万",
-      "heatValue": 1019.2,
+      "title": "你在哪里追秋",
+      "heatText": "综合热度 1126.2 万",
+      "heatValue": 1126.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1019.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1126.2万热度值。"
     },
     {
       "rank": 7,
+      "title": "今天妆容先入秋",
+      "heatText": "综合热度 938.5 万",
+      "heatValue": 938.5,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 938.5万热度值。"
+    },
+    {
+      "rank": 8,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -87,18 +99,18 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 8,
-      "title": "尼泊尔泥石流1名受困中国公民获救",
-      "heatText": "综合热度 909.5 万",
-      "heatValue": 909.5,
+      "rank": 9,
+      "title": "迪迦你好我已经长大了",
+      "heatText": "综合热度 917.9 万",
+      "heatValue": 917.9,
       "platforms": [
         "douyin"
       ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 909.5万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 917.9万热度值。"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -107,17 +119,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
-    },
-    {
-      "rank": 10,
-      "title": "狄龙vs白晶百分大战",
-      "heatText": "综合热度 893.5 万",
-      "heatValue": 893.5,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 893.5万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "字节跳动 战略性怀孕",
-          "heatText": "123.2万热度",
-          "heatValue": 123.2,
+          "title": "避孕药 血栓",
+          "heatText": "138.5万热度",
+          "heatValue": 138.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "女子停捐不到一个月被催捐",
-          "heatText": "104.2万热度",
-          "heatValue": 104.2,
+          "title": "披荆斩棘直播",
+          "heatText": "90.7万热度",
+          "heatValue": 90.7,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "青春华章因创新更燃",
-          "heatText": "66.4万热度",
-          "heatValue": 66.4,
+          "title": "青春华章",
+          "heatText": "81.4万热度",
+          "heatValue": 81.4,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "iG战胜TES",
-          "heatText": "62.8万热度",
-          "heatValue": 62.8,
+          "title": "启境GX7阔五座智能百变SUV",
+          "heatText": "81.3万热度",
+          "heatValue": 81.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "女子吃避孕药后久坐旅游患肺栓塞",
-          "heatText": "56.2万热度",
-          "heatValue": 56.2,
+          "title": "张雅琪被花少8剪掉了",
+          "heatText": "80.0万热度",
+          "heatValue": 80.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "设计师称中国客厅已失去意义",
-          "heatText": "47.5万热度",
-          "heatValue": 47.5,
+          "title": "苹果折叠手机价格",
+          "heatText": "79.4万热度",
+          "heatValue": 79.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "创作官次元产粮局",
-          "heatText": "47.0万热度",
-          "heatValue": 47.0,
+          "title": "运动手环 皮炎",
+          "heatText": "78.0万热度",
+          "heatValue": 78.0,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "第一批戴运动手环的受害者出现了",
-          "heatText": "45.7万热度",
-          "heatValue": 45.7,
+          "title": "披荆斩棘二公团魂在燃烧",
+          "heatText": "76.5万热度",
+          "heatValue": 76.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "中级财管",
-          "heatText": "42.4万热度",
-          "heatValue": 42.4,
+          "title": "才知道陈妍希儿子名字陈睦辰",
+          "heatText": "71.9万热度",
+          "heatValue": 71.9,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "胡锡进谈取消英语主科地位",
-          "heatText": "30.8万热度",
-          "heatValue": 30.8,
+          "title": "张雪机车德比斯第一回合季军",
+          "heatText": "39.2万热度",
+          "heatValue": 39.2,
           "isNew": false
         }
       ]
@@ -279,72 +280,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "台风科罗旺突破24小时警戒线",
-          "heatText": "1211.8万热度值",
-          "heatValue": 1211.8,
+          "title": "张雪机车法国站第一回合第三名",
+          "heatText": "1211.0万热度值",
+          "heatValue": 1211.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "泡椒美食唤醒我的舌尖味蕾",
-          "heatText": "1148.5万热度值",
-          "heatValue": 1148.5,
+          "title": "福建莆田多地出现洪涝灾害",
+          "heatText": "1210.4万热度值",
+          "heatValue": 1210.4,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "数说中埃经贸",
-          "heatText": "1111.7万热度值",
-          "heatValue": 1111.7,
+          "title": "我国将加快建设六张网项目库",
+          "heatText": "1198.5万热度值",
+          "heatValue": 1198.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "你在哪里追秋",
-          "heatText": "1107.4万热度值",
-          "heatValue": 1107.4,
+          "title": "台风科罗旺突破24小时警戒线",
+          "heatText": "1198.4万热度值",
+          "heatValue": 1198.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "新闻联播",
-          "heatText": "1022.8万热度值",
-          "heatValue": 1022.8,
+          "title": "这届农人是懂丰收的",
+          "heatText": "1132.5万热度值",
+          "heatValue": 1132.5,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "一场直播看遍院团好戏",
-          "heatText": "1019.2万热度值",
-          "heatValue": 1019.2,
+          "title": "你在哪里追秋",
+          "heatText": "1126.2万热度值",
+          "heatValue": 1126.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "尼泊尔泥石流1名受困中国公民获救",
-          "heatText": "909.5万热度值",
-          "heatValue": 909.5,
+          "title": "今天妆容先入秋",
+          "heatText": "938.5万热度值",
+          "heatValue": 938.5,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "狄龙vs白晶百分大战",
-          "heatText": "893.5万热度值",
-          "heatValue": 893.5,
+          "title": "迪迦你好我已经长大了",
+          "heatText": "917.9万热度值",
+          "heatValue": 917.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "迪迦你好我已经长大了",
-          "heatText": "877.3万热度值",
-          "heatValue": 877.3,
+          "title": "超强厄尔尼诺事件有哪些影响",
+          "heatText": "897.9万热度值",
+          "heatValue": 897.9,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "今天妆容先入秋",
-          "heatText": "872.3万热度值",
-          "heatValue": 872.3,
+          "title": "泡椒美食唤醒我的舌尖味蕾",
+          "heatText": "889.3万热度值",
+          "heatValue": 889.3,
           "isNew": false
         }
       ]
@@ -505,16 +506,17 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "台风科罗旺突破24小时警戒线",
+      "title": "张雪机车德比斯第一回合季军",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
-      "title": "泡椒美食唤醒我的舌尖味蕾",
+      "title": "福建莆田多地出现洪涝灾害",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +525,7 @@
     },
     {
       "rank": 3,
-      "title": "数说中埃经贸",
+      "title": "我国将加快建设六张网项目库",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +534,7 @@
     },
     {
       "rank": 4,
-      "title": "字节跳动 战略性怀孕",
+      "title": "避孕药 血栓",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "女子停捐不到一个月被催捐",
+      "title": "披荆斩棘直播",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +552,7 @@
     },
     {
       "rank": 6,
-      "title": "青春华章因创新更燃",
+      "title": "青春华章",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -559,6 +561,15 @@
     },
     {
       "rank": 7,
+      "title": "张雪机车法国站第一回合第三名",
+      "rate": "飙升",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -568,18 +579,19 @@
     }
   ],
   "categoryStats": {
+    "社会": 46,
     "灾害": 4,
-    "社会": 47,
+    "娱乐": 1,
     "科技": 3,
-    "政策": 3,
     "科研": 1,
+    "政策": 3,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 123.2,
+    "weibo": 138.5,
     "zhihu": 741,
-    "douyin": 1211.8,
+    "douyin": 1211.0,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
