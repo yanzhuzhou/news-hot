@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-06 00:25",
-  "updateTimestamp": 1788625513,
+  "updateTime": "2026-09-06 02:28",
+  "updateTimestamp": 1788632884,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,113 +12,113 @@
     {
       "rank": 1,
       "title": "郑钦文vs凯斯",
-      "heatText": "综合热度 1275.3 万",
-      "heatValue": 1275.3,
+      "heatText": "综合热度 1361.0 万",
+      "heatValue": 1361.0,
       "platforms": [
         "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 64.8万热度。"
+      "desc": "跨平台热度话题：微博热搜热度 111.7万热度。"
     },
     {
       "rank": 2,
-      "title": "张雪机车法国站第一回合第三名",
-      "heatText": "综合热度 1218.7 万",
-      "heatValue": 1218.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1218.7万热度值。"
-    },
-    {
-      "rank": 3,
-      "title": "我国将加快建设六张网项目库",
-      "heatText": "综合热度 1209.2 万",
-      "heatValue": 1209.2,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1209.2万热度值。"
-    },
-    {
-      "rank": 4,
       "title": "福建莆田多地出现洪涝灾害",
-      "heatText": "综合热度 1187.2 万",
-      "heatValue": 1187.2,
+      "heatText": "综合热度 1210.9 万",
+      "heatValue": 1210.9,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1187.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.9万热度值。"
     },
     {
-      "rank": 5,
-      "title": "这届农人是懂丰收的",
-      "heatText": "综合热度 1071.0 万",
-      "heatValue": 1071.0,
+      "rank": 3,
+      "title": "我国将加快建设六张网项目库",
+      "heatText": "综合热度 1199.8 万",
+      "heatValue": 1199.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1071.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1199.8万热度值。"
+    },
+    {
+      "rank": 4,
+      "title": "这届农人是懂丰收的",
+      "heatText": "综合热度 1151.7 万",
+      "heatValue": 1151.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1151.7万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "张雪机车法国站第一回合第三名",
+      "heatText": "综合热度 1057.3 万",
+      "heatValue": 1057.3,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "政策",
+      "desc": "跨平台热度话题：抖音热搜热度 1057.3万热度值。"
     },
     {
       "rank": 6,
       "title": "你在哪里追秋",
-      "heatText": "综合热度 1050.8 万",
-      "heatValue": 1050.8,
+      "heatText": "综合热度 1044.6 万",
+      "heatValue": 1044.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1050.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1044.6万热度值。"
     },
     {
       "rank": 7,
       "title": "今天妆容先入秋",
-      "heatText": "综合热度 938.5 万",
-      "heatValue": 938.5,
+      "heatText": "综合热度 919.8 万",
+      "heatValue": 919.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 938.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 919.8万热度值。"
     },
     {
       "rank": 8,
-      "title": "迪迦你好我已经长大了",
-      "heatText": "综合热度 935.7 万",
-      "heatValue": 935.7,
+      "title": "用万能旅行拍照姿势美美出片",
+      "heatText": "综合热度 918.6 万",
+      "heatValue": 918.6,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 935.7万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
       "rank": 9,
-      "title": "超强厄尔尼诺事件有哪些影响",
-      "heatText": "综合热度 933.6 万",
-      "heatValue": 933.6,
+      "title": "耗时三年拍下古诗词里的中国",
+      "heatText": "综合热度 907 万",
+      "heatValue": 907,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 933.6万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
       "rank": 10,
-      "title": "新型“鼻炎针”能根治过敏吗",
-      "heatText": "综合热度 921.9 万",
-      "heatValue": 921.9,
+      "title": "我拍到了海鸥雨",
+      "heatText": "综合热度 887.5 万",
+      "heatValue": 887.5,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 921.9万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
     }
   ],
   "platforms": {
@@ -128,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "贵中医二附院被捅伤医生仍在抢救",
-          "heatText": "187.0万热度",
-          "heatValue": 187.0,
+          "title": "郑钦文vs凯斯",
+          "heatText": "111.7万热度",
+          "heatValue": 111.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "叶润泽淘汰",
-          "heatText": "97.9万热度",
-          "heatValue": 97.9,
+          "title": "郑钦文美网惊天逆转",
+          "heatText": "103.3万热度",
+          "heatValue": 103.3,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "青春华章",
-          "heatText": "92.3万热度",
-          "heatValue": 92.3,
+          "heatText": "81.0万热度",
+          "heatValue": 81.0,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "葫芦娃爷爷把葫芦剪掉了目击者发声",
-          "heatText": "87.8万热度",
-          "heatValue": 87.8,
+          "heatText": "62.4万热度",
+          "heatValue": 62.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "编制不等于绝对稳定",
-          "heatText": "87.5万热度",
-          "heatValue": 87.5,
+          "title": "郑钦文凯斯决胜盘",
+          "heatText": "38.3万热度",
+          "heatValue": 38.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "避孕药 血栓",
-          "heatText": "80.9万热度",
-          "heatValue": 80.9,
+          "title": "张雅琪被花少8剪掉了",
+          "heatText": "28.7万热度",
+          "heatValue": 28.7,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "张雅琪被花少8剪掉了",
-          "heatText": "66.8万热度",
-          "heatValue": 66.8,
+          "title": "编制不等于绝对稳定",
+          "heatText": "25.4万热度",
+          "heatValue": 25.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "我一个变态的都觉得变态",
-          "heatText": "65.0万热度",
-          "heatValue": 65.0,
+          "title": "避孕药 血栓",
+          "heatText": "23.2万热度",
+          "heatValue": 23.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "樊振东先后击败鲁伊斯和杜达",
-          "heatText": "64.8万热度",
-          "heatValue": 64.8,
+          "title": "叶润泽淘汰",
+          "heatText": "19.6万热度",
+          "heatValue": 19.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "郑钦文vs凯斯",
-          "heatText": "64.8万热度",
-          "heatValue": 64.8,
+          "title": "iG进冒泡赛难度提升",
+          "heatText": "16.7万热度",
+          "heatValue": 16.7,
           "isNew": false
         }
       ]
@@ -280,72 +280,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "张雪机车法国站第一回合第三名",
-          "heatText": "1218.7万热度值",
-          "heatValue": 1218.7,
+          "title": "郑钦文逆转战胜凯斯",
+          "heatText": "1211.0万热度值",
+          "heatValue": 1211.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "郑钦文美网对决凯斯",
-          "heatText": "1210.5万热度值",
-          "heatValue": 1210.5,
+          "title": "福建莆田多地出现洪涝灾害",
+          "heatText": "1210.9万热度值",
+          "heatValue": 1210.9,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "我国将加快建设六张网项目库",
-          "heatText": "1209.2万热度值",
-          "heatValue": 1209.2,
+          "heatText": "1199.8万热度值",
+          "heatValue": 1199.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "福建莆田多地出现洪涝灾害",
-          "heatText": "1187.2万热度值",
-          "heatValue": 1187.2,
+          "title": "这届农人是懂丰收的",
+          "heatText": "1151.7万热度值",
+          "heatValue": 1151.7,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "这届农人是懂丰收的",
-          "heatText": "1071.0万热度值",
-          "heatValue": 1071.0,
+          "title": "张雪机车法国站第一回合第三名",
+          "heatText": "1057.3万热度值",
+          "heatValue": 1057.3,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "你在哪里追秋",
-          "heatText": "1050.8万热度值",
-          "heatValue": 1050.8,
+          "heatText": "1044.6万热度值",
+          "heatValue": 1044.6,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "今天妆容先入秋",
-          "heatText": "938.5万热度值",
-          "heatValue": 938.5,
+          "heatText": "919.8万热度值",
+          "heatValue": 919.8,
           "isNew": false
         },
         {
           "rank": 8,
           "title": "迪迦你好我已经长大了",
-          "heatText": "935.7万热度值",
-          "heatValue": 935.7,
+          "heatText": "874.6万热度值",
+          "heatValue": 874.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "超强厄尔尼诺事件有哪些影响",
-          "heatText": "933.6万热度值",
-          "heatValue": 933.6,
+          "title": "新型“鼻炎针”能根治过敏吗",
+          "heatText": "874.3万热度值",
+          "heatValue": 874.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "新型“鼻炎针”能根治过敏吗",
-          "heatText": "921.9万热度值",
-          "heatValue": 921.9,
+          "title": "超强厄尔尼诺事件有哪些影响",
+          "heatText": "864.2万热度值",
+          "heatValue": 864.2,
           "isNew": false
         }
       ]
@@ -516,7 +516,7 @@
     },
     {
       "rank": 2,
-      "title": "张雪机车法国站第一回合第三名",
+      "title": "福建莆田多地出现洪涝灾害",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -534,7 +534,7 @@
     },
     {
       "rank": 4,
-      "title": "贵中医二附院被捅伤医生仍在抢救",
+      "title": "郑钦文美网惊天逆转",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "叶润泽淘汰",
+      "title": "青春华章",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -552,16 +552,7 @@
     },
     {
       "rank": 6,
-      "title": "青春华章",
-      "rate": "飙升",
-      "platforms": [
-        "weibo"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 7,
-      "title": "郑钦文美网对决凯斯",
+      "title": "郑钦文逆转战胜凯斯",
       "rate": "飙升",
       "platforms": [
         "douyin"
@@ -569,7 +560,7 @@
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -580,8 +571,8 @@
   ],
   "categoryStats": {
     "社会": 48,
-    "政策": 4,
     "灾害": 2,
+    "政策": 4,
     "娱乐": 1,
     "科技": 2,
     "科研": 1,
@@ -589,9 +580,9 @@
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 187.0,
+    "weibo": 111.7,
     "zhihu": 741,
-    "douyin": 1218.7,
+    "douyin": 1211.0,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
