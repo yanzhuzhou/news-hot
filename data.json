@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-06 12:54",
-  "updateTimestamp": 1788670457,
+  "updateTime": "2026-09-06 17:03",
+  "updateTimestamp": 1788685422,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,112 +12,113 @@
     {
       "rank": 1,
       "title": "教育部：尊师重教不能只是词语口号",
-      "heatText": "综合热度 1167.5 万",
-      "heatValue": 1167.5,
+      "heatText": "综合热度 1154.8 万",
+      "heatValue": 1154.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1167.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1154.8万热度值。"
     },
     {
       "rank": 2,
-      "title": "2026沈阳马拉松",
-      "heatText": "综合热度 1160.1 万",
-      "heatValue": 1160.1,
+      "title": "伊朗称打击了美军航母和驱逐舰",
+      "heatText": "综合热度 1140.6 万",
+      "heatValue": 1140.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1160.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1140.6万热度值。"
     },
     {
       "rank": 3,
-      "title": "粮食企业年工业总产值超4万亿",
-      "heatText": "综合热度 1138.7 万",
-      "heatValue": 1138.7,
+      "title": "青春华章",
+      "heatText": "综合热度 1127.4 万",
+      "heatValue": 1127.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1138.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1127.4万热度值。"
     },
     {
       "rank": 4,
-      "title": "军训才艺大赏",
-      "heatText": "综合热度 1131.0 万",
-      "heatValue": 1131.0,
+      "title": "2026沈阳马拉松",
+      "heatText": "综合热度 1116.9 万",
+      "heatValue": 1116.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1131.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1116.9万热度值。"
     },
     {
       "rank": 5,
-      "title": "这届农人是懂丰收的",
-      "heatText": "综合热度 1068.0 万",
-      "heatValue": 1068.0,
+      "title": "iG对战WE",
+      "heatText": "综合热度 1088.6 万",
+      "heatValue": 1088.6,
       "platforms": [
+        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1068.0万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 34.3万热度。"
     },
     {
       "rank": 6,
-      "title": "美网年度最佳逆转给了郑钦文",
-      "heatText": "综合热度 1065.9 万",
-      "heatValue": 1065.9,
+      "title": "厄尔尼诺到底是啥",
+      "heatText": "综合热度 1054.1 万",
+      "heatValue": 1054.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1065.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1054.1万热度值。"
     },
     {
       "rank": 7,
-      "title": "中华慈善日抖音作者组团做好事",
-      "heatText": "综合热度 946.5 万",
-      "heatValue": 946.5,
+      "title": "军训才艺大赏",
+      "heatText": "综合热度 940.8 万",
+      "heatValue": 940.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 946.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 940.8万热度值。"
     },
     {
       "rank": 8,
-      "title": "在钻石联赛现场见证严子怡夺冠",
-      "heatText": "综合热度 924.5 万",
-      "heatValue": 924.5,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 924.5万热度值。"
-    },
-    {
-      "rank": 9,
-      "title": "新型“鼻炎针”能根治过敏吗",
-      "heatText": "综合热度 922.5 万",
-      "heatValue": 922.5,
+      "title": "中国女篮vs捷克女篮",
+      "heatText": "综合热度 940.1 万",
+      "heatValue": 940.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 922.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 940.1万热度值。"
     },
     {
-      "rank": 10,
-      "title": "AI展现不了安徽的美",
-      "heatText": "综合热度 922.2 万",
-      "heatValue": 922.2,
+      "rank": 9,
+      "title": "泡椒美食唤醒我的舌尖味蕾",
+      "heatText": "综合热度 938.9 万",
+      "heatValue": 938.9,
       "platforms": [
         "douyin"
       ],
-      "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 922.2万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 938.9万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "美网年度最佳逆转给了郑钦文",
+      "heatText": "综合热度 937.8 万",
+      "heatValue": 937.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 937.8万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "葫芦娃爷爷把葫芦剪掉了目击者发声",
-          "heatText": "108.2万热度",
-          "heatValue": 108.2,
+          "title": "郑钦文创大满贯历史纪录",
+          "heatText": "112.1万热度",
+          "heatValue": 112.1,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "绍兴文旅回应葫芦娃爷爷剪掉葫芦",
-          "heatText": "77.9万热度",
-          "heatValue": 77.9,
+          "title": "研究生卖黄金所得12.4万被跨省冻结",
+          "heatText": "82.5万热度",
+          "heatValue": 82.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "地质灾害发生有哪些前兆",
-          "heatText": "64.6万热度",
-          "heatValue": 64.6,
+          "title": "本周这些数据值得关注",
+          "heatText": "65.5万热度",
+          "heatValue": 65.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "早春晴朗原著尚之桃开公司不收女员工",
-          "heatText": "59.5万热度",
-          "heatValue": 59.5,
+          "title": "陈妍希想要二胎",
+          "heatText": "55.2万热度",
+          "heatValue": 55.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "张雅琪中餐厅 穿帮",
-          "heatText": "49.4万热度",
-          "heatValue": 49.4,
+          "title": "葫芦娃爷爷家附近居民发声",
+          "heatText": "41.8万热度",
+          "heatValue": 41.8,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "葫芦娃爷爷 流量时代的恐怖故事",
-          "heatText": "44.8万热度",
-          "heatValue": 44.8,
+          "title": "提前剪掉的7个葫芦讽刺了谁",
+          "heatText": "38.5万热度",
+          "heatValue": 38.5,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "王一博一键三连79号救人车手",
-          "heatText": "34.0万热度",
-          "heatValue": 34.0,
+          "title": "精神病院 改名",
+          "heatText": "34.4万热度",
+          "heatValue": 34.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "铁证剧组 给居民封窗",
-          "heatText": "33.0万热度",
-          "heatValue": 33.0,
+          "title": "iG对战WE",
+          "heatText": "34.3万热度",
+          "heatValue": 34.3,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "郑钦文创女子大满贯翻盘纪录",
-          "heatText": "32.8万热度",
-          "heatValue": 32.8,
+          "title": "郑钦文逆转想起李娜悉尼封神之战",
+          "heatText": "28.6万热度",
+          "heatValue": 28.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "提前剪掉的7个葫芦讽刺了谁",
-          "heatText": "30.3万热度",
-          "heatValue": 30.3,
+          "title": "花少2穿搭",
+          "heatText": "24.8万热度",
+          "heatValue": 24.8,
           "isNew": false
         }
       ]
@@ -280,71 +281,71 @@
         {
           "rank": 1,
           "title": "教育部：尊师重教不能只是词语口号",
-          "heatText": "1167.5万热度值",
-          "heatValue": 1167.5,
+          "heatText": "1154.8万热度值",
+          "heatValue": 1154.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "2026沈阳马拉松",
-          "heatText": "1160.1万热度值",
-          "heatValue": 1160.1,
+          "title": "伊朗称打击了美军航母和驱逐舰",
+          "heatText": "1140.6万热度值",
+          "heatValue": 1140.6,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "粮食企业年工业总产值超4万亿",
-          "heatText": "1138.7万热度值",
-          "heatValue": 1138.7,
+          "title": "青春华章",
+          "heatText": "1127.4万热度值",
+          "heatValue": 1127.4,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "军训才艺大赏",
-          "heatText": "1131.0万热度值",
-          "heatValue": 1131.0,
+          "title": "2026沈阳马拉松",
+          "heatText": "1116.9万热度值",
+          "heatValue": 1116.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "这届农人是懂丰收的",
-          "heatText": "1068.0万热度值",
-          "heatValue": 1068.0,
+          "title": "IG对战WE",
+          "heatText": "1054.3万热度值",
+          "heatValue": 1054.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "美网年度最佳逆转给了郑钦文",
-          "heatText": "1065.9万热度值",
-          "heatValue": 1065.9,
+          "title": "厄尔尼诺到底是啥",
+          "heatText": "1054.1万热度值",
+          "heatValue": 1054.1,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "中华慈善日抖音作者组团做好事",
-          "heatText": "946.5万热度值",
-          "heatValue": 946.5,
+          "title": "军训才艺大赏",
+          "heatText": "940.8万热度值",
+          "heatValue": 940.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "在钻石联赛现场见证严子怡夺冠",
-          "heatText": "924.5万热度值",
-          "heatValue": 924.5,
+          "title": "中国女篮vs捷克女篮",
+          "heatText": "940.1万热度值",
+          "heatValue": 940.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "新型“鼻炎针”能根治过敏吗",
-          "heatText": "922.5万热度值",
-          "heatValue": 922.5,
+          "title": "泡椒美食唤醒我的舌尖味蕾",
+          "heatText": "938.9万热度值",
+          "heatValue": 938.9,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "AI展现不了安徽的美",
-          "heatText": "922.2万热度值",
-          "heatValue": 922.2,
+          "title": "美网年度最佳逆转给了郑钦文",
+          "heatText": "937.8万热度值",
+          "heatValue": 937.8,
           "isNew": false
         }
       ]
@@ -514,7 +515,7 @@
     },
     {
       "rank": 2,
-      "title": "2026沈阳马拉松",
+      "title": "伊朗称打击了美军航母和驱逐舰",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +524,7 @@
     },
     {
       "rank": 3,
-      "title": "粮食企业年工业总产值超4万亿",
+      "title": "青春华章",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +533,7 @@
     },
     {
       "rank": 4,
-      "title": "葫芦娃爷爷把葫芦剪掉了目击者发声",
+      "title": "郑钦文创大满贯历史纪录",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +542,7 @@
     },
     {
       "rank": 5,
-      "title": "绍兴文旅回应葫芦娃爷爷剪掉葫芦",
+      "title": "研究生卖黄金所得12.4万被跨省冻结",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +551,7 @@
     },
     {
       "rank": 6,
-      "title": "地质灾害发生有哪些前兆",
+      "title": "本周这些数据值得关注",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,19 +569,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 46,
-    "体育": 3,
-    "科技": 4,
-    "政策": 3,
-    "灾害": 1,
+    "社会": 51,
+    "科研": 2,
     "娱乐": 1,
-    "科研": 1,
+    "科技": 2,
+    "政策": 2,
+    "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 108.2,
+    "weibo": 112.1,
     "zhihu": 741,
-    "douyin": 1167.5,
+    "douyin": 1154.8,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
