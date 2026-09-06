@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-07 00:00",
-  "updateTimestamp": 1788710427,
+  "updateTime": "2026-09-07 02:26",
+  "updateTimestamp": 1788719192,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,113 +11,113 @@
   "overall": [
     {
       "rank": 1,
-      "title": "中国女篮加时险胜捷克女篮",
-      "heatText": "综合热度 1190.0 万",
-      "heatValue": 1190.0,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1190.0万热度值。"
-    },
-    {
-      "rank": 2,
       "title": "教育部回应中小学是否须买校服",
-      "heatText": "综合热度 1149.3 万",
-      "heatValue": 1149.3,
+      "heatText": "综合热度 1210.5 万",
+      "heatValue": 1210.5,
       "platforms": [
         "douyin"
       ],
       "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1149.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.5万热度值。"
+    },
+    {
+      "rank": 2,
+      "title": "中国女篮加时险胜捷克女篮",
+      "heatText": "综合热度 1207.4 万",
+      "heatValue": 1207.4,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1207.4万热度值。"
     },
     {
       "rank": 3,
       "title": "把青春华章写在祖国大地上",
-      "heatText": "综合热度 1142.7 万",
-      "heatValue": 1142.7,
+      "heatText": "综合热度 1204.8 万",
+      "heatValue": 1204.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1142.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1204.8万热度值。"
     },
     {
       "rank": 4,
       "title": "你的背包让我走得好缓慢",
-      "heatText": "综合热度 1137.8 万",
-      "heatValue": 1137.8,
+      "heatText": "综合热度 1187.8 万",
+      "heatValue": 1187.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1137.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1187.8万热度值。"
     },
     {
       "rank": 5,
-      "title": "军训才艺大赏",
-      "heatText": "综合热度 1066.0 万",
-      "heatValue": 1066.0,
+      "title": "ChinaGT就比赛碰撞起火致歉",
+      "heatText": "综合热度 1115.0 万",
+      "heatValue": 1115.0,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1066.0万热度值。"
+      "category": "体育",
+      "desc": "跨平台热度话题：抖音热搜热度 1115.0万热度值。"
     },
     {
       "rank": 6,
       "title": "厄尔尼诺到底是啥",
-      "heatText": "综合热度 1045.4 万",
-      "heatValue": 1045.4,
+      "heatText": "综合热度 1103.9 万",
+      "heatValue": 1103.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1045.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1103.9万热度值。"
     },
     {
       "rank": 7,
-      "title": "才刚开学我就已经想家了",
-      "heatText": "综合热度 934.9 万",
-      "heatValue": 934.9,
+      "title": "军训才艺大赏",
+      "heatText": "综合热度 984.5 万",
+      "heatValue": 984.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 934.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 984.5万热度值。"
     },
     {
       "rank": 8,
-      "title": "原来学习好真的有肉吃",
-      "heatText": "综合热度 934.4 万",
-      "heatValue": 934.4,
+      "title": "才刚开学我就已经想家了",
+      "heatText": "综合热度 959.2 万",
+      "heatValue": 959.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 934.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 959.2万热度值。"
     },
     {
       "rank": 9,
-      "title": "用万能旅行拍照姿势美美出片",
-      "heatText": "综合热度 918.6 万",
-      "heatValue": 918.6,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
-    },
-    {
-      "rank": 10,
-      "title": "真正想上大学的是高三的自己",
-      "heatText": "综合热度 917.6 万",
-      "heatValue": 917.6,
+      "title": "原来学习好真的有肉吃",
+      "heatText": "综合热度 957.8 万",
+      "heatValue": 957.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 917.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 957.8万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "用AI拼豆的方式打开旅行",
+      "heatText": "综合热度 955.9 万",
+      "heatValue": 955.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "科技",
+      "desc": "跨平台热度话题：抖音热搜热度 955.9万热度值。"
     }
   ],
   "platforms": {
@@ -128,71 +128,71 @@
         {
           "rank": 1,
           "title": "工作人员曾反复劝阻女孩赴港看演唱会",
-          "heatText": "177.6万热度",
-          "heatValue": 177.6,
+          "heatText": "60.4万热度",
+          "heatValue": 60.4,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "交锋",
-          "heatText": "91.2万热度",
-          "heatValue": 91.2,
+          "title": "大家不爱住民宿了吗",
+          "heatText": "26.0万热度",
+          "heatValue": 26.0,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "青春华章向新而行",
-          "heatText": "73.3万热度",
-          "heatValue": 73.3,
+          "heatText": "14.4万热度",
+          "heatValue": 14.4,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "杨舒予绝平",
-          "heatText": "39.2万热度",
-          "heatValue": 39.2,
+          "title": "小米18Fold今晚7点发布",
+          "heatText": "14.0万热度",
+          "heatValue": 14.0,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "花少2摄影师曾劝杨洋明天跑吧",
-          "heatText": "37.2万热度",
-          "heatValue": 37.2,
+          "title": "肖战背后拍爸妈看李宇春演唱会",
+          "heatText": "14.0万热度",
+          "heatValue": 14.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "爷爷提前剪葫芦是给流量的一记耳光",
-          "heatText": "37.2万热度",
-          "heatValue": 37.2,
+          "title": "花少2摄影师曾劝杨洋明天跑吧",
+          "heatText": "9.8万热度",
+          "heatValue": 9.8,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "中国国际时装周",
-          "heatText": "37.2万热度",
-          "heatValue": 37.2,
+          "title": "爷爷提前剪葫芦是给流量的一记耳光",
+          "heatText": "9.8万热度",
+          "heatValue": 9.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "中国女篮 一顿瞎传",
-          "heatText": "37.1万热度",
-          "heatValue": 37.1,
+          "title": "阿森纳2比1切尔西",
+          "heatText": "9.8万热度",
+          "heatValue": 9.8,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "雷军向所有品牌表达感谢",
-          "heatText": "30.0万热度",
-          "heatValue": 30.0,
+          "title": "中国女篮大概率小组出线",
+          "heatText": "9.8万热度",
+          "heatValue": 9.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "中国女篮vs捷克女篮",
-          "heatText": "26.9万热度",
-          "heatValue": 26.9,
+          "title": "终南山怪虫",
+          "heatText": "9.7万热度",
+          "heatValue": 9.7,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "中国女篮加时险胜捷克女篮",
-          "heatText": "1190.0万热度值",
-          "heatValue": 1190.0,
+          "title": "教育部回应中小学是否须买校服",
+          "heatText": "1210.5万热度值",
+          "heatValue": 1210.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "教育部回应中小学是否须买校服",
-          "heatText": "1149.3万热度值",
-          "heatValue": 1149.3,
+          "title": "中国女篮加时险胜捷克女篮",
+          "heatText": "1207.4万热度值",
+          "heatValue": 1207.4,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "把青春华章写在祖国大地上",
-          "heatText": "1142.7万热度值",
-          "heatValue": 1142.7,
+          "heatText": "1204.8万热度值",
+          "heatValue": 1204.8,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "你的背包让我走得好缓慢",
-          "heatText": "1137.8万热度值",
-          "heatValue": 1137.8,
+          "heatText": "1187.8万热度值",
+          "heatValue": 1187.8,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "军训才艺大赏",
-          "heatText": "1066.0万热度值",
-          "heatValue": 1066.0,
+          "title": "ChinaGT就比赛碰撞起火致歉",
+          "heatText": "1115.0万热度值",
+          "heatValue": 1115.0,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "厄尔尼诺到底是啥",
-          "heatText": "1045.4万热度值",
-          "heatValue": 1045.4,
+          "heatText": "1103.9万热度值",
+          "heatValue": 1103.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "才刚开学我就已经想家了",
-          "heatText": "934.9万热度值",
-          "heatValue": 934.9,
+          "title": "军训才艺大赏",
+          "heatText": "984.5万热度值",
+          "heatValue": 984.5,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "原来学习好真的有肉吃",
-          "heatText": "934.4万热度值",
-          "heatValue": 934.4,
+          "title": "才刚开学我就已经想家了",
+          "heatText": "959.2万热度值",
+          "heatValue": 959.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "真正想上大学的是高三的自己",
-          "heatText": "917.6万热度值",
-          "heatValue": 917.6,
+          "title": "原来学习好真的有肉吃",
+          "heatText": "957.8万热度值",
+          "heatValue": 957.8,
           "isNew": false
         },
         {
           "rank": 10,
           "title": "用AI拼豆的方式打开旅行",
-          "heatText": "910.5万热度值",
-          "heatValue": 910.5,
+          "heatText": "955.9万热度值",
+          "heatValue": 955.9,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "中国女篮加时险胜捷克女篮",
+      "title": "教育部回应中小学是否须买校服",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "教育部回应中小学是否须买校服",
+      "title": "中国女篮加时险胜捷克女篮",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "交锋",
+      "title": "大家不爱住民宿了吗",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -568,18 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 48,
     "政策": 4,
-    "娱乐": 2,
-    "科技": 3,
+    "社会": 44,
+    "体育": 3,
+    "科技": 4,
+    "娱乐": 3,
     "科研": 1,
-    "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 177.6,
+    "weibo": 60.4,
     "zhihu": 741,
-    "douyin": 1190.0,
+    "douyin": 1210.5,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
