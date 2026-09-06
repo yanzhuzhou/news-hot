@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-07 04:36",
-  "updateTimestamp": 1788726987,
+  "updateTime": "2026-09-07 06:33",
+  "updateTimestamp": 1788734037,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,112 +12,112 @@
     {
       "rank": 1,
       "title": "教育部回应中小学是否须买校服",
-      "heatText": "综合热度 1200.0 万",
-      "heatValue": 1200.0,
+      "heatText": "综合热度 1210.4 万",
+      "heatValue": 1210.4,
       "platforms": [
         "douyin"
       ],
       "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1200.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.4万热度值。"
     },
     {
       "rank": 2,
       "title": "中国女篮加时险胜捷克女篮",
-      "heatText": "综合热度 1191.0 万",
-      "heatValue": 1191.0,
+      "heatText": "综合热度 1194.7 万",
+      "heatValue": 1194.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1191.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1194.7万热度值。"
     },
     {
       "rank": 3,
       "title": "把青春华章写在祖国大地上",
-      "heatText": "综合热度 1188.6 万",
-      "heatValue": 1188.6,
+      "heatText": "综合热度 1187.9 万",
+      "heatValue": 1187.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1188.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1187.9万热度值。"
     },
     {
       "rank": 4,
-      "title": "你的背包让我走得好缓慢",
-      "heatText": "综合热度 1181.8 万",
-      "heatValue": 1181.8,
+      "title": "中超天津津门虎2:1浙江队",
+      "heatText": "综合热度 1178.0 万",
+      "heatValue": 1178.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1181.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1178.0万热度值。"
     },
     {
       "rank": 5,
-      "title": "厄尔尼诺到底是啥",
-      "heatText": "综合热度 1103.8 万",
-      "heatValue": 1103.8,
+      "title": "你的背包让我走得好缓慢",
+      "heatText": "综合热度 1118.3 万",
+      "heatValue": 1118.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1103.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1118.3万热度值。"
     },
     {
       "rank": 6,
       "title": "才刚开学我就已经想家了",
-      "heatText": "综合热度 1099.9 万",
-      "heatValue": 1099.9,
+      "heatText": "综合热度 1115.6 万",
+      "heatValue": 1115.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1099.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1115.6万热度值。"
     },
     {
       "rank": 7,
-      "title": "军训才艺大赏",
-      "heatText": "综合热度 968.2 万",
-      "heatValue": 968.2,
+      "title": "厄尔尼诺到底是啥",
+      "heatText": "综合热度 992.1 万",
+      "heatValue": 992.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 968.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 992.1万热度值。"
     },
     {
       "rank": 8,
       "title": "LGD 3:2战胜NIP",
-      "heatText": "综合热度 967.5 万",
-      "heatValue": 967.5,
+      "heatText": "综合热度 978.2 万",
+      "heatValue": 978.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 967.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 978.2万热度值。"
     },
     {
       "rank": 9,
       "title": "用AI拼豆的方式打开旅行",
-      "heatText": "综合热度 965.8 万",
-      "heatValue": 965.8,
+      "heatText": "综合热度 976.5 万",
+      "heatValue": 976.5,
       "platforms": [
         "douyin"
       ],
       "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 965.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 976.5万热度值。"
     },
     {
       "rank": 10,
-      "title": "原来学习好真的有肉吃",
-      "heatText": "综合热度 953.5 万",
-      "heatValue": 953.5,
+      "title": "真正想上大学的是高三的自己",
+      "heatText": "综合热度 959.2 万",
+      "heatValue": 959.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 953.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 959.2万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "大家不爱住民宿了吗",
-          "heatText": "15.8万热度",
-          "heatValue": 15.8,
+          "title": "官方回应赴港看演唱会被取消全家低保",
+          "heatText": "90.6万热度",
+          "heatValue": 90.6,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "终南山怪虫",
-          "heatText": "4.5万热度",
-          "heatValue": 4.5,
+          "title": "大家不爱住民宿了吗",
+          "heatText": "40.2万热度",
+          "heatValue": 40.2,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "青春华章向新而行",
-          "heatText": "4.2万热度",
-          "heatValue": 4.2,
+          "heatText": "32.6万热度",
+          "heatValue": 32.6,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "在三国志战略版偶遇张靓颖",
-          "heatText": "4.2万热度",
-          "heatValue": 4.2,
+          "title": "小米澎程SUV今晚上市",
+          "heatText": "29.8万热度",
+          "heatValue": 29.8,
           "isNew": false
         },
         {
           "rank": 5,
           "title": "肖战背后拍爸妈看李宇春演唱会",
-          "heatText": "4.2万热度",
-          "heatValue": 4.2,
+          "heatText": "21.4万热度",
+          "heatValue": 21.4,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "花少2摄影师曾劝杨洋明天跑吧",
-          "heatText": "4.0万热度",
-          "heatValue": 4.0,
+          "title": "单亲妈妈月捐数年无人问停捐后遭催捐",
+          "heatText": "12.1万热度",
+          "heatValue": 12.1,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "爷爷提前剪葫芦是给流量的一记耳光",
-          "heatText": "4.0万热度",
-          "heatValue": 4.0,
+          "title": "花少2摄影师曾劝杨洋明天跑吧",
+          "heatText": "5.9万热度",
+          "heatValue": 5.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "接种流感疫苗不是打完马上有保护",
-          "heatText": "4.0万热度",
-          "heatValue": 4.0,
+          "title": "京东美妆万人票选结果出炉",
+          "heatText": "5.9万热度",
+          "heatValue": 5.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "萨巴伦卡vs汤森德",
-          "heatText": "3.9万热度",
-          "heatValue": 3.9,
+          "title": "爷爷提前剪葫芦是给流量的一记耳光",
+          "heatText": "5.8万热度",
+          "heatValue": 5.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "以为是偏心没想到是贫穷",
-          "heatText": "3.9万热度",
-          "heatValue": 3.9,
+          "title": "杨舒予绝平",
+          "heatText": "5.7万热度",
+          "heatValue": 5.7,
           "isNew": false
         }
       ]
@@ -280,71 +280,71 @@
         {
           "rank": 1,
           "title": "教育部回应中小学是否须买校服",
-          "heatText": "1200.0万热度值",
-          "heatValue": 1200.0,
+          "heatText": "1210.4万热度值",
+          "heatValue": 1210.4,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "中国女篮加时险胜捷克女篮",
-          "heatText": "1191.0万热度值",
-          "heatValue": 1191.0,
+          "heatText": "1194.7万热度值",
+          "heatValue": 1194.7,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "把青春华章写在祖国大地上",
-          "heatText": "1188.6万热度值",
-          "heatValue": 1188.6,
+          "heatText": "1187.9万热度值",
+          "heatValue": 1187.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "你的背包让我走得好缓慢",
-          "heatText": "1181.8万热度值",
-          "heatValue": 1181.8,
+          "title": "中超天津津门虎2:1浙江队",
+          "heatText": "1178.0万热度值",
+          "heatValue": 1178.0,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "厄尔尼诺到底是啥",
-          "heatText": "1103.8万热度值",
-          "heatValue": 1103.8,
+          "title": "你的背包让我走得好缓慢",
+          "heatText": "1118.3万热度值",
+          "heatValue": 1118.3,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "才刚开学我就已经想家了",
-          "heatText": "1099.9万热度值",
-          "heatValue": 1099.9,
+          "heatText": "1115.6万热度值",
+          "heatValue": 1115.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "军训才艺大赏",
-          "heatText": "968.2万热度值",
-          "heatValue": 968.2,
+          "title": "厄尔尼诺到底是啥",
+          "heatText": "992.1万热度值",
+          "heatValue": 992.1,
           "isNew": false
         },
         {
           "rank": 8,
           "title": "LGD 3:2战胜NIP",
-          "heatText": "967.5万热度值",
-          "heatValue": 967.5,
+          "heatText": "978.2万热度值",
+          "heatValue": 978.2,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "用AI拼豆的方式打开旅行",
-          "heatText": "965.8万热度值",
-          "heatValue": 965.8,
+          "heatText": "976.5万热度值",
+          "heatValue": 976.5,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "原来学习好真的有肉吃",
-          "heatText": "953.5万热度值",
-          "heatValue": 953.5,
+          "title": "真正想上大学的是高三的自己",
+          "heatText": "959.2万热度值",
+          "heatValue": 959.2,
           "isNew": false
         }
       ]
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "大家不爱住民宿了吗",
+      "title": "官方回应赴港看演唱会被取消全家低保",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "终南山怪虫",
+      "title": "大家不爱住民宿了吗",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -568,8 +568,8 @@
     }
   ],
   "categoryStats": {
-    "政策": 4,
-    "社会": 47,
+    "政策": 5,
+    "社会": 46,
     "科技": 4,
     "娱乐": 2,
     "科研": 1,
@@ -577,9 +577,9 @@
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 15.8,
+    "weibo": 90.6,
     "zhihu": 741,
-    "douyin": 1200.0,
+    "douyin": 1210.4,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
