@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-07 18:33",
-  "updateTimestamp": 1788777208,
+  "updateTime": "2026-09-08 00:12",
+  "updateTimestamp": 1788797550,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,72 +11,85 @@
   "overall": [
     {
       "rank": 1,
+      "title": "郑钦文vs斯瓦泰克",
+      "heatText": "综合热度 1330.2 万",
+      "heatValue": 1330.2,
+      "platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：微博热搜热度 119.7万热度。"
+    },
+    {
+      "rank": 2,
+      "title": "信息通信行业发展十五五规划要点",
+      "heatText": "综合热度 1253.9 万",
+      "heatValue": 1253.9,
+      "platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：微博热搜热度 88.9万热度。"
+    },
+    {
+      "rank": 3,
       "title": "华为再发布高性能芯片",
-      "heatText": "综合热度 1211.1 万",
-      "heatValue": 1211.1,
+      "heatText": "综合热度 1207.9 万",
+      "heatValue": 1207.9,
       "platforms": [
         "douyin"
       ],
       "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 1211.1万热度值。"
-    },
-    {
-      "rank": 2,
-      "title": "秋天的第一件燕麦系卫衣",
-      "heatText": "综合热度 1193.1 万",
-      "heatValue": 1193.1,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1193.1万热度值。"
-    },
-    {
-      "rank": 3,
-      "title": "青春华章",
-      "heatText": "综合热度 1191.2 万",
-      "heatValue": 1191.2,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1191.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1207.9万热度值。"
     },
     {
       "rank": 4,
-      "title": "郑钦文今晚对战斯瓦泰克",
-      "heatText": "综合热度 1174.6 万",
-      "heatValue": 1174.6,
+      "title": "真正想上大学的是高三的自己",
+      "heatText": "综合热度 1161.4 万",
+      "heatValue": 1161.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1174.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1161.4万热度值。"
     },
     {
       "rank": 5,
-      "title": "中国女篮末轮将战意大利",
-      "heatText": "综合热度 1089.4 万",
-      "heatValue": 1089.4,
+      "title": "这个秋天你跑步了吗",
+      "heatText": "综合热度 1086.3 万",
+      "heatValue": 1086.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1089.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1086.3万热度值。"
     },
     {
       "rank": 6,
-      "title": "官方通报“郭德纲篡改红歌”",
-      "heatText": "综合热度 1034.9 万",
-      "heatValue": 1034.9,
+      "title": "中国央行连续22个月增持黄金",
+      "heatText": "综合热度 1079.2 万",
+      "heatValue": 1079.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1034.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1079.2万热度值。"
     },
     {
       "rank": 7,
+      "title": "中国女篮全力冲击小组第二",
+      "heatText": "综合热度 945.2 万",
+      "heatValue": 945.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 945.2万热度值。"
+    },
+    {
+      "rank": 8,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -87,7 +100,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -98,26 +111,15 @@
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
-      "rank": 9,
-      "title": "白露节气到",
-      "heatText": "综合热度 891.1 万",
-      "heatValue": 891.1,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 891.1万热度值。"
-    },
-    {
       "rank": 10,
-      "title": "真正想上大学的是高三的自己",
-      "heatText": "综合热度 890.5 万",
-      "heatValue": 890.5,
+      "title": "我拍到了海鸥雨",
+      "heatText": "综合热度 887.5 万",
+      "heatValue": 887.5,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 890.5万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
     }
   ],
   "platforms": {
@@ -127,72 +129,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "郭德纲事件处罚通报",
-          "heatText": "451.5万热度",
-          "heatValue": 451.5,
+          "title": "郑钦文vs斯瓦泰克",
+          "heatText": "119.7万热度",
+          "heatValue": 119.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "别让低保女生赴港追星争议撕裂舆论",
-          "heatText": "127.0万热度",
-          "heatValue": 127.0,
+          "title": "赵一鸣致歉",
+          "heatText": "106.3万热度",
+          "heatValue": 106.3,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "在祖国大地上书写新时代青春答卷",
-          "heatText": "120.4万热度",
-          "heatValue": 120.4,
+          "title": "信息通信行业发展十五五规划要点",
+          "heatText": "88.9万热度",
+          "heatValue": 88.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "小米澎程SUV今晚上市",
-          "heatText": "119.3万热度",
-          "heatValue": 119.3,
+          "title": "张雅琪后继有人了",
+          "heatText": "88.6万热度",
+          "heatValue": 88.6,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "身体缺钾的五个信号",
-          "heatText": "116.0万热度",
-          "heatValue": 116.0,
+          "title": "雷军状态被赞夯爆了",
+          "heatText": "88.0万热度",
+          "heatValue": 88.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "长期低钾 心脏骤停",
-          "heatText": "106.4万热度",
-          "heatValue": 106.4,
+          "title": "余承东建议苹果用户买华为备用机",
+          "heatText": "80.4万热度",
+          "heatValue": 80.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "雷军称内存实在太贵",
-          "heatText": "75.2万热度",
-          "heatValue": 75.2,
+          "title": "混动XT5搭载满血辅助驾驶25.99万",
+          "heatText": "65.0万热度",
+          "heatValue": 65.0,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "京东美妆万人票选结果出炉",
-          "heatText": "72.8万热度",
-          "heatValue": 72.8,
+          "title": "宝格丽高珠晚宴",
+          "heatText": "60.6万热度",
+          "heatValue": 60.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "赵昭仪被问和花少5还有联系吗",
-          "heatText": "64.7万热度",
-          "heatValue": 64.7,
+          "title": "小米澎程N90售价",
+          "heatText": "57.6万热度",
+          "heatValue": 57.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "华为PuraXView价格",
-          "heatText": "58.2万热度",
-          "heatValue": 58.2,
+          "title": "小米澎程",
+          "heatText": "38.4万热度",
+          "heatValue": 38.4,
           "isNew": false
         }
       ]
@@ -279,72 +281,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "华为再发布高性能芯片",
-          "heatText": "1211.1万热度值",
-          "heatValue": 1211.1,
+          "title": "郑钦文vs斯瓦泰克",
+          "heatText": "1210.5万热度值",
+          "heatValue": 1210.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "秋天的第一件燕麦系卫衣",
-          "heatText": "1193.1万热度值",
-          "heatValue": 1193.1,
+          "title": "华为再发布高性能芯片",
+          "heatText": "1207.9万热度值",
+          "heatValue": 1207.9,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "青春华章",
-          "heatText": "1191.2万热度值",
-          "heatValue": 1191.2,
+          "title": "信息通信行业发展十五五规划发布",
+          "heatText": "1165.0万热度值",
+          "heatValue": 1165.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "郑钦文今晚对战斯瓦泰克",
-          "heatText": "1174.6万热度值",
-          "heatValue": 1174.6,
+          "title": "真正想上大学的是高三的自己",
+          "heatText": "1161.4万热度值",
+          "heatValue": 1161.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "中国女篮末轮将战意大利",
-          "heatText": "1089.4万热度值",
-          "heatValue": 1089.4,
+          "title": "这个秋天你跑步了吗",
+          "heatText": "1086.3万热度值",
+          "heatValue": 1086.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "官方通报“郭德纲篡改红歌”",
-          "heatText": "1034.9万热度值",
-          "heatValue": 1034.9,
+          "title": "中国央行连续22个月增持黄金",
+          "heatText": "1079.2万热度值",
+          "heatValue": 1079.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "白露节气到",
-          "heatText": "891.1万热度值",
-          "heatValue": 891.1,
+          "title": "中国女篮全力冲击小组第二",
+          "heatText": "945.2万热度值",
+          "heatValue": 945.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "真正想上大学的是高三的自己",
-          "heatText": "890.5万热度值",
-          "heatValue": 890.5,
+          "title": "一定要试试潮汕鱼饭",
+          "heatText": "883.9万热度值",
+          "heatValue": 883.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "这个秋天你跑步了吗",
-          "heatText": "890.1万热度值",
-          "heatValue": 890.1,
+          "title": "华为新品发布会 ​",
+          "heatText": "883.2万热度值",
+          "heatValue": 883.2,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "华为新品发布会 ​",
-          "heatText": "886.4万热度值",
-          "heatValue": 886.4,
+          "title": "秋天的第一件燕麦系卫衣",
+          "heatText": "853.6万热度值",
+          "heatValue": 853.6,
           "isNew": false
         }
       ]
@@ -505,25 +507,27 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "华为再发布高性能芯片",
+      "title": "郑钦文vs斯瓦泰克",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
-      "title": "秋天的第一件燕麦系卫衣",
+      "title": "信息通信行业发展十五五规划要点",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 3,
-      "title": "青春华章",
+      "title": "华为再发布高性能芯片",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +536,7 @@
     },
     {
       "rank": 4,
-      "title": "郭德纲事件处罚通报",
+      "title": "赵一鸣致歉",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,24 +545,15 @@
     },
     {
       "rank": 5,
-      "title": "别让低保女生赴港追星争议撕裂舆论",
+      "title": "信息通信行业发展十五五规划发布",
       "rate": "爆发",
       "platforms": [
-        "weibo"
+        "douyin"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 6,
-      "title": "在祖国大地上书写新时代青春答卷",
-      "rate": "飙升",
-      "platforms": [
-        "weibo"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 7,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -568,18 +563,17 @@
     }
   ],
   "categoryStats": {
-    "科技": 7,
-    "社会": 47,
-    "娱乐": 1,
+    "社会": 49,
+    "科技": 6,
     "科研": 1,
     "政策": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 451.5,
+    "weibo": 119.7,
     "zhihu": 741,
-    "douyin": 1211.1,
+    "douyin": 1210.5,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
