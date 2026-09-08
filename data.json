@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-08 08:48",
-  "updateTimestamp": 1788828519,
+  "updateTime": "2026-09-08 13:27",
+  "updateTimestamp": 1788845270,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,106 +11,72 @@
   "overall": [
     {
       "rank": 1,
-      "title": "中国女篮20分大胜意大利女篮",
-      "heatText": "综合热度 1245.7 万",
-      "heatValue": 1245.7,
+      "title": "郑钦文2:0战胜斯瓦泰克",
+      "heatText": "综合热度 1177.3 万",
+      "heatValue": 1177.3,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 52.8万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1177.3万热度值。"
     },
     {
       "rank": 2,
-      "title": "郑钦文2:0战胜斯瓦泰克",
-      "heatText": "综合热度 1211.2 万",
-      "heatValue": 1211.2,
+      "title": "中国女篮20分大胜意大利女篮",
+      "heatText": "综合热度 1176.3 万",
+      "heatValue": 1176.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1211.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1176.3万热度值。"
     },
     {
       "rank": 3,
-      "title": "信息通信行业发展十五五规划发布",
-      "heatText": "综合热度 1184.8 万",
-      "heatValue": 1184.8,
+      "title": "中国企业加速拓展全球市场",
+      "heatText": "综合热度 1155.2 万",
+      "heatValue": 1155.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1184.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1155.2万热度值。"
     },
     {
       "rank": 4,
       "title": "送你一口秋天味道",
-      "heatText": "综合热度 1181.4 万",
-      "heatValue": 1181.4,
+      "heatText": "综合热度 1146.1 万",
+      "heatValue": 1146.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1181.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1146.1万热度值。"
     },
     {
       "rank": 5,
-      "title": "这个秋天你跑步了吗",
-      "heatText": "综合热度 1105.0 万",
-      "heatValue": 1105.0,
+      "title": "多地气温将创下立秋后新低",
+      "heatText": "综合热度 1055.0 万",
+      "heatValue": 1055.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1105.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1055.0万热度值。"
     },
     {
       "rank": 6,
-      "title": "中国央行连续22个月增持黄金",
-      "heatText": "综合热度 1097.9 万",
-      "heatValue": 1097.9,
+      "title": "秋天的第一件燕麦系卫衣",
+      "heatText": "综合热度 920.5 万",
+      "heatValue": 920.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1097.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 920.5万热度值。"
     },
     {
       "rank": 7,
-      "title": "多地气温将创下立秋后新低",
-      "heatText": "综合热度 958.2 万",
-      "heatValue": 958.2,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 958.2万热度值。"
-    },
-    {
-      "rank": 8,
-      "title": "秋天的第一件燕麦系卫衣",
-      "heatText": "综合热度 944.0 万",
-      "heatValue": 944.0,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 944.0万热度值。"
-    },
-    {
-      "rank": 9,
-      "title": "华为新品发布会 ​",
-      "heatText": "综合热度 943.1 万",
-      "heatValue": 943.1,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 943.1万热度值。"
-    },
-    {
-      "rank": 10,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -119,6 +85,39 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
+    },
+    {
+      "rank": 8,
+      "title": "国庆出游日常不费力穿搭",
+      "heatText": "综合热度 917.1 万",
+      "heatValue": 917.1,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 917.1万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "江西这些涉灾信息不实",
+      "heatText": "综合热度 913.7 万",
+      "heatValue": 913.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 913.7万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "耗时三年拍下古诗词里的中国",
+      "heatText": "综合热度 907 万",
+      "heatValue": 907,
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 907万。"
     }
   ],
   "platforms": {
@@ -128,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "郑钦文逆转震惊美网",
-          "heatText": "277.8万热度",
-          "heatValue": 277.8,
+          "title": "早春晴朗",
+          "heatText": "111.0万热度",
+          "heatValue": 111.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "郑钦文实现千万分之一概率事件",
-          "heatText": "163.8万热度",
-          "heatValue": 163.8,
+          "title": "22岁男子看望生病奶奶过桥时坠亡",
+          "heatText": "82.5万热度",
+          "heatValue": 82.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "时代楷模王戟最想对年轻人说",
-          "heatText": "132.8万热度",
-          "heatValue": 132.8,
+          "title": "王戟说与其内耗不如放手去干",
+          "heatText": "64.8万热度",
+          "heatValue": 64.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "联合国发布了新版世界地图",
-          "heatText": "128.9万热度",
-          "heatValue": 128.9,
+          "title": "小米18Fold首发评测",
+          "heatText": "64.2万热度",
+          "heatValue": 64.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "余承东建议苹果用户买华为备用机",
-          "heatText": "108.1万热度",
-          "heatValue": 108.1,
+          "title": "霸王茶姬 茶叶蛋",
+          "heatText": "60.1万热度",
+          "heatValue": 60.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "郑钦文美网挑战莱巴金娜",
-          "heatText": "79.6万热度",
-          "heatValue": 79.6,
+          "title": "广东人真正的执念太真实了",
+          "heatText": "60.0万热度",
+          "heatValue": 60.0,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "宝格丽KALEIDOS",
-          "heatText": "77.0万热度",
-          "heatValue": 77.0,
+          "title": "美网8强",
+          "heatText": "59.7万热度",
+          "heatValue": 59.7,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "美网回应郑钦文0比5逆转",
-          "heatText": "71.2万热度",
-          "heatValue": 71.2,
+          "title": "丁禹兮和冠军来真的",
+          "heatText": "59.7万热度",
+          "heatValue": 59.7,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "中国女篮20分大胜意大利女篮",
-          "heatText": "52.8万热度",
-          "heatValue": 52.8,
+          "title": "阿维塔9系",
+          "heatText": "59.3万热度",
+          "heatValue": 59.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "孙远翥跳楼原因",
-          "heatText": "29.3万热度",
-          "heatValue": 29.3,
+          "title": "檀健次为几秒戏份生吞七十包山楂粉",
+          "heatText": "59.1万热度",
+          "heatValue": 59.1,
           "isNew": false
         }
       ]
@@ -281,71 +280,71 @@
         {
           "rank": 1,
           "title": "郑钦文2:0战胜斯瓦泰克",
-          "heatText": "1211.2万热度值",
-          "heatValue": 1211.2,
+          "heatText": "1177.3万热度值",
+          "heatValue": 1177.3,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "中国女篮20分大胜意大利女篮",
-          "heatText": "1192.9万热度值",
-          "heatValue": 1192.9,
+          "heatText": "1176.3万热度值",
+          "heatValue": 1176.3,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "信息通信行业发展十五五规划发布",
-          "heatText": "1184.8万热度值",
-          "heatValue": 1184.8,
+          "title": "中国企业加速拓展全球市场",
+          "heatText": "1155.2万热度值",
+          "heatValue": 1155.2,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "送你一口秋天味道",
-          "heatText": "1181.4万热度值",
-          "heatValue": 1181.4,
+          "heatText": "1146.1万热度值",
+          "heatValue": 1146.1,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "这个秋天你跑步了吗",
-          "heatText": "1105.0万热度值",
-          "heatValue": 1105.0,
+          "title": "多地气温将创下立秋后新低",
+          "heatText": "1055.0万热度值",
+          "heatValue": 1055.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "中国央行连续22个月增持黄金",
-          "heatText": "1097.9万热度值",
-          "heatValue": 1097.9,
+          "title": "秋天的第一件燕麦系卫衣",
+          "heatText": "920.5万热度值",
+          "heatValue": 920.5,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "多地气温将创下立秋后新低",
-          "heatText": "958.2万热度值",
-          "heatValue": 958.2,
+          "title": "国庆出游日常不费力穿搭",
+          "heatText": "917.1万热度值",
+          "heatValue": 917.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "秋天的第一件燕麦系卫衣",
-          "heatText": "944.0万热度值",
-          "heatValue": 944.0,
+          "title": "江西这些涉灾信息不实",
+          "heatText": "913.7万热度值",
+          "heatValue": 913.7,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "华为新品发布会 ​",
-          "heatText": "943.1万热度值",
-          "heatValue": 943.1,
+          "title": "张新当选中国羽毛球协会主席",
+          "heatText": "890.7万热度值",
+          "heatValue": 890.7,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "江西这些涉灾信息不实",
-          "heatText": "867.9万热度值",
-          "heatValue": 867.9,
+          "title": "内蒙古阿拉善左旗两车相撞致5死",
+          "heatText": "876.8万热度值",
+          "heatValue": 876.8,
           "isNew": false
         }
       ]
@@ -506,16 +505,6 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "中国女篮20分大胜意大利女篮",
-      "rate": "极速",
-      "platforms": [
-        "douyin",
-        "weibo"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
-    },
-    {
-      "rank": 2,
       "title": "郑钦文2:0战胜斯瓦泰克",
       "rate": "极速",
       "platforms": [
@@ -524,8 +513,17 @@
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
+      "rank": 2,
+      "title": "中国女篮20分大胜意大利女篮",
+      "rate": "极速",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
       "rank": 3,
-      "title": "信息通信行业发展十五五规划发布",
+      "title": "中国企业加速拓展全球市场",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -534,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "郑钦文逆转震惊美网",
+      "title": "早春晴朗",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "郑钦文实现千万分之一概率事件",
+      "title": "22岁男子看望生病奶奶过桥时坠亡",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -552,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "时代楷模王戟最想对年轻人说",
+      "title": "王戟说与其内耗不如放手去干",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -570,17 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 49,
-    "科技": 5,
-    "政策": 3,
+    "社会": 51,
+    "体育": 2,
+    "科技": 2,
     "科研": 1,
-    "体育": 1,
+    "政策": 2,
+    "时政": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 277.8,
+    "weibo": 111.0,
     "zhihu": 741,
-    "douyin": 1211.2,
+    "douyin": 1177.3,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
