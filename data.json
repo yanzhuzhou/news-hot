@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-09 01:57",
-  "updateTimestamp": 1788890273,
+  "updateTime": "2026-09-09 04:43",
+  "updateTimestamp": 1788900200,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,112 +12,112 @@
     {
       "rank": 1,
       "title": "送你一口秋天味道",
-      "heatText": "综合热度 1207.1 万",
-      "heatValue": 1207.1,
+      "heatText": "综合热度 1175.5 万",
+      "heatValue": 1175.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1207.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1175.5万热度值。"
     },
     {
       "rank": 2,
-      "title": "初代神图全靠手抖出片",
-      "heatText": "综合热度 1172.2 万",
-      "heatValue": 1172.2,
+      "title": "跑步可以治愈一切",
+      "heatText": "综合热度 1140.2 万",
+      "heatValue": 1140.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1172.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1140.2万热度值。"
     },
     {
       "rank": 3,
       "title": "平陆运河抢先看",
-      "heatText": "综合热度 1141.3 万",
-      "heatValue": 1141.3,
+      "heatText": "综合热度 1135.8 万",
+      "heatValue": 1135.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1141.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1135.8万热度值。"
     },
     {
       "rank": 4,
-      "title": "跑步可以治愈一切",
-      "heatText": "综合热度 1110.8 万",
-      "heatValue": 1110.8,
+      "title": "初代神图全靠手抖出片",
+      "heatText": "综合热度 1134.5 万",
+      "heatValue": 1134.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1110.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1134.5万热度值。"
     },
     {
       "rank": 5,
       "title": "秋一下才对味",
-      "heatText": "综合热度 1052.8 万",
-      "heatValue": 1052.8,
+      "heatText": "综合热度 1053.3 万",
+      "heatValue": 1053.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1052.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1053.3万热度值。"
     },
     {
       "rank": 6,
       "title": "写给老师的教师节贺卡",
-      "heatText": "综合热度 1051.1 万",
-      "heatValue": 1051.1,
+      "heatText": "综合热度 1053.2 万",
+      "heatValue": 1053.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1051.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1053.2万热度值。"
     },
     {
       "rank": 7,
       "title": "IG 3:0战胜LGD",
-      "heatText": "综合热度 939.4 万",
-      "heatValue": 939.4,
+      "heatText": "综合热度 937.9 万",
+      "heatValue": 937.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 939.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 937.9万热度值。"
     },
     {
       "rank": 8,
-      "title": "觉醒吧我的厨艺天赋",
-      "heatText": "综合热度 932.2 万",
-      "heatValue": 932.2,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 932.2万热度值。"
-    },
-    {
-      "rank": 9,
       "title": "日美韩东海开展联合军事演习",
-      "heatText": "综合热度 931.3 万",
-      "heatValue": 931.3,
+      "heatText": "综合热度 936.9 万",
+      "heatValue": 936.9,
       "platforms": [
         "douyin"
       ],
       "category": "娱乐",
-      "desc": "跨平台热度话题：抖音热搜热度 931.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 936.9万热度值。"
     },
     {
-      "rank": 10,
-      "title": "国足公布新一期集训名单",
-      "heatText": "综合热度 929.3 万",
-      "heatValue": 929.3,
+      "rank": 9,
+      "title": "觉醒吧我的厨艺天赋",
+      "heatText": "综合热度 936.4 万",
+      "heatValue": 936.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 929.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 936.4万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "国足公布新一期集训名单",
+      "heatText": "综合热度 930.1 万",
+      "heatValue": 930.1,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 930.1万热度值。"
     }
   ],
   "platforms": {
@@ -128,71 +128,71 @@
         {
           "rank": 1,
           "title": "这段话杀死了内耗型人格",
-          "heatText": "86.3万热度",
-          "heatValue": 86.3,
+          "heatText": "21.3万热度",
+          "heatValue": 21.3,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "这样的吃播该全面叫停了",
-          "heatText": "28.8万热度",
-          "heatValue": 28.8,
+          "heatText": "9.9万热度",
+          "heatValue": 9.9,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "平陆运河9月16日建成通航",
-          "heatText": "23.4万热度",
-          "heatValue": 23.4,
+          "heatText": "4.9万热度",
+          "heatValue": 4.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "苹果用户换华为",
-          "heatText": "18.4万热度",
-          "heatValue": 18.4,
+          "title": "萨巴伦卡连续6年进美网四强",
+          "heatText": "4.8万热度",
+          "heatValue": 4.8,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "AI吃播",
-          "heatText": "17.4万热度",
-          "heatValue": 17.4,
+          "title": "医生眼里让大脑休息最好的方法",
+          "heatText": "4.6万热度",
+          "heatValue": 4.6,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "刘畅邓恩熙有牵手戏份",
-          "heatText": "17.1万热度",
-          "heatValue": 17.1,
+          "title": "郑钦文 冲击美网四强",
+          "heatText": "4.4万热度",
+          "heatValue": 4.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "Crisp力挺TheShy",
-          "heatText": "16.5万热度",
-          "heatValue": 16.5,
+          "title": "羽衣甘蓝果汁减肥是误区",
+          "heatText": "4.3万热度",
+          "heatValue": 4.3,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "刘青松直播聊Gimgoon",
-          "heatText": "14.1万热度",
-          "heatValue": 14.1,
+          "title": "AI吃播",
+          "heatText": "4.2万热度",
+          "heatValue": 4.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "金球奖",
-          "heatText": "14.0万热度",
-          "heatValue": 14.0,
+          "title": "Crisp力挺TheShy",
+          "heatText": "4.0万热度",
+          "heatValue": 4.0,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "医生眼里让大脑休息最好的方法",
-          "heatText": "12.2万热度",
-          "heatValue": 12.2,
+          "title": "刘畅邓恩熙有牵手戏份",
+          "heatText": "3.7万热度",
+          "heatValue": 3.7,
           "isNew": false
         }
       ]
@@ -280,71 +280,71 @@
         {
           "rank": 1,
           "title": "送你一口秋天味道",
-          "heatText": "1207.1万热度值",
-          "heatValue": 1207.1,
+          "heatText": "1175.5万热度值",
+          "heatValue": 1175.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "初代神图全靠手抖出片",
-          "heatText": "1172.2万热度值",
-          "heatValue": 1172.2,
+          "title": "跑步可以治愈一切",
+          "heatText": "1140.2万热度值",
+          "heatValue": 1140.2,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "平陆运河抢先看",
-          "heatText": "1141.3万热度值",
-          "heatValue": 1141.3,
+          "heatText": "1135.8万热度值",
+          "heatValue": 1135.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "跑步可以治愈一切",
-          "heatText": "1110.8万热度值",
-          "heatValue": 1110.8,
+          "title": "初代神图全靠手抖出片",
+          "heatText": "1134.5万热度值",
+          "heatValue": 1134.5,
           "isNew": false
         },
         {
           "rank": 5,
           "title": "秋一下才对味",
-          "heatText": "1052.8万热度值",
-          "heatValue": 1052.8,
+          "heatText": "1053.3万热度值",
+          "heatValue": 1053.3,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "写给老师的教师节贺卡",
-          "heatText": "1051.1万热度值",
-          "heatValue": 1051.1,
+          "heatText": "1053.2万热度值",
+          "heatValue": 1053.2,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "IG 3:0战胜LGD",
-          "heatText": "939.4万热度值",
-          "heatValue": 939.4,
+          "heatText": "937.9万热度值",
+          "heatValue": 937.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "觉醒吧我的厨艺天赋",
-          "heatText": "932.2万热度值",
-          "heatValue": 932.2,
+          "title": "日美韩东海开展联合军事演习",
+          "heatText": "936.9万热度值",
+          "heatValue": 936.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "日美韩东海开展联合军事演习",
-          "heatText": "931.3万热度值",
-          "heatValue": 931.3,
+          "title": "觉醒吧我的厨艺天赋",
+          "heatText": "936.4万热度值",
+          "heatValue": 936.4,
           "isNew": false
         },
         {
           "rank": 10,
           "title": "国足公布新一期集训名单",
-          "heatText": "929.3万热度值",
-          "heatValue": 929.3,
+          "heatText": "930.1万热度值",
+          "heatValue": 930.1,
           "isNew": false
         }
       ]
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "初代神图全靠手抖出片",
+      "title": "跑步可以治愈一切",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -568,18 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 48,
+    "社会": 49,
     "娱乐": 2,
-    "科技": 4,
     "政策": 3,
+    "科技": 3,
     "科研": 1,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 86.3,
+    "weibo": 21.3,
     "zhihu": 741,
-    "douyin": 1207.1,
+    "douyin": 1175.5,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
