@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-08 06:54",
-  "updateTimestamp": 1788821688,
+  "updateTime": "2026-09-08 08:48",
+  "updateTimestamp": 1788828519,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,73 +11,106 @@
   "overall": [
     {
       "rank": 1,
-      "title": "斯瓦泰克不敌郑钦文哭了",
-      "heatText": "综合热度 1319.2 万",
-      "heatValue": 1319.2,
+      "title": "中国女篮20分大胜意大利女篮",
+      "heatText": "综合热度 1245.7 万",
+      "heatValue": 1245.7,
       "platforms": [
         "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 41.1万热度。"
+      "desc": "跨平台热度话题：微博热搜热度 52.8万热度。"
     },
     {
       "rank": 2,
-      "title": "中国女篮全力冲击小组第二",
-      "heatText": "综合热度 1205.1 万",
-      "heatValue": 1205.1,
+      "title": "郑钦文2:0战胜斯瓦泰克",
+      "heatText": "综合热度 1211.2 万",
+      "heatValue": 1211.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1205.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1211.2万热度值。"
     },
     {
       "rank": 3,
       "title": "信息通信行业发展十五五规划发布",
-      "heatText": "综合热度 1199.4 万",
-      "heatValue": 1199.4,
+      "heatText": "综合热度 1184.8 万",
+      "heatValue": 1184.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1199.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1184.8万热度值。"
     },
     {
       "rank": 4,
-      "title": "真正想上大学的是高三的自己",
-      "heatText": "综合热度 1189.6 万",
-      "heatValue": 1189.6,
+      "title": "送你一口秋天味道",
+      "heatText": "综合热度 1181.4 万",
+      "heatValue": 1181.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1189.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1181.4万热度值。"
     },
     {
       "rank": 5,
       "title": "这个秋天你跑步了吗",
-      "heatText": "综合热度 1083.1 万",
-      "heatValue": 1083.1,
+      "heatText": "综合热度 1105.0 万",
+      "heatValue": 1105.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1083.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1105.0万热度值。"
     },
     {
       "rank": 6,
       "title": "中国央行连续22个月增持黄金",
-      "heatText": "综合热度 1053.8 万",
-      "heatValue": 1053.8,
+      "heatText": "综合热度 1097.9 万",
+      "heatValue": 1097.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1053.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1097.9万热度值。"
     },
     {
       "rank": 7,
+      "title": "多地气温将创下立秋后新低",
+      "heatText": "综合热度 958.2 万",
+      "heatValue": 958.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 958.2万热度值。"
+    },
+    {
+      "rank": 8,
+      "title": "秋天的第一件燕麦系卫衣",
+      "heatText": "综合热度 944.0 万",
+      "heatValue": 944.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 944.0万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "华为新品发布会 ​",
+      "heatText": "综合热度 943.1 万",
+      "heatValue": 943.1,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "科技",
+      "desc": "跨平台热度话题：抖音热搜热度 943.1万热度值。"
+    },
+    {
+      "rank": 10,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -86,39 +119,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
-    },
-    {
-      "rank": 8,
-      "title": "耗时三年拍下古诗词里的中国",
-      "heatText": "综合热度 907 万",
-      "heatValue": 907,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 907万。"
-    },
-    {
-      "rank": 9,
-      "title": "一定要试试潮汕鱼饭",
-      "heatText": "综合热度 903.7 万",
-      "heatValue": 903.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 903.7万热度值。"
-    },
-    {
-      "rank": 10,
-      "title": "华为新品发布会 ​",
-      "heatText": "综合热度 895.0 万",
-      "heatValue": 895.0,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 895.0万热度值。"
     }
   ],
   "platforms": {
@@ -129,71 +129,71 @@
         {
           "rank": 1,
           "title": "郑钦文逆转震惊美网",
-          "heatText": "198.9万热度",
-          "heatValue": 198.9,
+          "heatText": "277.8万热度",
+          "heatValue": 277.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "斯瓦泰克回应被逆转",
-          "heatText": "59.1万热度",
-          "heatValue": 59.1,
+          "title": "郑钦文实现千万分之一概率事件",
+          "heatText": "163.8万热度",
+          "heatValue": 163.8,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "时代楷模王戟最想对年轻人说",
-          "heatText": "48.0万热度",
-          "heatValue": 48.0,
+          "heatText": "132.8万热度",
+          "heatValue": 132.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "斯瓦泰克不敌郑钦文哭了",
-          "heatText": "41.1万热度",
-          "heatValue": 41.1,
+          "title": "联合国发布了新版世界地图",
+          "heatText": "128.9万热度",
+          "heatValue": 128.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "郑钦文vs斯瓦泰克",
-          "heatText": "33.6万热度",
-          "heatValue": 33.6,
+          "title": "余承东建议苹果用户买华为备用机",
+          "heatText": "108.1万热度",
+          "heatValue": 108.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "余承东建议苹果用户买华为备用机",
-          "heatText": "32.5万热度",
-          "heatValue": 32.5,
+          "title": "郑钦文美网挑战莱巴金娜",
+          "heatText": "79.6万热度",
+          "heatValue": 79.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "混动XT5搭载满血辅助驾驶25.99万",
-          "heatText": "30.9万热度",
-          "heatValue": 30.9,
+          "title": "宝格丽KALEIDOS",
+          "heatText": "77.0万热度",
+          "heatValue": 77.0,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "郑钦文2比0斯瓦泰克",
-          "heatText": "30.5万热度",
-          "heatValue": 30.5,
+          "title": "美网回应郑钦文0比5逆转",
+          "heatText": "71.2万热度",
+          "heatValue": 71.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "赵一鸣致歉",
-          "heatText": "24.6万热度",
-          "heatValue": 24.6,
+          "title": "中国女篮20分大胜意大利女篮",
+          "heatText": "52.8万热度",
+          "heatValue": 52.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "郑钦文即时排名逼近前50",
-          "heatText": "24.1万热度",
-          "heatValue": 24.1,
+          "title": "孙远翥跳楼原因",
+          "heatText": "29.3万热度",
+          "heatValue": 29.3,
           "isNew": false
         }
       ]
@@ -281,71 +281,71 @@
         {
           "rank": 1,
           "title": "郑钦文2:0战胜斯瓦泰克",
-          "heatText": "1214.0万热度值",
-          "heatValue": 1214.0,
+          "heatText": "1211.2万热度值",
+          "heatValue": 1211.2,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "中国女篮全力冲击小组第二",
-          "heatText": "1205.1万热度值",
-          "heatValue": 1205.1,
+          "title": "中国女篮20分大胜意大利女篮",
+          "heatText": "1192.9万热度值",
+          "heatValue": 1192.9,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "信息通信行业发展十五五规划发布",
-          "heatText": "1199.4万热度值",
-          "heatValue": 1199.4,
+          "heatText": "1184.8万热度值",
+          "heatValue": 1184.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "真正想上大学的是高三的自己",
-          "heatText": "1189.6万热度值",
-          "heatValue": 1189.6,
+          "title": "送你一口秋天味道",
+          "heatText": "1181.4万热度值",
+          "heatValue": 1181.4,
           "isNew": false
         },
         {
           "rank": 5,
           "title": "这个秋天你跑步了吗",
-          "heatText": "1083.1万热度值",
-          "heatValue": 1083.1,
+          "heatText": "1105.0万热度值",
+          "heatValue": 1105.0,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "中国央行连续22个月增持黄金",
-          "heatText": "1053.8万热度值",
-          "heatValue": 1053.8,
+          "heatText": "1097.9万热度值",
+          "heatValue": 1097.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "一定要试试潮汕鱼饭",
-          "heatText": "903.7万热度值",
-          "heatValue": 903.7,
+          "title": "多地气温将创下立秋后新低",
+          "heatText": "958.2万热度值",
+          "heatValue": 958.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "华为新品发布会 ​",
-          "heatText": "895.0万热度值",
-          "heatValue": 895.0,
+          "title": "秋天的第一件燕麦系卫衣",
+          "heatText": "944.0万热度值",
+          "heatValue": 944.0,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "秋天的第一件燕麦系卫衣",
-          "heatText": "855.4万热度值",
-          "heatValue": 855.4,
+          "title": "华为新品发布会 ​",
+          "heatText": "943.1万热度值",
+          "heatValue": 943.1,
           "isNew": false
         },
         {
           "rank": 10,
           "title": "江西这些涉灾信息不实",
-          "heatText": "777.9万热度值",
-          "heatValue": 777.9,
+          "heatText": "867.9万热度值",
+          "heatValue": 867.9,
           "isNew": false
         }
       ]
@@ -506,17 +506,17 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "斯瓦泰克不敌郑钦文哭了",
+      "title": "中国女篮20分大胜意大利女篮",
       "rate": "极速",
       "platforms": [
-        "weibo",
-        "douyin"
+        "douyin",
+        "weibo"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
-      "title": "中国女篮全力冲击小组第二",
+      "title": "郑钦文2:0战胜斯瓦泰克",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -543,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "斯瓦泰克回应被逆转",
+      "title": "郑钦文实现千万分之一概率事件",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -561,15 +561,6 @@
     },
     {
       "rank": 7,
-      "title": "郑钦文2:0战胜斯瓦泰克",
-      "rate": "飙升",
-      "platforms": [
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -587,9 +578,9 @@
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 198.9,
+    "weibo": 277.8,
     "zhihu": 741,
-    "douyin": 1214.0,
+    "douyin": 1211.2,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
