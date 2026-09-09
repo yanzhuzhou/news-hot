@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-09 09:19",
-  "updateTimestamp": 1788916789,
+  "updateTime": "2026-09-09 14:11",
+  "updateTimestamp": 1788934313,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,106 +12,93 @@
     {
       "rank": 1,
       "title": "皇马2:1击败国米",
-      "heatText": "综合热度 1211.8 万",
-      "heatValue": 1211.8,
+      "heatText": "综合热度 1212.9 万",
+      "heatValue": 1212.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1211.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1212.9万热度值。"
     },
     {
       "rank": 2,
-      "title": "秋一下才对味",
-      "heatText": "综合热度 1210.6 万",
-      "heatValue": 1210.6,
+      "title": "燕麦系秋天的神",
+      "heatText": "综合热度 1211.1 万",
+      "heatValue": 1211.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1211.1万热度值。"
     },
     {
       "rank": 3,
-      "title": "毛泽东逝世50周年",
-      "heatText": "综合热度 1210.3 万",
-      "heatValue": 1210.3,
+      "title": "青春华章",
+      "heatText": "综合热度 1124.1 万",
+      "heatValue": 1124.1,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 64.5万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1124.1万热度值。"
     },
     {
       "rank": 4,
-      "title": "香港首任特首董建华逝世",
-      "heatText": "综合热度 1186.7 万",
-      "heatValue": 1186.7,
+      "title": "小米回应澎程试驾事故",
+      "heatText": "综合热度 1103.6 万",
+      "heatValue": 1103.6,
       "platforms": [
-        "weibo",
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 114.7万热度。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1103.6万热度值。"
     },
     {
       "rank": 5,
-      "title": "平陆运河抢先看",
-      "heatText": "综合热度 1166.8 万",
-      "heatValue": 1166.8,
+      "title": "写给老师的教师节贺卡",
+      "heatText": "综合热度 1046.9 万",
+      "heatValue": 1046.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1166.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1046.9万热度值。"
     },
     {
       "rank": 6,
-      "title": "写给老师的教师节贺卡",
-      "heatText": "综合热度 1069.7 万",
-      "heatValue": 1069.7,
+      "title": "龙版传媒停牌核查",
+      "heatText": "综合热度 1036.9 万",
+      "heatValue": 1036.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1069.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1036.9万热度值。"
     },
     {
       "rank": 7,
       "title": "IG 3:0战胜LGD",
-      "heatText": "综合热度 937.1 万",
-      "heatValue": 937.1,
+      "heatText": "综合热度 927.2 万",
+      "heatValue": 927.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 937.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 927.2万热度值。"
     },
     {
       "rank": 8,
-      "title": "国足公布新一期集训名单",
-      "heatText": "综合热度 936.5 万",
-      "heatValue": 936.5,
+      "title": "毛泽东逝世50周年",
+      "heatText": "综合热度 922.5 万",
+      "heatValue": 922.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 936.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 922.5万热度值。"
     },
     {
       "rank": 9,
-      "title": "觉醒吧我的厨艺天赋",
-      "heatText": "综合热度 930.7 万",
-      "heatValue": 930.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 930.7万热度值。"
-    },
-    {
-      "rank": 10,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -120,6 +107,17 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
+    },
+    {
+      "rank": 10,
+      "title": "耗时三年拍下古诗词里的中国",
+      "heatText": "综合热度 907 万",
+      "heatValue": 907,
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 907万。"
     }
   ],
   "platforms": {
@@ -129,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "香港首任特首董建华逝世",
-          "heatText": "114.7万热度",
-          "heatValue": 114.7,
+          "title": "苹果折叠屏 iPhone Duo",
+          "heatText": "181.4万热度",
+          "heatValue": 181.4,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "高考数学132分 开学考只考了12分",
-          "heatText": "85.4万热度",
-          "heatValue": 85.4,
+          "title": "早春晴朗大结局",
+          "heatText": "107.4万热度",
+          "heatValue": 107.4,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "从瑞金到延安的初心奔赴",
-          "heatText": "65.6万热度",
-          "heatValue": 65.6,
+          "title": "服贸会今日开幕",
+          "heatText": "101.6万热度",
+          "heatValue": 101.6,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "这段话杀死了内耗型人格",
-          "heatText": "65.1万热度",
-          "heatValue": 65.1,
+          "title": "华为阔直板今日开售",
+          "heatText": "101.4万热度",
+          "heatValue": 101.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "这样的吃播该全面叫停了",
-          "heatText": "65.1万热度",
-          "heatValue": 65.1,
+          "title": "梅姨在广州摆摊卖切块芒果",
+          "heatText": "101.3万热度",
+          "heatValue": 101.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "毛泽东逝世50周年",
-          "heatText": "64.5万热度",
-          "heatValue": 64.5,
+          "title": "女孩去邻居家吃饭惨遭夫妻分尸",
+          "heatText": "85.7万热度",
+          "heatValue": 85.7,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "栾念尚之桃重逢擦肩而过",
-          "heatText": "29.5万热度",
-          "heatValue": 29.5,
+          "title": "高一女生被教官猥亵老师说没多大事",
+          "heatText": "67.9万热度",
+          "heatValue": 67.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "网传虞书欣连开三部",
-          "heatText": "27.8万热度",
-          "heatValue": 27.8,
+          "title": "七匹狼携手于适再赴商旅新适界",
+          "heatText": "67.0万热度",
+          "heatValue": 67.0,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "萨巴伦卡取美网18连胜",
-          "heatText": "27.8万热度",
-          "heatValue": 27.8,
+          "title": "一只羊脱衣全过程",
+          "heatText": "58.3万热度",
+          "heatValue": 58.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "日本韩国女篮惨败",
-          "heatText": "27.6万热度",
-          "heatValue": 27.6,
+          "title": "丈夫称为保护孕妻杀害邻居女孩",
+          "heatText": "51.6万热度",
+          "heatValue": 51.6,
           "isNew": false
         }
       ]
@@ -282,71 +280,71 @@
         {
           "rank": 1,
           "title": "皇马2:1击败国米",
-          "heatText": "1211.8万热度值",
-          "heatValue": 1211.8,
+          "heatText": "1212.9万热度值",
+          "heatValue": 1212.9,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "秋一下才对味",
-          "heatText": "1210.6万热度值",
-          "heatValue": 1210.6,
+          "title": "燕麦系秋天的神",
+          "heatText": "1211.1万热度值",
+          "heatValue": 1211.1,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "平陆运河抢先看",
-          "heatText": "1166.8万热度值",
-          "heatValue": 1166.8,
+          "title": "青春华章",
+          "heatText": "1124.1万热度值",
+          "heatValue": 1124.1,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "纪念毛泽东同志逝世50周年",
-          "heatText": "1145.8万热度值",
-          "heatValue": 1145.8,
+          "title": "小米回应澎程试驾事故",
+          "heatText": "1103.6万热度值",
+          "heatValue": 1103.6,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "香港首任特首董建华逝世",
-          "heatText": "1072.0万热度值",
-          "heatValue": 1072.0,
+          "title": "写给老师的教师节贺卡",
+          "heatText": "1046.9万热度值",
+          "heatValue": 1046.9,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "写给老师的教师节贺卡",
-          "heatText": "1069.7万热度值",
-          "heatValue": 1069.7,
+          "title": "龙版传媒停牌核查",
+          "heatText": "1036.9万热度值",
+          "heatValue": 1036.9,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "IG 3:0战胜LGD",
-          "heatText": "937.1万热度值",
-          "heatValue": 937.1,
+          "heatText": "927.2万热度值",
+          "heatValue": 927.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "国足公布新一期集训名单",
-          "heatText": "936.5万热度值",
-          "heatValue": 936.5,
+          "title": "毛泽东逝世50周年",
+          "heatText": "922.5万热度值",
+          "heatValue": 922.5,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "觉醒吧我的厨艺天赋",
-          "heatText": "930.7万热度值",
-          "heatValue": 930.7,
+          "heatText": "905.5万热度值",
+          "heatValue": 905.5,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "伊朗公布一款新型导弹",
-          "heatText": "915.2万热度值",
-          "heatValue": 915.2,
+          "title": "华屋村的十七棵松与长征精神",
+          "heatText": "898.4万热度值",
+          "heatValue": 898.4,
           "isNew": false
         }
       ]
@@ -507,16 +505,6 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "毛泽东逝世50周年",
-      "rate": "极速",
-      "platforms": [
-        "weibo",
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
-    },
-    {
-      "rank": 2,
       "title": "皇马2:1击败国米",
       "rate": "极速",
       "platforms": [
@@ -525,8 +513,17 @@
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
+      "rank": 2,
+      "title": "燕麦系秋天的神",
+      "rate": "极速",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
       "rank": 3,
-      "title": "秋一下才对味",
+      "title": "青春华章",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -535,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "香港首任特首董建华逝世",
+      "title": "苹果折叠屏 iPhone Duo",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -544,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "高考数学132分 开学考只考了12分",
+      "title": "早春晴朗大结局",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -553,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "从瑞金到延安的初心奔赴",
+      "title": "服贸会今日开幕",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -562,15 +559,6 @@
     },
     {
       "rank": 7,
-      "title": "平陆运河抢先看",
-      "rate": "飙升",
-      "platforms": [
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -580,17 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 53,
-    "科技": 2,
+    "社会": 49,
+    "灾害": 2,
+    "科技": 4,
     "科研": 1,
     "政策": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 114.7,
+    "weibo": 181.4,
     "zhihu": 741,
-    "douyin": 1211.8,
+    "douyin": 1212.9,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
