@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-09 19:36",
-  "updateTimestamp": 1788953818,
+  "updateTime": "2026-09-09 23:34",
+  "updateTimestamp": 1788968088,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,84 +11,73 @@
   "overall": [
     {
       "rank": 1,
-      "title": "河南地震",
-      "heatText": "综合热度 1356.4 万",
-      "heatValue": 1356.4,
+      "title": "燕麦系秋天的神",
+      "heatText": "综合热度 1215.7 万",
+      "heatValue": 1215.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1215.7万热度值。"
+    },
+    {
+      "rank": 2,
+      "title": "在太空拧湿毛巾有多神奇",
+      "heatText": "综合热度 1213.1 万",
+      "heatValue": 1213.1,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1213.1万热度值。"
+    },
+    {
+      "rank": 3,
+      "title": "2026年中国国际服务贸易交易会开幕",
+      "heatText": "综合热度 1213.0 万",
+      "heatValue": 1213.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1213.0万热度值。"
+    },
+    {
+      "rank": 4,
+      "title": "教师节创意贺卡",
+      "heatText": "综合热度 1184.0 万",
+      "heatValue": 1184.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1184.0万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "郑钦文vs莱巴金娜",
+      "heatText": "综合热度 1083.9 万",
+      "heatValue": 1083.9,
       "platforms": [
         "weibo",
         "douyin"
       ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：微博热搜热度 145.4万热度。"
-    },
-    {
-      "rank": 2,
-      "title": "燕麦系秋天的神",
-      "heatText": "综合热度 1210.9 万",
-      "heatValue": 1210.9,
-      "platforms": [
-        "douyin"
-      ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.9万热度值。"
-    },
-    {
-      "rank": 3,
-      "title": "青春华章",
-      "heatText": "综合热度 1153.1 万",
-      "heatValue": 1153.1,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1153.1万热度值。"
-    },
-    {
-      "rank": 4,
-      "title": "伊朗打击美军基地和战舰",
-      "heatText": "综合热度 1135.6 万",
-      "heatValue": 1135.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1135.6万热度值。"
-    },
-    {
-      "rank": 5,
-      "title": "在太空拧湿毛巾有多神奇",
-      "heatText": "综合热度 1039.8 万",
-      "heatValue": 1039.8,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1039.8万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 62.1万热度。"
     },
     {
       "rank": 6,
-      "title": "写给老师的教师节贺卡",
-      "heatText": "综合热度 1035.7 万",
-      "heatValue": 1035.7,
+      "title": "伊朗打击美军基地和战舰",
+      "heatText": "综合热度 1041.7 万",
+      "heatValue": 1041.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1035.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1041.7万热度值。"
     },
     {
       "rank": 7,
-      "title": "小米回应澎程试驾事故",
-      "heatText": "综合热度 919.4 万",
-      "heatValue": 919.4,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 919.4万热度值。"
-    },
-    {
-      "rank": 8,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -99,26 +88,37 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 9,
-      "title": "OpenAI宣布AI给出千禧难题证明",
-      "heatText": "综合热度 918.2 万",
-      "heatValue": 918.2,
+      "rank": 8,
+      "title": "耗时三年拍下古诗词里的中国",
+      "heatText": "综合热度 907 万",
+      "heatValue": 907,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
-      "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 918.2万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 907万。"
+    },
+    {
+      "rank": 9,
+      "title": "我拍到了海鸥雨",
+      "heatText": "综合热度 887.5 万",
+      "heatValue": 887.5,
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
     },
     {
       "rank": 10,
-      "title": "郑钦文今晚对阵莱巴金娜",
-      "heatText": "综合热度 908.8 万",
-      "heatValue": 908.8,
+      "title": "巴萨vs费耶诺德",
+      "heatText": "综合热度 871.8 万",
+      "heatValue": 871.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 908.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 871.8万热度值。"
     }
   ],
   "platforms": {
@@ -128,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "宁德时代已报警",
-          "heatText": "433.7万热度",
-          "heatValue": 433.7,
+          "title": "康康爷爷睡梦中离世",
+          "heatText": "256.8万热度",
+          "heatValue": 256.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "河南地震",
-          "heatText": "145.4万热度",
-          "heatValue": 145.4,
+          "title": "宁德时代已报警",
+          "heatText": "133.6万热度",
+          "heatValue": 133.6,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "服贸会今日开幕",
-          "heatText": "94.5万热度",
-          "heatValue": 94.5,
+          "title": "感受长征出发前的峥嵘岁月",
+          "heatText": "81.8万热度",
+          "heatValue": 81.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "微博出金条了",
-          "heatText": "80.0万热度",
-          "heatValue": 80.0,
+          "title": "捐赠人回应被资助女孩质问没打生活费",
+          "heatText": "65.4万热度",
+          "heatValue": 65.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "梅姨微信朋友圈曝光",
-          "heatText": "71.1万热度",
-          "heatValue": 71.1,
+          "title": "郑钦文vs莱巴金娜",
+          "heatText": "62.1万热度",
+          "heatValue": 62.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "人民日报锐评一边高消费一边领低保",
-          "heatText": "70.6万热度",
-          "heatValue": 70.6,
+          "title": "iPhone18Pro小号灵动岛",
+          "heatText": "54.5万热度",
+          "heatValue": 54.5,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "苹果Duo怎么读",
-          "heatText": "69.6万热度",
-          "heatValue": 69.6,
+          "title": "黄俊捷减脂餐比我的生活还素",
+          "heatText": "53.8万热度",
+          "heatValue": 53.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "栾念尚之桃穿得太少了",
-          "heatText": "68.2万热度",
-          "heatValue": 68.2,
+          "title": "柬埔寨一诈骗园区内部曝光",
+          "heatText": "38.4万热度",
+          "heatValue": 38.4,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "王者万象棋首支职业战队成立",
-          "heatText": "66.3万热度",
-          "heatValue": 66.3,
+          "title": "苹果新CEO发布会前更新动态",
+          "heatText": "38.1万热度",
+          "heatValue": 38.1,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "司美格鲁肽有5大副作用",
-          "heatText": "65.6万热度",
-          "heatValue": 65.6,
+          "title": "戚薇AI脸演丧尸片了",
+          "heatText": "37.7万热度",
+          "heatValue": 37.7,
           "isNew": false
         }
       ]
@@ -280,72 +280,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "河南济源市发生3.6级地震",
-          "heatText": "1211.0万热度值",
-          "heatValue": 1211.0,
+          "title": "燕麦系秋天的神",
+          "heatText": "1215.7万热度值",
+          "heatValue": 1215.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "燕麦系秋天的神",
-          "heatText": "1210.9万热度值",
-          "heatValue": 1210.9,
+          "title": "在太空拧湿毛巾有多神奇",
+          "heatText": "1213.1万热度值",
+          "heatValue": 1213.1,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "青春华章",
-          "heatText": "1153.1万热度值",
-          "heatValue": 1153.1,
+          "title": "2026年中国国际服务贸易交易会开幕",
+          "heatText": "1213.0万热度值",
+          "heatValue": 1213.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "伊朗打击美军基地和战舰",
-          "heatText": "1135.6万热度值",
-          "heatValue": 1135.6,
+          "title": "教师节创意贺卡",
+          "heatText": "1184.0万热度值",
+          "heatValue": 1184.0,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "在太空拧湿毛巾有多神奇",
-          "heatText": "1039.8万热度值",
-          "heatValue": 1039.8,
+          "title": "伊朗打击美军基地和战舰",
+          "heatText": "1041.7万热度值",
+          "heatValue": 1041.7,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "写给老师的教师节贺卡",
-          "heatText": "1035.7万热度值",
-          "heatValue": 1035.7,
+          "title": "郑钦文对阵莱巴金娜",
+          "heatText": "1021.8万热度值",
+          "heatValue": 1021.8,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "小米回应澎程试驾事故",
-          "heatText": "919.4万热度值",
-          "heatValue": 919.4,
+          "title": "巴萨vs费耶诺德",
+          "heatText": "871.8万热度值",
+          "heatValue": 871.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "OpenAI宣布AI给出千禧难题证明",
-          "heatText": "918.2万热度值",
-          "heatValue": 918.2,
+          "title": "中国男排1:3不敌伊朗",
+          "heatText": "845.9万热度值",
+          "heatValue": 845.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "郑钦文今晚对阵莱巴金娜",
-          "heatText": "908.8万热度值",
-          "heatValue": 908.8,
+          "title": "女高音歌唱家龚爽告别仪式举行",
+          "heatText": "840.7万热度值",
+          "heatValue": 840.7,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "这群十号线搞科创的年轻人太飒了",
-          "heatText": "908.4万热度值",
-          "heatValue": 908.4,
+          "title": "人在异乡胃在故乡",
+          "heatText": "779.8万热度值",
+          "heatValue": 779.8,
           "isNew": false
         }
       ]
@@ -506,16 +506,6 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "河南地震",
-      "rate": "极速",
-      "platforms": [
-        "weibo",
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
-    },
-    {
-      "rank": 2,
       "title": "燕麦系秋天的神",
       "rate": "极速",
       "platforms": [
@@ -524,8 +514,17 @@
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
+      "rank": 2,
+      "title": "在太空拧湿毛巾有多神奇",
+      "rate": "极速",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
       "rank": 3,
-      "title": "青春华章",
+      "title": "2026年中国国际服务贸易交易会开幕",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -534,7 +533,7 @@
     },
     {
       "rank": 4,
-      "title": "宁德时代已报警",
+      "title": "康康爷爷睡梦中离世",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +542,7 @@
     },
     {
       "rank": 5,
-      "title": "服贸会今日开幕",
+      "title": "宁德时代已报警",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -552,10 +551,10 @@
     },
     {
       "rank": 6,
-      "title": "河南济源市发生3.6级地震",
+      "title": "感受长征出发前的峥嵘岁月",
       "rate": "飙升",
       "platforms": [
-        "douyin"
+        "weibo"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
@@ -570,18 +569,17 @@
     }
   ],
   "categoryStats": {
-    "灾害": 5,
-    "社会": 45,
-    "科技": 5,
+    "社会": 50,
+    "政策": 3,
+    "科技": 4,
     "科研": 1,
-    "政策": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 433.7,
+    "weibo": 256.8,
     "zhihu": 741,
-    "douyin": 1211.0,
+    "douyin": 1215.7,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
