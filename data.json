@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-10 05:27",
-  "updateTimestamp": 1788989272,
+  "updateTime": "2026-09-10 07:25",
+  "updateTimestamp": 1788996320,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,52 +11,74 @@
   "overall": [
     {
       "rank": 1,
-      "title": "苹果回应iPhoneDuo是否有折痕",
-      "heatText": "综合热度 1235.5 万",
-      "heatValue": 1235.5,
+      "title": "iPhone18Pro价格",
+      "heatText": "综合热度 2340.0 万",
+      "heatValue": 2340.0,
       "platforms": [
         "weibo",
         "douyin"
       ],
-      "category": "政策",
-      "desc": "跨平台热度话题：微博热搜热度 24.1万热度。"
+      "category": "社会",
+      "desc": "跨平台热度话题：微博热搜热度 1016.0万热度。"
     },
     {
       "rank": 2,
-      "title": "iPhone18Pro价格",
-      "heatText": "综合热度 1217.4 万",
-      "heatValue": 1217.4,
+      "title": "苹果发布会",
+      "heatText": "综合热度 1277.4 万",
+      "heatValue": 1277.4,
       "platforms": [
         "weibo",
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 173.8万热度。"
+      "category": "科技",
+      "desc": "跨平台热度话题：微博热搜热度 53.1万热度。"
     },
     {
       "rank": 3,
-      "title": "iPhone折叠屏真机上手",
-      "heatText": "综合热度 1215.5 万",
-      "heatValue": 1215.5,
+      "title": "2026年中国国际服务贸易交易会开幕",
+      "heatText": "综合热度 1156.6 万",
+      "heatValue": 1156.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1215.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1156.6万热度值。"
     },
     {
       "rank": 4,
-      "title": "2026年中国国际服务贸易交易会开幕",
-      "heatText": "综合热度 1156.5 万",
-      "heatValue": 1156.5,
+      "title": "燕麦系秋天的神",
+      "heatText": "综合热度 1121.9 万",
+      "heatValue": 1121.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1156.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1121.9万热度值。"
     },
     {
       "rank": 5,
+      "title": "iPhone折叠屏真机上手",
+      "heatText": "综合热度 964.2 万",
+      "heatValue": 964.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 964.2万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "幸福是一堆娃娃排排坐",
+      "heatText": "综合热度 932.6 万",
+      "heatValue": 932.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 932.6万热度值。"
+    },
+    {
+      "rank": 7,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -67,7 +89,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -78,7 +100,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "我拍到了海鸥雨",
       "heatText": "综合热度 887.5 万",
       "heatValue": 887.5,
@@ -87,29 +109,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
-    },
-    {
-      "rank": 8,
-      "title": "苹果发布会",
-      "heatText": "综合热度 885.1 万",
-      "heatValue": 885.1,
-      "platforms": [
-        "weibo",
-        "douyin"
-      ],
-      "category": "科技",
-      "desc": "跨平台热度话题：微博热搜热度 15.5万热度。"
-    },
-    {
-      "rank": 9,
-      "title": "杜兰特在抖音潜水被发现了",
-      "heatText": "综合热度 877.7 万",
-      "heatValue": 877.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "科研",
-      "desc": "跨平台热度话题：抖音热搜热度 877.7万热度值。"
     },
     {
       "rank": 10,
@@ -131,71 +130,71 @@
         {
           "rank": 1,
           "title": "iPhone18Pro价格",
-          "heatText": "173.8万热度",
-          "heatValue": 173.8,
+          "heatText": "1016.0万热度",
+          "heatValue": 1016.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "iPhoneDuo 屏下摄像头",
-          "heatText": "75.4万热度",
-          "heatValue": 75.4,
+          "title": "被取消资助女生愿换掉苹果手机",
+          "heatText": "328.6万热度",
+          "heatValue": 328.6,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "一图速览2026年服贸会",
-          "heatText": "65.9万热度",
-          "heatValue": 65.9,
+          "heatText": "268.7万热度",
+          "heatValue": 268.7,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "闲鱼手机秋季发布会",
-          "heatText": "63.1万热度",
-          "heatValue": 63.1,
+          "title": "小米18Fold今日开售",
+          "heatText": "233.3万热度",
+          "heatValue": 233.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "被取消资助女生愿换掉苹果手机",
-          "heatText": "60.1万热度",
-          "heatValue": 60.1,
+          "title": "iPhoneDuo 屏下摄像头",
+          "heatText": "231.0万热度",
+          "heatValue": 231.0,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "iPhone18Pro颜色",
-          "heatText": "27.6万热度",
-          "heatValue": 27.6,
+          "heatText": "109.2万热度",
+          "heatValue": 109.2,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "郑钦文美网1比2莱巴金娜",
-          "heatText": "24.2万热度",
-          "heatValue": 24.2,
+          "heatText": "80.2万热度",
+          "heatValue": 80.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "苹果回应iPhoneDuo是否有折痕",
-          "heatText": "24.1万热度",
-          "heatValue": 24.1,
+          "title": "苹果发布会",
+          "heatText": "53.1万热度",
+          "heatValue": 53.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "AirPods5 便宜",
-          "heatText": "23.1万热度",
-          "heatValue": 23.1,
+          "title": "刘恋想问早春晴朗作者自己是不是原型",
+          "heatText": "25.3万热度",
+          "heatValue": 25.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "苹果发布会",
-          "heatText": "15.5万热度",
-          "heatValue": 15.5,
+          "title": "iPhoneDuo过渡动画 完美",
+          "heatText": "25.2万热度",
+          "heatValue": 25.2,
           "isNew": false
         }
       ]
@@ -282,72 +281,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "iPhone折叠屏真机上手",
-          "heatText": "1215.5万热度值",
-          "heatValue": 1215.5,
+          "title": "苹果发布折叠手机iPhone Duo",
+          "heatText": "1224.3万热度值",
+          "heatValue": 1224.3,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "苹果发布折叠手机iPhone Duo",
-          "heatText": "1211.4万热度值",
-          "heatValue": 1211.4,
+          "title": "iPhone18Pro系列发布",
+          "heatText": "1214.8万热度值",
+          "heatValue": 1214.8,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "2026年中国国际服务贸易交易会开幕",
-          "heatText": "1156.5万热度值",
-          "heatValue": 1156.5,
+          "heatText": "1156.6万热度值",
+          "heatValue": 1156.6,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "iPhone18Pro系列发布",
-          "heatText": "1016.0万热度值",
-          "heatValue": 1016.0,
+          "title": "燕麦系秋天的神",
+          "heatText": "1121.9万热度值",
+          "heatValue": 1121.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "杜兰特在抖音潜水被发现了",
-          "heatText": "877.7万热度值",
-          "heatValue": 877.7,
+          "title": "iPhone折叠屏真机上手",
+          "heatText": "964.2万热度值",
+          "heatValue": 964.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "抖音达人直击苹果发布会现场",
-          "heatText": "869.6万热度值",
-          "heatValue": 869.6,
+          "title": "幸福是一堆娃娃排排坐",
+          "heatText": "932.6万热度值",
+          "heatValue": 932.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "燕麦系秋天的神",
-          "heatText": "774.9万热度值",
-          "heatValue": 774.9,
+          "title": "教师节创意贺卡",
+          "heatText": "786.1万热度值",
+          "heatValue": 786.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "幸福是一堆娃娃排排坐",
-          "heatText": "771.5万热度值",
-          "heatValue": 771.5,
+          "title": "健身人的训练成绩单",
+          "heatText": "785.2万热度值",
+          "heatValue": 785.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "在太空拧湿毛巾有多神奇",
-          "heatText": "769.2万热度值",
-          "heatValue": 769.2,
+          "title": "郑钦文止步美网八强",
+          "heatText": "779.6万热度值",
+          "heatValue": 779.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "教师节创意贺卡",
-          "heatText": "768.6万热度值",
-          "heatValue": 768.6,
+          "title": "在太空拧湿毛巾有多神奇",
+          "heatText": "774.3万热度值",
+          "heatValue": 774.3,
           "isNew": false
         }
       ]
@@ -518,7 +517,7 @@
     },
     {
       "rank": 2,
-      "title": "苹果回应iPhoneDuo是否有折痕",
+      "title": "苹果发布会",
       "rate": "极速",
       "platforms": [
         "weibo",
@@ -528,7 +527,7 @@
     },
     {
       "rank": 3,
-      "title": "iPhone折叠屏真机上手",
+      "title": "2026年中国国际服务贸易交易会开幕",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -537,7 +536,7 @@
     },
     {
       "rank": 4,
-      "title": "iPhoneDuo 屏下摄像头",
+      "title": "被取消资助女生愿换掉苹果手机",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -564,7 +563,7 @@
     },
     {
       "rank": 7,
-      "title": "2026年中国国际服务贸易交易会开幕",
+      "title": "iPhone18Pro系列发布",
       "rate": "飙升",
       "platforms": [
         "douyin"
@@ -582,17 +581,17 @@
     }
   ],
   "categoryStats": {
-    "政策": 5,
-    "社会": 43,
-    "科技": 7,
-    "科研": 3,
+    "社会": 49,
+    "科技": 5,
+    "政策": 3,
+    "科研": 1,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 173.8,
+    "weibo": 1016.0,
     "zhihu": 741,
-    "douyin": 1215.5,
+    "douyin": 1224.3,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
