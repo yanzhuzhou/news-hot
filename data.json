@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-09 23:34",
-  "updateTimestamp": 1788968088,
+  "updateTime": "2026-09-10 02:56",
+  "updateTimestamp": 1788980191,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,73 +11,63 @@
   "overall": [
     {
       "rank": 1,
-      "title": "燕麦系秋天的神",
-      "heatText": "综合热度 1215.7 万",
-      "heatValue": 1215.7,
+      "title": "苹果发布会",
+      "heatText": "综合热度 2262.7 万",
+      "heatValue": 2262.7,
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1215.7万热度值。"
+      "category": "科技",
+      "desc": "跨平台热度话题：微博热搜热度 255.8万热度。"
     },
     {
       "rank": 2,
-      "title": "在太空拧湿毛巾有多神奇",
-      "heatText": "综合热度 1213.1 万",
-      "heatValue": 1213.1,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1213.1万热度值。"
-    },
-    {
-      "rank": 3,
-      "title": "2026年中国国际服务贸易交易会开幕",
-      "heatText": "综合热度 1213.0 万",
-      "heatValue": 1213.0,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1213.0万热度值。"
-    },
-    {
-      "rank": 4,
-      "title": "教师节创意贺卡",
-      "heatText": "综合热度 1184.0 万",
-      "heatValue": 1184.0,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1184.0万热度值。"
-    },
-    {
-      "rank": 5,
-      "title": "郑钦文vs莱巴金娜",
-      "heatText": "综合热度 1083.9 万",
-      "heatValue": 1083.9,
+      "title": "iPhone18Pro价格",
+      "heatText": "综合热度 1248.9 万",
+      "heatValue": 1248.9,
       "platforms": [
         "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 62.1万热度。"
+      "desc": "跨平台热度话题：微博热搜热度 249.6万热度。"
     },
     {
-      "rank": 6,
-      "title": "伊朗打击美军基地和战舰",
-      "heatText": "综合热度 1041.7 万",
-      "heatValue": 1041.7,
+      "rank": 3,
+      "title": "郑钦文止步美网八强",
+      "heatText": "综合热度 1212.9 万",
+      "heatValue": 1212.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1041.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1212.9万热度值。"
     },
     {
-      "rank": 7,
+      "rank": 4,
+      "title": "2026年中国国际服务贸易交易会开幕",
+      "heatText": "综合热度 1162.5 万",
+      "heatValue": 1162.5,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1162.5万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "iPhone折叠屏真机上手",
+      "heatText": "综合热度 1079.3 万",
+      "heatValue": 1079.3,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1079.3万热度值。"
+    },
+    {
+      "rank": 6,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -88,7 +78,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -97,6 +87,17 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
+    },
+    {
+      "rank": 8,
+      "title": "燕麦系秋天的神",
+      "heatText": "综合热度 899.4 万",
+      "heatValue": 899.4,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 899.4万热度值。"
     },
     {
       "rank": 9,
@@ -111,14 +112,14 @@
     },
     {
       "rank": 10,
-      "title": "巴萨vs费耶诺德",
-      "heatText": "综合热度 871.8 万",
-      "heatValue": 871.8,
+      "title": "超日常美食教程速来get",
+      "heatText": "综合热度 867.6 万",
+      "heatValue": 867.6,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 871.8万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 867.6万。"
     }
   ],
   "platforms": {
@@ -128,72 +129,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "康康爷爷睡梦中离世",
-          "heatText": "256.8万热度",
-          "heatValue": 256.8,
+          "title": "苹果发布会",
+          "heatText": "255.8万热度",
+          "heatValue": 255.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "宁德时代已报警",
-          "heatText": "133.6万热度",
-          "heatValue": 133.6,
+          "title": "iPhone18Pro价格",
+          "heatText": "249.6万热度",
+          "heatValue": 249.6,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "感受长征出发前的峥嵘岁月",
-          "heatText": "81.8万热度",
-          "heatValue": 81.8,
+          "title": "一图速览2026年服贸会",
+          "heatText": "123.8万热度",
+          "heatValue": 123.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "捐赠人回应被资助女孩质问没打生活费",
-          "heatText": "65.4万热度",
-          "heatValue": 65.4,
+          "title": "iPhoneDuo 屏下摄像头",
+          "heatText": "116.4万热度",
+          "heatValue": 116.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "郑钦文vs莱巴金娜",
-          "heatText": "62.1万热度",
-          "heatValue": 62.1,
+          "title": "苹果 涨价",
+          "heatText": "94.2万热度",
+          "heatValue": 94.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "iPhone18Pro小号灵动岛",
-          "heatText": "54.5万热度",
-          "heatValue": 54.5,
+          "title": "被取消资助女生愿换掉苹果手机",
+          "heatText": "65.8万热度",
+          "heatValue": 65.8,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "黄俊捷减脂餐比我的生活还素",
-          "heatText": "53.8万热度",
-          "heatValue": 53.8,
+          "title": "郑钦文vs莱巴金娜",
+          "heatText": "54.7万热度",
+          "heatValue": 54.7,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "柬埔寨一诈骗园区内部曝光",
-          "heatText": "38.4万热度",
-          "heatValue": 38.4,
+          "title": "iPhoneDuo价格",
+          "heatText": "48.1万热度",
+          "heatValue": 48.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "苹果新CEO发布会前更新动态",
-          "heatText": "38.1万热度",
-          "heatValue": 38.1,
+          "title": "iPhone18Pro颜色",
+          "heatText": "41.3万热度",
+          "heatValue": 41.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "戚薇AI脸演丧尸片了",
-          "heatText": "37.7万热度",
-          "heatValue": 37.7,
+          "title": "AirPods5 便宜",
+          "heatText": "35.6万热度",
+          "heatValue": 35.6,
           "isNew": false
         }
       ]
@@ -280,72 +281,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "燕麦系秋天的神",
-          "heatText": "1215.7万热度值",
-          "heatValue": 1215.7,
+          "title": "郑钦文止步美网八强",
+          "heatText": "1212.9万热度值",
+          "heatValue": 1212.9,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "在太空拧湿毛巾有多神奇",
-          "heatText": "1213.1万热度值",
-          "heatValue": 1213.1,
+          "title": "苹果发布折叠手机iPhone Duo",
+          "heatText": "1206.9万热度值",
+          "heatValue": 1206.9,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "2026年中国国际服务贸易交易会开幕",
-          "heatText": "1213.0万热度值",
-          "heatValue": 1213.0,
+          "heatText": "1162.5万热度值",
+          "heatValue": 1162.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "教师节创意贺卡",
-          "heatText": "1184.0万热度值",
-          "heatValue": 1184.0,
+          "title": "iPhone折叠屏真机上手",
+          "heatText": "1079.3万热度值",
+          "heatValue": 1079.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "伊朗打击美军基地和战舰",
-          "heatText": "1041.7万热度值",
-          "heatValue": 1041.7,
+          "title": "iPhone18Pro系列发布",
+          "heatText": "909.9万热度值",
+          "heatValue": 909.9,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "郑钦文对阵莱巴金娜",
-          "heatText": "1021.8万热度值",
-          "heatValue": 1021.8,
+          "title": "燕麦系秋天的神",
+          "heatText": "899.4万热度值",
+          "heatValue": 899.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "巴萨vs费耶诺德",
-          "heatText": "871.8万热度值",
-          "heatValue": 871.8,
+          "title": "抖音达人直击苹果发布会现场",
+          "heatText": "800.0万热度值",
+          "heatValue": 800.0,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "中国男排1:3不敌伊朗",
-          "heatText": "845.9万热度值",
-          "heatValue": 845.9,
+          "title": "在太空拧湿毛巾有多神奇",
+          "heatText": "780.4万热度值",
+          "heatValue": 780.4,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "女高音歌唱家龚爽告别仪式举行",
-          "heatText": "840.7万热度值",
-          "heatValue": 840.7,
+          "title": "健身人的训练成绩单",
+          "heatText": "778.9万热度值",
+          "heatValue": 778.9,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "人在异乡胃在故乡",
-          "heatText": "779.8万热度值",
-          "heatValue": 779.8,
+          "title": "杜兰特在抖音潜水被发现了",
+          "heatText": "777.3万热度值",
+          "heatValue": 777.3,
           "isNew": false
         }
       ]
@@ -506,25 +507,27 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "燕麦系秋天的神",
+      "title": "苹果发布会",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
-      "title": "在太空拧湿毛巾有多神奇",
+      "title": "iPhone18Pro价格",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 3,
-      "title": "2026年中国国际服务贸易交易会开幕",
+      "title": "郑钦文止步美网八强",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -533,7 +536,7 @@
     },
     {
       "rank": 4,
-      "title": "康康爷爷睡梦中离世",
+      "title": "一图速览2026年服贸会",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -542,19 +545,19 @@
     },
     {
       "rank": 5,
-      "title": "宁德时代已报警",
+      "title": "苹果发布折叠手机iPhone Duo",
       "rate": "爆发",
       "platforms": [
-        "weibo"
+        "douyin"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 6,
-      "title": "感受长征出发前的峥嵘岁月",
+      "title": "2026年中国国际服务贸易交易会开幕",
       "rate": "飙升",
       "platforms": [
-        "weibo"
+        "douyin"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
@@ -569,17 +572,17 @@
     }
   ],
   "categoryStats": {
-    "社会": 50,
+    "科技": 7,
+    "社会": 46,
     "政策": 3,
-    "科技": 4,
-    "科研": 1,
+    "科研": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 256.8,
+    "weibo": 255.8,
     "zhihu": 741,
-    "douyin": 1215.7,
+    "douyin": 1212.9,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
