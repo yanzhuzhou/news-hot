@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-10 09:14",
-  "updateTimestamp": 1789002852,
+  "updateTime": "2026-09-10 14:11",
+  "updateTimestamp": 1789020678,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,72 +11,69 @@
   "overall": [
     {
       "rank": 1,
-      "title": "iPhone18Pro价格",
-      "heatText": "综合热度 3729.5 万",
-      "heatValue": 3729.5,
+      "title": "今天是教师节",
+      "heatText": "综合热度 1208.8 万",
+      "heatValue": 1208.8,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 1602.4万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1208.8万热度值。"
     },
     {
       "rank": 2,
-      "title": "教师节",
-      "heatText": "综合热度 2037.2 万",
-      "heatValue": 2037.2,
+      "title": "教师节创意贺卡",
+      "heatText": "综合热度 1195.2 万",
+      "heatValue": 1195.2,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 212.7万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1195.2万热度值。"
     },
     {
       "rank": 3,
-      "title": "郑钦文美网止步八强",
-      "heatText": "综合热度 1286.8 万",
-      "heatValue": 1286.8,
+      "title": "我国不断加大民生保障力度",
+      "heatText": "综合热度 1170.8 万",
+      "heatValue": 1170.8,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 56.1万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1170.8万热度值。"
     },
     {
       "rank": 4,
-      "title": "2026年中国国际服务贸易交易会开幕",
-      "heatText": "综合热度 1212.4 万",
-      "heatValue": 1212.4,
+      "title": "中国女篮挺进世界杯八强",
+      "heatText": "综合热度 1134.2 万",
+      "heatValue": 1134.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1212.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1134.2万热度值。"
     },
     {
       "rank": 5,
-      "title": "燕麦系秋天的神",
-      "heatText": "综合热度 1203.8 万",
-      "heatValue": 1203.8,
+      "title": "大巴黎6:1布拉迪斯拉发",
+      "heatText": "综合热度 1055.0 万",
+      "heatValue": 1055.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1203.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1055.0万热度值。"
     },
     {
       "rank": 6,
-      "title": "幸福是一堆娃娃排排坐",
-      "heatText": "综合热度 975.1 万",
-      "heatValue": 975.1,
+      "title": "IAEA通过伊核决议 中国投反对票",
+      "heatText": "综合热度 1054.7 万",
+      "heatValue": 1054.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 975.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1054.7万热度值。"
     },
     {
       "rank": 7,
@@ -91,6 +88,17 @@
     },
     {
       "rank": 8,
+      "title": "中国男排1:3不敌伊朗",
+      "heatText": "综合热度 911.7 万",
+      "heatValue": 911.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 911.7万热度值。"
+    },
+    {
+      "rank": 9,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -101,7 +109,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "我拍到了海鸥雨",
       "heatText": "综合热度 887.5 万",
       "heatValue": 887.5,
@@ -110,17 +118,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
-    },
-    {
-      "rank": 10,
-      "title": "超日常美食教程速来get",
-      "heatText": "综合热度 867.6 万",
-      "heatValue": 867.6,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 867.6万。"
     }
   ],
   "platforms": {
@@ -130,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "iPhone18Pro价格",
-          "heatText": "1602.4万热度",
-          "heatValue": 1602.4,
+          "title": "iPhoneDuo 折痕",
+          "heatText": "174.7万热度",
+          "heatValue": 174.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "教师节",
-          "heatText": "212.7万热度",
-          "heatValue": 212.7,
+          "title": "梅姨首任丈夫称她生两个儿子后离开",
+          "heatText": "99.4万热度",
+          "heatValue": 99.4,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "一图速览2026年服贸会",
-          "heatText": "172.3万热度",
-          "heatValue": 172.3,
+          "title": "青春华章",
+          "heatText": "75.1万热度",
+          "heatValue": 75.1,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "闲鱼手机秋季发布会",
-          "heatText": "155.6万热度",
-          "heatValue": 155.6,
+          "title": "抢iPhone18Pro首发认准京东",
+          "heatText": "74.9万热度",
+          "heatValue": 74.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "苹果下架iPhone17Pro",
-          "heatText": "137.4万热度",
-          "heatValue": 137.4,
+          "title": "上海市体育局通报刘翔安置问题",
+          "heatText": "74.7万热度",
+          "heatValue": 74.7,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "郑钦文美网止步八强",
-          "heatText": "56.1万热度",
-          "heatValue": 56.1,
+          "title": "iPhone18Pro颜色 男士内裤",
+          "heatText": "74.2万热度",
+          "heatValue": 74.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "iPhoneDuo过渡动画 完美",
-          "heatText": "53.3万热度",
-          "heatValue": 53.3,
+          "title": "日本梅毒男性20到60岁女性20左右",
+          "heatText": "71.9万热度",
+          "heatValue": 71.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "刘恋想问早春晴朗作者自己是不是原型",
-          "heatText": "50.3万热度",
-          "heatValue": 50.3,
+          "title": "檀健次豪士面包全球品牌代言人",
+          "heatText": "71.9万热度",
+          "heatValue": 71.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "郑钦文美网1比2莱巴金娜",
-          "heatText": "42.8万热度",
-          "heatValue": 42.8,
+          "title": "徐艺洋时隔一个月再夺冠",
+          "heatText": "71.9万热度",
+          "heatValue": 71.9,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "心动的信号",
-          "heatText": "42.6万热度",
-          "heatValue": 42.6,
+          "title": "花少第一期你怎么看",
+          "heatText": "71.4万热度",
+          "heatValue": 71.4,
           "isNew": false
         }
       ]
@@ -282,70 +279,70 @@
       "list": [
         {
           "rank": 1,
-          "title": "郑钦文止步美网八强",
-          "heatText": "1230.7万热度值",
-          "heatValue": 1230.7,
+          "title": "今天是教师节",
+          "heatText": "1208.8万热度值",
+          "heatValue": 1208.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "iPhone 18 Pro四种配色",
-          "heatText": "1215.8万热度值",
-          "heatValue": 1215.8,
+          "title": "教师节创意贺卡",
+          "heatText": "1195.2万热度值",
+          "heatValue": 1195.2,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "2026年中国国际服务贸易交易会开幕",
-          "heatText": "1212.4万热度值",
-          "heatValue": 1212.4,
+          "title": "我国不断加大民生保障力度",
+          "heatText": "1170.8万热度值",
+          "heatValue": 1170.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "燕麦系秋天的神",
-          "heatText": "1203.8万热度值",
-          "heatValue": 1203.8,
+          "title": "中国女篮挺进世界杯八强",
+          "heatText": "1134.2万热度值",
+          "heatValue": 1134.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "今天是教师节",
-          "heatText": "1021.4万热度值",
-          "heatValue": 1021.4,
+          "title": "大巴黎6:1布拉迪斯拉发",
+          "heatText": "1055.0万热度值",
+          "heatValue": 1055.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "幸福是一堆娃娃排排坐",
-          "heatText": "975.1万热度值",
-          "heatValue": 975.1,
+          "title": "IAEA通过伊核决议 中国投反对票",
+          "heatText": "1054.7万热度值",
+          "heatValue": 1054.7,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "教师节创意贺卡",
-          "heatText": "803.1万热度值",
-          "heatValue": 803.1,
+          "title": "中国男排1:3不敌伊朗",
+          "heatText": "911.7万热度值",
+          "heatValue": 911.7,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "在太空拧湿毛巾有多神奇",
-          "heatText": "775.2万热度值",
-          "heatValue": 775.2,
+          "title": "七根火柴燃起的星星之火",
+          "heatText": "774.1万热度值",
+          "heatValue": 774.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "iPhone 17系列涨价",
-          "heatText": "773.9万热度值",
-          "heatValue": 773.9,
+          "title": "宁德时代宜宾基地辟谣",
+          "heatText": "773.2万热度值",
+          "heatValue": 773.2,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "中国女篮挺进世界杯八强",
+          "title": "从谭勉视角打开早春晴朗",
           "heatText": "773.1万热度值",
           "heatValue": 773.1,
           "isNew": false
@@ -508,37 +505,34 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "iPhone18Pro价格",
+      "title": "今天是教师节",
       "rate": "极速",
       "platforms": [
-        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 2,
-      "title": "教师节",
+      "title": "教师节创意贺卡",
       "rate": "极速",
       "platforms": [
-        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 3,
-      "title": "郑钦文美网止步八强",
+      "title": "我国不断加大民生保障力度",
       "rate": "爆发",
       "platforms": [
-        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 4,
-      "title": "一图速览2026年服贸会",
+      "title": "iPhoneDuo 折痕",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -547,33 +541,24 @@
     },
     {
       "rank": 5,
-      "title": "郑钦文止步美网八强",
+      "title": "梅姨首任丈夫称她生两个儿子后离开",
       "rate": "爆发",
       "platforms": [
-        "douyin"
+        "weibo"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 6,
-      "title": "iPhone 18 Pro四种配色",
+      "title": "青春华章",
       "rate": "飙升",
       "platforms": [
-        "douyin"
+        "weibo"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 7,
-      "title": "2026年中国国际服务贸易交易会开幕",
-      "rate": "飙升",
-      "platforms": [
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -583,17 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 50,
-    "科技": 4,
+    "社会": 51,
+    "体育": 2,
+    "娱乐": 1,
+    "科技": 2,
     "科研": 1,
     "政策": 2,
-    "体育": 1,
-    "财经": 2
+    "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 1602.4,
+    "weibo": 174.7,
     "zhihu": 741,
-    "douyin": 1230.7,
+    "douyin": 1208.8,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
