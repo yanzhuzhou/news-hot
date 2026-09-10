@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-10 14:11",
-  "updateTimestamp": 1789020678,
+  "updateTime": "2026-09-10 19:35",
+  "updateTimestamp": 1789040109,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,71 +12,83 @@
     {
       "rank": 1,
       "title": "今天是教师节",
-      "heatText": "综合热度 1208.8 万",
-      "heatValue": 1208.8,
+      "heatText": "综合热度 1211.3 万",
+      "heatValue": 1211.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1208.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1211.3万热度值。"
     },
     {
       "rank": 2,
-      "title": "教师节创意贺卡",
-      "heatText": "综合热度 1195.2 万",
-      "heatValue": 1195.2,
+      "title": "这是我送给爱师的花花呀",
+      "heatText": "综合热度 1169.2 万",
+      "heatValue": 1169.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1195.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1169.2万热度值。"
     },
     {
       "rank": 3,
-      "title": "我国不断加大民生保障力度",
-      "heatText": "综合热度 1170.8 万",
-      "heatValue": 1170.8,
+      "title": "两分钟逛明白2026年服贸会",
+      "heatText": "综合热度 1146.9 万",
+      "heatValue": 1146.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1170.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1146.9万热度值。"
     },
     {
       "rank": 4,
-      "title": "中国女篮挺进世界杯八强",
-      "heatText": "综合热度 1134.2 万",
-      "heatValue": 1134.2,
+      "title": "A股三大指数缩量收跌",
+      "heatText": "综合热度 1111.3 万",
+      "heatValue": 1111.3,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1134.2万热度值。"
+      "category": "财经",
+      "desc": "跨平台热度话题：抖音热搜热度 1111.3万热度值。"
     },
     {
       "rank": 5,
-      "title": "大巴黎6:1布拉迪斯拉发",
-      "heatText": "综合热度 1055.0 万",
-      "heatValue": 1055.0,
+      "title": "证监会：加快建设世界一流交易所",
+      "heatText": "综合热度 1047.0 万",
+      "heatValue": 1047.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1055.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1047.0万热度值。"
     },
     {
       "rank": 6,
-      "title": "IAEA通过伊核决议 中国投反对票",
-      "heatText": "综合热度 1054.7 万",
-      "heatValue": 1054.7,
+      "title": "启境汽车回应媒体群误发信息",
+      "heatText": "综合热度 1044.6 万",
+      "heatValue": 1044.6,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1054.7万热度值。"
+      "category": "政策",
+      "desc": "跨平台热度话题：抖音热搜热度 1044.6万热度值。"
     },
     {
       "rank": 7,
+      "title": "青岛货轮火灾造成重大人员伤亡",
+      "heatText": "综合热度 1014.2 万",
+      "heatValue": 1014.2,
+      "platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "category": "灾害",
+      "desc": "跨平台热度话题：微博热搜热度 157.0万热度。"
+    },
+    {
+      "rank": 8,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -87,18 +99,18 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 8,
-      "title": "中国男排1:3不敌伊朗",
-      "heatText": "综合热度 911.7 万",
-      "heatValue": 911.7,
+      "rank": 9,
+      "title": "IAEA通过伊核决议 中国投反对票",
+      "heatText": "综合热度 914.3 万",
+      "heatValue": 914.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 911.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 914.3万热度值。"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -107,17 +119,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
-    },
-    {
-      "rank": 10,
-      "title": "我拍到了海鸥雨",
-      "heatText": "综合热度 887.5 万",
-      "heatValue": 887.5,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
     }
   ],
   "platforms": {
@@ -127,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "iPhoneDuo 折痕",
-          "heatText": "174.7万热度",
-          "heatValue": 174.7,
+          "title": "青岛货轮火灾造成重大人员伤亡",
+          "heatText": "157.0万热度",
+          "heatValue": 157.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "梅姨首任丈夫称她生两个儿子后离开",
-          "heatText": "99.4万热度",
-          "heatValue": 99.4,
+          "title": "日本梅毒暴发与三个一有关",
+          "heatText": "89.2万热度",
+          "heatValue": 89.2,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "青春华章",
-          "heatText": "75.1万热度",
-          "heatValue": 75.1,
+          "title": "中国继续保持双向投资大国地位",
+          "heatText": "87.3万热度",
+          "heatValue": 87.3,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "抢iPhone18Pro首发认准京东",
-          "heatText": "74.9万热度",
-          "heatValue": 74.9,
+          "title": "小米18Fold今日开售",
+          "heatText": "84.7万热度",
+          "heatValue": 84.7,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "上海市体育局通报刘翔安置问题",
-          "heatText": "74.7万热度",
-          "heatValue": 74.7,
+          "title": "女生咨询能否起诉停捐者网友怒了",
+          "heatText": "84.6万热度",
+          "heatValue": 84.6,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "iPhone18Pro颜色 男士内裤",
-          "heatText": "74.2万热度",
-          "heatValue": 74.2,
+          "title": "亲爱的小狗2",
+          "heatText": "81.5万热度",
+          "heatValue": 81.5,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "日本梅毒男性20到60岁女性20左右",
-          "heatText": "71.9万热度",
-          "heatValue": 71.9,
+          "title": "建议大家把内裤袜子丢洗衣机洗",
+          "heatText": "80.0万热度",
+          "heatValue": 80.0,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "檀健次豪士面包全球品牌代言人",
-          "heatText": "71.9万热度",
-          "heatValue": 71.9,
+          "title": "青岛货轮火灾已致20人死亡",
+          "heatText": "75.9万热度",
+          "heatValue": 75.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "徐艺洋时隔一个月再夺冠",
-          "heatText": "71.9万热度",
-          "heatValue": 71.9,
+          "title": "人一旦拥有了电车",
+          "heatText": "75.7万热度",
+          "heatValue": 75.7,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "花少第一期你怎么看",
-          "heatText": "71.4万热度",
-          "heatValue": 71.4,
+          "title": "早春晴朗2026第二部云合破40%的剧",
+          "heatText": "52.2万热度",
+          "heatValue": 52.2,
           "isNew": false
         }
       ]
@@ -280,71 +281,71 @@
         {
           "rank": 1,
           "title": "今天是教师节",
-          "heatText": "1208.8万热度值",
-          "heatValue": 1208.8,
+          "heatText": "1211.3万热度值",
+          "heatValue": 1211.3,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "教师节创意贺卡",
-          "heatText": "1195.2万热度值",
-          "heatValue": 1195.2,
+          "title": "这是我送给爱师的花花呀",
+          "heatText": "1169.2万热度值",
+          "heatValue": 1169.2,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "我国不断加大民生保障力度",
-          "heatText": "1170.8万热度值",
-          "heatValue": 1170.8,
+          "title": "两分钟逛明白2026年服贸会",
+          "heatText": "1146.9万热度值",
+          "heatValue": 1146.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "中国女篮挺进世界杯八强",
-          "heatText": "1134.2万热度值",
-          "heatValue": 1134.2,
+          "title": "A股三大指数缩量收跌",
+          "heatText": "1111.3万热度值",
+          "heatValue": 1111.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "大巴黎6:1布拉迪斯拉发",
-          "heatText": "1055.0万热度值",
-          "heatValue": 1055.0,
+          "title": "证监会：加快建设世界一流交易所",
+          "heatText": "1047.0万热度值",
+          "heatValue": 1047.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "IAEA通过伊核决议 中国投反对票",
-          "heatText": "1054.7万热度值",
-          "heatValue": 1054.7,
+          "title": "启境汽车回应媒体群误发信息",
+          "heatText": "1044.6万热度值",
+          "heatValue": 1044.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "中国男排1:3不敌伊朗",
-          "heatText": "911.7万热度值",
-          "heatValue": 911.7,
+          "title": "IAEA通过伊核决议 中国投反对票",
+          "heatText": "914.3万热度值",
+          "heatValue": 914.3,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "七根火柴燃起的星星之火",
-          "heatText": "774.1万热度值",
-          "heatValue": 774.1,
+          "title": "可可系正式接管秋天",
+          "heatText": "815.1万热度值",
+          "heatValue": 815.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "宁德时代宜宾基地辟谣",
-          "heatText": "773.2万热度值",
-          "heatValue": 773.2,
+          "title": "全面收紧出境系误读出入境新规",
+          "heatText": "782.3万热度值",
+          "heatValue": 782.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "从谭勉视角打开早春晴朗",
-          "heatText": "773.1万热度值",
-          "heatValue": 773.1,
+          "title": "青岛货轮火灾已造成20人遇难",
+          "heatText": "781.3万热度值",
+          "heatValue": 781.3,
           "isNew": false
         }
       ]
@@ -514,7 +515,7 @@
     },
     {
       "rank": 2,
-      "title": "教师节创意贺卡",
+      "title": "这是我送给爱师的花花呀",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +524,7 @@
     },
     {
       "rank": 3,
-      "title": "我国不断加大民生保障力度",
+      "title": "两分钟逛明白2026年服贸会",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +533,7 @@
     },
     {
       "rank": 4,
-      "title": "iPhoneDuo 折痕",
+      "title": "青岛货轮火灾造成重大人员伤亡",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +542,7 @@
     },
     {
       "rank": 5,
-      "title": "梅姨首任丈夫称她生两个儿子后离开",
+      "title": "日本梅毒暴发与三个一有关",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +551,7 @@
     },
     {
       "rank": 6,
-      "title": "青春华章",
+      "title": "中国继续保持双向投资大国地位",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,18 +569,19 @@
     }
   ],
   "categoryStats": {
-    "社会": 51,
-    "体育": 2,
+    "社会": 44,
+    "财经": 3,
+    "政策": 4,
+    "灾害": 4,
     "娱乐": 1,
     "科技": 2,
     "科研": 1,
-    "政策": 2,
-    "财经": 1
+    "体育": 1
   },
   "platformHeatStats": {
-    "weibo": 174.7,
+    "weibo": 157.0,
     "zhihu": 741,
-    "douyin": 1208.8,
+    "douyin": 1211.3,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
