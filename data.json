@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-11 05:18",
-  "updateTimestamp": 1789075125,
+  "updateTime": "2026-09-11 07:16",
+  "updateTimestamp": 1789082215,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,57 +12,57 @@
     {
       "rank": 1,
       "title": "中国女篮不敌法国无缘世界杯四强",
-      "heatText": "综合热度 1129.0 万",
-      "heatValue": 1129.0,
+      "heatText": "综合热度 1168.9 万",
+      "heatValue": 1168.9,
       "platforms": [
         "douyin"
       ],
       "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1129.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1168.9万热度值。"
     },
     {
       "rank": 2,
       "title": "这是我送给爱师的花花呀",
-      "heatText": "综合热度 1109.8 万",
-      "heatValue": 1109.8,
+      "heatText": "综合热度 1146.5 万",
+      "heatValue": 1146.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1109.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1146.5万热度值。"
     },
     {
       "rank": 3,
       "title": "金融强国建设十五五规划出台",
-      "heatText": "综合热度 1106.7 万",
-      "heatValue": 1106.7,
+      "heatText": "综合热度 1114.4 万",
+      "heatValue": 1114.4,
       "platforms": [
         "douyin"
       ],
       "category": "财经",
-      "desc": "跨平台热度话题：抖音热搜热度 1106.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1114.4万热度值。"
     },
     {
       "rank": 4,
       "title": "沙特称南部多地再遭胡塞武装袭击",
-      "heatText": "综合热度 1093.9 万",
-      "heatValue": 1093.9,
+      "heatText": "综合热度 1112.2 万",
+      "heatValue": 1112.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1093.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1112.2万热度值。"
     },
     {
       "rank": 5,
       "title": "证监会：加快建设世界一流交易所",
-      "heatText": "综合热度 1034.9 万",
-      "heatValue": 1034.9,
+      "heatText": "综合热度 1054.7 万",
+      "heatValue": 1054.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1034.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1054.7万热度值。"
     },
     {
       "rank": 6,
@@ -77,6 +77,17 @@
     },
     {
       "rank": 7,
+      "title": "可可系正式接管秋天",
+      "heatText": "综合热度 914.6 万",
+      "heatValue": 914.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 914.6万热度值。"
+    },
+    {
+      "rank": 8,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -85,17 +96,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
-    },
-    {
-      "rank": 8,
-      "title": "可可系正式接管秋天",
-      "heatText": "综合热度 893.5 万",
-      "heatValue": 893.5,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 893.5万热度值。"
     },
     {
       "rank": 9,
@@ -111,13 +111,13 @@
     {
       "rank": 10,
       "title": "全面收紧出境系误读出入境新规",
-      "heatText": "综合热度 870.6 万",
-      "heatValue": 870.6,
+      "heatText": "综合热度 870.5 万",
+      "heatValue": 870.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 870.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 870.5万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "人为什么要读书最好的答案",
-          "heatText": "12.1万热度",
-          "heatValue": 12.1,
+          "title": "青岛货轮火灾25人遇难",
+          "heatText": "71.7万热度",
+          "heatValue": 71.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "上海28元一份馄饨只有两颗",
-          "heatText": "8.5万热度",
-          "heatValue": 8.5,
+          "title": "花少8一分钟就把选房解决了",
+          "heatText": "62.6万热度",
+          "heatValue": 62.6,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "我国成功发射一箭六星",
-          "heatText": "6.7万热度",
-          "heatValue": 6.7,
+          "heatText": "62.0万热度",
+          "heatValue": 62.0,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "建议大家把内裤袜子丢洗衣机洗",
-          "heatText": "6.5万热度",
-          "heatValue": 6.5,
+          "heatText": "61.9万热度",
+          "heatValue": 61.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "舍不得十岁老狗放弃更好大学",
-          "heatText": "6.4万热度",
-          "heatValue": 6.4,
+          "title": "人为什么要读书最好的答案",
+          "heatText": "61.7万热度",
+          "heatValue": 61.7,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "2岁女孩逛故宫指着文物让爸爸买",
-          "heatText": "6.0万热度",
-          "heatValue": 6.0,
+          "title": "舍不得十岁老狗放弃更好大学",
+          "heatText": "29.9万热度",
+          "heatValue": 29.9,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "全新一代智己LS6欢迎登机20.99万起",
-          "heatText": "5.7万热度",
-          "heatValue": 5.7,
+          "heatText": "28.4万热度",
+          "heatValue": 28.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "青岛货轮火灾25人遇难",
-          "heatText": "5.6万热度",
-          "heatValue": 5.6,
+          "title": "10天不吃糖身体变化有多大",
+          "heatText": "27.7万热度",
+          "heatValue": 27.7,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "教育界迎来了最严厉的父母",
-          "heatText": "4.9万热度",
-          "heatValue": 4.9,
+          "title": "特朗普给近百万美国人发500美元",
+          "heatText": "27.6万热度",
+          "heatValue": 27.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "10天不吃糖身体变化有多大",
-          "heatText": "4.9万热度",
-          "heatValue": 4.9,
+          "title": "教育界迎来了最严厉的父母",
+          "heatText": "27.5万热度",
+          "heatValue": 27.5,
           "isNew": false
         }
       ]
@@ -280,71 +280,71 @@
         {
           "rank": 1,
           "title": "中国女篮不敌法国无缘世界杯四强",
-          "heatText": "1129.0万热度值",
-          "heatValue": 1129.0,
+          "heatText": "1168.9万热度值",
+          "heatValue": 1168.9,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "这是我送给爱师的花花呀",
-          "heatText": "1109.8万热度值",
-          "heatValue": 1109.8,
+          "heatText": "1146.5万热度值",
+          "heatValue": 1146.5,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "金融强国建设十五五规划出台",
-          "heatText": "1106.7万热度值",
-          "heatValue": 1106.7,
+          "heatText": "1114.4万热度值",
+          "heatValue": 1114.4,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "沙特称南部多地再遭胡塞武装袭击",
-          "heatText": "1093.9万热度值",
-          "heatValue": 1093.9,
+          "heatText": "1112.2万热度值",
+          "heatValue": 1112.2,
           "isNew": false
         },
         {
           "rank": 5,
           "title": "证监会：加快建设世界一流交易所",
-          "heatText": "1034.9万热度值",
-          "heatValue": 1034.9,
+          "heatText": "1054.7万热度值",
+          "heatValue": 1054.7,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "可可系正式接管秋天",
-          "heatText": "893.5万热度值",
-          "heatValue": 893.5,
+          "heatText": "914.6万热度值",
+          "heatValue": 914.6,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "全面收紧出境系误读出入境新规",
-          "heatText": "870.6万热度值",
-          "heatValue": 870.6,
+          "heatText": "870.5万热度值",
+          "heatValue": 870.5,
           "isNew": false
         },
         {
           "rank": 8,
           "title": "孟博龙战胜前NBA球员特雷伯克",
-          "heatText": "781.8万热度值",
-          "heatValue": 781.8,
+          "heatText": "870.2万热度值",
+          "heatValue": 870.2,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "我本来想给你买手机的",
-          "heatText": "781.7万热度值",
-          "heatValue": 781.7,
+          "heatText": "862.8万热度值",
+          "heatValue": 862.8,
           "isNew": false
         },
         {
           "rank": 10,
           "title": "可爱颂歌词太魔性啦",
-          "heatText": "778.0万热度值",
-          "heatValue": 778.0,
+          "heatText": "840.4万热度值",
+          "heatValue": 840.4,
           "isNew": false
         }
       ]
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "人为什么要读书最好的答案",
+      "title": "青岛货轮火灾25人遇难",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "上海28元一份馄饨只有两颗",
+      "title": "花少8一分钟就把选房解决了",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -569,17 +569,18 @@
   ],
   "categoryStats": {
     "政策": 4,
-    "社会": 47,
+    "社会": 46,
     "财经": 3,
     "灾害": 1,
+    "娱乐": 1,
     "科技": 3,
     "科研": 1,
     "体育": 1
   },
   "platformHeatStats": {
-    "weibo": 12.1,
+    "weibo": 71.7,
     "zhihu": 741,
-    "douyin": 1129.0,
+    "douyin": 1168.9,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
