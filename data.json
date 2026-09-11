@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-12 05:26",
-  "updateTimestamp": 1789161978,
+  "updateTime": "2026-09-12 07:25",
+  "updateTimestamp": 1789169121,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,69 +11,69 @@
   "overall": [
     {
       "rank": 1,
-      "title": "抖音拼豆大学开学了",
-      "heatText": "综合热度 1210.2 万",
-      "heatValue": 1210.2,
+      "title": "川西的秋天美得没轻没重",
+      "heatText": "综合热度 1210.5 万",
+      "heatValue": 1210.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.5万热度值。"
     },
     {
       "rank": 2,
-      "title": "川西的秋天美得没轻没重",
-      "heatText": "综合热度 1186.7 万",
-      "heatValue": 1186.7,
+      "title": "世界是一本巨大的教科书",
+      "heatText": "综合热度 1210.4 万",
+      "heatValue": 1210.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1186.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.4万热度值。"
     },
     {
       "rank": 3,
       "title": "氢能储运瓶颈加速打通",
-      "heatText": "综合热度 1066.7 万",
-      "heatValue": 1066.7,
+      "heatText": "综合热度 1136.8 万",
+      "heatValue": 1136.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1066.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1136.8万热度值。"
     },
     {
       "rank": 4,
-      "title": "速来领取可可系穿搭说明书",
-      "heatText": "综合热度 1022.5 万",
-      "heatValue": 1022.5,
+      "title": "第25号台风杜鹃或将生成",
+      "heatText": "综合热度 1070.3 万",
+      "heatValue": 1070.3,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1022.5万热度值。"
+      "category": "灾害",
+      "desc": "跨平台热度话题：抖音热搜热度 1070.3万热度值。"
     },
     {
       "rank": 5,
-      "title": "普京抵达新德里与莫迪会面",
-      "heatText": "综合热度 958.2 万",
-      "heatValue": 958.2,
+      "title": "油车销量大跌加油站该怎么办",
+      "heatText": "综合热度 976.3 万",
+      "heatValue": 976.3,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 958.2万热度值。"
+      "category": "财经",
+      "desc": "跨平台热度话题：抖音热搜热度 976.3万热度值。"
     },
     {
       "rank": 6,
-      "title": "当中式审美回到下颌角时代",
-      "heatText": "综合热度 936.5 万",
-      "heatValue": 936.5,
+      "title": "中方回应日公民赴华签证费上调",
+      "heatText": "综合热度 973.0 万",
+      "heatValue": 973.0,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 936.5万热度值。"
+      "category": "政策",
+      "desc": "跨平台热度话题：抖音热搜热度 973.0万热度值。"
     },
     {
       "rank": 7,
@@ -128,71 +128,71 @@
         {
           "rank": 1,
           "title": "苹果高管称折叠屏比例泄密很遗憾",
-          "heatText": "18.6万热度",
-          "heatValue": 18.6,
+          "heatText": "82.7万热度",
+          "heatValue": 82.7,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "网红铁头退庭时辱骂法庭",
-          "heatText": "14.0万热度",
-          "heatValue": 14.0,
+          "heatText": "59.9万热度",
+          "heatValue": 59.9,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "我国发现世界级规模深海矿床",
-          "heatText": "8.9万热度",
-          "heatValue": 8.9,
+          "heatText": "46.0万热度",
+          "heatValue": 46.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "以前不理解门还没开他们去那么早干嘛",
-          "heatText": "6.8万热度",
-          "heatValue": 6.8,
+          "title": "晚8点买iPhone18Pro天猫24期免息",
+          "heatText": "43.5万热度",
+          "heatValue": 43.5,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "女子脉动喂猫创意走红",
-          "heatText": "5.4万热度",
-          "heatValue": 5.4,
+          "title": "油价涨涨涨",
+          "heatText": "25.5万热度",
+          "heatValue": 25.5,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "兰香如故观众反响",
-          "heatText": "5.3万热度",
-          "heatValue": 5.3,
+          "title": "举报考古文物失踪后店铺遭轮番查",
+          "heatText": "21.5万热度",
+          "heatValue": 21.5,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "秋季润燥避开3个常见误区",
-          "heatText": "5.2万热度",
-          "heatValue": 5.2,
+          "title": "熬夜的伤害通过睡觉能补回来吗",
+          "heatText": "17.9万热度",
+          "heatValue": 17.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "熬夜的伤害通过睡觉能补回来吗",
-          "heatText": "5.2万热度",
-          "heatValue": 5.2,
+          "title": "九号狼队战至终章",
+          "heatText": "16.7万热度",
+          "heatValue": 16.7,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "人最有魅力时是对一切都不在乎",
-          "heatText": "4.8万热度",
-          "heatValue": 4.8,
+          "heatText": "16.3万热度",
+          "heatValue": 16.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "举报考古文物失踪后店铺遭轮番查",
-          "heatText": "3.9万热度",
-          "heatValue": 3.9,
+          "title": "治理龟速开车",
+          "heatText": "16.2万热度",
+          "heatValue": 16.2,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "抖音拼豆大学开学了",
-          "heatText": "1210.2万热度值",
-          "heatValue": 1210.2,
+          "title": "川西的秋天美得没轻没重",
+          "heatText": "1210.5万热度值",
+          "heatValue": 1210.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "川西的秋天美得没轻没重",
-          "heatText": "1186.7万热度值",
-          "heatValue": 1186.7,
+          "title": "世界是一本巨大的教科书",
+          "heatText": "1210.4万热度值",
+          "heatValue": 1210.4,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "氢能储运瓶颈加速打通",
-          "heatText": "1066.7万热度值",
-          "heatValue": 1066.7,
+          "heatText": "1136.8万热度值",
+          "heatValue": 1136.8,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "速来领取可可系穿搭说明书",
-          "heatText": "1022.5万热度值",
-          "heatValue": 1022.5,
+          "title": "第25号台风杜鹃或将生成",
+          "heatText": "1070.3万热度值",
+          "heatValue": 1070.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "普京抵达新德里与莫迪会面",
-          "heatText": "958.2万热度值",
-          "heatValue": 958.2,
+          "title": "油车销量大跌加油站该怎么办",
+          "heatText": "976.3万热度值",
+          "heatValue": 976.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "当中式审美回到下颌角时代",
-          "heatText": "936.5万热度值",
-          "heatValue": 936.5,
+          "title": "中方回应日公民赴华签证费上调",
+          "heatText": "973.0万热度值",
+          "heatValue": 973.0,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "潜入地下89米的钢铁穿山甲",
-          "heatText": "803.6万热度值",
-          "heatValue": 803.6,
+          "title": "丁俊晖晋级英格兰公开赛四强",
+          "heatText": "798.1万热度值",
+          "heatValue": 798.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "中方回应日公民赴华签证费上调",
-          "heatText": "781.8万热度值",
-          "heatValue": 781.8,
+          "title": "普京抵达新德里与莫迪会面",
+          "heatText": "779.6万热度值",
+          "heatValue": 779.6,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "终于在秋天来到赛里木湖",
-          "heatText": "780.1万热度值",
-          "heatValue": 780.1,
+          "heatText": "777.5万热度值",
+          "heatValue": 777.5,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "我要和你玩一辈子",
-          "heatText": "779.9万热度值",
-          "heatValue": 779.9,
+          "title": "开学就这样搞二次元",
+          "heatText": "776.1万热度值",
+          "heatValue": 776.1,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "抖音拼豆大学开学了",
+      "title": "川西的秋天美得没轻没重",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "川西的秋天美得没轻没重",
+      "title": "世界是一本巨大的教科书",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -568,17 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 49,
+    "社会": 43,
+    "灾害": 2,
+    "财经": 4,
+    "政策": 5,
     "科技": 3,
-    "政策": 4,
     "科研": 2,
-    "体育": 1,
-    "财经": 1
+    "体育": 1
   },
   "platformHeatStats": {
-    "weibo": 18.6,
+    "weibo": 82.7,
     "zhihu": 741,
-    "douyin": 1210.2,
+    "douyin": 1210.5,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
