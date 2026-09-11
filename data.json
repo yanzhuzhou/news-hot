@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-11 19:36",
-  "updateTimestamp": 1789126615,
+  "updateTime": "2026-09-11 23:32",
+  "updateTimestamp": 1789140744,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,50 +11,72 @@
   "overall": [
     {
       "rank": 1,
-      "title": "国家对成品油价格实施调控",
-      "heatText": "综合热度 1213.8 万",
-      "heatValue": 1213.8,
+      "title": "川西的秋天美得没轻没重",
+      "heatText": "综合热度 1213.1 万",
+      "heatValue": 1213.1,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1213.1万热度值。"
+    },
+    {
+      "rank": 2,
+      "title": "抖音拼豆大学开学了",
+      "heatText": "综合热度 1210.5 万",
+      "heatValue": 1210.5,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1210.5万热度值。"
+    },
+    {
+      "rank": 3,
+      "title": "氢能储运瓶颈加速打通",
+      "heatText": "综合热度 1141.3 万",
+      "heatValue": 1141.3,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1141.3万热度值。"
+    },
+    {
+      "rank": 4,
+      "title": "速来领取可可系穿搭说明书",
+      "heatText": "综合热度 1123.8 万",
+      "heatValue": 1123.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1123.8万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "中方回应日公民赴华签证费上调",
+      "heatText": "综合热度 979.4 万",
+      "heatValue": 979.4,
       "platforms": [
         "douyin"
       ],
       "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1213.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 979.4万热度值。"
     },
     {
-      "rank": 2,
-      "title": "中国男篮大胜哈萨克斯坦",
-      "heatText": "综合热度 1212.7 万",
-      "heatValue": 1212.7,
+      "rank": 6,
+      "title": "普京抵达新德里与莫迪会面",
+      "heatText": "综合热度 962.7 万",
+      "heatValue": 962.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1212.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 962.7万热度值。"
     },
     {
-      "rank": 3,
-      "title": "一组数据感受服务出海加速度",
-      "heatText": "综合热度 1094.6 万",
-      "heatValue": 1094.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1094.6万热度值。"
-    },
-    {
-      "rank": 4,
-      "title": "莱巴金娜首进美网决赛",
-      "heatText": "综合热度 1081.1 万",
-      "heatValue": 1081.1,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 1081.1万热度值。"
-    },
-    {
-      "rank": 5,
+      "rank": 7,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -65,7 +87,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -76,18 +98,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
-      "rank": 7,
-      "title": "美联储9月加息概率升至70%",
-      "heatText": "综合热度 899.0 万",
-      "heatValue": 899.0,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 899.0万热度值。"
-    },
-    {
-      "rank": 8,
+      "rank": 9,
       "title": "我拍到了海鸥雨",
       "heatText": "综合热度 887.5 万",
       "heatValue": 887.5,
@@ -96,17 +107,6 @@
       ],
       "category": "社会",
       "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
-    },
-    {
-      "rank": 9,
-      "title": "特朗普称红利计划无需国会批准",
-      "heatText": "综合热度 885.6 万",
-      "heatValue": 885.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 885.6万热度值。"
     },
     {
       "rank": 10,
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "男子编造停捐遭威胁事件被抓",
-          "heatText": "111.1万热度",
-          "heatValue": 111.1,
+          "title": "网红铁头退庭时辱骂法庭",
+          "heatText": "118.5万热度",
+          "heatValue": 118.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "iPhoneDuo图标三合一引争议",
-          "heatText": "78.4万热度",
-          "heatValue": 78.4,
+          "title": "男子投150万开火锅店4个多月赔光",
+          "heatText": "84.5万热度",
+          "heatValue": 84.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "服贸会上一眼未来",
-          "heatText": "63.1万热度",
-          "heatValue": 63.1,
+          "title": "数读三农乡村振兴新图景",
+          "heatText": "69.4万热度",
+          "heatValue": 69.4,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "打假网红铁头一审获刑8年",
-          "heatText": "58.8万热度",
-          "heatValue": 58.8,
+          "title": "兰香如故",
+          "heatText": "64.2万热度",
+          "heatValue": 64.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "小米澎程汽车",
-          "heatText": "35.3万热度",
-          "heatValue": 35.3,
+          "title": "刺棠开机剧宣争议",
+          "heatText": "55.5万热度",
+          "heatValue": 55.5,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "民政局回应男子停助学资助遭威胁",
-          "heatText": "35.1万热度",
-          "heatValue": 35.1,
+          "title": "被罩和衣服一起洗belike",
+          "heatText": "48.2万热度",
+          "heatValue": 48.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "我的iPhone配件清单",
-          "heatText": "35.1万热度",
-          "heatValue": 35.1,
+          "title": "孙燕姿演唱会摔倒",
+          "heatText": "48.2万热度",
+          "heatValue": 48.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "雷宇扬去世",
-          "heatText": "35.1万热度",
-          "heatValue": 35.1,
+          "title": "早春晴朗",
+          "heatText": "48.2万热度",
+          "heatValue": 48.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "罚了51.79亿携程为何还在杀熟",
-          "heatText": "34.8万热度",
-          "heatValue": 34.8,
+          "title": "人最有魅力时是对一切都不在乎",
+          "heatText": "48.1万热度",
+          "heatValue": 48.1,
           "isNew": false
         },
         {
           "rank": 10,
           "title": "官方通报男子编造女生催资助",
-          "heatText": "34.6万热度",
-          "heatValue": 34.6,
+          "heatText": "48.1万热度",
+          "heatValue": 48.1,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "国家对成品油价格实施调控",
-          "heatText": "1213.8万热度值",
-          "heatValue": 1213.8,
+          "title": "川西的秋天美得没轻没重",
+          "heatText": "1213.1万热度值",
+          "heatValue": 1213.1,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "中国男篮大胜哈萨克斯坦",
-          "heatText": "1212.7万热度值",
-          "heatValue": 1212.7,
+          "title": "抖音拼豆大学开学了",
+          "heatText": "1210.5万热度值",
+          "heatValue": 1210.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "一组数据感受服务出海加速度",
-          "heatText": "1094.6万热度值",
-          "heatValue": 1094.6,
+          "title": "氢能储运瓶颈加速打通",
+          "heatText": "1141.3万热度值",
+          "heatValue": 1141.3,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "莱巴金娜首进美网决赛",
-          "heatText": "1081.1万热度值",
-          "heatValue": 1081.1,
+          "title": "速来领取可可系穿搭说明书",
+          "heatText": "1123.8万热度值",
+          "heatValue": 1123.8,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "美联储9月加息概率升至70%",
-          "heatText": "899.0万热度值",
-          "heatValue": 899.0,
+          "title": "中方回应日公民赴华签证费上调",
+          "heatText": "979.4万热度值",
+          "heatValue": 979.4,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "特朗普称红利计划无需国会批准",
-          "heatText": "885.6万热度值",
-          "heatValue": 885.6,
+          "title": "普京抵达新德里与莫迪会面",
+          "heatText": "962.7万热度值",
+          "heatValue": 962.7,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "当中式审美回到下颌角时代",
-          "heatText": "790.3万热度值",
-          "heatValue": 790.3,
+          "heatText": "801.3万热度值",
+          "heatValue": 801.3,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "歌舞里的中华情",
-          "heatText": "783.0万热度值",
-          "heatValue": 783.0,
+          "title": "开学就这样搞二次元",
+          "heatText": "794.5万热度值",
+          "heatValue": 794.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "入秋第一口肉太野了",
-          "heatText": "778.2万热度值",
-          "heatValue": 778.2,
+          "title": "丁俊晖晋级英格兰公开赛8强",
+          "heatText": "782.4万热度值",
+          "heatValue": 782.4,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "我本来想给你买手机的",
-          "heatText": "776.0万热度值",
-          "heatValue": 776.0,
+          "title": "“实习生往鲜花饼里吐痰”系造谣",
+          "heatText": "778.7万热度值",
+          "heatValue": 778.7,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "国家对成品油价格实施调控",
+      "title": "川西的秋天美得没轻没重",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "中国男篮大胜哈萨克斯坦",
+      "title": "抖音拼豆大学开学了",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +523,7 @@
     },
     {
       "rank": 3,
-      "title": "一组数据感受服务出海加速度",
+      "title": "氢能储运瓶颈加速打通",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "男子编造停捐遭威胁事件被抓",
+      "title": "网红铁头退庭时辱骂法庭",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "iPhoneDuo图标三合一引争议",
+      "title": "男子投150万开火锅店4个多月赔光",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "服贸会上一眼未来",
+      "title": "数读三农乡村振兴新图景",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,17 +568,18 @@
     }
   ],
   "categoryStats": {
+    "社会": 48,
     "政策": 5,
-    "社会": 47,
-    "体育": 3,
-    "科技": 3,
+    "娱乐": 2,
+    "科技": 2,
     "科研": 1,
+    "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 111.1,
+    "weibo": 118.5,
     "zhihu": 741,
-    "douyin": 1213.8,
+    "douyin": 1213.1,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
