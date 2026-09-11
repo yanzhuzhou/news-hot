@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-11 09:15",
-  "updateTimestamp": 1789089338,
+  "updateTime": "2026-09-11 14:14",
+  "updateTimestamp": 1789107274,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,113 +11,113 @@
   "overall": [
     {
       "rank": 1,
+      "title": "9月11日24时国内油价将调整",
+      "heatText": "综合热度 1198.7 万",
+      "heatValue": 1198.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1198.7万热度值。"
+    },
+    {
+      "rank": 2,
       "title": "中国女篮不敌法国无缘世界杯四强",
-      "heatText": "综合热度 1200.0 万",
-      "heatValue": 1200.0,
+      "heatText": "综合热度 1173.2 万",
+      "heatValue": 1173.2,
       "platforms": [
         "douyin"
       ],
       "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 1200.0万热度值。"
-    },
-    {
-      "rank": 2,
-      "title": "曼联4:0大胜沙巴巴库",
-      "heatText": "综合热度 1110.1 万",
-      "heatValue": 1110.1,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1110.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1173.2万热度值。"
     },
     {
       "rank": 3,
-      "title": "金融强国建设十五五规划出台",
-      "heatText": "综合热度 1106.4 万",
-      "heatValue": 1106.4,
+      "title": "我国继续保持双向投资大国地位",
+      "heatText": "综合热度 1139.9 万",
+      "heatValue": 1139.9,
       "platforms": [
         "douyin"
       ],
-      "category": "财经",
-      "desc": "跨平台热度话题：抖音热搜热度 1106.4万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1139.9万热度值。"
     },
     {
       "rank": 4,
-      "title": "这是我送给爱师的花花呀",
-      "heatText": "综合热度 1106.0 万",
-      "heatValue": 1106.0,
+      "title": "莱巴金娜首进美网决赛",
+      "heatText": "综合热度 1109.2 万",
+      "heatValue": 1109.2,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1106.0万热度值。"
+      "category": "体育",
+      "desc": "跨平台热度话题：抖音热搜热度 1109.2万热度值。"
     },
     {
       "rank": 5,
-      "title": "证监会：加快建设世界一流交易所",
-      "heatText": "综合热度 1049.9 万",
-      "heatValue": 1049.9,
+      "title": "中国男篮大胜哈萨克斯坦",
+      "heatText": "综合热度 1050.8 万",
+      "heatValue": 1050.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1049.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1050.8万热度值。"
     },
     {
       "rank": 6,
-      "title": "当中式审美回到下颌角时代",
-      "heatText": "综合热度 1048.3 万",
-      "heatValue": 1048.3,
+      "title": "曼联4:0大胜沙巴巴库",
+      "heatText": "综合热度 1049.4 万",
+      "heatValue": 1049.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1048.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1049.4万热度值。"
     },
     {
       "rank": 7,
-      "title": "用万能旅行拍照姿势美美出片",
-      "heatText": "综合热度 918.6 万",
-      "heatValue": 918.6,
+      "title": "当中式审美回到下颌角时代",
+      "heatText": "综合热度 933.2 万",
+      "heatValue": 933.2,
       "platforms": [
-        "xiaohongshu"
+        "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
+      "desc": "跨平台热度话题：抖音热搜热度 933.2万热度值。"
     },
     {
       "rank": 8,
-      "title": "全面收紧出境系误读出入境新规",
-      "heatText": "综合热度 908.9 万",
-      "heatValue": 908.9,
+      "title": "歌舞里的中华情",
+      "heatText": "综合热度 932.6 万",
+      "heatValue": 932.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 908.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 932.6万热度值。"
     },
     {
       "rank": 9,
-      "title": "耗时三年拍下古诗词里的中国",
-      "heatText": "综合热度 907 万",
-      "heatValue": 907,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 907万。"
-    },
-    {
-      "rank": 10,
-      "title": "孟博龙战胜前NBA球员特雷伯克",
-      "heatText": "综合热度 898.2 万",
-      "heatValue": 898.2,
+      "title": "这是我送给爱师的花花呀",
+      "heatText": "综合热度 930.8 万",
+      "heatValue": 930.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 898.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 930.8万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "美联储9月加息概率升至70%",
+      "heatText": "综合热度 929.8 万",
+      "heatValue": 929.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 929.8万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "4次考公失败后花2万2旅行6国",
-          "heatText": "203.2万热度",
-          "heatValue": 203.2,
+          "title": "库克 华为",
+          "heatText": "185.3万热度",
+          "heatValue": 185.3,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "女孩被包办婚姻逃离后父母跨省抓人",
-          "heatText": "97.1万热度",
-          "heatValue": 97.1,
+          "title": "车主称坠楼砸车小孩家长态度转变",
+          "heatText": "99.5万热度",
+          "heatValue": 99.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "我国成功发射一箭六星",
-          "heatText": "77.2万热度",
-          "heatValue": 77.2,
+          "title": "我国深海科考新突破",
+          "heatText": "91.3万热度",
+          "heatValue": 91.3,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "建议大家把内裤袜子丢洗衣机洗",
-          "heatText": "69.9万热度",
-          "heatValue": 69.9,
+          "title": "井柏然 现偶整不动了",
+          "heatText": "84.8万热度",
+          "heatValue": 84.8,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "人为什么要读书最好的答案",
+          "title": "网易 鸿蒙",
+          "heatText": "60.4万热度",
+          "heatValue": 60.4,
+          "isNew": false
+        },
+        {
+          "rank": 6,
+          "title": "第一批用阿福的人瘦了500万斤",
           "heatText": "60.1万热度",
           "heatValue": 60.1,
           "isNew": false
         },
         {
-          "rank": 6,
-          "title": "舍不得十岁老狗放弃更好大学",
-          "heatText": "54.3万热度",
-          "heatValue": 54.3,
-          "isNew": false
-        },
-        {
           "rank": 7,
-          "title": "科幻群星共耀银河奖",
-          "heatText": "51.6万热度",
-          "heatValue": 51.6,
+          "title": "刷博有问题随手问智搜",
+          "heatText": "60.1万热度",
+          "heatValue": 60.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "10天不吃糖身体变化有多大",
-          "heatText": "51.4万热度",
-          "heatValue": 51.4,
+          "title": "燃油车卖不动了加油站怎么办",
+          "heatText": "59.7万热度",
+          "heatValue": 59.7,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "重庆14女生被殴打7人被拘",
-          "heatText": "45.0万热度",
-          "heatValue": 45.0,
+          "title": "携程垄断被罚51亿后又现房价刺客",
+          "heatText": "59.3万热度",
+          "heatValue": 59.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "花少8钱多不累还有手机",
-          "heatText": "34.5万热度",
-          "heatValue": 34.5,
+          "title": "景德镇学院通报宿舍调整事件",
+          "heatText": "59.3万热度",
+          "heatValue": 59.3,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "中国女篮不敌法国无缘世界杯四强",
-          "heatText": "1200.0万热度值",
-          "heatValue": 1200.0,
+          "title": "9月11日24时国内油价将调整",
+          "heatText": "1198.7万热度值",
+          "heatValue": 1198.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "曼联4:0大胜沙巴巴库",
-          "heatText": "1110.1万热度值",
-          "heatValue": 1110.1,
+          "title": "中国女篮不敌法国无缘世界杯四强",
+          "heatText": "1173.2万热度值",
+          "heatValue": 1173.2,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "金融强国建设十五五规划出台",
-          "heatText": "1106.4万热度值",
-          "heatValue": 1106.4,
+          "title": "我国继续保持双向投资大国地位",
+          "heatText": "1139.9万热度值",
+          "heatValue": 1139.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "这是我送给爱师的花花呀",
-          "heatText": "1106.0万热度值",
-          "heatValue": 1106.0,
+          "title": "莱巴金娜首进美网决赛",
+          "heatText": "1109.2万热度值",
+          "heatValue": 1109.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "证监会：加快建设世界一流交易所",
-          "heatText": "1049.9万热度值",
-          "heatValue": 1049.9,
+          "title": "中国男篮大胜哈萨克斯坦",
+          "heatText": "1050.8万热度值",
+          "heatValue": 1050.8,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "当中式审美回到下颌角时代",
-          "heatText": "1048.3万热度值",
-          "heatValue": 1048.3,
+          "title": "曼联4:0大胜沙巴巴库",
+          "heatText": "1049.4万热度值",
+          "heatValue": 1049.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "全面收紧出境系误读出入境新规",
-          "heatText": "908.9万热度值",
-          "heatValue": 908.9,
+          "title": "当中式审美回到下颌角时代",
+          "heatText": "933.2万热度值",
+          "heatValue": 933.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "孟博龙战胜前NBA球员特雷伯克",
-          "heatText": "898.2万热度值",
-          "heatValue": 898.2,
+          "title": "歌舞里的中华情",
+          "heatText": "932.6万热度值",
+          "heatValue": 932.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "我本来想给你买手机的",
-          "heatText": "896.6万热度值",
-          "heatValue": 896.6,
+          "title": "这是我送给爱师的花花呀",
+          "heatText": "930.8万热度值",
+          "heatValue": 930.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "可爱颂歌词太魔性啦",
-          "heatText": "887.0万热度值",
-          "heatValue": 887.0,
+          "title": "美联储9月加息概率升至70%",
+          "heatText": "929.8万热度值",
+          "heatValue": 929.8,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "中国女篮不敌法国无缘世界杯四强",
+      "title": "9月11日24时国内油价将调整",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "曼联4:0大胜沙巴巴库",
+      "title": "中国女篮不敌法国无缘世界杯四强",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +523,7 @@
     },
     {
       "rank": 3,
-      "title": "金融强国建设十五五规划出台",
+      "title": "我国继续保持双向投资大国地位",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "4次考公失败后花2万2旅行6国",
+      "title": "库克 华为",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "女孩被包办婚姻逃离后父母跨省抓人",
+      "title": "车主称坠楼砸车小孩家长态度转变",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "我国成功发射一箭六星",
+      "title": "我国深海科考新突破",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,17 +568,17 @@
     }
   ],
   "categoryStats": {
-    "政策": 4,
     "社会": 47,
-    "财经": 3,
+    "政策": 4,
+    "体育": 3,
     "科技": 4,
     "科研": 1,
-    "体育": 1
+    "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 203.2,
+    "weibo": 185.3,
     "zhihu": 741,
-    "douyin": 1200.0,
+    "douyin": 1198.7,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
