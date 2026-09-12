@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-13 01:18",
-  "updateTimestamp": 1789233501,
+  "updateTime": "2026-09-13 03:29",
+  "updateTimestamp": 1789241374,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,69 +11,69 @@
   "overall": [
     {
       "rank": 1,
-      "title": "中国男篮大胜巴林",
-      "heatText": "综合热度 1240.0 万",
-      "heatValue": 1240.0,
+      "title": "茸主将对阵拉法加西亚",
+      "heatText": "综合热度 1210.9 万",
+      "heatValue": 1210.9,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1240.0万热度值。"
+      "category": "政策",
+      "desc": "跨平台热度话题：抖音热搜热度 1210.9万热度值。"
     },
     {
       "rank": 2,
-      "title": "世界是一本巨大的教科书",
-      "heatText": "综合热度 1211.8 万",
-      "heatValue": 1211.8,
+      "title": "中国男篮大胜巴林",
+      "heatText": "综合热度 1165.4 万",
+      "heatValue": 1165.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1211.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1165.4万热度值。"
     },
     {
       "rank": 3,
       "title": "沉浸式体验新德里的金砖元素",
-      "heatText": "综合热度 1176.5 万",
-      "heatValue": 1176.5,
+      "heatText": "综合热度 1151.9 万",
+      "heatValue": 1151.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1176.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1151.9万热度值。"
     },
     {
       "rank": 4,
       "title": "AL 3:2 IG",
-      "heatText": "综合热度 1054.6 万",
-      "heatValue": 1054.6,
+      "heatText": "综合热度 1089.0 万",
+      "heatValue": 1089.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1054.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1089.0万热度值。"
     },
     {
       "rank": 5,
-      "title": "手搓万物的抖音“工程师”",
-      "heatText": "综合热度 942.5 万",
-      "heatValue": 942.5,
+      "title": "世界是一本巨大的教科书",
+      "heatText": "综合热度 973.6 万",
+      "heatValue": 973.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 942.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 973.6万热度值。"
     },
     {
       "rank": 6,
-      "title": "中超津门虎1:0辽宁铁人",
-      "heatText": "综合热度 920.1 万",
-      "heatValue": 920.1,
+      "title": "手搓万物的抖音“工程师”",
+      "heatText": "综合热度 969.8 万",
+      "heatValue": 969.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 920.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 969.8万热度值。"
     },
     {
       "rank": 7,
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "你们经常换手机的人嘴真严",
-          "heatText": "95.9万热度",
-          "heatValue": 95.9,
+          "title": "狼队 遗憾",
+          "heatText": "18.0万热度",
+          "heatValue": 18.0,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "TTG夺冠",
-          "heatText": "47.3万热度",
-          "heatValue": 47.3,
+          "heatText": "18.0万热度",
+          "heatValue": 18.0,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "金砖合作打造互联互通贸易通道",
-          "heatText": "45.4万热度",
-          "heatValue": 45.4,
+          "heatText": "16.9万热度",
+          "heatValue": 16.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "赵雷当爸爸了",
-          "heatText": "45.0万热度",
-          "heatValue": 45.0,
+          "title": "吃得越狠老得越慢",
+          "heatText": "15.5万热度",
+          "heatValue": 15.5,
           "isNew": false
         },
         {
           "rank": 5,
           "title": "AI短剧 成瘾",
-          "heatText": "44.5万热度",
-          "heatValue": 44.5,
+          "heatText": "15.2万热度",
+          "heatValue": 15.2,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "弹壳说唱巅峰对决总冠军",
-          "heatText": "44.0万热度",
-          "heatValue": 44.0,
+          "heatText": "14.6万热度",
+          "heatValue": 14.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "AG 年总",
-          "heatText": "30.7万热度",
-          "heatValue": 30.7,
+          "title": "魏哲鸣的方太智慧厨房新场景新CP",
+          "heatText": "13.7万热度",
+          "heatValue": 13.7,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "刘畊宏参加披哥掉粉近40万",
-          "heatText": "24.4万热度",
-          "heatValue": 24.4,
+          "title": "赵雷当爸爸了",
+          "heatText": "12.0万热度",
+          "heatValue": 12.0,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "狼队 遗憾",
-          "heatText": "22.1万热度",
-          "heatValue": 22.1,
+          "title": "刘畊宏参加披哥掉粉近40万",
+          "heatText": "10.0万热度",
+          "heatValue": 10.0,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "兰香如故",
-          "heatText": "21.9万热度",
-          "heatValue": 21.9,
+          "title": "孙心然美网青少年冠军",
+          "heatText": "8.2万热度",
+          "heatValue": 8.2,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "中国男篮大胜巴林",
-          "heatText": "1240.0万热度值",
-          "heatValue": 1240.0,
+          "title": "茸主将对阵拉法加西亚",
+          "heatText": "1210.9万热度值",
+          "heatValue": 1210.9,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "世界是一本巨大的教科书",
-          "heatText": "1211.8万热度值",
-          "heatValue": 1211.8,
+          "title": "中国男篮大胜巴林",
+          "heatText": "1165.4万热度值",
+          "heatValue": 1165.4,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "沉浸式体验新德里的金砖元素",
-          "heatText": "1176.5万热度值",
-          "heatValue": 1176.5,
+          "heatText": "1151.9万热度值",
+          "heatValue": 1151.9,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "AL 3:2 IG",
-          "heatText": "1054.6万热度值",
-          "heatValue": 1054.6,
+          "heatText": "1089.0万热度值",
+          "heatValue": 1089.0,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "手搓万物的抖音“工程师”",
-          "heatText": "942.5万热度值",
-          "heatValue": 942.5,
+          "title": "世界是一本巨大的教科书",
+          "heatText": "973.6万热度值",
+          "heatValue": 973.6,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "中超津门虎1:0辽宁铁人",
-          "heatText": "920.1万热度值",
-          "heatValue": 920.1,
+          "title": "手搓万物的抖音“工程师”",
+          "heatText": "969.8万热度值",
+          "heatValue": 969.8,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "茸主将对阵拉法加西亚",
-          "heatText": "817.5万热度值",
-          "heatValue": 817.5,
+          "title": "中超津门虎1:0辽宁铁人",
+          "heatText": "855.2万热度值",
+          "heatValue": 855.2,
           "isNew": false
         },
         {
           "rank": 8,
           "title": "孙心然闯入美网青少年决赛",
-          "heatText": "812.6万热度值",
-          "heatValue": 812.6,
+          "heatText": "827.4万热度值",
+          "heatValue": 827.4,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "微胖女生入秋的第一件藏肉穿搭",
-          "heatText": "783.5万热度值",
-          "heatValue": 783.5,
+          "title": "高盛：美联储下周将加息",
+          "heatText": "826.9万热度值",
+          "heatValue": 826.9,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "8个鸡蛋接考的贺永辉大学报到",
-          "heatText": "783.5万热度值",
-          "heatValue": 783.5,
+          "title": "微胖女生入秋的第一件藏肉穿搭",
+          "heatText": "809.3万热度值",
+          "heatValue": 809.3,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "中国男篮大胜巴林",
+      "title": "茸主将对阵拉法加西亚",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "世界是一本巨大的教科书",
+      "title": "中国男篮大胜巴林",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "你们经常换手机的人嘴真严",
+      "title": "狼队 遗憾",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -568,17 +568,17 @@
     }
   ],
   "categoryStats": {
-    "社会": 48,
-    "科技": 4,
-    "体育": 3,
+    "政策": 4,
+    "社会": 47,
+    "科技": 3,
+    "体育": 4,
     "科研": 1,
-    "政策": 3,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 95.9,
+    "weibo": 18.0,
     "zhihu": 741,
-    "douyin": 1240.0,
+    "douyin": 1210.9,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
