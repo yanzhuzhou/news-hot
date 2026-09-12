@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-12 09:18",
-  "updateTimestamp": 1789175895,
+  "updateTime": "2026-09-12 14:01",
+  "updateTimestamp": 1789192876,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,61 +11,73 @@
   "overall": [
     {
       "rank": 1,
-      "title": "第25号台风杜鹃或将生成",
-      "heatText": "综合热度 1210.5 万",
-      "heatValue": 1210.5,
+      "title": "法考",
+      "heatText": "综合热度 1185.4 万",
+      "heatValue": 1185.4,
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.5万热度值。"
+      "category": "政策",
+      "desc": "跨平台热度话题：微博热搜热度 27.5万热度。"
     },
     {
       "rank": 2,
       "title": "世界是一本巨大的教科书",
-      "heatText": "综合热度 1161.8 万",
-      "heatValue": 1161.8,
+      "heatText": "综合热度 1171.5 万",
+      "heatValue": 1171.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1161.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1171.5万热度值。"
     },
     {
       "rank": 3,
-      "title": "氢能储运瓶颈加速打通",
-      "heatText": "综合热度 1115.3 万",
-      "heatValue": 1115.3,
+      "title": "在新德里赶赴一场金砖之约",
+      "heatText": "综合热度 1117.5 万",
+      "heatValue": 1117.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1115.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1117.5万热度值。"
     },
     {
       "rank": 4,
-      "title": "川西的秋天美得没轻没重",
-      "heatText": "综合热度 1103.7 万",
-      "heatValue": 1103.7,
+      "title": "手搓万物的抖音“工程师”",
+      "heatText": "综合热度 1113.5 万",
+      "heatValue": 1113.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1103.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1113.5万热度值。"
     },
     {
       "rank": 5,
-      "title": "丁俊晖晋级英格兰公开赛四强",
-      "heatText": "综合热度 1018.6 万",
-      "heatValue": 1018.6,
+      "title": "AL vs IG",
+      "heatText": "综合热度 1053.4 万",
+      "heatValue": 1053.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1018.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1053.4万热度值。"
     },
     {
       "rank": 6,
+      "title": "KPL夏决天狼大战",
+      "heatText": "综合热度 1042.9 万",
+      "heatValue": 1042.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1042.9万热度值。"
+    },
+    {
+      "rank": 7,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -76,48 +88,37 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 7,
-      "title": "耗时三年拍下古诗词里的中国",
-      "heatText": "综合热度 907 万",
-      "heatValue": 907,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 907万。"
-    },
-    {
       "rank": 8,
-      "title": "中方回应日公民赴华签证费上调",
-      "heatText": "综合热度 893.1 万",
-      "heatValue": 893.1,
+      "title": "丁俊晖晋级英格兰公开赛四强",
+      "heatText": "综合热度 912.4 万",
+      "heatValue": 912.4,
       "platforms": [
         "douyin"
       ],
-      "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 893.1万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 912.4万热度值。"
     },
     {
       "rank": 9,
-      "title": "我拍到了海鸥雨",
-      "heatText": "综合热度 887.5 万",
-      "heatValue": 887.5,
+      "title": "把长征精神转化成建设新时代的动力",
+      "heatText": "综合热度 910.0 万",
+      "heatValue": 910.0,
       "platforms": [
-        "xiaohongshu"
+        "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
+      "desc": "跨平台热度话题：抖音热搜热度 910.0万热度值。"
     },
     {
       "rank": 10,
-      "title": "超日常美食教程速来get",
-      "heatText": "综合热度 867.6 万",
-      "heatValue": 867.6,
+      "title": "潜入地下89米的钢铁穿山甲",
+      "heatText": "综合热度 907.0 万",
+      "heatValue": 907.0,
       "platforms": [
-        "xiaohongshu"
+        "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 867.6万。"
+      "desc": "跨平台热度话题：抖音热搜热度 907.0万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "网红铁头退庭时辱骂法庭",
-          "heatText": "114.4万热度",
-          "heatValue": 114.4,
+          "title": "支付宝 假APP",
+          "heatText": "240.3万热度",
+          "heatValue": 240.3,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "宁波大学开学典礼突降暴雨校长只讲3句话",
-          "heatText": "84.9万热度",
-          "heatValue": 84.9,
+          "title": "国乒男单全军覆没",
+          "heatText": "195.1万热度",
+          "heatValue": 195.1,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "我国发现世界级规模深海矿床",
-          "heatText": "65.1万热度",
-          "heatValue": 65.1,
+          "title": "两场展会看中国机遇",
+          "heatText": "80.5万热度",
+          "heatValue": 80.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "小米澎程SUV今日开启交付",
-          "heatText": "61.4万热度",
-          "heatValue": 61.4,
+          "title": "男孩不爱喝牛奶在早餐店销赃",
+          "heatText": "53.1万热度",
+          "heatValue": 53.1,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "领完证大街上碰到都认不出来",
-          "heatText": "50.3万热度",
-          "heatValue": 50.3,
+          "title": "菲尔兹奖得主称AI与数学正严重错位",
+          "heatText": "36.2万热度",
+          "heatValue": 36.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "马斯克怒了",
-          "heatText": "24.8万热度",
-          "heatValue": 24.8,
+          "title": "兰香如故",
+          "heatText": "27.8万热度",
+          "heatValue": 27.8,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "举报考古文物失踪后店铺遭轮番查",
-          "heatText": "24.2万热度",
-          "heatValue": 24.2,
+          "title": "法考",
+          "heatText": "27.5万热度",
+          "heatValue": 27.5,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "王一博蓝芩全球品牌代言人",
-          "heatText": "23.2万热度",
-          "heatValue": 23.2,
+          "title": "短剧版左耳女主是黎吧啦",
+          "heatText": "26.2万热度",
+          "heatValue": 26.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "兰香如故昔日未婚妻变婢女",
-          "heatText": "23.1万热度",
-          "heatValue": 23.1,
+          "title": "早春晴朗穿得太少了花絮",
+          "heatText": "18.6万热度",
+          "heatValue": 18.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "熬夜的伤害通过睡觉能补回来吗",
-          "heatText": "22.8万热度",
-          "heatValue": 22.8,
+          "title": "陈熠vs韩莹",
+          "heatText": "18.2万热度",
+          "heatValue": 18.2,
           "isNew": false
         }
       ]
@@ -279,72 +280,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "第25号台风杜鹃或将生成",
-          "heatText": "1210.5万热度值",
-          "heatValue": 1210.5,
+          "title": "世界是一本巨大的教科书",
+          "heatText": "1171.5万热度值",
+          "heatValue": 1171.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "世界是一本巨大的教科书",
-          "heatText": "1161.8万热度值",
-          "heatValue": 1161.8,
+          "title": "2026法考客观题开考",
+          "heatText": "1157.9万热度值",
+          "heatValue": 1157.9,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "氢能储运瓶颈加速打通",
-          "heatText": "1115.3万热度值",
-          "heatValue": 1115.3,
+          "title": "在新德里赶赴一场金砖之约",
+          "heatText": "1117.5万热度值",
+          "heatValue": 1117.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "川西的秋天美得没轻没重",
-          "heatText": "1103.7万热度值",
-          "heatValue": 1103.7,
+          "title": "手搓万物的抖音“工程师”",
+          "heatText": "1113.5万热度值",
+          "heatValue": 1113.5,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "丁俊晖晋级英格兰公开赛四强",
-          "heatText": "1018.6万热度值",
-          "heatValue": 1018.6,
+          "title": "AL vs IG",
+          "heatText": "1053.4万热度值",
+          "heatValue": 1053.4,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "中方回应日公民赴华签证费上调",
-          "heatText": "893.1万热度值",
-          "heatValue": 893.1,
+          "title": "KPL夏决天狼大战",
+          "heatText": "1042.9万热度值",
+          "heatValue": 1042.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "油车销量大跌加油站该怎么办",
-          "heatText": "793.1万热度值",
-          "heatValue": 793.1,
+          "title": "丁俊晖晋级英格兰公开赛四强",
+          "heatText": "912.4万热度值",
+          "heatValue": 912.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "潜入地下89米的钢铁穿山甲",
-          "heatText": "781.8万热度值",
-          "heatValue": 781.8,
+          "title": "把长征精神转化成建设新时代的动力",
+          "heatText": "910.0万热度值",
+          "heatValue": 910.0,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "2026大海道拉力赛正式完赛",
-          "heatText": "780.2万热度值",
-          "heatValue": 780.2,
+          "title": "潜入地下89米的钢铁穿山甲",
+          "heatText": "907.0万热度值",
+          "heatValue": 907.0,
           "isNew": false
         },
         {
           "rank": 10,
           "title": "开学就这样搞二次元",
-          "heatText": "779.7万热度值",
-          "heatValue": 779.7,
+          "heatText": "858.6万热度值",
+          "heatValue": 858.6,
           "isNew": false
         }
       ]
@@ -505,12 +506,13 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "第25号台风杜鹃或将生成",
+      "title": "法考",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
@@ -523,7 +525,7 @@
     },
     {
       "rank": 3,
-      "title": "氢能储运瓶颈加速打通",
+      "title": "在新德里赶赴一场金砖之约",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +534,7 @@
     },
     {
       "rank": 4,
-      "title": "网红铁头退庭时辱骂法庭",
+      "title": "支付宝 假APP",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "宁波大学开学典礼突降暴雨校长只讲3句话",
+      "title": "国乒男单全军覆没",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +552,7 @@
     },
     {
       "rank": 6,
-      "title": "我国发现世界级规模深海矿床",
+      "title": "两场展会看中国机遇",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -559,6 +561,15 @@
     },
     {
       "rank": 7,
+      "title": "2026法考客观题开考",
+      "rate": "飙升",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -568,18 +579,18 @@
     }
   ],
   "categoryStats": {
-    "灾害": 2,
-    "社会": 46,
     "政策": 5,
-    "科研": 2,
-    "科技": 2,
+    "社会": 48,
+    "科技": 3,
+    "娱乐": 1,
+    "科研": 1,
     "体育": 1,
-    "财经": 2
+    "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 114.4,
+    "weibo": 240.3,
     "zhihu": 741,
-    "douyin": 1210.5,
+    "douyin": 1171.5,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
