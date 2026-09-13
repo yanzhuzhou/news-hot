@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-14 03:06",
-  "updateTimestamp": 1789326397,
+  "updateTime": "2026-09-14 05:31",
+  "updateTimestamp": 1789335071,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,61 +11,50 @@
   "overall": [
     {
       "rank": 1,
-      "title": "朝鲜向东部海域发射多枚弹道导弹",
-      "heatText": "综合热度 1210.9 万",
-      "heatValue": 1210.9,
+      "title": "东北入秋的仪式是一锅酱大骨",
+      "heatText": "综合热度 1193.1 万",
+      "heatValue": 1193.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1193.1万热度值。"
     },
     {
       "rank": 2,
-      "title": "东北入秋的仪式是一锅酱大骨",
-      "heatText": "综合热度 1209.6 万",
-      "heatValue": 1209.6,
+      "title": "准备礼物的快乐总是先到一步",
+      "heatText": "综合热度 1145.3 万",
+      "heatValue": 1145.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1209.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1145.3万热度值。"
     },
     {
       "rank": 3,
       "title": "服贸会14年成绩单亮眼",
-      "heatText": "综合热度 1131.0 万",
-      "heatValue": 1131.0,
+      "heatText": "综合热度 1130.9 万",
+      "heatValue": 1130.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1131.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1130.9万热度值。"
     },
     {
       "rank": 4,
       "title": "本以为是废片 结果实况发力了",
-      "heatText": "综合热度 1082.4 万",
-      "heatValue": 1082.4,
+      "heatText": "综合热度 930.4 万",
+      "heatValue": 930.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1082.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 930.4万热度值。"
     },
     {
       "rank": 5,
-      "title": "准备礼物的快乐总是先到一步",
-      "heatText": "综合热度 935.9 万",
-      "heatValue": 935.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 935.9万热度值。"
-    },
-    {
-      "rank": 6,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -76,7 +65,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -87,7 +76,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "我拍到了海鸥雨",
       "heatText": "综合热度 887.5 万",
       "heatValue": 887.5,
@@ -98,15 +87,26 @@
       "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "当古代名画里的人走出了画框",
-      "heatText": "综合热度 876.5 万",
-      "heatValue": 876.5,
+      "heatText": "综合热度 876.1 万",
+      "heatValue": 876.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 876.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 876.1万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "莫雷加德4:1战胜雨果夺冠",
+      "heatText": "综合热度 874.7 万",
+      "heatValue": 874.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 874.7万热度值。"
     },
     {
       "rank": 10,
@@ -128,71 +128,71 @@
         {
           "rank": 1,
           "title": "白桃星座一周运势",
-          "heatText": "14.4万热度",
-          "heatValue": 14.4,
+          "heatText": "15.2万热度",
+          "heatValue": 15.2,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "王曼昱登顶世界第一",
-          "heatText": "10.2万热度",
-          "heatValue": 10.2,
+          "title": "大学生生活费才3000",
+          "heatText": "10.8万热度",
+          "heatValue": 10.8,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "寻找金砖温度的答案",
-          "heatText": "9.6万热度",
-          "heatValue": 9.6,
+          "heatText": "8.7万热度",
+          "heatValue": 8.7,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "大学生生活费才3000",
-          "heatText": "9.3万热度",
-          "heatValue": 9.3,
+          "title": "女篮世界杯决赛",
+          "heatText": "4.7万热度",
+          "heatValue": 4.7,
           "isNew": false
         },
         {
           "rank": 5,
           "title": "中国足球小将西班牙捧杯",
-          "heatText": "7.2万热度",
-          "heatValue": 7.2,
+          "heatText": "4.7万热度",
+          "heatValue": 4.7,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "曼联0比1曼城",
-          "heatText": "6.4万热度",
-          "heatValue": 6.4,
+          "title": "脑出血牢记3警惕4步骤",
+          "heatText": "4.4万热度",
+          "heatValue": 4.4,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "在淘宝开学时装周找到了理想型",
-          "heatText": "6.1万热度",
-          "heatValue": 6.1,
+          "title": "肯德基联名仙逆动画太香辣",
+          "heatText": "4.3万热度",
+          "heatValue": 4.3,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "Bin回应AL夺冠",
-          "heatText": "6.1万热度",
-          "heatValue": 6.1,
+          "title": "曼联0比1曼城",
+          "heatText": "3.6万热度",
+          "heatValue": 3.6,
           "isNew": false
         },
         {
           "rank": 9,
           "title": "井柏然孙千偷偷牵手",
-          "heatText": "6.0万热度",
-          "heatValue": 6.0,
+          "heatText": "3.6万热度",
+          "heatValue": 3.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "日本亏本也要卖给中国图什么",
-          "heatText": "4.5万热度",
-          "heatValue": 4.5,
+          "title": "被举报116次的烧烤店被责令整改",
+          "heatText": "3.5万热度",
+          "heatValue": 3.5,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "朝鲜向东部海域发射多枚弹道导弹",
-          "heatText": "1210.9万热度值",
-          "heatValue": 1210.9,
+          "title": "东北入秋的仪式是一锅酱大骨",
+          "heatText": "1193.1万热度值",
+          "heatValue": 1193.1,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "东北入秋的仪式是一锅酱大骨",
-          "heatText": "1209.6万热度值",
-          "heatValue": 1209.6,
+          "title": "准备礼物的快乐总是先到一步",
+          "heatText": "1145.3万热度值",
+          "heatValue": 1145.3,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "服贸会14年成绩单亮眼",
-          "heatText": "1131.0万热度值",
-          "heatValue": 1131.0,
+          "heatText": "1130.9万热度值",
+          "heatValue": 1130.9,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "本以为是废片 结果实况发力了",
-          "heatText": "1082.4万热度值",
-          "heatValue": 1082.4,
+          "heatText": "930.4万热度值",
+          "heatValue": 930.4,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "准备礼物的快乐总是先到一步",
-          "heatText": "935.9万热度值",
-          "heatValue": 935.9,
+          "title": "当古代名画里的人走出了画框",
+          "heatText": "876.1万热度值",
+          "heatValue": 876.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "当古代名画里的人走出了画框",
-          "heatText": "876.5万热度值",
-          "heatValue": 876.5,
+          "title": "莫雷加德4:1战胜雨果夺冠",
+          "heatText": "874.7万热度值",
+          "heatValue": 874.7,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "莫雷加德4:1战胜雨果夺冠",
-          "heatText": "784.0万热度值",
-          "heatValue": 784.0,
+          "title": "朝鲜向东部海域发射多枚弹道导弹",
+          "heatText": "781.8万热度值",
+          "heatValue": 781.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "AI巨头按下“IPO暂停键”",
-          "heatText": "782.9万热度值",
-          "heatValue": 782.9,
+          "title": "伊朗股市单日大涨逾15万点",
+          "heatText": "779.6万热度值",
+          "heatValue": 779.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "伊朗股市单日大涨逾15万点",
-          "heatText": "782.9万热度值",
-          "heatValue": 782.9,
+          "title": "AI巨头按下“IPO暂停键”",
+          "heatText": "778.1万热度值",
+          "heatValue": 778.1,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "2026哈尔滨马拉松",
-          "heatText": "782.8万热度值",
-          "heatValue": 782.8,
+          "title": "小胖夺冠后发抖音",
+          "heatText": "777.9万热度值",
+          "heatValue": 777.9,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "朝鲜向东部海域发射多枚弹道导弹",
+      "title": "东北入秋的仪式是一锅酱大骨",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "东北入秋的仪式是一锅酱大骨",
+      "title": "准备礼物的快乐总是先到一步",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "王曼昱登顶世界第一",
+      "title": "大学生生活费才3000",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -569,16 +569,16 @@
   ],
   "categoryStats": {
     "社会": 49,
-    "体育": 2,
-    "政策": 3,
+    "体育": 3,
     "科技": 3,
     "科研": 1,
+    "政策": 2,
     "财经": 2
   },
   "platformHeatStats": {
-    "weibo": 14.4,
+    "weibo": 15.2,
     "zhihu": 741,
-    "douyin": 1210.9,
+    "douyin": 1193.1,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
