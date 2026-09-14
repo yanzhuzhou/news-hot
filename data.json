@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-14 10:26",
-  "updateTimestamp": 1789352793,
+  "updateTime": "2026-09-14 16:00",
+  "updateTimestamp": 1789372851,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,69 +11,69 @@
   "overall": [
     {
       "rank": 1,
-      "title": "东北入秋的仪式是一锅酱大骨",
-      "heatText": "综合热度 1198.7 万",
-      "heatValue": 1198.7,
+      "title": "中国男篮三连胜头名出线",
+      "heatText": "综合热度 1214.0 万",
+      "heatValue": 1214.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1198.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1214.0万热度值。"
     },
     {
       "rank": 2,
-      "title": "准备礼物的快乐总是先到一步",
-      "heatText": "综合热度 1196.9 万",
-      "heatValue": 1196.9,
+      "title": "英超承认哈兰德进球判罚存失误",
+      "heatText": "综合热度 1117.8 万",
+      "heatValue": 1117.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1196.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1117.8万热度值。"
     },
     {
       "rank": 3,
-      "title": "服贸会14年成绩单亮眼",
-      "heatText": "综合热度 1135.2 万",
-      "heatValue": 1135.2,
+      "title": "我国实现一体化算力统筹监测",
+      "heatText": "综合热度 1093.0 万",
+      "heatValue": 1093.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1135.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1093.0万热度值。"
     },
     {
       "rank": 4,
-      "title": "本以为是废片 结果实况发力了",
-      "heatText": "综合热度 1117.4 万",
-      "heatValue": 1117.4,
+      "title": "东北入秋的仪式是一锅酱大骨",
+      "heatText": "综合热度 1091.1 万",
+      "heatValue": 1091.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1117.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1091.1万热度值。"
     },
     {
       "rank": 5,
-      "title": "今年中秋假期高速不免费",
-      "heatText": "综合热度 1036.3 万",
-      "heatValue": 1036.3,
+      "title": "王曼昱登顶女单世界第一",
+      "heatText": "综合热度 1025.3 万",
+      "heatValue": 1025.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1036.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1025.3万热度值。"
     },
     {
       "rank": 6,
-      "title": "当古代名画里的人走出了画框",
-      "heatText": "综合热度 1021.0 万",
-      "heatValue": 1021.0,
+      "title": "演唱会是成年人的童话",
+      "heatText": "综合热度 1020.1 万",
+      "heatValue": 1020.1,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1021.0万热度值。"
+      "category": "娱乐",
+      "desc": "跨平台热度话题：抖音热搜热度 1020.1万热度值。"
     },
     {
       "rank": 7,
@@ -88,6 +88,17 @@
     },
     {
       "rank": 8,
+      "title": "准备礼物的快乐总是先到一步",
+      "heatText": "综合热度 910.6 万",
+      "heatValue": 910.6,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 910.6万热度值。"
+    },
+    {
+      "rank": 9,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -98,26 +109,15 @@
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
-      "rank": 9,
-      "title": "美联储加息概率飙至90%",
-      "heatText": "综合热度 902.2 万",
-      "heatValue": 902.2,
+      "rank": 10,
+      "title": "烈士肖思远的弟弟肖荣基提干",
+      "heatText": "综合热度 905.1 万",
+      "heatValue": 905.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 902.2万热度值。"
-    },
-    {
-      "rank": 10,
-      "title": "我拍到了海鸥雨",
-      "heatText": "综合热度 887.5 万",
-      "heatValue": 887.5,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
+      "desc": "跨平台热度话题：抖音热搜热度 905.1万热度值。"
     }
   ],
   "platforms": {
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "东北入秋的仪式是一锅酱大骨",
-          "heatText": "1198.7万热度值",
-          "heatValue": 1198.7,
+          "title": "中国男篮三连胜头名出线",
+          "heatText": "1214.0万热度值",
+          "heatValue": 1214.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "准备礼物的快乐总是先到一步",
-          "heatText": "1196.9万热度值",
-          "heatValue": 1196.9,
+          "title": "英超承认哈兰德进球判罚存失误",
+          "heatText": "1117.8万热度值",
+          "heatValue": 1117.8,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "服贸会14年成绩单亮眼",
-          "heatText": "1135.2万热度值",
-          "heatValue": 1135.2,
+          "title": "我国实现一体化算力统筹监测",
+          "heatText": "1093.0万热度值",
+          "heatValue": 1093.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "本以为是废片 结果实况发力了",
-          "heatText": "1117.4万热度值",
-          "heatValue": 1117.4,
+          "title": "东北入秋的仪式是一锅酱大骨",
+          "heatText": "1091.1万热度值",
+          "heatValue": 1091.1,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "今年中秋假期高速不免费",
-          "heatText": "1036.3万热度值",
-          "heatValue": 1036.3,
+          "title": "王曼昱登顶女单世界第一",
+          "heatText": "1025.3万热度值",
+          "heatValue": 1025.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "当古代名画里的人走出了画框",
-          "heatText": "1021.0万热度值",
-          "heatValue": 1021.0,
+          "title": "演唱会是成年人的童话",
+          "heatText": "1020.1万热度值",
+          "heatValue": 1020.1,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "美联储加息概率飙至90%",
-          "heatText": "902.2万热度值",
-          "heatValue": 902.2,
+          "title": "准备礼物的快乐总是先到一步",
+          "heatText": "910.6万热度值",
+          "heatValue": 910.6,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "深渊无间大结局",
-          "heatText": "790.1万热度值",
-          "heatValue": 790.1,
+          "title": "烈士肖思远的弟弟肖荣基提干",
+          "heatText": "905.1万热度值",
+          "heatValue": 905.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "尾号985车送女儿报到事件反转",
-          "heatText": "784.5万热度值",
-          "heatValue": 784.5,
+          "title": "全球市场迎“超级央行周”",
+          "heatText": "893.9万热度值",
+          "heatValue": 893.9,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "早春晴朗迎来收官",
-          "heatText": "782.5万热度值",
-          "heatValue": 782.5,
+          "title": "中国足球小将西班牙捧杯",
+          "heatText": "890.7万热度值",
+          "heatValue": 890.7,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "东北入秋的仪式是一锅酱大骨",
+      "title": "中国男篮三连胜头名出线",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "准备礼物的快乐总是先到一步",
+      "title": "英超承认哈兰德进球判罚存失误",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +523,7 @@
     },
     {
       "rank": 3,
-      "title": "服贸会14年成绩单亮眼",
+      "title": "我国实现一体化算力统筹监测",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -568,18 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 51,
+    "社会": 48,
+    "娱乐": 3,
     "科技": 3,
-    "娱乐": 1,
     "科研": 1,
     "政策": 2,
-    "体育": 1,
+    "体育": 2,
     "财经": 1
   },
   "platformHeatStats": {
     "weibo": 274.6,
     "zhihu": 741,
-    "douyin": 1198.7,
+    "douyin": 1214.0,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
