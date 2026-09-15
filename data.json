@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-15 06:51",
-  "updateTimestamp": 1789426296,
+  "updateTime": "2026-09-15 09:04",
+  "updateTimestamp": 1789434273,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,113 +11,113 @@
   "overall": [
     {
       "rank": 1,
-      "title": "国务院对青岛船厂火灾提级调查",
-      "heatText": "综合热度 1210.7 万",
-      "heatValue": 1210.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.7万热度值。"
-    },
-    {
-      "rank": 2,
-      "title": "全国多地观测到金星伴月美景",
-      "heatText": "综合热度 1210.1 万",
-      "heatValue": 1210.1,
+      "title": "全国地标被大学生玩明白了",
+      "heatText": "综合热度 1210.8 万",
+      "heatValue": 1210.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.8万热度值。"
+    },
+    {
+      "rank": 2,
+      "title": "请选择你的请3休13心动目的地",
+      "heatText": "综合热度 1187.2 万",
+      "heatValue": 1187.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1187.2万热度值。"
     },
     {
       "rank": 3,
       "title": "一组数据看金砖20年",
-      "heatText": "综合热度 1208.3 万",
-      "heatValue": 1208.3,
+      "heatText": "综合热度 1157.9 万",
+      "heatValue": 1157.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1208.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1157.9万热度值。"
     },
     {
       "rank": 4,
-      "title": "全国地标被大学生玩明白了",
-      "heatText": "综合热度 1180.4 万",
-      "heatValue": 1180.4,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1180.4万热度值。"
-    },
-    {
-      "rank": 5,
-      "title": "媒体评沙特求美军出手被拒",
-      "heatText": "综合热度 1095.3 万",
-      "heatValue": 1095.3,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1095.3万热度值。"
-    },
-    {
-      "rank": 6,
-      "title": "全球市场迎“超级央行周”",
-      "heatText": "综合热度 1078.5 万",
-      "heatValue": 1078.5,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1078.5万热度值。"
-    },
-    {
-      "rank": 7,
-      "title": "中国男篮三连胜头名出线",
-      "heatText": "综合热度 958.7 万",
-      "heatValue": 958.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 958.7万热度值。"
-    },
-    {
-      "rank": 8,
-      "title": "胡塞武装对沙特空军基地发动打击",
-      "heatText": "综合热度 943.4 万",
-      "heatValue": 943.4,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 943.4万热度值。"
-    },
-    {
-      "rank": 9,
-      "title": "请选择你的请3休13心动目的地",
-      "heatText": "综合热度 943.1 万",
-      "heatValue": 943.1,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 943.1万热度值。"
-    },
-    {
-      "rank": 10,
       "title": "演唱会是成年人的童话",
-      "heatText": "综合热度 940.5 万",
-      "heatValue": 940.5,
+      "heatText": "综合热度 1134.9 万",
+      "heatValue": 1134.9,
       "platforms": [
         "douyin"
       ],
       "category": "娱乐",
-      "desc": "跨平台热度话题：抖音热搜热度 940.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1134.9万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "东北入秋的仪式是一锅酱大骨",
+      "heatText": "综合热度 1072.8 万",
+      "heatValue": 1072.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1072.8万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "中国男篮四分之一决赛将战沙特",
+      "heatText": "综合热度 1031.5 万",
+      "heatValue": 1031.5,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "体育",
+      "desc": "跨平台热度话题：抖音热搜热度 1031.5万热度值。"
+    },
+    {
+      "rank": 7,
+      "title": "用万能旅行拍照姿势美美出片",
+      "heatText": "综合热度 918.6 万",
+      "heatValue": 918.6,
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
+    },
+    {
+      "rank": 8,
+      "title": "央企拖欠中小企业账款可扫码投诉",
+      "heatText": "综合热度 917.2 万",
+      "heatValue": 917.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 917.2万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "亚马尔：我和姆巴佩是当世最佳",
+      "heatText": "综合热度 916.9 万",
+      "heatValue": 916.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 916.9万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "退役军人服务保障十五五规划印发",
+      "heatText": "综合热度 913.3 万",
+      "heatValue": 913.3,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 913.3万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "猕猴桃是全世界最团结的水果",
-          "heatText": "60.1万热度",
-          "heatValue": 60.1,
+          "title": "自称演唱会求婚事件当事人发声",
+          "heatText": "118.0万热度",
+          "heatValue": 118.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "黄斌公开炮轰罗永浩",
-          "heatText": "44.7万热度",
-          "heatValue": 44.7,
+          "title": "兰香如故配角营销被吐槽",
+          "heatText": "83.1万热度",
+          "heatValue": 83.1,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "网络安全宣传周亮点揭秘",
-          "heatText": "33.8万热度",
-          "heatValue": 33.8,
+          "title": "中国人挖运河顺手造万亩良田",
+          "heatText": "70.2万热度",
+          "heatValue": 70.2,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "地平线智驾芯片量产突破1500万",
-          "heatText": "33.0万热度",
-          "heatValue": 33.0,
+          "title": "享界G9总有享法在路上",
+          "heatText": "70.2万热度",
+          "heatValue": 70.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "我国灵活就业人员规模已超过2亿人",
-          "heatText": "32.9万热度",
-          "heatValue": 32.9,
+          "title": "猕猴桃是全世界最团结的水果",
+          "heatText": "70.2万热度",
+          "heatValue": 70.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "终于知道为什么有人工作能力这么强",
-          "heatText": "17.8万热度",
-          "heatValue": 17.8,
+          "title": "我国灵活就业人员规模已超过2亿人",
+          "heatText": "70.0万热度",
+          "heatValue": 70.0,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "美股",
-          "heatText": "15.0万热度",
-          "heatValue": 15.0,
+          "title": "艾滋病会通过接吻传播吗",
+          "heatText": "69.7万热度",
+          "heatValue": 69.7,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "天津曝光多起免费领鸡蛋骗局",
-          "heatText": "14.9万热度",
-          "heatValue": 14.9,
+          "title": "美股",
+          "heatText": "66.7万热度",
+          "heatValue": 66.7,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "刘学义郑合惠子 cp感玄学",
-          "heatText": "14.9万热度",
-          "heatValue": 14.9,
+          "title": "黄斌罗永浩 一物降一物",
+          "heatText": "49.4万热度",
+          "heatValue": 49.4,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "脑梗前三天身体发出的预警",
-          "heatText": "13.4万热度",
-          "heatValue": 13.4,
+          "title": "终于知道为什么有人工作能力这么强",
+          "heatText": "48.5万热度",
+          "heatValue": 48.5,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "国务院对青岛船厂火灾提级调查",
-          "heatText": "1210.7万热度值",
-          "heatValue": 1210.7,
+          "title": "全国地标被大学生玩明白了",
+          "heatText": "1210.8万热度值",
+          "heatValue": 1210.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "全国多地观测到金星伴月美景",
-          "heatText": "1210.1万热度值",
-          "heatValue": 1210.1,
+          "title": "请选择你的请3休13心动目的地",
+          "heatText": "1187.2万热度值",
+          "heatValue": 1187.2,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "一组数据看金砖20年",
-          "heatText": "1208.3万热度值",
-          "heatValue": 1208.3,
+          "heatText": "1157.9万热度值",
+          "heatValue": 1157.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "全国地标被大学生玩明白了",
-          "heatText": "1180.4万热度值",
-          "heatValue": 1180.4,
+          "title": "演唱会是成年人的童话",
+          "heatText": "1134.9万热度值",
+          "heatValue": 1134.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "媒体评沙特求美军出手被拒",
-          "heatText": "1095.3万热度值",
-          "heatValue": 1095.3,
+          "title": "东北入秋的仪式是一锅酱大骨",
+          "heatText": "1072.8万热度值",
+          "heatValue": 1072.8,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "全球市场迎“超级央行周”",
-          "heatText": "1078.5万热度值",
-          "heatValue": 1078.5,
+          "title": "中国男篮四分之一决赛将战沙特",
+          "heatText": "1031.5万热度值",
+          "heatValue": 1031.5,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "中国男篮三连胜头名出线",
-          "heatText": "958.7万热度值",
-          "heatValue": 958.7,
+          "title": "央企拖欠中小企业账款可扫码投诉",
+          "heatText": "917.2万热度值",
+          "heatValue": 917.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "胡塞武装对沙特空军基地发动打击",
-          "heatText": "943.4万热度值",
-          "heatValue": 943.4,
+          "title": "亚马尔：我和姆巴佩是当世最佳",
+          "heatText": "916.9万热度值",
+          "heatValue": 916.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "请选择你的请3休13心动目的地",
-          "heatText": "943.1万热度值",
-          "heatValue": 943.1,
+          "title": "退役军人服务保障十五五规划印发",
+          "heatText": "913.3万热度值",
+          "heatValue": 913.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "演唱会是成年人的童话",
-          "heatText": "940.5万热度值",
-          "heatValue": 940.5,
+          "title": "快船与猛龙同意完成伦纳德交易",
+          "heatText": "910.5万热度值",
+          "heatValue": 910.5,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "国务院对青岛船厂火灾提级调查",
+      "title": "全国地标被大学生玩明白了",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "全国多地观测到金星伴月美景",
+      "title": "请选择你的请3休13心动目的地",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "猕猴桃是全世界最团结的水果",
+      "title": "自称演唱会求婚事件当事人发声",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "黄斌公开炮轰罗永浩",
+      "title": "兰香如故配角营销被吐槽",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "网络安全宣传周亮点揭秘",
+      "title": "中国人挖运河顺手造万亩良田",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,19 +568,18 @@
     }
   ],
   "categoryStats": {
-    "灾害": 2,
-    "社会": 47,
-    "娱乐": 2,
-    "科技": 3,
+    "社会": 46,
+    "娱乐": 3,
+    "体育": 3,
+    "政策": 3,
     "财经": 2,
-    "科研": 1,
-    "政策": 2,
-    "体育": 1
+    "科技": 2,
+    "科研": 1
   },
   "platformHeatStats": {
-    "weibo": 60.1,
+    "weibo": 118.0,
     "zhihu": 741,
-    "douyin": 1210.7,
+    "douyin": 1210.8,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
