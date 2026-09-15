@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-15 09:04",
-  "updateTimestamp": 1789434273,
+  "updateTime": "2026-09-15 14:18",
+  "updateTimestamp": 1789453091,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,72 +11,83 @@
   "overall": [
     {
       "rank": 1,
-      "title": "全国地标被大学生玩明白了",
-      "heatText": "综合热度 1210.8 万",
-      "heatValue": 1210.8,
+      "title": "特种兵玩家准备开启快闪模式",
+      "heatText": "综合热度 1183.7 万",
+      "heatValue": 1183.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1210.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1183.7万热度值。"
     },
     {
       "rank": 2,
-      "title": "请选择你的请3休13心动目的地",
-      "heatText": "综合热度 1187.2 万",
-      "heatValue": 1187.2,
+      "title": "苹果推出Siri人工智能",
+      "heatText": "综合热度 1111.6 万",
+      "heatValue": 1111.6,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1187.2万热度值。"
+      "category": "科技",
+      "desc": "跨平台热度话题：抖音热搜热度 1111.6万热度值。"
     },
     {
       "rank": 3,
-      "title": "一组数据看金砖20年",
-      "heatText": "综合热度 1157.9 万",
-      "heatValue": 1157.9,
+      "title": "我国县域消费加速扩容提质",
+      "heatText": "综合热度 1107.0 万",
+      "heatValue": 1107.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1157.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1107.0万热度值。"
     },
     {
       "rank": 4,
-      "title": "演唱会是成年人的童话",
-      "heatText": "综合热度 1134.9 万",
-      "heatValue": 1134.9,
+      "title": "曝华为赛力斯合作模式调整",
+      "heatText": "综合热度 1099.9 万",
+      "heatValue": 1099.9,
       "platforms": [
         "douyin"
       ],
-      "category": "娱乐",
-      "desc": "跨平台热度话题：抖音热搜热度 1134.9万热度值。"
+      "category": "科技",
+      "desc": "跨平台热度话题：抖音热搜热度 1099.9万热度值。"
     },
     {
       "rank": 5,
-      "title": "东北入秋的仪式是一锅酱大骨",
-      "heatText": "综合热度 1072.8 万",
-      "heatValue": 1072.8,
+      "title": "平陆运河为何称得上世纪工程",
+      "heatText": "综合热度 1037.4 万",
+      "heatValue": 1037.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1072.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1037.4万热度值。"
     },
     {
       "rank": 6,
+      "title": "快船与猛龙同意完成伦纳德交易",
+      "heatText": "综合热度 1037.0 万",
+      "heatValue": 1037.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1037.0万热度值。"
+    },
+    {
+      "rank": 7,
       "title": "中国男篮四分之一决赛将战沙特",
-      "heatText": "综合热度 1031.5 万",
-      "heatValue": 1031.5,
+      "heatText": "综合热度 925.9 万",
+      "heatValue": 925.9,
       "platforms": [
         "douyin"
       ],
       "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 1031.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 925.9万热度值。"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -87,37 +98,26 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 8,
-      "title": "央企拖欠中小企业账款可扫码投诉",
-      "heatText": "综合热度 917.2 万",
-      "heatValue": 917.2,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 917.2万热度值。"
-    },
-    {
       "rank": 9,
-      "title": "亚马尔：我和姆巴佩是当世最佳",
-      "heatText": "综合热度 916.9 万",
-      "heatValue": 916.9,
+      "title": "赵家驹巨人之旅抽空发了条抖音",
+      "heatText": "综合热度 917.6 万",
+      "heatValue": 917.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 916.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 917.6万热度值。"
     },
     {
       "rank": 10,
-      "title": "退役军人服务保障十五五规划印发",
-      "heatText": "综合热度 913.3 万",
-      "heatValue": 913.3,
+      "title": "全国地标被大学生玩明白了",
+      "heatText": "综合热度 915.6 万",
+      "heatValue": 915.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 913.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 915.6万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "自称演唱会求婚事件当事人发声",
-          "heatText": "118.0万热度",
-          "heatValue": 118.0,
+          "title": "我国人口总量14.05亿",
+          "heatText": "145.4万热度",
+          "heatValue": 145.4,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "兰香如故配角营销被吐槽",
-          "heatText": "83.1万热度",
-          "heatValue": 83.1,
+          "title": "涉嫌猎杀玳瑁中国籍教练发声",
+          "heatText": "115.1万热度",
+          "heatValue": 115.1,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "中国人挖运河顺手造万亩良田",
-          "heatText": "70.2万热度",
-          "heatValue": 70.2,
+          "title": "2026年国家网络安全宣传周",
+          "heatText": "72.1万热度",
+          "heatValue": 72.1,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "享界G9总有享法在路上",
-          "heatText": "70.2万热度",
-          "heatValue": 70.2,
+          "title": "手机价格够买全屋家电了",
+          "heatText": "67.5万热度",
+          "heatValue": 67.5,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "猕猴桃是全世界最团结的水果",
-          "heatText": "70.2万热度",
-          "heatValue": 70.2,
+          "title": "一线城市房价涨了",
+          "heatText": "61.2万热度",
+          "heatValue": 61.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "我国灵活就业人员规模已超过2亿人",
-          "heatText": "70.0万热度",
-          "heatValue": 70.0,
+          "title": "孙颖莎说伤病让自己很焦虑",
+          "heatText": "49.2万热度",
+          "heatValue": 49.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "艾滋病会通过接吻传播吗",
-          "heatText": "69.7万热度",
-          "heatValue": 69.7,
+          "title": "2026平谷区网络举报优秀作品展播",
+          "heatText": "46.8万热度",
+          "heatValue": 46.8,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "美股",
-          "heatText": "66.7万热度",
-          "heatValue": 66.7,
+          "title": "刘萧旭领衔主演前进前进",
+          "heatText": "46.3万热度",
+          "heatValue": 46.3,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "黄斌罗永浩 一物降一物",
-          "heatText": "49.4万热度",
-          "heatValue": 49.4,
+          "title": "微信AI 隐私",
+          "heatText": "45.0万热度",
+          "heatValue": 45.0,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "终于知道为什么有人工作能力这么强",
-          "heatText": "48.5万热度",
-          "heatValue": 48.5,
+          "title": "心动9第七期就亲上了",
+          "heatText": "41.4万热度",
+          "heatValue": 41.4,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "全国地标被大学生玩明白了",
-          "heatText": "1210.8万热度值",
-          "heatValue": 1210.8,
+          "title": "特种兵玩家准备开启快闪模式",
+          "heatText": "1183.7万热度值",
+          "heatValue": 1183.7,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "请选择你的请3休13心动目的地",
-          "heatText": "1187.2万热度值",
-          "heatValue": 1187.2,
+          "title": "苹果推出Siri人工智能",
+          "heatText": "1111.6万热度值",
+          "heatValue": 1111.6,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "一组数据看金砖20年",
-          "heatText": "1157.9万热度值",
-          "heatValue": 1157.9,
+          "title": "我国县域消费加速扩容提质",
+          "heatText": "1107.0万热度值",
+          "heatValue": 1107.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "演唱会是成年人的童话",
-          "heatText": "1134.9万热度值",
-          "heatValue": 1134.9,
+          "title": "曝华为赛力斯合作模式调整",
+          "heatText": "1099.9万热度值",
+          "heatValue": 1099.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "东北入秋的仪式是一锅酱大骨",
-          "heatText": "1072.8万热度值",
-          "heatValue": 1072.8,
+          "title": "平陆运河为何称得上世纪工程",
+          "heatText": "1037.4万热度值",
+          "heatValue": 1037.4,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "中国男篮四分之一决赛将战沙特",
-          "heatText": "1031.5万热度值",
-          "heatValue": 1031.5,
+          "title": "快船与猛龙同意完成伦纳德交易",
+          "heatText": "1037.0万热度值",
+          "heatValue": 1037.0,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "央企拖欠中小企业账款可扫码投诉",
-          "heatText": "917.2万热度值",
-          "heatValue": 917.2,
+          "title": "中国男篮四分之一决赛将战沙特",
+          "heatText": "925.9万热度值",
+          "heatValue": 925.9,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "亚马尔：我和姆巴佩是当世最佳",
-          "heatText": "916.9万热度值",
-          "heatValue": 916.9,
+          "title": "赵家驹巨人之旅抽空发了条抖音",
+          "heatText": "917.6万热度值",
+          "heatValue": 917.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "退役军人服务保障十五五规划印发",
-          "heatText": "913.3万热度值",
-          "heatValue": 913.3,
+          "title": "全国地标被大学生玩明白了",
+          "heatText": "915.6万热度值",
+          "heatValue": 915.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "快船与猛龙同意完成伦纳德交易",
-          "heatText": "910.5万热度值",
-          "heatValue": 910.5,
+          "title": "国庆穿搭开始预备",
+          "heatText": "915.2万热度值",
+          "heatValue": 915.2,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "全国地标被大学生玩明白了",
+      "title": "特种兵玩家准备开启快闪模式",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "请选择你的请3休13心动目的地",
+      "title": "苹果推出Siri人工智能",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +523,7 @@
     },
     {
       "rank": 3,
-      "title": "一组数据看金砖20年",
+      "title": "我国县域消费加速扩容提质",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "自称演唱会求婚事件当事人发声",
+      "title": "我国人口总量14.05亿",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "兰香如故配角营销被吐槽",
+      "title": "涉嫌猎杀玳瑁中国籍教练发声",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "中国人挖运河顺手造万亩良田",
+      "title": "2026年国家网络安全宣传周",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,18 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 46,
-    "娱乐": 3,
+    "社会": 43,
+    "科技": 8,
     "体育": 3,
-    "政策": 3,
     "财经": 2,
-    "科技": 2,
-    "科研": 1
+    "娱乐": 1,
+    "科研": 1,
+    "政策": 2
   },
   "platformHeatStats": {
-    "weibo": 118.0,
+    "weibo": 145.4,
     "zhihu": 741,
-    "douyin": 1210.8,
+    "douyin": 1183.7,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
