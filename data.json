@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-16 06:32",
-  "updateTimestamp": 1789511574,
+  "updateTime": "2026-09-16 08:53",
+  "updateTimestamp": 1789520025,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,106 +11,106 @@
   "overall": [
     {
       "rank": 1,
-      "title": "美首次承认在太空具备“进攻能力”",
-      "heatText": "综合热度 1181.4 万",
-      "heatValue": 1181.4,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1181.4万热度值。"
-    },
-    {
-      "rank": 2,
       "title": "25号台风“杜鹃”未来或将趋向日本",
-      "heatText": "综合热度 1173.9 万",
-      "heatValue": 1173.9,
+      "heatText": "综合热度 1182.8 万",
+      "heatValue": 1182.8,
       "platforms": [
         "douyin"
       ],
       "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 1173.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1182.8万热度值。"
+    },
+    {
+      "rank": 2,
+      "title": "李在明支持率连续9周下滑",
+      "heatText": "综合热度 1176.3 万",
+      "heatValue": 1176.3,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1176.3万热度值。"
     },
     {
       "rank": 3,
       "title": "2026年国家网络安全宣传周",
-      "heatText": "综合热度 1133.3 万",
-      "heatValue": 1133.3,
+      "heatText": "综合热度 1124.5 万",
+      "heatValue": 1124.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1133.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1124.5万热度值。"
     },
     {
       "rank": 4,
-      "title": "北京国安迎亚冠开门红",
-      "heatText": "综合热度 1127.2 万",
-      "heatValue": 1127.2,
+      "title": "伊普斯维奇2:4阿森纳",
+      "heatText": "综合热度 1114.7 万",
+      "heatValue": 1114.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1127.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1114.7万热度值。"
     },
     {
       "rank": 5,
-      "title": "亚冠上海海港6:4胜拉查武里",
-      "heatText": "综合热度 1054.8 万",
-      "heatValue": 1054.8,
+      "title": "特种兵玩家准备开启快闪模式",
+      "heatText": "综合热度 1057.3 万",
+      "heatValue": 1057.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1054.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1057.3万热度值。"
     },
     {
       "rank": 6,
-      "title": "特种兵玩家准备开启快闪模式",
-      "heatText": "综合热度 1054.7 万",
-      "heatValue": 1054.7,
+      "title": "需要浇水才能长出的拼豆绿植",
+      "heatText": "综合热度 1054.6 万",
+      "heatValue": 1054.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1054.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1054.6万热度值。"
     },
     {
       "rank": 7,
-      "title": "苹果推出Siri人工智能",
-      "heatText": "综合热度 942.6 万",
-      "heatValue": 942.6,
+      "title": "首届辣门零食大赛",
+      "heatText": "综合热度 942.2 万",
+      "heatValue": 942.2,
       "platforms": [
         "douyin"
       ],
-      "category": "科技",
-      "desc": "跨平台热度话题：抖音热搜热度 942.6万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 942.2万热度值。"
     },
     {
       "rank": 8,
-      "title": "需要浇水才能长出的拼豆绿植",
-      "heatText": "综合热度 941.4 万",
-      "heatValue": 941.4,
+      "title": "花呗白条将不再列入默认支付选项",
+      "heatText": "综合热度 941.1 万",
+      "heatValue": 941.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 941.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 941.1万热度值。"
     },
     {
       "rank": 9,
-      "title": "国庆穿搭开始预备",
-      "heatText": "综合热度 937.1 万",
-      "heatValue": 937.1,
+      "title": "假期出游装箱倒计时",
+      "heatText": "综合热度 935.8 万",
+      "heatValue": 935.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 937.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 935.8万热度值。"
     },
     {
       "rank": 10,
-      "title": "假期出游装箱倒计时",
+      "title": "国庆穿搭开始预备",
       "heatText": "综合热度 935.6 万",
       "heatValue": 935.6,
       "platforms": [
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "发朋友圈要有滞后性",
-          "heatText": "64.6万热度",
-          "heatValue": 64.6,
+          "title": "一劳永逸解决台湾问题",
+          "heatText": "118.6万热度",
+          "heatValue": 118.6,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "野人先生成本",
-          "heatText": "38.3万热度",
-          "heatValue": 38.3,
+          "title": "隐翅虫被女生用手掐着玩",
+          "heatText": "85.0万热度",
+          "heatValue": 85.0,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "4问4答了解平陆运河为何而建",
-          "heatText": "27.9万热度",
-          "heatValue": 27.9,
+          "title": "对外贸易快速增长",
+          "heatText": "68.3万热度",
+          "heatValue": 68.3,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "全新理想i9今日上市",
-          "heatText": "27.6万热度",
-          "heatValue": 27.6,
+          "title": "全球首款AI智能体手机今日开售",
+          "heatText": "65.6万热度",
+          "heatValue": 65.6,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "一劳永逸解决台湾问题",
-          "heatText": "17.6万热度",
-          "heatValue": 17.6,
+          "title": "发朋友圈要有滞后性",
+          "heatText": "64.1万热度",
+          "heatValue": 64.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "我不得不把才华埋葬在昨天",
-          "heatText": "13.6万热度",
-          "heatValue": 13.6,
+          "title": "女律师被砸身亡凶手曾多次高空抛物",
+          "heatText": "53.6万热度",
+          "heatValue": 53.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "弟弟离世数周社恐哥哥无法自理死亡",
-          "heatText": "10.7万热度",
-          "heatValue": 10.7,
+          "title": "男子30年前存一万定期忘取",
+          "heatText": "41.6万热度",
+          "heatValue": 41.6,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "停产了但让你怀念的零食",
-          "heatText": "9.4万热度",
-          "heatValue": 9.4,
+          "title": "不良信息一键举报共建清朗网络",
+          "heatText": "40.5万热度",
+          "heatValue": 40.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "人一定要为自己的舒适买单",
-          "heatText": "9.3万热度",
-          "heatValue": 9.3,
+          "title": "问界售后权责划分",
+          "heatText": "40.0万热度",
+          "heatValue": 40.0,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "网传刘亦菲陈晓咸雪导演伊峥",
-          "heatText": "9.0万热度",
-          "heatValue": 9.0,
+          "title": "谭松韵10年4部爆款剧",
+          "heatText": "39.2万热度",
+          "heatValue": 39.2,
           "isNew": false
         }
       ]
@@ -279,70 +279,70 @@
       "list": [
         {
           "rank": 1,
-          "title": "美首次承认在太空具备“进攻能力”",
-          "heatText": "1181.4万热度值",
-          "heatValue": 1181.4,
+          "title": "25号台风“杜鹃”未来或将趋向日本",
+          "heatText": "1182.8万热度值",
+          "heatValue": 1182.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "25号台风“杜鹃”未来或将趋向日本",
-          "heatText": "1173.9万热度值",
-          "heatValue": 1173.9,
+          "title": "李在明支持率连续9周下滑",
+          "heatText": "1176.3万热度值",
+          "heatValue": 1176.3,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "2026年国家网络安全宣传周",
-          "heatText": "1133.3万热度值",
-          "heatValue": 1133.3,
+          "heatText": "1124.5万热度值",
+          "heatValue": 1124.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "北京国安迎亚冠开门红",
-          "heatText": "1127.2万热度值",
-          "heatValue": 1127.2,
+          "title": "伊普斯维奇2:4阿森纳",
+          "heatText": "1114.7万热度值",
+          "heatValue": 1114.7,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "亚冠上海海港6:4胜拉查武里",
-          "heatText": "1054.8万热度值",
-          "heatValue": 1054.8,
+          "title": "特种兵玩家准备开启快闪模式",
+          "heatText": "1057.3万热度值",
+          "heatValue": 1057.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "特种兵玩家准备开启快闪模式",
-          "heatText": "1054.7万热度值",
-          "heatValue": 1054.7,
+          "title": "需要浇水才能长出的拼豆绿植",
+          "heatText": "1054.6万热度值",
+          "heatValue": 1054.6,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "苹果推出Siri人工智能",
-          "heatText": "942.6万热度值",
-          "heatValue": 942.6,
+          "title": "首届辣门零食大赛",
+          "heatText": "942.2万热度值",
+          "heatValue": 942.2,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "需要浇水才能长出的拼豆绿植",
-          "heatText": "941.4万热度值",
-          "heatValue": 941.4,
+          "title": "花呗白条将不再列入默认支付选项",
+          "heatText": "941.1万热度值",
+          "heatValue": 941.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "国庆穿搭开始预备",
-          "heatText": "937.1万热度值",
-          "heatValue": 937.1,
+          "title": "假期出游装箱倒计时",
+          "heatText": "935.8万热度值",
+          "heatValue": 935.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "假期出游装箱倒计时",
+          "title": "国庆穿搭开始预备",
           "heatText": "935.6万热度值",
           "heatValue": 935.6,
           "isNew": false
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "美首次承认在太空具备“进攻能力”",
+      "title": "25号台风“杜鹃”未来或将趋向日本",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "25号台风“杜鹃”未来或将趋向日本",
+      "title": "李在明支持率连续9周下滑",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "发朋友圈要有滞后性",
+      "title": "一劳永逸解决台湾问题",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "野人先生成本",
+      "title": "隐翅虫被女生用手掐着玩",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "4问4答了解平陆运河为何而建",
+      "title": "对外贸易快速增长",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,19 +568,19 @@
     }
   ],
   "categoryStats": {
-    "社会": 47,
     "灾害": 2,
-    "科技": 4,
-    "政策": 3,
+    "社会": 49,
+    "科技": 3,
     "娱乐": 1,
     "科研": 1,
+    "政策": 2,
     "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 64.6,
+    "weibo": 118.6,
     "zhihu": 741,
-    "douyin": 1181.4,
+    "douyin": 1182.8,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
