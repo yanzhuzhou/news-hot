@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-18 10:14",
-  "updateTimestamp": 1789697664,
+  "updateTime": "2026-09-18 15:30",
+  "updateTimestamp": 1789716636,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,51 +11,72 @@
   "overall": [
     {
       "rank": 1,
-      "title": "九一八事变",
-      "heatText": "综合热度 1247.5 万",
-      "heatValue": 1247.5,
+      "title": "九一八事变爆发95周年",
+      "heatText": "综合热度 1110.5 万",
+      "heatValue": 1110.5,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 34.2万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1110.5万热度值。"
     },
     {
       "rank": 2,
-      "title": "到四川就要耍起",
-      "heatText": "综合热度 1092.5 万",
-      "heatValue": 1092.5,
+      "title": "油价预计9月24日24时上调",
+      "heatText": "综合热度 1103.0 万",
+      "heatValue": 1103.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1092.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1103.0万热度值。"
     },
     {
       "rank": 3,
-      "title": "我国绿色贸易进出口规模居全球首位",
-      "heatText": "综合热度 1033.6 万",
-      "heatValue": 1033.6,
+      "title": "一条运河改写大西南",
+      "heatText": "综合热度 1092.6 万",
+      "heatValue": 1092.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1033.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1092.6万热度值。"
     },
     {
       "rank": 4,
-      "title": "秋冬外套一衣穿三季穿搭分享",
-      "heatText": "综合热度 987.0 万",
-      "heatValue": 987.0,
+      "title": "一人一句为中国男篮加油",
+      "heatText": "综合热度 1085.9 万",
+      "heatValue": 1085.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 987.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1085.9万热度值。"
     },
     {
       "rank": 5,
+      "title": "博主回应记录妈妈的最后14天",
+      "heatText": "综合热度 1020.0 万",
+      "heatValue": 1020.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "政策",
+      "desc": "跨平台热度话题：抖音热搜热度 1020.0万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "秋天怎么能不吃家乡火锅",
+      "heatText": "综合热度 1000.9 万",
+      "heatValue": 1000.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1000.9万热度值。"
+    },
+    {
+      "rank": 7,
       "title": "用万能旅行拍照姿势美美出片",
       "heatText": "综合热度 918.6 万",
       "heatValue": 918.6,
@@ -66,7 +87,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "耗时三年拍下古诗词里的中国",
       "heatText": "综合热度 907 万",
       "heatValue": 907,
@@ -77,7 +98,7 @@
       "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "我拍到了海鸥雨",
       "heatText": "综合热度 887.5 万",
       "heatValue": 887.5,
@@ -88,37 +109,15 @@
       "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
     },
     {
-      "rank": 8,
-      "title": "超日常美食教程速来get",
-      "heatText": "综合热度 867.6 万",
-      "heatValue": 867.6,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 867.6万。"
-    },
-    {
-      "rank": 9,
-      "title": "秋天怎么能不吃家乡火锅",
-      "heatText": "综合热度 866.0 万",
-      "heatValue": 866.0,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 866.0万热度值。"
-    },
-    {
       "rank": 10,
-      "title": "我们重复型人格遇到美食belike",
-      "heatText": "综合热度 864.2 万",
-      "heatValue": 864.2,
+      "title": "秋冬外套一衣穿三季穿搭分享",
+      "heatText": "综合热度 885.5 万",
+      "heatValue": 885.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 864.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 885.5万热度值。"
     }
   ],
   "platforms": {
@@ -128,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "918",
-          "heatText": "651.1万热度",
-          "heatValue": 651.1,
+          "title": "梅毒被称为皮肤性病科模仿大师",
+          "heatText": "111.2万热度",
+          "heatValue": 111.2,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "918鸣笛",
-          "heatText": "145.5万热度",
-          "heatValue": 145.5,
+          "title": "花少8 无聊",
+          "heatText": "82.9万热度",
+          "heatValue": 82.9,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "第23届东博会峰会",
-          "heatText": "121.3万热度",
-          "heatValue": 121.3,
+          "title": "九一八鸣警后老战士这番话令人动容",
+          "heatText": "64.4万热度",
+          "heatValue": 64.4,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "机顶盒即将退场",
-          "heatText": "105.7万热度",
-          "heatValue": 105.7,
+          "title": "粉笔曝被四海200万高薪挖走老师",
+          "heatText": "58.6万热度",
+          "heatValue": 58.6,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "上1休1上5休3",
-          "heatText": "72.4万热度",
-          "heatValue": 72.4,
+          "title": "人民币升破6.7",
+          "heatText": "49.3万热度",
+          "heatValue": 49.3,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "UFO高速飞过墨西哥城上空",
-          "heatText": "65.0万热度",
-          "heatValue": 65.0,
+          "title": "中国射击队因酒店远不参加亚运开幕式",
+          "heatText": "41.3万热度",
+          "heatValue": 41.3,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "小猫寄养五天以为主人不要它了",
-          "heatText": "52.4万热度",
-          "heatValue": 52.4,
+          "title": "白血病患儿离世不到2小时被安排火化",
+          "heatText": "37.6万热度",
+          "heatValue": 37.6,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "新疆阿勒泰34万只羊排队洗香香",
-          "heatText": "35.8万热度",
-          "heatValue": 35.8,
+          "title": "沈鼓集团新股上市爆炒",
+          "heatText": "36.5万热度",
+          "heatValue": 36.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "九一八事变",
-          "heatText": "34.2万热度",
-          "heatValue": 34.2,
+          "title": "iPhone18Pro新配色",
+          "heatText": "35.7万热度",
+          "heatValue": 35.7,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "9点18分辽宁防空警报",
-          "heatText": "34.0万热度",
-          "heatValue": 34.0,
+          "title": "原来百家讲坛是真的在教东西",
+          "heatText": "32.1万热度",
+          "heatValue": 32.1,
           "isNew": false
         }
       ]
@@ -281,71 +280,71 @@
         {
           "rank": 1,
           "title": "九一八事变爆发95周年",
-          "heatText": "1213.3万热度值",
-          "heatValue": 1213.3,
+          "heatText": "1110.5万热度值",
+          "heatValue": 1110.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "到四川就要耍起",
-          "heatText": "1092.5万热度值",
-          "heatValue": 1092.5,
+          "title": "油价预计9月24日24时上调",
+          "heatText": "1103.0万热度值",
+          "heatValue": 1103.0,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "我国绿色贸易进出口规模居全球首位",
-          "heatText": "1033.6万热度值",
-          "heatValue": 1033.6,
+          "title": "一条运河改写大西南",
+          "heatText": "1092.6万热度值",
+          "heatValue": 1092.6,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "秋冬外套一衣穿三季穿搭分享",
-          "heatText": "987.0万热度值",
-          "heatValue": 987.0,
+          "title": "一人一句为中国男篮加油",
+          "heatText": "1085.9万热度值",
+          "heatValue": 1085.9,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "秋天怎么能不吃家乡火锅",
-          "heatText": "866.0万热度值",
-          "heatValue": 866.0,
+          "title": "博主回应记录妈妈的最后14天",
+          "heatText": "1020.0万热度值",
+          "heatValue": 1020.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "我们重复型人格遇到美食belike",
-          "heatText": "864.2万热度值",
-          "heatValue": 864.2,
+          "title": "秋天怎么能不吃家乡火锅",
+          "heatText": "1000.9万热度值",
+          "heatValue": 1000.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "荷花月饼才是中秋美学天花板",
-          "heatText": "772.7万热度值",
-          "heatValue": 772.7,
+          "title": "秋冬外套一衣穿三季穿搭分享",
+          "heatText": "885.5万热度值",
+          "heatValue": 885.5,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "鸠山由纪夫：日本人须怀谢罪之心",
-          "heatText": "771.0万热度值",
-          "heatValue": 771.0,
+          "title": "寻找长征精神的回响",
+          "heatText": "823.4万热度值",
+          "heatValue": 823.4,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "无畏契约26冠军套实机演示曝光",
-          "heatText": "768.8万热度值",
-          "heatValue": 768.8,
+          "title": "到四川就要耍起",
+          "heatText": "802.6万热度值",
+          "heatValue": 802.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "载人飞碟亮相义乌售价约80万",
-          "heatText": "768.1万热度值",
-          "heatValue": 768.1,
+          "title": "中国女排3:0哈萨克斯坦女排",
+          "heatText": "785.2万热度值",
+          "heatValue": 785.2,
           "isNew": false
         }
       ]
@@ -506,17 +505,16 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "九一八事变",
+      "title": "九一八事变爆发95周年",
       "rate": "极速",
       "platforms": [
-        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 2,
-      "title": "到四川就要耍起",
+      "title": "油价预计9月24日24时上调",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -525,7 +523,7 @@
     },
     {
       "rank": 3,
-      "title": "我国绿色贸易进出口规模居全球首位",
+      "title": "一条运河改写大西南",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -534,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "918",
+      "title": "梅毒被称为皮肤性病科模仿大师",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "918鸣笛",
+      "title": "花少8 无聊",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -552,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "第23届东博会峰会",
+      "title": "九一八鸣警后老战士这番话令人动容",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -561,15 +559,6 @@
     },
     {
       "rank": 7,
-      "title": "九一八事变爆发95周年",
-      "rate": "飙升",
-      "platforms": [
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
-    },
-    {
-      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -579,18 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 51,
-    "时政": 1,
+    "社会": 47,
+    "政策": 4,
+    "娱乐": 1,
+    "财经": 3,
     "科技": 2,
     "科研": 1,
-    "政策": 2,
-    "体育": 2,
-    "财经": 1
+    "体育": 2
   },
   "platformHeatStats": {
-    "weibo": 651.1,
+    "weibo": 111.2,
     "zhihu": 741,
-    "douyin": 1213.3,
+    "douyin": 1110.5,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
