@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-19 23:32",
-  "updateTimestamp": 1789831936,
+  "updateTime": "2026-09-20 02:17",
+  "updateTimestamp": 1789841849,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,69 +11,69 @@
   "overall": [
     {
       "rank": 1,
-      "title": "2026亚运会开幕式",
-      "heatText": "综合热度 1234.1 万",
-      "heatValue": 1234.1,
+      "title": "中国女篮111:46大胜泰国",
+      "heatText": "综合热度 1213.8 万",
+      "heatValue": 1213.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1234.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1213.8万热度值。"
     },
     {
       "rank": 2,
-      "title": "能夸夸我的beta吗",
-      "heatText": "综合热度 1165.0 万",
-      "heatValue": 1165.0,
+      "title": "2026亚运会开幕式",
+      "heatText": "综合热度 1201.4 万",
+      "heatValue": 1201.4,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1165.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1201.4万热度值。"
     },
     {
       "rank": 3,
       "title": "我国航空物流发展规模持续创新高",
-      "heatText": "综合热度 1100.0 万",
-      "heatValue": 1100.0,
+      "heatText": "综合热度 1078.0 万",
+      "heatValue": 1078.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1100.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1078.0万热度值。"
     },
     {
       "rank": 4,
-      "title": "中国女篮111:46大胜泰国",
-      "heatText": "综合热度 1048.3 万",
-      "heatValue": 1048.3,
+      "title": "能夸夸我的beta吗",
+      "heatText": "综合热度 1068.3 万",
+      "heatValue": 1068.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1048.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1068.3万热度值。"
     },
     {
       "rank": 5,
-      "title": "脑机接口患者凭意念说出我爱你",
-      "heatText": "综合热度 944.3 万",
-      "heatValue": 944.3,
+      "title": "印尼获意大利赠送退役航母",
+      "heatText": "综合热度 973.0 万",
+      "heatValue": 973.0,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 944.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 973.0万热度值。"
     },
     {
       "rank": 6,
-      "title": "印尼获意大利赠送退役航母",
-      "heatText": "综合热度 927.8 万",
-      "heatValue": 927.8,
+      "title": "网友实拍长征八号甲火箭垂直转运",
+      "heatText": "综合热度 922.2 万",
+      "heatValue": 922.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 927.8万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 922.2万热度值。"
     },
     {
       "rank": 7,
@@ -128,71 +128,71 @@
         {
           "rank": 1,
           "title": "长期不工作的人会失去什么",
-          "heatText": "189.9万热度",
-          "heatValue": 189.9,
+          "heatText": "80.5万热度",
+          "heatValue": 80.5,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "齐天太好听了",
-          "heatText": "93.0万热度",
-          "heatValue": 93.0,
+          "title": "披荆斩棘三公上半场排名",
+          "heatText": "26.6万热度",
+          "heatValue": 26.6,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "前8月全国铁路发送旅客超33亿人次",
-          "heatText": "74.5万热度",
-          "heatValue": 74.5,
+          "heatText": "20.6万热度",
+          "heatValue": 20.6,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "神行者8开启全国交付",
-          "heatText": "58.3万热度",
-          "heatValue": 58.3,
+          "title": "起程NBA中国赛2026",
+          "heatText": "20.2万热度",
+          "heatValue": 20.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "王源跟粉丝面对面建群",
-          "heatText": "43.5万热度",
-          "heatValue": 43.5,
+          "title": "周也你这演技我看得也很痛苦",
+          "heatText": "19.9万热度",
+          "heatValue": 19.9,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "被顾客用西瓜砸头摊主获赔7万元",
-          "heatText": "43.4万热度",
-          "heatValue": 43.4,
+          "title": "LPL出征仪式 寒酸",
+          "heatText": "14.1万热度",
+          "heatValue": 14.1,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "司美格鲁肽成变质回流药重灾区",
-          "heatText": "43.2万热度",
-          "heatValue": 43.2,
+          "title": "华晨宇齐天",
+          "heatText": "14.1万热度",
+          "heatValue": 14.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "iG晋级S16",
-          "heatText": "43.2万热度",
-          "heatValue": 43.2,
+          "title": "郑合惠子回应演杜翠雀",
+          "heatText": "14.1万热度",
+          "heatValue": 14.1,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "布莱顿vs阿森纳",
-          "heatText": "43.0万热度",
-          "heatValue": 43.0,
+          "title": "被顾客用西瓜砸头摊主获赔7万元",
+          "heatText": "14.1万热度",
+          "heatValue": 14.1,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "中国体育代表团入场高清大图",
-          "heatText": "42.9万热度",
-          "heatValue": 42.9,
+          "title": "布莱顿3比0阿森纳",
+          "heatText": "14.1万热度",
+          "heatValue": 14.1,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "2026亚运会开幕式",
-          "heatText": "1234.1万热度值",
-          "heatValue": 1234.1,
+          "title": "中国女篮111:46大胜泰国",
+          "heatText": "1213.8万热度值",
+          "heatValue": 1213.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "能夸夸我的beta吗",
-          "heatText": "1165.0万热度值",
-          "heatValue": 1165.0,
+          "title": "2026亚运会开幕式",
+          "heatText": "1201.4万热度值",
+          "heatValue": 1201.4,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "我国航空物流发展规模持续创新高",
-          "heatText": "1100.0万热度值",
-          "heatValue": 1100.0,
+          "heatText": "1078.0万热度值",
+          "heatValue": 1078.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "中国女篮111:46大胜泰国",
-          "heatText": "1048.3万热度值",
-          "heatValue": 1048.3,
+          "title": "能夸夸我的beta吗",
+          "heatText": "1068.3万热度值",
+          "heatValue": 1068.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "脑机接口患者凭意念说出我爱你",
-          "heatText": "944.3万热度值",
-          "heatValue": 944.3,
+          "title": "印尼获意大利赠送退役航母",
+          "heatText": "973.0万热度值",
+          "heatValue": 973.0,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "印尼获意大利赠送退役航母",
-          "heatText": "927.8万热度值",
-          "heatValue": 927.8,
+          "title": "网友实拍长征八号甲火箭垂直转运",
+          "heatText": "922.2万热度值",
+          "heatValue": 922.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "网友实拍长征八号甲火箭垂直转运",
-          "heatText": "803.3万热度值",
-          "heatValue": 803.3,
+          "title": "脑机接口患者凭意念说出我爱你",
+          "heatText": "811.4万热度值",
+          "heatValue": 811.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "超长蛋挞的风吹到蛋糕界了",
-          "heatText": "786.3万热度值",
-          "heatValue": 786.3,
+          "title": "开幕旗手吴愉幕后vlog来了",
+          "heatText": "788.2万热度值",
+          "heatValue": 788.2,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "亚运会中国代表团入场",
-          "heatText": "778.4万热度值",
-          "heatValue": 778.4,
+          "title": "中国驻沙特使馆提醒加强安全防范",
+          "heatText": "787.4万热度值",
+          "heatValue": 787.4,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "美国批准对乌克兰近27亿美元军售",
-          "heatText": "778.2万热度值",
-          "heatValue": 778.2,
+          "title": "北部战区海军舰艇开放活动开启",
+          "heatText": "779.3万热度值",
+          "heatValue": 779.3,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "2026亚运会开幕式",
+      "title": "中国女篮111:46大胜泰国",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "能夸夸我的beta吗",
+      "title": "2026亚运会开幕式",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "齐天太好听了",
+      "title": "披荆斩棘三公上半场排名",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -568,17 +568,18 @@
     }
   ],
   "categoryStats": {
-    "社会": 52,
-    "体育": 2,
+    "社会": 51,
+    "娱乐": 1,
+    "政策": 3,
     "科技": 2,
     "科研": 1,
-    "政策": 2,
+    "体育": 1,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 189.9,
+    "weibo": 80.5,
     "zhihu": 741,
-    "douyin": 1234.1,
+    "douyin": 1213.8,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
