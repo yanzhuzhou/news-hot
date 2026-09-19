@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-19 10:17",
-  "updateTimestamp": 1789784231,
+  "updateTime": "2026-09-19 15:26",
+  "updateTimestamp": 1789802786,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,69 +12,68 @@
     {
       "rank": 1,
       "title": "沙特首都利雅得遭空袭",
-      "heatText": "综合热度 1253.4 万",
-      "heatValue": 1253.4,
+      "heatText": "综合热度 1128.9 万",
+      "heatValue": 1128.9,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 42.8万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1128.9万热度值。"
     },
     {
       "rank": 2,
-      "title": "来大理追一场会游动的洱海星河",
-      "heatText": "综合热度 1114.1 万",
-      "heatValue": 1114.1,
+      "title": "中国女篮111:46大胜泰国",
+      "heatText": "综合热度 1111.1 万",
+      "heatValue": 1111.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1114.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1111.1万热度值。"
     },
     {
       "rank": 3,
-      "title": "警钟长鸣 吾辈自强",
-      "heatText": "综合热度 1108.0 万",
-      "heatValue": 1108.0,
+      "title": "港澳青少年升旗队代表访京",
+      "heatText": "综合热度 1085.5 万",
+      "heatValue": 1085.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1108.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1085.5万热度值。"
     },
     {
       "rank": 4,
-      "title": "起猛了创大要打百分了",
-      "heatText": "综合热度 1077.1 万",
-      "heatValue": 1077.1,
+      "title": "这个中秋打卡安徽鳌鱼灯",
+      "heatText": "综合热度 1085.1 万",
+      "heatValue": 1085.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1077.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1085.1万热度值。"
     },
     {
       "rank": 5,
-      "title": "这个中秋打卡安徽鳌鱼灯",
-      "heatText": "综合热度 1018.0 万",
-      "heatValue": 1018.0,
+      "title": "2026抖音创作者大会",
+      "heatText": "综合热度 1029.2 万",
+      "heatValue": 1029.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1018.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1029.2万热度值。"
     },
     {
       "rank": 6,
-      "title": "巴基斯坦称将不惜一切支持沙特",
-      "heatText": "综合热度 1011.2 万",
-      "heatValue": 1011.2,
+      "title": "能夸夸我的beta吗",
+      "heatText": "综合热度 1028.2 万",
+      "heatValue": 1028.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1011.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1028.2万热度值。"
     },
     {
       "rank": 7,
@@ -89,36 +88,36 @@
     },
     {
       "rank": 8,
-      "title": "耗时三年拍下古诗词里的中国",
-      "heatText": "综合热度 907 万",
-      "heatValue": 907,
-      "platforms": [
-        "xiaohongshu"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 907万。"
-    },
-    {
-      "rank": 9,
-      "title": "沈鼓集团相关异常账户暂停交易",
-      "heatText": "综合热度 891.2 万",
-      "heatValue": 891.2,
+      "title": "2026亚运会今天开幕",
+      "heatText": "综合热度 918.1 万",
+      "heatValue": 918.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 891.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 918.1万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "巴基斯坦称将不惜一切支持沙特",
+      "heatText": "综合热度 917.7 万",
+      "heatValue": 917.7,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 917.7万热度值。"
     },
     {
       "rank": 10,
-      "title": "我拍到了海鸥雨",
-      "heatText": "综合热度 887.5 万",
-      "heatValue": 887.5,
+      "title": "沈鼓集团相关异常账户暂停交易",
+      "heatText": "综合热度 915.6 万",
+      "heatValue": 915.6,
       "platforms": [
-        "xiaohongshu"
+        "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
+      "desc": "跨平台热度话题：抖音热搜热度 915.6万热度值。"
     }
   ],
   "platforms": {
@@ -128,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "中国男篮队长胡明轩赛后发声",
-          "heatText": "111.6万热度",
-          "heatValue": 111.6,
+          "title": "中秋节等于没放假",
+          "heatText": "152.3万热度",
+          "heatValue": 152.3,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "中国的小偷为何断崖式下降",
-          "heatText": "78.2万热度",
-          "heatValue": 78.2,
+          "title": "调休",
+          "heatText": "90.1万热度",
+          "heatValue": 90.1,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "斑驳旧物铭刻90多年前不屈抗争",
-          "heatText": "64.9万热度",
-          "heatValue": 64.9,
+          "title": "十五五时期推进好房子建设",
+          "heatText": "68.9万热度",
+          "heatValue": 68.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "梅毒越来越困扰年轻人",
-          "heatText": "61.9万热度",
-          "heatValue": 61.9,
+          "title": "京东iPhone18Pro首批现货到手",
+          "heatText": "66.3万热度",
+          "heatValue": 66.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "沙特首都利雅得遭空袭",
-          "heatText": "42.8万热度",
-          "heatValue": 42.8,
+          "title": "我有王一博微信 想加",
+          "heatText": "64.2万热度",
+          "heatValue": 64.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "韩国选手听到朝鲜国歌集体慌乱",
-          "heatText": "41.3万热度",
-          "heatValue": 41.3,
+          "title": "女装到底怎么了",
+          "heatText": "45.8万热度",
+          "heatValue": 45.8,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "巩县石窟遇见云冈",
-          "heatText": "36.8万热度",
-          "heatValue": 36.8,
+          "title": "于正官宣杨蓉出演朝玉阶",
+          "heatText": "36.3万热度",
+          "heatValue": 36.3,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "啄木鸟修1个开关2800已全额退还",
-          "heatText": "28.5万热度",
-          "heatValue": 28.5,
+          "title": "新疆人第一次见自己的馕发霉震惊了",
+          "heatText": "31.6万热度",
+          "heatValue": 31.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "亚马尔无视凯恩",
-          "heatText": "27.0万热度",
-          "heatValue": 27.0,
+          "title": "能找到好工作的人都有野路子",
+          "heatText": "30.0万热度",
+          "heatValue": 30.0,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "郑合惠子没有感情全是演技",
-          "heatText": "25.1万热度",
-          "heatValue": 25.1,
+          "title": "以为是抠门男友直到蛋糕转起来",
+          "heatText": "30.0万热度",
+          "heatValue": 30.0,
           "isNew": false
         }
       ]
@@ -281,71 +280,71 @@
         {
           "rank": 1,
           "title": "沙特首都利雅得遭空袭",
-          "heatText": "1210.6万热度值",
-          "heatValue": 1210.6,
+          "heatText": "1128.9万热度值",
+          "heatValue": 1128.9,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "来大理追一场会游动的洱海星河",
-          "heatText": "1114.1万热度值",
-          "heatValue": 1114.1,
+          "title": "中国女篮111:46大胜泰国",
+          "heatText": "1111.1万热度值",
+          "heatValue": 1111.1,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "警钟长鸣 吾辈自强",
-          "heatText": "1108.0万热度值",
-          "heatValue": 1108.0,
+          "title": "港澳青少年升旗队代表访京",
+          "heatText": "1085.5万热度值",
+          "heatValue": 1085.5,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "起猛了创大要打百分了",
-          "heatText": "1077.1万热度值",
-          "heatValue": 1077.1,
+          "title": "这个中秋打卡安徽鳌鱼灯",
+          "heatText": "1085.1万热度值",
+          "heatValue": 1085.1,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "这个中秋打卡安徽鳌鱼灯",
-          "heatText": "1018.0万热度值",
-          "heatValue": 1018.0,
+          "title": "2026抖音创作者大会",
+          "heatText": "1029.2万热度值",
+          "heatValue": 1029.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "巴基斯坦称将不惜一切支持沙特",
-          "heatText": "1011.2万热度值",
-          "heatValue": 1011.2,
+          "title": "能夸夸我的beta吗",
+          "heatText": "1028.2万热度值",
+          "heatValue": 1028.2,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "沈鼓集团相关异常账户暂停交易",
-          "heatText": "891.2万热度值",
-          "heatValue": 891.2,
+          "title": "2026亚运会今天开幕",
+          "heatText": "918.1万热度值",
+          "heatValue": 918.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "住建部：住宅层高标准提至3米",
-          "heatText": "883.6万热度值",
-          "heatValue": 883.6,
+          "title": "巴基斯坦称将不惜一切支持沙特",
+          "heatText": "917.7万热度值",
+          "heatValue": 917.7,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "拜仁7:0横扫柏林联合",
-          "heatText": "868.4万热度值",
-          "heatValue": 868.4,
+          "title": "沈鼓集团相关异常账户暂停交易",
+          "heatText": "915.6万热度值",
+          "heatValue": 915.6,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "媒体评菲律宾挑衅中国",
-          "heatText": "867.2万热度值",
-          "heatValue": 867.2,
+          "title": "二万五千里长征路上留下的难忘记忆",
+          "heatText": "915.2万热度值",
+          "heatValue": 915.2,
           "isNew": false
         }
       ]
@@ -509,14 +508,13 @@
       "title": "沙特首都利雅得遭空袭",
       "rate": "极速",
       "platforms": [
-        "douyin",
-        "weibo"
+        "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
       "rank": 2,
-      "title": "来大理追一场会游动的洱海星河",
+      "title": "中国女篮111:46大胜泰国",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -525,7 +523,7 @@
     },
     {
       "rank": 3,
-      "title": "警钟长鸣 吾辈自强",
+      "title": "港澳青少年升旗队代表访京",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -534,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "中国男篮队长胡明轩赛后发声",
+      "title": "中秋节等于没放假",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "中国的小偷为何断崖式下降",
+      "title": "调休",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -552,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "斑驳旧物铭刻90多年前不屈抗争",
+      "title": "十五五时期推进好房子建设",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -579,9 +577,9 @@
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 111.6,
+    "weibo": 152.3,
     "zhihu": 741,
-    "douyin": 1210.6,
+    "douyin": 1128.9,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
