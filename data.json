@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-20 18:18",
-  "updateTimestamp": 1789899486,
+  "updateTime": "2026-09-20 22:17",
+  "updateTimestamp": 1789913854,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,114 +11,113 @@
   "overall": [
     {
       "rank": 1,
-      "title": "中国男篮不敌伊朗男篮",
-      "heatText": "综合热度 1284.1 万",
-      "heatValue": 1284.1,
+      "title": "潘展乐100米自夺冠",
+      "heatText": "综合热度 1212.6 万",
+      "heatValue": 1212.6,
       "platforms": [
-        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：微博热搜热度 167.1万热度。"
+      "desc": "跨平台热度话题：抖音热搜热度 1212.6万热度值。"
     },
     {
       "rank": 2,
-      "title": "潘展乐100米自夺冠",
-      "heatText": "综合热度 1175.7 万",
-      "heatValue": 1175.7,
+      "title": "童心卫冕太极拳太极剑全能冠军",
+      "heatText": "综合热度 1134.7 万",
+      "heatValue": 1134.7,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1175.7万热度值。"
+      "category": "体育",
+      "desc": "跨平台热度话题：抖音热搜热度 1134.7万热度值。"
     },
     {
       "rank": 3,
-      "title": "中国U23男足0:0伊朗U23",
-      "heatText": "综合热度 1160.9 万",
-      "heatValue": 1160.9,
+      "title": "2026世界制造业大会开幕",
+      "heatText": "综合热度 1111.4 万",
+      "heatValue": 1111.4,
       "platforms": [
         "douyin"
       ],
-      "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 1160.9万热度值。"
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1111.4万热度值。"
     },
     {
       "rank": 4,
-      "title": "中国基建有实力更有温度",
-      "heatText": "综合热度 1144.7 万",
-      "heatValue": 1144.7,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1144.7万热度值。"
-    },
-    {
-      "rank": 5,
-      "title": "一口中秋蟹味鲜",
-      "heatText": "综合热度 1059.9 万",
-      "heatValue": 1059.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1059.9万热度值。"
-    },
-    {
-      "rank": 6,
-      "title": "童心卫冕太极拳太极剑全能冠军",
-      "heatText": "综合热度 1054.5 万",
-      "heatValue": 1054.5,
+      "title": "中国U23男足0:0伊朗U23",
+      "heatText": "综合热度 1109.3 万",
+      "heatValue": 1109.3,
       "platforms": [
         "douyin"
       ],
       "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 1054.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1109.3万热度值。"
+    },
+    {
+      "rank": 5,
+      "title": "国庆国旗氛围已上线",
+      "heatText": "综合热度 1019.2 万",
+      "heatValue": 1019.2,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1019.2万热度值。"
+    },
+    {
+      "rank": 6,
+      "title": "创大偶遇火影萌黄太可爱了",
+      "heatText": "综合热度 1006.9 万",
+      "heatValue": 1006.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 1006.9万热度值。"
     },
     {
       "rank": 7,
-      "title": "创大偶遇火影萌黄太可爱了",
-      "heatText": "综合热度 940.0 万",
-      "heatValue": 940.0,
+      "title": "用万能旅行拍照姿势美美出片",
+      "heatText": "综合热度 918.6 万",
+      "heatValue": 918.6,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 940.0万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 918.6万。"
     },
     {
       "rank": 8,
-      "title": "你们公司发月饼了吗",
-      "heatText": "综合热度 933.4 万",
-      "heatValue": 933.4,
+      "title": "耗时三年拍下古诗词里的中国",
+      "heatText": "综合热度 907 万",
+      "heatValue": 907,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 933.4万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 907万。"
     },
     {
       "rank": 9,
-      "title": "TheShy赛后发抖音",
-      "heatText": "综合热度 932.6 万",
-      "heatValue": 932.6,
+      "title": "创大把我关注列表搬来了",
+      "heatText": "综合热度 898.9 万",
+      "heatValue": 898.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 932.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 898.9万热度值。"
     },
     {
       "rank": 10,
-      "title": "创大把我关注列表搬来了",
-      "heatText": "综合热度 929.8 万",
-      "heatValue": 929.8,
+      "title": "我拍到了海鸥雨",
+      "heatText": "综合热度 887.5 万",
+      "heatValue": 887.5,
       "platforms": [
-        "douyin"
+        "xiaohongshu"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 929.8万热度值。"
+      "desc": "跨平台热度话题：小红书热搜热度 887.5万。"
     }
   ],
   "platforms": {
@@ -128,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "潘展乐反超夺金",
-          "heatText": "262.1万热度",
-          "heatValue": 262.1,
+          "title": "2026湾区升明月节目单",
+          "heatText": "117.6万热度",
+          "heatValue": 117.6,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "中国男篮不敌伊朗男篮",
-          "heatText": "167.1万热度",
-          "heatValue": 167.1,
+          "title": "湾区升明月",
+          "heatText": "83.4万热度",
+          "heatValue": 83.4,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "从数据里读懂中国经济韧性",
-          "heatText": "129.9万热度",
-          "heatValue": 129.9,
+          "title": "今起公积金提取场景6变9",
+          "heatText": "81.0万热度",
+          "heatValue": 81.0,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "2026湾区升明月节目单",
-          "heatText": "118.6万热度",
-          "heatValue": 118.6,
+          "title": "亚运会乒乓球",
+          "heatText": "79.6万热度",
+          "heatValue": 79.6,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "中国男篮vs伊朗男篮",
-          "heatText": "107.4万热度",
-          "heatValue": 107.4,
+          "title": "张凌赫 假唱",
+          "heatText": "76.1万热度",
+          "heatValue": 76.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "秦始皇陵水银来源被找到",
-          "heatText": "82.4万热度",
-          "heatValue": 82.4,
-          "isNew": false
-        },
-        {
-          "rank": 7,
-          "title": "用旧视频造谣成都暴雨者被行政拘留",
+          "title": "王俊凯演唱会 易烊千玺",
           "heatText": "74.7万热度",
           "heatValue": 74.7,
           "isNew": false
         },
         {
+          "rank": 7,
+          "title": "王濛和水星一起解锁睡眠密码",
+          "heatText": "72.7万热度",
+          "heatValue": 72.7,
+          "isNew": false
+        },
+        {
           "rank": 8,
-          "title": "徐嘉余霸气夺金",
-          "heatText": "73.8万热度",
-          "heatValue": 73.8,
+          "title": "中国男篮队员身心严重疲劳",
+          "heatText": "68.8万热度",
+          "heatValue": 68.8,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "我们来了 王菲",
-          "heatText": "66.7万热度",
-          "heatValue": 66.7,
+          "title": "潘展乐回应反超夺金",
+          "heatText": "68.5万热度",
+          "heatValue": 68.5,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "亚运会",
-          "heatText": "59.2万热度",
-          "heatValue": 59.2,
+          "title": "中国队一天11枚金牌",
+          "heatText": "68.3万热度",
+          "heatValue": 68.3,
           "isNew": false
         }
       ]
@@ -281,71 +280,71 @@
         {
           "rank": 1,
           "title": "潘展乐100米自夺冠",
-          "heatText": "1175.7万热度值",
-          "heatValue": 1175.7,
+          "heatText": "1212.6万热度值",
+          "heatValue": 1212.6,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "中国U23男足0:0伊朗U23",
-          "heatText": "1160.9万热度值",
-          "heatValue": 1160.9,
+          "title": "童心卫冕太极拳太极剑全能冠军",
+          "heatText": "1134.7万热度值",
+          "heatValue": 1134.7,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "中国基建有实力更有温度",
-          "heatText": "1144.7万热度值",
-          "heatValue": 1144.7,
+          "title": "2026世界制造业大会开幕",
+          "heatText": "1111.4万热度值",
+          "heatValue": 1111.4,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "中国男篮不敌伊朗无缘亚运铜牌",
-          "heatText": "1117.0万热度值",
-          "heatValue": 1117.0,
+          "title": "中国U23男足0:0伊朗U23",
+          "heatText": "1109.3万热度值",
+          "heatValue": 1109.3,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "一口中秋蟹味鲜",
-          "heatText": "1059.9万热度值",
-          "heatValue": 1059.9,
+          "title": "国庆国旗氛围已上线",
+          "heatText": "1019.2万热度值",
+          "heatValue": 1019.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "童心卫冕太极拳太极剑全能冠军",
-          "heatText": "1054.5万热度值",
-          "heatValue": 1054.5,
+          "title": "创大偶遇火影萌黄太可爱了",
+          "heatText": "1006.9万热度值",
+          "heatValue": 1006.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "创大偶遇火影萌黄太可爱了",
-          "heatText": "940.0万热度值",
-          "heatValue": 940.0,
+          "title": "创大把我关注列表搬来了",
+          "heatText": "898.9万热度值",
+          "heatValue": 898.9,
           "isNew": false
         },
         {
           "rank": 8,
           "title": "你们公司发月饼了吗",
-          "heatText": "933.4万热度值",
-          "heatValue": 933.4,
+          "heatText": "885.3万热度值",
+          "heatValue": 885.3,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "TheShy赛后发抖音",
-          "heatText": "932.6万热度值",
-          "heatValue": 932.6,
+          "title": "创大现场随机解锁老熟人",
+          "heatText": "877.3万热度值",
+          "heatValue": 877.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "创大把我关注列表搬来了",
-          "heatText": "929.8万热度值",
-          "heatValue": 929.8,
+          "title": "我看亚运会开幕式belike",
+          "heatText": "874.4万热度值",
+          "heatValue": 874.4,
           "isNew": false
         }
       ]
@@ -506,16 +505,6 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "中国男篮不敌伊朗男篮",
-      "rate": "极速",
-      "platforms": [
-        "weibo",
-        "douyin"
-      ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
-    },
-    {
-      "rank": 2,
       "title": "潘展乐100米自夺冠",
       "rate": "极速",
       "platforms": [
@@ -524,8 +513,17 @@
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
     {
+      "rank": 2,
+      "title": "童心卫冕太极拳太极剑全能冠军",
+      "rate": "极速",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
       "rank": 3,
-      "title": "中国U23男足0:0伊朗U23",
+      "title": "2026世界制造业大会开幕",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -534,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "潘展乐反超夺金",
+      "title": "2026湾区升明月节目单",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -543,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "从数据里读懂中国经济韧性",
+      "title": "湾区升明月",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -552,10 +550,10 @@
     },
     {
       "rank": 6,
-      "title": "中国基建有实力更有温度",
+      "title": "今起公积金提取场景6变9",
       "rate": "飙升",
       "platforms": [
-        "douyin"
+        "weibo"
       ],
       "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
     },
@@ -572,15 +570,16 @@
   "categoryStats": {
     "社会": 47,
     "体育": 5,
-    "财经": 2,
-    "科研": 2,
+    "娱乐": 1,
+    "政策": 3,
     "科技": 2,
-    "政策": 2
+    "科研": 1,
+    "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 262.1,
+    "weibo": 117.6,
     "zhihu": 741,
-    "douyin": 1175.7,
+    "douyin": 1212.6,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
