@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-21 03:59",
-  "updateTimestamp": 1789934370,
+  "updateTime": "2026-09-21 06:15",
+  "updateTimestamp": 1789942521,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,113 +11,113 @@
   "overall": [
     {
       "rank": 1,
-      "title": "潘展乐100米自夺冠",
-      "heatText": "综合热度 1192.0 万",
-      "heatValue": 1192.0,
+      "title": "亚运男篮决赛韩国击败日本摘金",
+      "heatText": "综合热度 1210.0 万",
+      "heatValue": 1210.0,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1192.0万热度值。"
+      "category": "体育",
+      "desc": "跨平台热度话题：抖音热搜热度 1210.0万热度值。"
     },
     {
       "rank": 2,
       "title": "国庆国旗氛围已上线",
-      "heatText": "综合热度 1171.0 万",
-      "heatValue": 1171.0,
+      "heatText": "综合热度 1206.5 万",
+      "heatValue": 1206.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1171.0万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1206.5万热度值。"
     },
     {
       "rank": 3,
       "title": "2026世界制造业大会开幕",
-      "heatText": "综合热度 1159.3 万",
-      "heatValue": 1159.3,
+      "heatText": "综合热度 1199.8 万",
+      "heatValue": 1199.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1159.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1199.8万热度值。"
     },
     {
       "rank": 4,
       "title": "一口中秋蟹味鲜",
-      "heatText": "综合热度 1142.3 万",
-      "heatValue": 1142.3,
+      "heatText": "综合热度 1167.7 万",
+      "heatValue": 1167.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1142.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1167.7万热度值。"
     },
     {
       "rank": 5,
-      "title": "中美经贸磋商在美国纽约开始举行",
-      "heatText": "综合热度 1077.6 万",
-      "heatValue": 1077.6,
+      "title": "潘展乐100米自夺冠",
+      "heatText": "综合热度 1095.2 万",
+      "heatValue": 1095.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1077.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1095.2万热度值。"
     },
     {
       "rank": 6,
       "title": "童心卫冕太极拳太极剑全能冠军",
-      "heatText": "综合热度 1050.2 万",
-      "heatValue": 1050.2,
+      "heatText": "综合热度 1074.5 万",
+      "heatValue": 1074.5,
       "platforms": [
         "douyin"
       ],
       "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 1050.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1074.5万热度值。"
     },
     {
       "rank": 7,
-      "title": "TheShy赛后发抖音",
-      "heatText": "综合热度 939.2 万",
-      "heatValue": 939.2,
+      "title": "中国U23男足0:0伊朗U23",
+      "heatText": "综合热度 942.6 万",
+      "heatValue": 942.6,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 939.2万热度值。"
+      "category": "体育",
+      "desc": "跨平台热度话题：抖音热搜热度 942.6万热度值。"
     },
     {
       "rank": 8,
-      "title": "亚运男篮决赛韩国击败日本摘金",
-      "heatText": "综合热度 937.6 万",
-      "heatValue": 937.6,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 937.6万热度值。"
-    },
-    {
-      "rank": 9,
-      "title": "中国U23男足0:0伊朗U23",
-      "heatText": "综合热度 932.2 万",
-      "heatValue": 932.2,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 932.2万热度值。"
-    },
-    {
-      "rank": 10,
       "title": "创大现场随机解锁老熟人",
-      "heatText": "综合热度 930.7 万",
-      "heatValue": 930.7,
+      "heatText": "综合热度 939.9 万",
+      "heatValue": 939.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 930.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 939.9万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "创大偶遇火影萌黄太可爱了",
+      "heatText": "综合热度 936.1 万",
+      "heatValue": 936.1,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 936.1万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "把平凡的一天拍出名场面",
+      "heatText": "综合热度 929.9 万",
+      "heatValue": 929.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 929.9万热度值。"
     }
   ],
   "platforms": {
@@ -128,71 +128,71 @@
         {
           "rank": 1,
           "title": "把配料表中的白砂糖还给我们",
-          "heatText": "32.7万热度",
-          "heatValue": 32.7,
+          "heatText": "66.8万热度",
+          "heatValue": 66.8,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "披荆斩棘排名",
-          "heatText": "9.9万热度",
-          "heatValue": 9.9,
+          "heatText": "29.4万热度",
+          "heatValue": 29.4,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "今起公积金提取场景6变9",
-          "heatText": "6.3万热度",
-          "heatValue": 6.3,
+          "heatText": "24.2万热度",
+          "heatValue": 24.2,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "一汽大众T6上市12.99万元起",
-          "heatText": "6.3万热度",
-          "heatValue": 6.3,
+          "title": "vivo X500系列",
+          "heatText": "17.4万热度",
+          "heatValue": 17.4,
           "isNew": false
         },
         {
           "rank": 5,
           "title": "卡宴降30万还得61万",
-          "heatText": "6.3万热度",
-          "heatValue": 6.3,
+          "heatText": "11.9万热度",
+          "heatValue": 11.9,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "中国足球小将留洋西班牙",
-          "heatText": "6.1万热度",
-          "heatValue": 6.1,
+          "title": "刘畊宏张卓尔淘汰",
+          "heatText": "8.6万热度",
+          "heatValue": 8.6,
           "isNew": false
         },
         {
           "rank": 7,
           "title": "章子怡 脸",
-          "heatText": "5.9万热度",
-          "heatValue": 5.9,
+          "heatText": "8.6万热度",
+          "heatValue": 8.6,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "崔健",
-          "heatText": "5.1万热度",
-          "heatValue": 5.1,
+          "title": "可口可乐充乐联盟集结",
+          "heatText": "8.3万热度",
+          "heatValue": 8.3,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "刘畊宏张卓尔淘汰",
-          "heatText": "5.1万热度",
-          "heatValue": 5.1,
+          "title": "马竞2比1皇马",
+          "heatText": "8.2万热度",
+          "heatValue": 8.2,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "马竞2比1皇马",
-          "heatText": "5.0万热度",
-          "heatValue": 5.0,
+          "title": "崔健",
+          "heatText": "7.6万热度",
+          "heatValue": 7.6,
           "isNew": false
         }
       ]
@@ -279,72 +279,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "潘展乐100米自夺冠",
-          "heatText": "1192.0万热度值",
-          "heatValue": 1192.0,
+          "title": "亚运男篮决赛韩国击败日本摘金",
+          "heatText": "1210.0万热度值",
+          "heatValue": 1210.0,
           "isNew": true
         },
         {
           "rank": 2,
           "title": "国庆国旗氛围已上线",
-          "heatText": "1171.0万热度值",
-          "heatValue": 1171.0,
+          "heatText": "1206.5万热度值",
+          "heatValue": 1206.5,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "2026世界制造业大会开幕",
-          "heatText": "1159.3万热度值",
-          "heatValue": 1159.3,
+          "heatText": "1199.8万热度值",
+          "heatValue": 1199.8,
           "isNew": true
         },
         {
           "rank": 4,
           "title": "一口中秋蟹味鲜",
-          "heatText": "1142.3万热度值",
-          "heatValue": 1142.3,
+          "heatText": "1167.7万热度值",
+          "heatValue": 1167.7,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "中美经贸磋商在美国纽约开始举行",
-          "heatText": "1077.6万热度值",
-          "heatValue": 1077.6,
+          "title": "潘展乐100米自夺冠",
+          "heatText": "1095.2万热度值",
+          "heatValue": 1095.2,
           "isNew": false
         },
         {
           "rank": 6,
           "title": "童心卫冕太极拳太极剑全能冠军",
-          "heatText": "1050.2万热度值",
-          "heatValue": 1050.2,
+          "heatText": "1074.5万热度值",
+          "heatValue": 1074.5,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "TheShy赛后发抖音",
-          "heatText": "939.2万热度值",
-          "heatValue": 939.2,
+          "title": "中国U23男足0:0伊朗U23",
+          "heatText": "942.6万热度值",
+          "heatValue": 942.6,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "亚运男篮决赛韩国击败日本摘金",
-          "heatText": "937.6万热度值",
-          "heatValue": 937.6,
+          "title": "创大现场随机解锁老熟人",
+          "heatText": "939.9万热度值",
+          "heatValue": 939.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "中国U23男足0:0伊朗U23",
-          "heatText": "932.2万热度值",
-          "heatValue": 932.2,
+          "title": "创大偶遇火影萌黄太可爱了",
+          "heatText": "936.1万热度值",
+          "heatValue": 936.1,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "创大现场随机解锁老熟人",
-          "heatText": "930.7万热度值",
-          "heatValue": 930.7,
+          "title": "把平凡的一天拍出名场面",
+          "heatText": "929.9万热度值",
+          "heatValue": 929.9,
           "isNew": false
         }
       ]
@@ -505,7 +505,7 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "潘展乐100米自夺冠",
+      "title": "亚运男篮决赛韩国击败日本摘金",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -568,17 +568,17 @@
     }
   ],
   "categoryStats": {
-    "社会": 46,
-    "体育": 8,
+    "体育": 7,
+    "社会": 47,
     "科技": 2,
     "科研": 1,
     "政策": 2,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 32.7,
+    "weibo": 66.8,
     "zhihu": 741,
-    "douyin": 1192.0,
+    "douyin": 1210.0,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
