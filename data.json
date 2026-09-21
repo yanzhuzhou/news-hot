@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-21 13:11",
-  "updateTimestamp": 1789967479,
+  "updateTime": "2026-09-21 18:53",
+  "updateTimestamp": 1789988021,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -11,113 +11,114 @@
   "overall": [
     {
       "rank": 1,
-      "title": "加入慢充旅行倡议慢慢开逛",
-      "heatText": "综合热度 1211.9 万",
-      "heatValue": 1211.9,
+      "title": "中国女排战胜泰国挺进决赛",
+      "heatText": "综合热度 1212.8 万",
+      "heatValue": 1212.8,
       "platforms": [
         "douyin"
       ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1211.9万热度值。"
+      "category": "体育",
+      "desc": "跨平台热度话题：抖音热搜热度 1212.8万热度值。"
     },
     {
       "rank": 2,
-      "title": "一口中秋蟹味鲜",
-      "heatText": "综合热度 1211.2 万",
-      "heatValue": 1211.2,
+      "title": "亚运会中国女足5:1菲律宾女足",
+      "heatText": "综合热度 1210.5 万",
+      "heatValue": 1210.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1211.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1210.5万热度值。"
     },
     {
       "rank": 3,
-      "title": "1条视频看懂平陆运河",
-      "heatText": "综合热度 1158.2 万",
-      "heatValue": 1158.2,
+      "title": "张又侠刘振立被开除党籍军籍",
+      "heatText": "综合热度 1201.6 万",
+      "heatValue": 1201.6,
       "platforms": [
+        "weibo",
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1158.2万热度值。"
+      "desc": "跨平台热度话题：微博热搜热度 71.4万热度。"
     },
     {
       "rank": 4,
-      "title": "你们公司发月饼了吗",
-      "heatText": "综合热度 1144.1 万",
-      "heatValue": 1144.1,
+      "title": "新质生产力助力端牢中国饭碗",
+      "heatText": "综合热度 1149.2 万",
+      "heatValue": 1149.2,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1144.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1149.2万热度值。"
     },
     {
       "rank": 5,
-      "title": "桂花香飘散在风里",
-      "heatText": "综合热度 1086.3 万",
-      "heatValue": 1086.3,
+      "title": "盛李豪再夺亚运射击个人金牌",
+      "heatText": "综合热度 1055.1 万",
+      "heatValue": 1055.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1086.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1055.1万热度值。"
     },
     {
       "rank": 6,
-      "title": "首届糯门零食大赛",
-      "heatText": "综合热度 1074.4 万",
-      "heatValue": 1074.4,
+      "title": "张博恒夺金",
+      "heatText": "综合热度 1053.9 万",
+      "heatValue": 1053.9,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1074.4万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1053.9万热度值。"
     },
     {
       "rank": 7,
-      "title": "把平凡的一天拍出名场面",
-      "heatText": "综合热度 945.3 万",
-      "heatValue": 945.3,
+      "title": "于子迪夺亚运会第2金",
+      "heatText": "综合热度 937.7 万",
+      "heatValue": 937.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 945.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 937.7万热度值。"
     },
     {
       "rank": 8,
-      "title": "王楚钦回应亚运会官网标错比分",
-      "heatText": "综合热度 941.2 万",
-      "heatValue": 941.2,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "政策",
-      "desc": "跨平台热度话题：抖音热搜热度 941.2万热度值。"
-    },
-    {
-      "rank": 9,
-      "title": "广东顺德纺织公司厂房火灾致8死",
-      "heatText": "综合热度 933.8 万",
-      "heatValue": 933.8,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "灾害",
-      "desc": "跨平台热度话题：抖音热搜热度 933.8万热度值。"
-    },
-    {
-      "rank": 10,
-      "title": "皇马不敌马竞 穆里尼奥炮轰裁判",
-      "heatText": "综合热度 932.2 万",
-      "heatValue": 932.2,
+      "title": "中美经贸磋商在美国纽约举行",
+      "heatText": "综合热度 934.5 万",
+      "heatValue": 934.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 932.2万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 934.5万热度值。"
+    },
+    {
+      "rank": 9,
+      "title": "超长蛋挞爆火出圈",
+      "heatText": "综合热度 930.8 万",
+      "heatValue": 930.8,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 930.8万热度值。"
+    },
+    {
+      "rank": 10,
+      "title": "抖音电商作者来创大团建了",
+      "heatText": "综合热度 927.0 万",
+      "heatValue": 927.0,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 927.0万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +128,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "闲鱼回应涉黄",
-          "heatText": "265.6万热度",
-          "heatValue": 265.6,
+          "title": "华为月饼 腹泻",
+          "heatText": "193.0万热度",
+          "heatValue": 193.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "张家齐妈妈篡改记忆",
-          "heatText": "142.4万热度",
-          "heatValue": 142.4,
+          "title": "第一学历歧视",
+          "heatText": "128.5万热度",
+          "heatValue": 128.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "万千气象看吉林",
-          "heatText": "83.4万热度",
-          "heatValue": 83.4,
+          "title": "未来5年我国文化蓝图来了",
+          "heatText": "83.9万热度",
+          "heatValue": 83.9,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "自己做饭成本其实很高",
-          "heatText": "59.4万热度",
-          "heatValue": 59.4,
+          "title": "宁德品质时间会见证",
+          "heatText": "82.5万热度",
+          "heatValue": 82.5,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "闲鱼封了9.8万个涉黄账号",
-          "heatText": "54.6万热度",
-          "heatValue": 54.6,
+          "title": "钟南山团队发现肺结节发病新趋势",
+          "heatText": "80.6万热度",
+          "heatValue": 80.6,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "突然理解了小允子对甄嬛的忠心",
-          "heatText": "54.4万热度",
-          "heatValue": 54.4,
+          "title": "曝第33届金鹰奖获奖名单",
+          "heatText": "72.0万热度",
+          "heatValue": 72.0,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "用一句诗写完我的十年",
-          "heatText": "54.0万热度",
-          "heatValue": 54.0,
+          "title": "张又侠刘振立被开除党籍军籍",
+          "heatText": "71.4万热度",
+          "heatValue": 71.4,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "你支持艾滋病纳入婚检并告知配偶吗",
-          "heatText": "53.0万热度",
-          "heatValue": 53.0,
+          "title": "上飞猪抢香港酒店国庆补贴",
+          "heatText": "69.6万热度",
+          "heatValue": 69.6,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "把配料表中的白砂糖还给我们",
-          "heatText": "49.3万热度",
-          "heatValue": 49.3,
+          "title": "张博恒绝杀两名日本奥运冠军",
+          "heatText": "69.4万热度",
+          "heatValue": 69.4,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "张家齐项链",
-          "heatText": "45.0万热度",
-          "heatValue": 45.0,
+          "title": "张展硕最后时刻反超",
+          "heatText": "58.6万热度",
+          "heatValue": 58.6,
           "isNew": false
         }
       ]
@@ -279,72 +280,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "加入慢充旅行倡议慢慢开逛",
-          "heatText": "1211.9万热度值",
-          "heatValue": 1211.9,
+          "title": "中国女排战胜泰国挺进决赛",
+          "heatText": "1212.8万热度值",
+          "heatValue": 1212.8,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "一口中秋蟹味鲜",
-          "heatText": "1211.2万热度值",
-          "heatValue": 1211.2,
+          "title": "亚运会中国女足5:1菲律宾女足",
+          "heatText": "1210.5万热度值",
+          "heatValue": 1210.5,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "1条视频看懂平陆运河",
-          "heatText": "1158.2万热度值",
-          "heatValue": 1158.2,
+          "title": "新质生产力助力端牢中国饭碗",
+          "heatText": "1149.2万热度值",
+          "heatValue": 1149.2,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "你们公司发月饼了吗",
-          "heatText": "1144.1万热度值",
-          "heatValue": 1144.1,
+          "title": "张又侠刘振立被开除党籍军籍",
+          "heatText": "1130.2万热度值",
+          "heatValue": 1130.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "桂花香飘散在风里",
-          "heatText": "1086.3万热度值",
-          "heatValue": 1086.3,
+          "title": "盛李豪再夺亚运射击个人金牌",
+          "heatText": "1055.1万热度值",
+          "heatValue": 1055.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "首届糯门零食大赛",
-          "heatText": "1074.4万热度值",
-          "heatValue": 1074.4,
+          "title": "张博恒夺金",
+          "heatText": "1053.9万热度值",
+          "heatValue": 1053.9,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "把平凡的一天拍出名场面",
-          "heatText": "945.3万热度值",
-          "heatValue": 945.3,
+          "title": "于子迪夺亚运会第2金",
+          "heatText": "937.7万热度值",
+          "heatValue": 937.7,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "王楚钦回应亚运会官网标错比分",
-          "heatText": "941.2万热度值",
-          "heatValue": 941.2,
+          "title": "中美经贸磋商在美国纽约举行",
+          "heatText": "934.5万热度值",
+          "heatValue": 934.5,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "广东顺德纺织公司厂房火灾致8死",
-          "heatText": "933.8万热度值",
-          "heatValue": 933.8,
+          "title": "超长蛋挞爆火出圈",
+          "heatText": "930.8万热度值",
+          "heatValue": 930.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "皇马不敌马竞 穆里尼奥炮轰裁判",
-          "heatText": "932.2万热度值",
-          "heatValue": 932.2,
+          "title": "抖音电商作者来创大团建了",
+          "heatText": "927.0万热度值",
+          "heatValue": 927.0,
           "isNew": false
         }
       ]
@@ -505,16 +506,17 @@
   "fastestGrowing": [
     {
       "rank": 1,
-      "title": "加入慢充旅行倡议慢慢开逛",
+      "title": "张又侠刘振立被开除党籍军籍",
       "rate": "极速",
       "platforms": [
+        "weibo",
         "douyin"
       ],
-      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+      "desc": "24小时内多平台新上榜/飙升，覆盖2个平台。"
     },
     {
       "rank": 2,
-      "title": "一口中秋蟹味鲜",
+      "title": "中国女排战胜泰国挺进决赛",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -523,7 +525,7 @@
     },
     {
       "rank": 3,
-      "title": "1条视频看懂平陆运河",
+      "title": "亚运会中国女足5:1菲律宾女足",
       "rate": "爆发",
       "platforms": [
         "douyin"
@@ -532,7 +534,7 @@
     },
     {
       "rank": 4,
-      "title": "闲鱼回应涉黄",
+      "title": "华为月饼 腹泻",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +543,7 @@
     },
     {
       "rank": 5,
-      "title": "张家齐妈妈篡改记忆",
+      "title": "第一学历歧视",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +552,7 @@
     },
     {
       "rank": 6,
-      "title": "万千气象看吉林",
+      "title": "未来5年我国文化蓝图来了",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -559,6 +561,15 @@
     },
     {
       "rank": 7,
+      "title": "新质生产力助力端牢中国饭碗",
+      "rate": "飙升",
+      "platforms": [
+        "douyin"
+      ],
+      "desc": "24小时内多平台新上榜/飙升，覆盖1个平台。"
+    },
+    {
+      "rank": 8,
       "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？",
       "rate": "飙升",
       "platforms": [
@@ -568,18 +579,17 @@
     }
   ],
   "categoryStats": {
+    "体育": 4,
     "社会": 48,
-    "政策": 5,
-    "灾害": 2,
-    "科技": 2,
-    "科研": 1,
-    "体育": 1,
+    "科技": 3,
+    "科研": 2,
+    "政策": 2,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 265.6,
+    "weibo": 193.0,
     "zhihu": 741,
-    "douyin": 1211.9,
+    "douyin": 1212.8,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
