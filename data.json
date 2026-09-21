@@ -1,6 +1,6 @@
 {
-  "updateTime": "2026-09-22 00:42",
-  "updateTimestamp": 1790008952,
+  "updateTime": "2026-09-22 04:42",
+  "updateTimestamp": 1790023344,
   "timeZone": "Asia/Shanghai (UTC+8)",
   "source": "GitHub Actions 自动抓取（vvhan/guigui/tenapi API 聚合，部分平台可能为上次快照）",
   "summary": {
@@ -12,112 +12,112 @@
     {
       "rank": 1,
       "title": "歼35A官方代号：云龙",
-      "heatText": "综合热度 1244.5 万",
-      "heatValue": 1244.5,
+      "heatText": "综合热度 1202.6 万",
+      "heatValue": 1202.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1244.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1202.6万热度值。"
     },
     {
       "rank": 2,
-      "title": "中国队男子4x200自接力亚运夺冠",
-      "heatText": "综合热度 1191.3 万",
-      "heatValue": 1191.3,
+      "title": "挑战N种方式到创大",
+      "heatText": "综合热度 1164.3 万",
+      "heatValue": 1164.3,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1191.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1164.3万热度值。"
     },
     {
       "rank": 3,
       "title": "首批数据产权身份证发放",
-      "heatText": "综合热度 1183.1 万",
-      "heatValue": 1183.1,
+      "heatText": "综合热度 1140.6 万",
+      "heatValue": 1140.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1183.1万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1140.6万热度值。"
     },
     {
       "rank": 4,
-      "title": "于子迪夺亚运会第2金",
-      "heatText": "综合热度 1140.3 万",
-      "heatValue": 1140.3,
+      "title": "全体美食进入超长时代",
+      "heatText": "综合热度 1139.5 万",
+      "heatValue": 1139.5,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1140.3万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1139.5万热度值。"
     },
     {
       "rank": 5,
-      "title": "挑战N种方式到创大",
-      "heatText": "综合热度 1082.7 万",
-      "heatValue": 1082.7,
+      "title": "开始期待国庆烟花了",
+      "heatText": "综合热度 1081.1 万",
+      "heatValue": 1081.1,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1082.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1081.1万热度值。"
     },
     {
       "rank": 6,
-      "title": "全体美食进入超长时代",
-      "heatText": "综合热度 1081.5 万",
-      "heatValue": 1081.5,
+      "title": "中国队男子4x200自接力亚运夺冠",
+      "heatText": "综合热度 1064.7 万",
+      "heatValue": 1064.7,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 1081.5万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 1064.7万热度值。"
     },
     {
       "rank": 7,
-      "title": "中秋一起登上杭州月亮船",
-      "heatText": "综合热度 967.6 万",
-      "heatValue": 967.6,
+      "title": "于子迪夺亚运会第2金",
+      "heatText": "综合热度 943.6 万",
+      "heatValue": 943.6,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 967.6万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 943.6万热度值。"
     },
     {
       "rank": 8,
+      "title": "张博恒夺金",
+      "heatText": "综合热度 941.9 万",
+      "heatValue": 941.9,
+      "platforms": [
+        "douyin"
+      ],
+      "category": "社会",
+      "desc": "跨平台热度话题：抖音热搜热度 941.9万热度值。"
+    },
+    {
+      "rank": 9,
       "title": "中国女排战胜泰国挺进决赛",
-      "heatText": "综合热度 944.2 万",
-      "heatValue": 944.2,
+      "heatText": "综合热度 939.8 万",
+      "heatValue": 939.8,
       "platforms": [
         "douyin"
       ],
       "category": "体育",
-      "desc": "跨平台热度话题：抖音热搜热度 944.2万热度值。"
-    },
-    {
-      "rank": 9,
-      "title": "抖音电商作者来创大团建了",
-      "heatText": "综合热度 942.9 万",
-      "heatValue": 942.9,
-      "platforms": [
-        "douyin"
-      ],
-      "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 942.9万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 939.8万热度值。"
     },
     {
       "rank": 10,
-      "title": "开始期待国庆烟花了",
-      "heatText": "综合热度 942.7 万",
-      "heatValue": 942.7,
+      "title": "抖音电商作者来创大团建了",
+      "heatText": "综合热度 939.8 万",
+      "heatValue": 939.8,
       "platforms": [
         "douyin"
       ],
       "category": "社会",
-      "desc": "跨平台热度话题：抖音热搜热度 942.7万热度值。"
+      "desc": "跨平台热度话题：抖音热搜热度 939.8万热度值。"
     }
   ],
   "platforms": {
@@ -127,72 +127,72 @@
       "list": [
         {
           "rank": 1,
-          "title": "16岁少年与14岁女孩发生关系判3年",
-          "heatText": "76.5万热度",
-          "heatValue": 76.5,
+          "title": "潘展乐 张展硕",
+          "heatText": "15.0万热度",
+          "heatValue": 15.0,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "重庆理工大学通报女子称遭性侵",
-          "heatText": "56.0万热度",
-          "heatValue": 56.0,
+          "title": "中国女子仙本那旅游遭男子闯入脱衣",
+          "heatText": "9.9万热度",
+          "heatValue": 9.9,
           "isNew": true
         },
         {
           "rank": 3,
-          "title": "坚持四个注重做强先进制造业",
-          "heatText": "42.2万热度",
-          "heatValue": 42.2,
+          "title": "两部门紧急拨付2亿支持4省救灾",
+          "heatText": "6.6万热度",
+          "heatValue": 6.6,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "上京东买OPPO新机和沈月去追秋",
-          "heatText": "40.8万热度",
-          "heatValue": 40.8,
+          "title": "曝金鹰奖最佳男女主",
+          "heatText": "5.2万热度",
+          "heatValue": 5.2,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "曝金鹰奖最佳男女主",
-          "heatText": "29.1万热度",
-          "heatValue": 29.1,
+          "title": "X300 X500",
+          "heatText": "5.2万热度",
+          "heatValue": 5.2,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "中国女子仙本那旅游遭男子闯入脱衣",
-          "heatText": "28.8万热度",
-          "heatValue": 28.8,
+          "title": "曝某S加女主片酬从几千万降至100万",
+          "heatText": "5.1万热度",
+          "heatValue": 5.1,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "名古屋亚运会游泳",
-          "heatText": "22.1万热度",
-          "heatValue": 22.1,
+          "title": "吴尊晒NeiNei穿婚服",
+          "heatText": "5.1万热度",
+          "heatValue": 5.1,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "骁龙峰会",
-          "heatText": "21.0万热度",
-          "heatValue": 21.0,
+          "title": "Lisa疑似与blue谈恋爱了",
+          "heatText": "4.9万热度",
+          "heatValue": 4.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "柬埔寨电诈园区内部曝光",
-          "heatText": "20.4万热度",
-          "heatValue": 20.4,
+          "title": "名古屋亚运会游泳",
+          "heatText": "4.3万热度",
+          "heatValue": 4.3,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "兰香如故",
-          "heatText": "17.2万热度",
-          "heatValue": 17.2,
+          "title": "vivoX500系列测评",
+          "heatText": "4.2万热度",
+          "heatValue": 4.2,
           "isNew": false
         }
       ]
@@ -280,71 +280,71 @@
         {
           "rank": 1,
           "title": "歼35A官方代号：云龙",
-          "heatText": "1244.5万热度值",
-          "heatValue": 1244.5,
+          "heatText": "1202.6万热度值",
+          "heatValue": 1202.6,
           "isNew": true
         },
         {
           "rank": 2,
-          "title": "中国队男子4x200自接力亚运夺冠",
-          "heatText": "1191.3万热度值",
-          "heatValue": 1191.3,
+          "title": "挑战N种方式到创大",
+          "heatText": "1164.3万热度值",
+          "heatValue": 1164.3,
           "isNew": true
         },
         {
           "rank": 3,
           "title": "首批数据产权身份证发放",
-          "heatText": "1183.1万热度值",
-          "heatValue": 1183.1,
+          "heatText": "1140.6万热度值",
+          "heatValue": 1140.6,
           "isNew": true
         },
         {
           "rank": 4,
-          "title": "于子迪夺亚运会第2金",
-          "heatText": "1140.3万热度值",
-          "heatValue": 1140.3,
+          "title": "全体美食进入超长时代",
+          "heatText": "1139.5万热度值",
+          "heatValue": 1139.5,
           "isNew": false
         },
         {
           "rank": 5,
-          "title": "挑战N种方式到创大",
-          "heatText": "1082.7万热度值",
-          "heatValue": 1082.7,
+          "title": "开始期待国庆烟花了",
+          "heatText": "1081.1万热度值",
+          "heatValue": 1081.1,
           "isNew": false
         },
         {
           "rank": 6,
-          "title": "全体美食进入超长时代",
-          "heatText": "1081.5万热度值",
-          "heatValue": 1081.5,
+          "title": "中国队男子4x200自接力亚运夺冠",
+          "heatText": "1064.7万热度值",
+          "heatValue": 1064.7,
           "isNew": false
         },
         {
           "rank": 7,
-          "title": "中秋一起登上杭州月亮船",
-          "heatText": "967.6万热度值",
-          "heatValue": 967.6,
+          "title": "于子迪夺亚运会第2金",
+          "heatText": "943.6万热度值",
+          "heatValue": 943.6,
           "isNew": false
         },
         {
           "rank": 8,
-          "title": "中国女排战胜泰国挺进决赛",
-          "heatText": "944.2万热度值",
-          "heatValue": 944.2,
+          "title": "张博恒夺金",
+          "heatText": "941.9万热度值",
+          "heatValue": 941.9,
           "isNew": false
         },
         {
           "rank": 9,
-          "title": "抖音电商作者来创大团建了",
-          "heatText": "942.9万热度值",
-          "heatValue": 942.9,
+          "title": "中国女排战胜泰国挺进决赛",
+          "heatText": "939.8万热度值",
+          "heatValue": 939.8,
           "isNew": false
         },
         {
           "rank": 10,
-          "title": "开始期待国庆烟花了",
-          "heatText": "942.7万热度值",
-          "heatValue": 942.7,
+          "title": "抖音电商作者来创大团建了",
+          "heatText": "939.8万热度值",
+          "heatValue": 939.8,
           "isNew": false
         }
       ]
@@ -514,7 +514,7 @@
     },
     {
       "rank": 2,
-      "title": "中国队男子4x200自接力亚运夺冠",
+      "title": "挑战N种方式到创大",
       "rate": "极速",
       "platforms": [
         "douyin"
@@ -532,7 +532,7 @@
     },
     {
       "rank": 4,
-      "title": "16岁少年与14岁女孩发生关系判3年",
+      "title": "潘展乐 张展硕",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -541,7 +541,7 @@
     },
     {
       "rank": 5,
-      "title": "重庆理工大学通报女子称遭性侵",
+      "title": "中国女子仙本那旅游遭男子闯入脱衣",
       "rate": "爆发",
       "platforms": [
         "weibo"
@@ -550,7 +550,7 @@
     },
     {
       "rank": 6,
-      "title": "坚持四个注重做强先进制造业",
+      "title": "两部门紧急拨付2亿支持4省救灾",
       "rate": "飙升",
       "platforms": [
         "weibo"
@@ -568,18 +568,17 @@
     }
   ],
   "categoryStats": {
-    "社会": 50,
+    "社会": 51,
     "体育": 3,
-    "时政": 1,
     "科技": 2,
     "科研": 1,
     "政策": 2,
     "财经": 1
   },
   "platformHeatStats": {
-    "weibo": 76.5,
+    "weibo": 15.0,
     "zhihu": 741,
-    "douyin": 1244.5,
+    "douyin": 1202.6,
     "bilibili": 405.4,
     "xiaohongshu": 918.6
   }
