@@ -1,47 +1,6 @@
 # 全网社交平台热点榜单
 
 > 聚合微博、小红书、知乎、抖音、B站五大平台实时热点，呈现跨平台综合十大、分平台各十大及24小时热度增长最快十大，附带数据分析看板。对应网页链接：https://yanzhuzhou.github.io/news-hot/
-
-## 数据更新机制（双模式）
-
-### 模式一：Cloudflare Worker 实时抓取（推荐）
-
-浏览器端直接调用 Cloudflare Worker 获取最新数据，**无时间/次数限制**，免费额度 10 万次/天。
-
-- 页面加载时自动抓取最新数据
-- 点击右上角刷新按钮立即更新
-- 每 5 分钟自动刷新一次
-- Worker 内置 5 分钟缓存，减少上游 API 压力
-
-### 模式二：GitHub Actions 定时更新（fallback）
-
-- 每 6 小时自动运行一次 `fetch_hotlists.py`
-- 生成 `data.json` 作为静态 fallback 数据
-- Worker 不可用时自动回退到静态数据
-
-## 部署 Cloudflare Worker（免费，约 5 分钟）
-
-1. 注册 [Cloudflare 账号](https://dash.cloudflare.com)（已有账号跳过）
-2. 左侧菜单进入 **Workers & Pages** → **Create** → **Create Worker**
-3. 给 Worker 命名（如 `hotlists`）
-4. 将 `worker.js` 文件的全部内容复制粘贴到编辑器
-5. 点击 **Deploy**
-6. 复制 Worker URL（如 `https://hotlists.yourname.workers.dev`）
-7. 编辑 `index.html`，找到 `const WORKER_URL = ''`，改为你的 Worker URL：
-   ```js
-   const WORKER_URL = 'https://hotlists.yourname.workers.dev';
-   ```
-8. 提交代码到 GitHub，完成！
-
-> **免费额度**：10 万次请求/天，Worker 内置 5 分钟缓存，实际上游 API 调用量极低。
-
-## 部署到 GitHub Pages
-
-1. 将所有文件推送到 GitHub 仓库
-2. 在仓库 **Settings → Pages** 中选择 **Deploy from branch**，选择 `main` 分支
-3. 等待几分钟后，访问 `https://<username>.github.io/<repo-name>/` 即可
-4. 配置 Worker URL 后，页面将实时获取数据
-
 ## 内容结构
 
 | 模块 | 说明 |
