@@ -221,8 +221,8 @@ body{font-family:'Noto Sans CJK SC','WenQuanYi Micro Hei','Microsoft YaHei',-app
 </div>
 
 <footer class="footer">
-  <p>数据说明：本榜单为抓取时刻快照，热度值取各平台公开热榜接口与聚合源。各平台热度口径不同（微博/知乎为“万热度”，抖音为“万热度值”，B站为“万播放”，小红书为“万”），跨平台对比仅供参考。小红书第 5-10 条为全网热点补充条目，已标注。</p>
-  <p>实时更新机制：部署到 GitHub Pages 后，由 GitHub Actions 每小时自动运行抓取脚本更新 data.json，网页读取最新数据动态渲染。</p>
+  <p>数据说明：本榜单为抓取时刻快照，热度值取各平台公开热榜接口与聚合源。各平台热度口径不同（微博/知乎为"万热度"，抖音为"万热度值"，B站为"万播放"，小红书为"万"），跨平台对比仅供参考。小红书第 5-10 条为全网热点补充条目，已标注。</p>
+  <p>实时更新机制：通过 Cloudflare Worker 浏览器端实时抓取数据，点击右上角刷新按钮立即更新，每 5 分钟自动刷新。Worker 不可用时回退到本地缓存 data.json。</p>
   <div class="src">
     <span>tophub.today</span><span>regeng.net</span><span>rshub.site</span><span>vvhan API</span><span>各平台官方热榜</span>
   </div>
@@ -236,14 +236,14 @@ const FALLBACK_DATA = {
   overall:[
     {rank:1,title:"西藏吉隆泥石流灾害",heatText:"抖音1199万 · 快手1235万 · 百度780万",heatValue:4049,platforms:["weibo","douyin","bilibili"],category:"灾害",desc:"西藏吉隆口岸发生特大泥石流灾害，已致16死546失联，多平台霸榜，抢险救援与新闻发布持续占据热度榜首。"},
     {rank:2,title:"中国女排2:3泰国女排 无缘直通奥运",heatText:"抖音1118万 · 快手1203万 · 微博118万",heatValue:3216,platforms:["weibo","douyin","zhihu"],category:"体育",desc:"2026女排亚锦赛决赛中国女排2比3不敌泰国，错失直通奥运资格，赛事结果引爆全网讨论。"},
-    {rank:3,title:"官方回应“取消ETC”",heatText:"抖音1209万 · 快手1227万",heatValue:2436,platforms:["douyin"],category:"政策",desc:"网传“建议取消ETC设备使用”引发热议，交通运输部出面回应，政策类话题短时间冲上榜首。"},
+    {rank:3,title:"官方回应\u201c取消ETC\u201d",heatText:"抖音1209万 · 快手1227万",heatValue:2436,platforms:["douyin"],category:"政策",desc:"网传\u201c建议取消ETC设备使用\u201d引发热议，交通运输部出面回应，政策类话题短时间冲上榜首。"},
     {rank:4,title:"习近平抵达比什凯克出席上合峰会",heatText:"百度790万 · 快手1292万",heatValue:2082,platforms:[],category:"时政",desc:"国家主席抵达吉尔吉斯斯坦出席上海合作组织成员国元首理事会，登上百度与快手热榜。"},
     {rank:5,title:"国家动物博物馆小孩损毁珍贵标本",heatText:"知乎741万 · 贴吧96万",heatValue:837,platforms:["zhihu"],category:"社会",desc:"两小孩在国家动物博物馆手抓脚踢致莽山原矛头蝮标本受损，父亲在场未制止，追责讨论登上知乎榜首。"},
     {rank:6,title:"网易云音乐疑似官宣适配鸿蒙",heatText:"知乎414万 · IT之家热榜",heatValue:414,platforms:["zhihu"],category:"科技",desc:"网易云音乐长期缺席后疑似官宣适配鸿蒙HarmonyOS，科技圈与花粉群体高度关注其能否挽回流失用户。"},
-    {rank:7,title:"官方通报博主街头除钉因扬尘被叫停",heatText:"知乎409万",heatValue:409,platforms:["zhihu"],category:"社会",desc:"博主自发街头除钉因扬尘影响环保被叫停，官方通报称工作人员沟通方式造成误解，引发“好心办坏事”讨论。"},
+    {rank:7,title:"官方通报博主街头除钉因扬尘被叫停",heatText:"知乎409万",heatValue:409,platforms:["zhihu"],category:"社会",desc:"博主自发街头除钉因扬尘影响环保被叫停，官方通报称工作人员沟通方式造成误解，引发\u201c好心办坏事\u201d讨论。"},
     {rank:8,title:"网传南极水银释放量激增550%",heatText:"知乎338万",heatValue:338,platforms:["zhihu"],category:"科研",desc:"研究警告南极水银（汞）释放量激增550%，真实性及其对生态与气候的影响引发知乎热议。"},
     {rank:9,title:"许晴花少2表现被理解",heatText:"微博79万",heatValue:79,platforms:["weibo"],category:"娱乐",desc:"综艺节目《花儿与少年2》中许晴的表现随时间推移被重新理解，怀旧向话题登上微博热搜。"},
-    {rank:10,title:"华为李小龙称花11年把梦想照进现实",heatText:"微博热搜 · 12.6万",heatValue:13,platforms:["weibo"],category:"科技",desc:"华为相关产品历经11年研发终于落地，高管发言引发“长期主义”共鸣，登上微博热搜。"}
+    {rank:10,title:"华为李小龙称花11年把梦想照进现实",heatText:"微博热搜 · 12.6万",heatValue:13,platforms:["weibo"],category:"科技",desc:"华为相关产品历经11年研发终于落地，高管发言引发\u201c长期主义\u201d共鸣，登上微博热搜。"}
   ],
   platforms:{
     weibo:{name:"微博热搜",unit:"万热度",list:[
@@ -271,7 +271,7 @@ const FALLBACK_DATA = {
       {rank:10,title:"为什么很多大学生更喜欢买标准版iPhone，而不是Pro？",heatText:"—",heatValue:120,isNew:false}
     ]},
     douyin:{name:"抖音热搜",unit:"万热度值",list:[
-      {rank:1,title:"官方回应“取消ETC”",heatText:"1209.2万",heatValue:1209.2,isNew:false},
+      {rank:1,title:"官方回应\u201c取消ETC\u201d",heatText:"1209.2万",heatValue:1209.2,isNew:false},
       {rank:2,title:"西藏泥石流已致16死546失联",heatText:"1199.2万",heatValue:1199.2,isNew:false},
       {rank:3,title:"直击吉隆口岸抢险救援一线",heatText:"1149万",heatValue:1149,isNew:false},
       {rank:4,title:"中国女排2:3泰国女排",heatText:"1117.8万",heatValue:1117.8,isNew:false},
@@ -310,7 +310,7 @@ const FALLBACK_DATA = {
   fastestGrowing:[
     {rank:1,title:"西藏吉隆泥石流灾害",rate:"极速",platforms:["weibo","douyin","bilibili"],desc:"突发特大灾害，24小时内微博/抖音/快手/百度/B站多平台同时霸榜飙升"},
     {rank:2,title:"中国女排2:3泰国女排 无缘直通奥运",rate:"极速",platforms:["weibo","douyin","zhihu"],desc:"亚锦赛决赛结果突发，赛事话题在5个平台同时冲榜"},
-    {rank:3,title:"官方回应“取消ETC”",rate:"爆发",platforms:["douyin"],desc:"政策传闻突发，抖音快手短时间冲至榜首"},
+    {rank:3,title:"官方回应\u201c取消ETC\u201d",rate:"爆发",platforms:["douyin"],desc:"政策传闻突发，抖音快手短时间冲至榜首"},
     {rank:4,title:"国家动物博物馆小孩损毁标本",rate:"爆发",platforms:["zhihu"],desc:"突发社会事件，知乎741万热度冲至榜首"},
     {rank:5,title:"网易云音乐疑似官宣适配鸿蒙",rate:"爆发",platforms:["zhihu"],desc:"科技突发，知乎414万 + IT之家热榜"},
     {rank:6,title:"新版《国防动员法》10月1日实施",rate:"飙升",platforms:["zhihu"],desc:"政策突发，知乎热榜新上榜"},
@@ -358,6 +358,53 @@ function updateFreshPill(){
   }
 }
 
+// ============ 数据格式标准化 ============
+// Worker 返回的字段名可能与页面期望的不同，统一转换
+function normalizeData(data){
+  if(!data) return null;
+  // 如果已经有 heatText 字段，说明格式已匹配，无需转换
+  if(data.overall && data.overall[0] && data.overall[0].heatText !== undefined) return data;
+
+  // 转换 overall
+  if(data.overall){
+    data.overall = data.overall.map(it=>({
+      rank: it.rank,
+      title: it.title || '',
+      heatText: it.heatText || it.heatLabel || (it.heat ? it.heat+'万' : '—'),
+      heatValue: it.heatValue ?? it.heat ?? 0,
+      platforms: Array.isArray(it.platforms) ? it.platforms : (it.platform ? [it.platform] : []),
+      category: it.category || '综合',
+      desc: it.desc || it.heatLabel || '',
+    }));
+  }
+  // 转换 platforms
+  if(data.platforms){
+    for(const key of Object.keys(data.platforms)){
+      const pf = data.platforms[key];
+      if(pf.list){
+        pf.list = pf.list.map(it=>({
+          rank: it.rank,
+          title: it.title || '',
+          heatText: it.heatText || it.heatLabel || (it.heat ? it.heat+'万' : '—'),
+          heatValue: it.heatValue ?? it.heat ?? 0,
+          isNew: it.isNew || false,
+        }));
+      }
+    }
+  }
+  // 转换 fastestGrowing
+  if(data.fastestGrowing){
+    data.fastestGrowing = data.fastestGrowing.map(it=>({
+      rank: it.rank,
+      title: it.title || '',
+      rate: it.rate || it.growthLabel || '飙升',
+      platforms: Array.isArray(it.platforms) ? it.platforms : (it.platform ? [it.platform] : []),
+      desc: it.desc || it.heatLabel || '',
+    }));
+  }
+  return data;
+}
+
 // ============ 获取数据 ============
 async function loadData(isAutoRefresh=false){
   if(isFetching) return;
@@ -367,58 +414,86 @@ async function loadData(isAutoRefresh=false){
   if(isAutoRefresh && livePill) livePill.classList.add('refreshing');
   if(refreshBtn) { refreshBtn.classList.add('spinning'); refreshBtn.disabled = true; }
   let hasNew = false;
-  
+  let workerError = '';
+  let dataSource = '';
+
   // 优先尝试 Worker API（实时数据）
   if(WORKER_URL){
     try{
       const res = await fetch(WORKER_URL, {cache:'no-store', signal: AbortSignal.timeout(20000)});
       if(res.ok){
-        const data = await res.json();
-        if(data.overall){
-          if(data.updateTimestamp !== lastTimestamp){
-            DATA = data;
-            lastTimestamp = data.updateTimestamp;
-            hasNew = true;
-          }
+        const text = await res.text();
+        const rawData = JSON.parse(text);
+        // 标准化数据格式
+        const data = normalizeData(rawData);
+        if(data && data.overall && data.overall.length > 0){
+          DATA = data;
+          lastTimestamp = data.updateTimestamp || Math.floor(Date.now()/1000);
+          hasNew = true;
+          dataSource = 'Worker 实时';
           document.getElementById('staleBanner').classList.remove('show');
-          if(hasNew) render();
-          updateFreshPill();
-          isFetching = false;
-          if(isAutoRefresh && livePill) setTimeout(()=>livePill.classList.remove('refreshing'), 800);
-          if(refreshBtn) { refreshBtn.classList.remove('spinning'); refreshBtn.disabled = false; }
-          return;
+        } else {
+          workerError = 'Worker 返回数据为空或格式不正确';
         }
+      } else {
+        workerError = `Worker HTTP ${res.status}`;
       }
     }catch(e){
-      console.log('Worker fetch failed, falling back to data.json:', e.message);
+      workerError = e.message;
     }
   }
-  
-  // 回退到 data.json 静态文件
-  try{
-    const res = await fetch('data.json',{cache:'no-store'});
-    if(!res.ok) throw new Error('HTTP '+res.status);
-    const data = await res.json();
-    if(!data.overall) throw new Error('invalid data');
-    if(data.updateTimestamp !== lastTimestamp){
+
+  // Worker 失败，回退到 data.json 静态文件
+  if(!hasNew){
+    try{
+      const res = await fetch('data.json',{cache:'no-store'});
+      if(!res.ok) throw new Error('HTTP '+res.status);
+      const data = await res.json();
+      if(!data.overall) throw new Error('invalid data');
       DATA = data;
-      lastTimestamp = data.updateTimestamp;
+      lastTimestamp = data.updateTimestamp || 0;
       hasNew = true;
+      dataSource = '缓存';
+      const banner = document.getElementById('staleBanner');
+      banner.textContent = '⚠ Worker 暂时不可用：' + (workerError || '未知错误') + '，当前使用缓存数据';
+      banner.classList.add('show');
+    }catch(e){
+      if(!lastTimestamp){
+        DATA = FALLBACK_DATA;
+        hasNew = true;
+        dataSource = '内置快照';
+      }
+      document.getElementById('staleBanner').classList.add('show');
     }
-    document.getElementById('staleBanner').classList.remove('show');
-  }catch(e){
-    if(!lastTimestamp){
-      DATA = FALLBACK_DATA;
-      lastTimestamp = FALLBACK_DATA.updateTimestamp || 0;
-      hasNew = true;
-    }
-    document.getElementById('staleBanner').classList.add('show');
   }
+
   if(hasNew) render();
   updateFreshPill();
+  // 手动刷新时显示来源提示
+  if(!isAutoRefresh && dataSource){
+    showRefreshToast(dataSource, workerError);
+  }
   isFetching = false;
   if(isAutoRefresh && livePill) setTimeout(()=>livePill.classList.remove('refreshing'), 800);
   if(refreshBtn) { refreshBtn.classList.remove('spinning'); refreshBtn.disabled = false; }
+}
+
+// ============ 刷新提示 ============
+function showRefreshToast(source, error){
+  let toast = document.getElementById('refreshToast');
+  if(!toast){
+    toast = document.createElement('div');
+    toast.id = 'refreshToast';
+    toast.style.cssText = 'position:fixed;top:80px;left:50%;transform:translateX(-50%);background:var(--card);border:1px solid var(--border2);border-radius:10px;padding:10px 20px;box-shadow:var(--shadow2);font-size:13px;z-index:9999;opacity:0;transition:opacity .3s;pointer-events:none';
+    document.body.appendChild(toast);
+  }
+  if(error){
+    toast.innerHTML = '<span style="color:var(--warm)">⚠</span> 刷新完成（' + source + '）' + (error ? '<br><span style="color:var(--muted);font-size:11px">' + error + '</span>' : '');
+  } else {
+    toast.innerHTML = '<span style="color:var(--green)">✓</span> 数据已刷新（' + source + '）';
+  }
+  toast.style.opacity = '1';
+  setTimeout(()=>{ toast.style.opacity = '0'; }, 2500);
 }
 
 // ============ 手动刷新 ============

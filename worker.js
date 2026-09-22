@@ -98,8 +98,8 @@ async function fetchPlatform(key, config) {
         items = (raw.data || []).slice(0, 10).map((item, i) => ({
           rank: i + 1,
           title: item.target?.title || '',
-          heat: parseHeat(item.detail_text),
-          heatLabel: item.detail_text || '',
+          heatValue: parseHeat(item.detail_text),
+          heatText: item.detail_text || (parseHeat(item.detail_text) + '万'),
           url: `https://www.zhihu.com/question/${item.target?.id || ''}`,
           isNew: false,
           category: categorize(item.target?.title || ''),
@@ -109,8 +109,8 @@ async function fetchPlatform(key, config) {
         items = (raw.data?.trending?.list || []).slice(0, 10).map((item, i) => ({
           rank: i + 1,
           title: item.keyword || item.show_name || '',
-          heat: item.heat_score || 0,
-          heatLabel: item.heat_score ? (item.heat_score + '') : '',
+          heatValue: item.heat_score || 0,
+          heatText: item.heat_score ? (item.heat_score + '') : '—',
           url: item.uri || `https://search.bilibili.com/all?keyword=${encodeURIComponent(item.keyword || '')}`,
           isNew: false,
           category: categorize(item.keyword || ''),
@@ -120,8 +120,8 @@ async function fetchPlatform(key, config) {
         items = (raw.data || []).slice(0, 10).map((item, i) => ({
           rank: i + 1,
           title: item.title || '',
-          heat: parseHeat(item.hot),
-          heatLabel: item.hot ? (item.hot + (config.unit || '')) : '',
+          heatValue: parseHeat(item.hot),
+          heatText: item.hot ? (item.hot + (config.unit || '')) : '—',
           url: item.url || '',
           isNew: false,
           category: categorize(item.title || ''),
@@ -144,27 +144,36 @@ function computeOverall(platforms) {
   const all = [];
   for (const [key, pf] of Object.entries(platforms)) {
     for (const item of pf.list) {
-      all.push({ ...item, platform: key, platformName: pf.name });
+      all.push({ ...item, platforms: [key], platform: key, platformName: pf.name });
     }
   }
-  all.sort((a, b) => b.heat - a.heat);
-  return all.slice(0, 10).map((item, i) => ({ ...item, rank: i + 1 }));
+  all.sort((a, b) => (b.heatValue||0) - (a.heatValue||0));
+  return all.slice(0, 10).map((item, i) => ({
+    rank: i + 1,
+    title: item.title,
+    heatText: item.heatText || '—',
+    heatValue: item.heatValue || 0,
+    platforms: item.platforms || [],
+    category: item.category || '综合',
+    desc: item.heatText || '',
+  }));
 }
 
 function computeFastest(platforms, overall) {
-  // 使用 heat 值排序作为增长最快
   const all = [];
   for (const [key, pf] of Object.entries(platforms)) {
     for (const item of pf.list) {
-      const growth = item.heat || 0;
-      all.push({ ...item, platform: key, platformName: pf.name, growthValue: growth, growthRate: growth });
+      const growth = item.heatValue || 0;
+      all.push({ ...item, platforms: [key], platform: key, platformName: pf.name, growthValue: growth });
     }
   }
-  all.sort((a, b) => b.growthValue - a.growthValue);
+  all.sort((a, b) => (b.growthValue||0) - (a.growthValue||0));
   return all.slice(0, 10).map((item, i) => ({
-    ...item,
     rank: i + 1,
-    growthLabel: item.growthValue > 500 ? '极速' : item.growthValue > 100 ? '爆发' : '飙升',
+    title: item.title,
+    rate: item.growthValue > 500 ? '极速' : item.growthValue > 100 ? '爆发' : '飙升',
+    platforms: item.platforms || [],
+    desc: item.heatText || (item.platformName + ' ' + item.heatText),
   }));
 }
 
@@ -181,7 +190,7 @@ function categorizeAll(platforms, overall) {
 function platformHeatStats(platforms) {
   const stats = {};
   for (const [key, pf] of Object.entries(platforms)) {
-    stats[key] = pf.list.reduce((s, i) => s + (i.heat || 0), 0);
+    stats[key] = pf.list.reduce((s, i) => s + (i.heatValue || 0), 0);
   }
   return stats;
 }
