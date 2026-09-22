@@ -1,13 +1,13 @@
-name: 热点数据自动更新
+name: 热点数据自动更新（fallback）
 
 on:
   schedule:
-    # 每 30 分钟运行一次（UTC 时间）
-    - cron: '*/30 * * * *'
+    # 每 6 小时运行一次（UTC 时间 0/6/12/18 点，即北京时间 8/14/20/2 点）
+    - cron: '0 */6 * * *'
   workflow_dispatch: # 支持手动触发
 
 permissions:
-  contents: write # 允许推送更新到仓库
+  contents: write
 
 jobs:
   fetch-and-update:
@@ -41,5 +41,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "自动更新热点数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git commit -m "自动更新热点数据 fallback $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push

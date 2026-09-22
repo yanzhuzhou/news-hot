@@ -2,21 +2,45 @@
 
 > 聚合微博、小红书、知乎、抖音、B站五大平台实时热点，呈现跨平台综合十大、分平台各十大及24小时热度增长最快十大，附带数据分析看板。对应网页链接：https://yanzhuzhou.github.io/news-hot/
 
-## 实时更新机制
+## 数据更新机制（双模式）
 
-本项目通过 **GitHub Actions** 自动抓取和更新数据：
+### 模式一：Cloudflare Worker 实时抓取（推荐）
 
-- 每 30 分钟自动运行一次 `fetch_hotlists.py` 脚本
-- 脚本调用公开热榜 API（vvhan / guigui）获取各平台最新数据
-- 自动生成 `data.json` 并提交到仓库
-- 网页读取最新的 `data.json` 动态渲染，实现准实时更新
+浏览器端直接调用 Cloudflare Worker 获取最新数据，**无时间/次数限制**，免费额度 10 万次/天。
 
-如需手动触发更新，可在 GitHub 仓库的 **Actions** 页面点击 **Run workflow**。
+- 页面加载时自动抓取最新数据
+- 点击右上角刷新按钮立即更新
+- 每 5 分钟自动刷新一次
+- Worker 内置 5 分钟缓存，减少上游 API 压力
 
-## 数据时间
+### 模式二：GitHub Actions 定时更新（fallback）
 
-- **抓取频率**：每 30 分钟
-- **数据来源**：各平台公开热榜 API 聚合（vvhan / guigui）
+- 每 6 小时自动运行一次 `fetch_hotlists.py`
+- 生成 `data.json` 作为静态 fallback 数据
+- Worker 不可用时自动回退到静态数据
+
+## 部署 Cloudflare Worker（免费，约 5 分钟）
+
+1. 注册 [Cloudflare 账号](https://dash.cloudflare.com)（已有账号跳过）
+2. 左侧菜单进入 **Workers & Pages** → **Create** → **Create Worker**
+3. 给 Worker 命名（如 `hotlists`）
+4. 将 `worker.js` 文件的全部内容复制粘贴到编辑器
+5. 点击 **Deploy**
+6. 复制 Worker URL（如 `https://hotlists.yourname.workers.dev`）
+7. 编辑 `index.html`，找到 `const WORKER_URL = ''`，改为你的 Worker URL：
+   ```js
+   const WORKER_URL = 'https://hotlists.yourname.workers.dev';
+   ```
+8. 提交代码到 GitHub，完成！
+
+> **免费额度**：10 万次请求/天，Worker 内置 5 分钟缓存，实际上游 API 调用量极低。
+
+## 部署到 GitHub Pages
+
+1. 将所有文件推送到 GitHub 仓库
+2. 在仓库 **Settings → Pages** 中选择 **Deploy from branch**，选择 `main` 分支
+3. 等待几分钟后，访问 `https://<username>.github.io/<repo-name>/` 即可
+4. 配置 Worker URL 后，页面将实时获取数据
 
 ## 内容结构
 
@@ -28,6 +52,27 @@
 | 分平台十大热点 | 微博、知乎、抖音、B站、小红书各自榜单，可切换 |
 | 24小时增长最快十大 | 对比昨日同时段，识别突发飙升热点 |
 
+## 文件说明
+
+| 文件 | 说明 |
+|------|------|
+| `index.html` | 自包含的热点榜单网页，支持 Worker API + 静态 fallback 双模式 |
+| `worker.js` | Cloudflare Worker 脚本，浏览器端实时抓取数据 |
+| `data.json` | 结构化数据文件，由 Actions 每 6 小时更新（fallback） |
+| `fetch_hotlists.py` | Python 抓取脚本，调用公开 API 生成 data.json |
+| `.github/workflows/update.yml` | GitHub Actions 工作流，每 6 小时更新 fallback 数据 |
+| `README.md` | 本说明文件 |
+
+## 数据来源
+
+| 平台 | API 来源 |
+|------|----------|
+| 微博 | guigui API（支持 CORS） |
+| 知乎 | 知乎官方 API（api.zhihu.com） |
+| 抖音 | guigui API |
+| B站 | B站官方 API（api.bilibili.com） |
+| 小红书 | guigui API（可用时） / fallback 数据 |
+
 ## 热度口径说明
 
 各平台热度统计口径不同，跨平台对比仅供参考：
@@ -35,50 +80,14 @@
 - **微博**：万热度
 - **知乎**：万热度
 - **抖音**：万热度值
-- **B站**：万播放
+- **B站**：热度分数
 - **小红书**：万
-
-> 小红书第 5-10 条为全网热点中符合小红书调性的补充条目，已在网页与数据中标注。
-> "24小时增长最快"依据同一话题在多平台同时新上榜或排名飙升，且为近 24 小时内爆发的突发性热点；增速为基于全网热度的综合估算，非精确数值。
-
-## 文件说明
-
-| 文件 | 说明 |
-|------|------|
-| `index.html` | 自包含的热点榜单网页，浏览器直接打开即可查看 |
-| `data.json` | 结构化数据文件，由脚本自动生成和更新 |
-| `fetch_hotlists.py` | Python 抓取脚本，调用公开API生成 data.json |
-| `.github/workflows/update.yml` | GitHub Actions 工作流，定时自动更新数据 |
-| `README.md` | 本说明文件 |
 
 ## 本地预览
 
 ```bash
-# 直接用浏览器打开
-open index.html        # macOS
-start index.html       # Windows
-xdg-open index.html    # Linux
-```
-
-或启动一个简单的本地服务器：
-
-```bash
 python3 -m http.server 8000
 # 访问 http://localhost:8000
-```
-
-## 部署到 GitHub Pages
-
-1. 将所有文件推送到 GitHub 仓库
-2. 在仓库 **Settings → Pages** 中选择 **Deploy from branch**，选择 `main` 分支
-3. 等待几分钟后，访问 `https://<username>.github.io/<repo-name>/` 即可
-4. GitHub Actions 会每 30 分钟自动更新 `data.json`，网页随之刷新
-
-## 手动运行抓取脚本
-
-```bash
-# 需要网络连接，Python 3.8+
-python3 fetch_hotlists.py
 ```
 
 ## 数据说明与免责

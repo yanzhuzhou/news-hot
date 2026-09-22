@@ -33,6 +33,11 @@ body{font-family:'Noto Sans CJK SC','WenQuanYi Micro Hei','Microsoft YaHei',-app
 .header .pill.live{color:var(--green);border-color:var(--green);background:var(--green-bg)}
 .header .pill.live .live-dot{display:inline-block;width:7px;height:7px;background:var(--green);border-radius:50%;margin-right:6px;vertical-align:middle;animation:pulse 1.8s infinite}
 .header .pill.refreshing{color:var(--primary);border-color:var(--primary);background:var(--primary-bg)}
+.header .refresh-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;border:1px solid var(--border2);background:var(--card);color:var(--muted);cursor:pointer;transition:all .2s;flex-shrink:0}
+.header .refresh-btn:hover{color:var(--primary);border-color:var(--primary);background:var(--primary-bg)}
+.header .refresh-btn:disabled{cursor:wait}
+.header .refresh-btn.spinning svg{animation:spin .8s linear infinite}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 .stale-banner{background:var(--warm-bg);border:1px solid #f6d98a;color:#92660a;font-size:13px;padding:10px 16px;text-align:center;display:none}
 .stale-banner.show{display:block}
@@ -160,9 +165,12 @@ body{font-family:'Noto Sans CJK SC','WenQuanYi Micro Hei','Microsoft YaHei',-app
     <span class="pill" id="timePill">数据时间：—</span>
     <span class="pill" id="freshPill">—</span>
     <span class="pill" id="srcPill">来源：—</span>
+    <button class="refresh-btn" id="refreshBtn" onclick="manualRefresh()" title="手动刷新数据">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/><path d="M2 11.5a10 10 0 0 1 18.8-4.3"/><path d="M22 12.5a10 10 0 0 1-18.8 4.2"/></svg>
+    </button>
   </div>
 </header>
-<div class="stale-banner" id="staleBanner">⚠ 当前为本地预览，使用数据快照（非实时）。部署到 GitHub Pages 后将通过 GitHub Actions 自动更新数据。</div>
+<div class="stale-banner" id="staleBanner">⚠ Worker API 未配置，当前使用 GitHub Actions 定时更新数据（每6小时）。部署 Cloudflare Worker 后可实现实时刷新，详见 README.md。</div>
 
 <div class="container">
 
@@ -319,6 +327,12 @@ const platNames = {weibo:"微博",zhihu:"知乎",douyin:"抖音",bilibili:"B站"
 let DATA = FALLBACK_DATA;
 let charts = {};
 let lastTimestamp = 0;
+let isFetching = false;
+
+// ============ 配置 ============
+// 部署 Cloudflare Worker 后，将下面的 URL 替换为你的 Worker 地址
+// 未配置时自动回退到 data.json 静态文件
+const WORKER_URL = ''; // 例如: 'https://hotlists.yourname.workers.dev'
 
 // ============ 格式化"多久前" ============
 function timeAgo(ts){
@@ -346,9 +360,41 @@ function updateFreshPill(){
 
 // ============ 获取数据 ============
 async function loadData(isAutoRefresh=false){
+  if(isFetching) return;
+  isFetching = true;
   const livePill = document.querySelector('.pill.live');
+  const refreshBtn = document.getElementById('refreshBtn');
   if(isAutoRefresh && livePill) livePill.classList.add('refreshing');
+  if(refreshBtn) { refreshBtn.classList.add('spinning'); refreshBtn.disabled = true; }
   let hasNew = false;
+  
+  // 优先尝试 Worker API（实时数据）
+  if(WORKER_URL){
+    try{
+      const res = await fetch(WORKER_URL, {cache:'no-store', signal: AbortSignal.timeout(20000)});
+      if(res.ok){
+        const data = await res.json();
+        if(data.overall){
+          if(data.updateTimestamp !== lastTimestamp){
+            DATA = data;
+            lastTimestamp = data.updateTimestamp;
+            hasNew = true;
+          }
+          document.getElementById('staleBanner').classList.remove('show');
+          if(hasNew) render();
+          updateFreshPill();
+          isFetching = false;
+          if(isAutoRefresh && livePill) setTimeout(()=>livePill.classList.remove('refreshing'), 800);
+          if(refreshBtn) { refreshBtn.classList.remove('spinning'); refreshBtn.disabled = false; }
+          return;
+        }
+      }
+    }catch(e){
+      console.log('Worker fetch failed, falling back to data.json:', e.message);
+    }
+  }
+  
+  // 回退到 data.json 静态文件
   try{
     const res = await fetch('data.json',{cache:'no-store'});
     if(!res.ok) throw new Error('HTTP '+res.status);
@@ -370,12 +416,19 @@ async function loadData(isAutoRefresh=false){
   }
   if(hasNew) render();
   updateFreshPill();
+  isFetching = false;
   if(isAutoRefresh && livePill) setTimeout(()=>livePill.classList.remove('refreshing'), 800);
+  if(refreshBtn) { refreshBtn.classList.remove('spinning'); refreshBtn.disabled = false; }
+}
+
+// ============ 手动刷新 ============
+function manualRefresh(){
+  loadData(false);
 }
 
 // ============ 自动刷新 ============
-// 每 60 秒检查一次新数据
-setInterval(()=>loadData(true), 60000);
+// 每 5 分钟自动检查一次新数据
+setInterval(()=>loadData(true), 300000);
 // 每 30 秒更新一次"多久前更新"的显示
 setInterval(updateFreshPill, 30000);
 
