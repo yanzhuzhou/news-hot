@@ -1,0 +1,21 @@
+# Cloudflare Worker 配置文件（纯 Cloudflare 方案）
+# 用法：
+#   1. 安装 wrangler：npm install -g wrangler
+#   2. 登录：wrangler login
+#   3. 创建 KV 命名空间：wrangler kv namespace create news-hot-data
+#      → 把输出的 id 填到下面 [[kv_namespaces]] 的 id 里
+#   4. 部署：wrangler deploy
+# （也可以不走命令行，直接在 Cloudflare 控制台：粘贴 worker.js、绑定 KV、在“触发器”里加 Cron）
+
+name = "news-hot-worker"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+# KV 存储：Cron 定时抓取的结果存这里，前端读取的就是它
+[[kv_namespaces]]
+binding = "HOT_DATA"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+# 定时触发器：每 5 分钟后台抓取一次（无人访问也更新）
+[triggers]
+crons = ["*/5 * * * *"]
