@@ -16,46 +16,40 @@
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 
-// ============ 数据源配置（多备用源，按顺序尝试）============
+// ============ 数据源配置 ============
+// 说明：经实测，guiguiya 是目前从 Cloudflare 边缘节点可稳定访问的聚合源；
+//       参数必须用它的正确取值（如 B站是 bilihot、不是 bilibili）。
+//       vvhan / tenapi 目前不可用，已移除。
 const SOURCES = {
   weibo: {
     name: '微博热搜', unit: '万',
     urls: [
-      'https://api.vvhan.com/api/hotlist?type=weibo',
       'https://api.guiguiya.com/api/hotlist?type=weibo',
-      'https://tenapi.cn/v2/hotlist?type=weibo',
-    ],
-  },
-  zhihu: {
-    name: '知乎热榜', unit: '万',
-    urls: [
-      'https://api.vvhan.com/api/hotlist?type=zhihu',
-      'https://api.guiguiya.com/api/hotlist?type=zhihu',
-      'https://tenapi.cn/v2/hotlist?type=zhihu',
     ],
   },
   douyin: {
     name: '抖音热点', unit: '万',
     urls: [
-      'https://api.vvhan.com/api/hotlist?type=douyin',
       'https://api.guiguiya.com/api/hotlist?type=douyin',
-      'https://tenapi.cn/v2/hotlist?type=douyin',
     ],
   },
   bilibili: {
     name: 'B站热搜', unit: '',
     urls: [
-      'https://api.vvhan.com/api/hotlist?type=bilibili',
-      'https://api.guiguiya.com/api/hotlist?type=bilibili',
-      'https://tenapi.cn/v2/hotlist?type=bilibili',
+      'https://api.guiguiya.com/api/hotlist?type=bilihot',              // 修正：正确参数是 bilihot
+      'https://api.bilibili.com/x/web-interface/search/square?limit=10', // 官方源备用
     ],
   },
-  xiaohongshu: {
-    name: '小红书热搜', unit: '万',
+  baidu: {
+    name: '百度热搜', unit: '',
     urls: [
-      'https://api.vvhan.com/api/hotlist?type=xiaohongshu',
-      'https://api.vvhan.com/api/hotlist?type=xhs',
-      'https://tenapi.cn/v2/hotlist?type=xiaohongshu',
+      'https://api.guiguiya.com/api/hotlist?type=baidu',
+    ],
+  },
+  toutiao: {
+    name: '头条热榜', unit: '',
+    urls: [
+      'https://api.guiguiya.com/api/hotlist?type=toutiao',
     ],
   },
 };
@@ -246,10 +240,11 @@ async function buildData() {
 
   const now = new Date(Date.now() + 8 * 3600 * 1000); // 北京时间
   return {
+    version: 'v2-6源',  // 版本标记：用于确认新代码是否已部署
     updateTime: now.toISOString().slice(0, 16).replace('T', ' '),
     updateTimestamp: Math.floor(Date.now() / 1000),
     timeZone: 'Asia/Shanghai (UTC+8)',
-    source: 'Cloudflare Worker 实时抓取（vvhan/guigui/tenapi 聚合）',
+    source: 'Cloudflare Worker 实时抓取（guiguiya 聚合）',
     summary: {
       totalTopics: total,
       platforms: Object.keys(platformResults).length,
@@ -279,11 +274,12 @@ export default {
     const url = new URL(request.url);
     const fresh = url.searchParams.get('fresh') === '1'; // 手动强制刷新
     const KEY = 'hotdata';
+    const KV = env.HOT_DATA; // KV 未绑定时为 undefined，下面全部做可选处理，不绑也能跑
 
-    // 正常访问：直接读 KV 缓存（由 Cron 维护）
+    // 正常访问：优先读 KV 缓存（若绑了 KV）
     let data = null;
-    if (!fresh) {
-      try { data = await env.HOT_DATA.get(KEY, { type: 'json' }); } catch (e) { console.log('[KV GET FAIL] ' + e.message); }
+    if (!fresh && KV) {
+      try { data = await KV.get(KEY, { type: 'json' }); } catch (e) { console.log('[KV GET FAIL] ' + e.message); }
     }
 
     // KV 为空 或 强制刷新 → 实时抓取并写回 KV
@@ -291,10 +287,10 @@ export default {
       const built = await buildData();
       if (built) {
         data = built;
-        ctx.waitUntil(env.HOT_DATA.put(KEY, JSON.stringify(data), { expirationTtl: 3600 }));
-      } else if (!data) {
+        if (KV) ctx.waitUntil(KV.put(KEY, JSON.stringify(data), { expirationTtl: 3600 }));
+      } else if (!data && KV) {
         // 实时全失败且 KV 也无 → 再读一次 KV（可能有旧数据）
-        try { data = await env.HOT_DATA.get(KEY, { type: 'json' }); } catch (e) {}
+        try { data = await KV.get(KEY, { type: 'json' }); } catch (e) {}
       }
     }
 
@@ -304,11 +300,13 @@ export default {
     return new Response(JSON.stringify(data), { headers: { ...corsHeaders, 'Cache-Control': 'no-store' } });
   },
 
-  // Cron Trigger 后台定时抓取（无人访问也更新）
+  // Cron Trigger 后台定时抓取（无人访问也更新；需先绑定 KV）
   async scheduled(event, env, ctx) {
     const data = await buildData();
     if (data) {
-      await env.HOT_DATA.put('hotdata', JSON.stringify(data), { expirationTtl: 3600 });
+      if (env.HOT_DATA) {
+        await env.HOT_DATA.put('hotdata', JSON.stringify(data), { expirationTtl: 3600 });
+      }
       console.log('[CRON] 数据已更新，平台数: ' + data.summary.platforms);
     } else {
       console.log('[CRON] 本次抓取全部失败，保留旧数据');
