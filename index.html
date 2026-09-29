@@ -157,7 +157,7 @@
   </section>
 
   <footer>
-    数据聚合自微博、知乎、抖音、B站、小红书公开热榜接口 · 仅供趋势观察，不代表官方观点<br/>
+    数据聚合自微博、抖音、B站、百度、头条公开热榜接口 · 仅供趋势观察，不代表官方观点<br/>
     更新机制：点击右上角“刷新”按钮 → Cloudflare Worker 实时抓取（?fresh=1）；可选绑定 KV 缓存 / 可选 Cron 后台定时，全程仅用 Cloudflare
   </footer>
 </div>
@@ -171,11 +171,11 @@
  * 必须点击“刷新”按钮才会去 Cloudflare 抓取新数据。
  * （可选）如需无人访问时也自动更新，可在 Cloudflare 给 Worker 加 Cron 触发器，见 README。
  * ============================================================ */
-const WORKER_URL = 'https://plain-hill-9dff.yanzhuzhou1996.workers.dev/';                       // ← 填上你的 Worker URL，例如 'https://hotlists.xxx.workers.dev'
+const WORKER_URL = 'https://plain-hill-9dff.yanzhuzhou1996.workers.dev/';   // ← 你的 Cloudflare Worker 地址
 
-const PLAT_ORDER = ['weibo', 'zhihu', 'douyin', 'bilibili', 'xiaohongshu'];
-const PLAT_COLOR = { weibo: '#e6162d', zhihu: '#0084ff', douyin: '#161823', bilibili: '#fb7299', xiaohongshu: '#ff2741' };
-const PLAT_NAME  = { weibo: '微博', zhihu: '知乎', douyin: '抖音', bilibili: 'B站', xiaohongshu: '小红书' };
+const PLAT_ORDER = ['weibo', 'douyin', 'bilibili', 'baidu', 'toutiao'];
+const PLAT_COLOR = { weibo: '#e6162d', douyin: '#161823', bilibili: '#fb7299', baidu: '#2932e1', toutiao: '#f04142' };
+const PLAT_NAME  = { weibo: '微博', douyin: '抖音', bilibili: 'B站', baidu: '百度', toutiao: '头条' };
 
 let heatChartObj = null, catChartObj = null;
 let currentData = null;
