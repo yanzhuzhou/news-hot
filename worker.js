@@ -1,60 +1,17 @@
 /**
  * 全网社交平台热点榜单 - Cloudflare Worker（纯 Cloudflare 版）
- *
- * 架构：完全不依赖 GitHub。
- *  - 自动更新：Cloudflare Cron Trigger 每 5 分钟后台抓取并写入 KV（无人访问也更新）
- *  - 手动刷新：前端按钮请求 ?fresh=1，Worker 强制实时抓取并更新 KV
- *  - 正常访问：直接从 KV 读取最新缓存返回（由 Cron 维护，永远不超过 5 分钟旧）
- *
- * 依赖：
- *  - KV 命名空间，绑定变量名 HOT_DATA（在 wrangler.toml 或控制台配置）
- *  - Cron Trigger：每 5 分钟触发一次（在 wrangler.toml 或控制台配置，cron 设为每 5 分钟）
- *
- * 部署：wrangler deploy（需先创建 KV 并填 id），或在控制台粘贴代码 + 绑定 KV + 加 Cron。
- * 免费额度：10 万次请求/天；KV 免费 1GB。
+ * 部署：控制台粘贴代码 + 绑定 KV（变量名 HOT_DATA，可选）+ 加 Cron（可选）。
  */
-
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 
-// ============ 数据源配置 ============
-// 说明：经实测，guiguiya 是目前从 Cloudflare 边缘节点可稳定访问的聚合源；
-//       参数必须用它的正确取值（如 B站是 bilihot、不是 bilibili）。
-//       vvhan / tenapi 目前不可用，已移除。
 const SOURCES = {
-  weibo: {
-    name: '微博热搜', unit: '万',
-    urls: [
-      'https://api.guiguiya.com/api/hotlist?type=weibo',
-    ],
-  },
-  douyin: {
-    name: '抖音热点', unit: '万',
-    urls: [
-      'https://api.guiguiya.com/api/hotlist?type=douyin',
-    ],
-  },
-  bilibili: {
-    name: 'B站热搜', unit: '',
-    urls: [
-      'https://api.guiguiya.com/api/hotlist?type=bilihot',              // 修正：正确参数是 bilihot
-      'https://api.bilibili.com/x/web-interface/search/square?limit=10', // 官方源备用
-    ],
-  },
-  baidu: {
-    name: '百度热搜', unit: '',
-    urls: [
-      'https://api.guiguiya.com/api/hotlist?type=baidu',
-    ],
-  },
-  toutiao: {
-    name: '头条热榜', unit: '',
-    urls: [
-      'https://api.guiguiya.com/api/hotlist?type=toutiao',
-    ],
-  },
+  weibo:   { name: '微博热搜', unit: '万', urls: ['https://api.guiguiya.com/api/hotlist?type=weibo'] },
+  douyin:  { name: '抖音热点', unit: '万', urls: ['https://api.guiguiya.com/api/hotlist?type=douyin'] },
+  bilibili:{ name: 'B站热搜', unit: '',  urls: ['https://api.guiguiya.com/api/hotlist?type=bilihot', 'https://api.bilibili.com/x/web-interface/search/square?limit=10'] },
+  baidu:   { name: '百度热搜', unit: '',  urls: ['https://api.guiguiya.com/api/hotlist?type=baidu'] },
+  toutiao: { name: '头条热榜', unit: '',  urls: ['https://api.guiguiya.com/api/hotlist?type=toutiao'] },
 };
 
-// ============ 分类关键词 ============
 const CATEGORY_KEYWORDS = {
   '科技': ['AI', '人工智能', '芯片', '半导体', '手机', '苹果', '华为', '小米', '科技', '互联网', '算法', '大模型', 'ChatGPT', '量子', '5G', '6G', '数码', '电动车', '新能源', '自动驾驶', '机器人', '百度', '腾讯', '阿里', '字节', 'OpenAI', '谷歌', '微软', '英伟达'],
   '社会': ['社会', '民生', '教育', '学校', '大学', '高考', '考研', '就业', '工资', '收入', '房价', '医保', '养老', '生育', '结婚', '离婚', '交通', '高铁', '地铁', '公交', '快递', '外卖', '城管', '物业', '社区'],
@@ -71,9 +28,7 @@ const CATEGORY_KEYWORDS = {
 function categorize(title) {
   for (const [cat, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
     if (cat === '其他') continue;
-    for (const kw of keywords) {
-      if (title.includes(kw)) return cat;
-    }
+    for (const kw of keywords) { if (title.includes(kw)) return cat; }
   }
   return '其他';
 }
@@ -88,22 +43,14 @@ function parseHeat(s) {
   return v;
 }
 
-function formatHeat(s, unit) {
-  if (!s) return '—';
-  return String(s) + (unit || '');
-}
+function formatHeat(s, unit) { return s ? String(s) + (unit || '') : '—'; }
 
-// ============ 解析多种 API 返回格式（兼容 vvhan/guigui/tenapi/官方）============
 function normalizeList(raw) {
   if (!raw || typeof raw !== 'object') return null;
-  // vvhan: { code, data: { name, data: [...] } }  ← 真实列表在 data.data
   if (raw.data && Array.isArray(raw.data.data)) return raw.data.data;
-  // 通用聚合: { data: [...] } 或 直接就是数组
   if (Array.isArray(raw.data)) return raw.data;
   if (Array.isArray(raw)) return raw;
-  // 知乎官方: { data: [{ target: { title, id }, detail_text }] }
   if (Array.isArray(raw.data) && raw.data[0] && raw.data[0].target) return raw.data;
-  // B站官方: { data: { trending: { list: [...] } } }
   if (raw.data && raw.data.trending && Array.isArray(raw.data.trending.list)) return raw.data.trending.list;
   return null;
 }
@@ -113,124 +60,76 @@ function parseItems(raw, config) {
   if (!list || !list.length) return [];
   return list.slice(0, 10).map((it, i) => {
     let title = '', hot = null, url = '';
-    if (it && it.target) {                          // 知乎
-      title = it.target.title || '';
-      hot = it.detail_text;
-      url = `https://www.zhihu.com/question/${it.target.id || ''}`;
-    } else if (it && (it.keyword !== undefined || it.show_name !== undefined)) { // B站
-      title = it.keyword || it.show_name || '';
-      hot = it.heat_score;
-      url = it.uri || `https://search.bilibili.com/all?keyword=${encodeURIComponent(title)}`;
-    } else {                                        // 通用聚合（vvhan/guigui/tenapi）
-      title = (it && (it.title || it.name || it.word)) || '';
-      hot = it ? (it.hot ?? it.heat ?? it.hotValue ?? it.heatValue) : null;
-      url = (it && it.url) || '';
-    }
-    return {
-      rank: i + 1,
-      title: String(title),
-      heatValue: parseHeat(hot),
-      heatText: hot != null ? formatHeat(hot, config.unit) : '—',
-      url,
-      isNew: false,
-      category: categorize(String(title)),
-    };
+    if (it && it.target) { title = it.target.title || ''; hot = it.detail_text; url = `https://www.zhihu.com/question/${it.target.id || ''}`; }
+    else if (it && (it.keyword !== undefined || it.show_name !== undefined)) { title = it.keyword || it.show_name || ''; hot = it.heat_score; url = it.uri || `https://search.bilibili.com/all?keyword=${encodeURIComponent(title)}`; }
+    else { title = (it && (it.title || it.name || it.word)) || ''; hot = it ? (it.hot ?? it.heat ?? it.hotValue ?? it.heatValue) : null; url = (it && it.url) || ''; }
+    return { rank: i + 1, title: String(title), heatValue: parseHeat(hot), heatText: hot != null ? formatHeat(hot, config.unit) : '—', url, isNew: false, category: categorize(String(title)) };
   });
 }
 
-// ============ 抓取单个平台（多备用源）============
 async function fetchPlatform(key, config) {
   for (const url of config.urls) {
     try {
-      const resp = await fetch(url, {
-        headers: { 'User-Agent': UA, 'Accept': 'application/json,text/plain,*/*' },
-        signal: AbortSignal.timeout(12000),
-      });
+      const resp = await fetch(url, { headers: { 'User-Agent': UA, 'Accept': 'application/json,text/plain,*/*' }, signal: AbortSignal.timeout(12000) });
       if (!resp.ok) continue;
       const raw = await resp.json();
       const items = parseItems(raw, config);
-      if (items.length > 0) {
-        console.log(`[OK] ${key} <- ${url}`);
-        return { name: config.name, unit: config.unit, list: items };
-      }
-    } catch (e) {
-      console.log(`[FAIL] ${key} <- ${url}: ${e.message}`);
-    }
+      if (items.length > 0) { console.log(`[OK] ${key} <- ${url}`); return { name: config.name, unit: config.unit, list: items }; }
+    } catch (e) { console.log(`[FAIL] ${key} <- ${url}: ${e.message}`); }
   }
   return null;
 }
 
-// ============ 聚合计算 ============
 function computeOverall(platforms) {
-  const all = [];
+  const map = new Map();
   for (const [key, pf] of Object.entries(platforms)) {
     for (const item of pf.list) {
-      all.push({ ...item, platform: key, platformName: pf.name });
+      const t = item.title;
+      if (!map.has(t)) map.set(t, { title: t, url: item.url || '', heatValue: 0, heatText: '—', platforms: [], category: item.category || '综合' });
+      const e = map.get(t);
+      if (!e.platforms.includes(key)) e.platforms.push(key);
+      if ((item.heatValue || 0) > (e.heatValue || 0)) { e.heatValue = item.heatValue; e.heatText = item.heatText; if (item.url) e.url = item.url; }
     }
   }
-  all.sort((a, b) => (b.heatValue || 0) - (a.heatValue || 0));
-  return all.slice(0, 10).map((item, i) => ({
-    rank: i + 1,
-    title: item.title,
-    url: item.url || '',
-    heatText: item.heatText || '—',
-    heatValue: item.heatValue || 0,
-    platforms: [item.platform],
-    platformName: item.platformName,
-    category: item.category || '综合',
-    desc: item.heatText || '',
-  }));
+  const arr = [...map.values()];
+  arr.sort((a, b) => (b.heatValue || 0) - (a.heatValue || 0));
+  return arr.slice(0, 10).map((item, i) => ({ rank: i + 1, title: item.title, url: item.url || '', heatText: item.heatText || '—', heatValue: item.heatValue || 0, platforms: item.platforms, category: item.category || '综合', cross: item.platforms.length > 1 }));
 }
 
 function computeFastest(platforms) {
-  const all = [];
+  const map = new Map();
   for (const [key, pf] of Object.entries(platforms)) {
     for (const item of pf.list) {
-      all.push({ ...item, platform: key, platformName: pf.name });
+      const t = item.title;
+      if (!map.has(t)) map.set(t, { title: t, heatValue: 0, platforms: [] });
+      const e = map.get(t);
+      if (!e.platforms.includes(key)) e.platforms.push(key);
+      if ((item.heatValue || 0) > (e.heatValue || 0)) e.heatValue = item.heatValue;
     }
   }
-  all.sort((a, b) => (b.heatValue || 0) - (a.heatValue || 0));
-  return all.slice(0, 10).map((item, i) => ({
-    rank: i + 1,
-    title: item.title,
-    rate: item.heatValue > 500 ? '极速' : item.heatValue > 100 ? '爆发' : '飙升',
-    platforms: [item.platform],
-    platformName: item.platformName,
-    desc: (item.platformName || '') + ' ' + (item.heatText || ''),
-  }));
+  const arr = [...map.values()];
+  arr.sort((a, b) => (b.heatValue || 0) - (a.heatValue || 0));
+  return arr.slice(0, 10).map((item, i) => ({ rank: i + 1, title: item.title, rate: item.heatValue > 500 ? '极速' : item.heatValue > 100 ? '爆发' : '飙升', platforms: item.platforms, cross: item.platforms.length > 1 }));
 }
 
 function categorizeAll(platforms) {
   const stats = {};
-  for (const pf of Object.values(platforms)) {
-    for (const item of pf.list) {
-      stats[item.category] = (stats[item.category] || 0) + 1;
-    }
-  }
+  for (const pf of Object.values(platforms)) for (const item of pf.list) stats[item.category] = (stats[item.category] || 0) + 1;
   return stats;
 }
 
 function platformHeatStats(platforms) {
   const stats = {};
-  for (const [key, pf] of Object.entries(platforms)) {
-    stats[key] = pf.list.reduce((s, i) => s + (i.heatValue || 0), 0);
-  }
+  for (const [key, pf] of Object.entries(platforms)) stats[key] = pf.list.reduce((s, i) => s + (i.heatValue || 0), 0);
   return stats;
 }
 
-// ============ 抓取 + 聚合，返回完整结果；全部失败返回 null ============
-async function buildData() {
-  const fetchPromises = Object.entries(SOURCES).map(async ([key, config]) => {
-    const result = await fetchPlatform(key, config);
-    return [key, result];
-  });
+async function buildData(env) {
+  const fetchPromises = Object.entries(SOURCES).map(async ([key, config]) => [key, await fetchPlatform(key, config)]);
   const settled = await Promise.allSettled(fetchPromises);
   const platformResults = {};
-  for (const s of settled) {
-    const [key, result] = s.value || [null, null];
-    if (key && result) platformResults[key] = result;
-  }
-  if (Object.keys(platformResults).length === 0) return null; // 全部失败
+  for (const s of settled) { const [key, result] = s.value || [null, null]; if (key && result) platformResults[key] = result; }
+  if (Object.keys(platformResults).length === 0) return null;
 
   const overall = computeOverall(platformResults);
   const fastest = computeFastest(platformResults);
@@ -238,78 +137,70 @@ async function buildData() {
   const pstats = platformHeatStats(platformResults);
   const total = Object.values(platformResults).reduce((s, pf) => s + pf.list.length, 0);
 
-  const now = new Date(Date.now() + 8 * 3600 * 1000); // 北京时间
+  let newTopics = 0;
+  const KV = env && env.HOT_DATA;
+  if (KV) {
+    try {
+      const nowSec = Math.floor(Date.now() / 1000);
+      const WINDOW = 24 * 3600;
+      const seenRaw = (await KV.get('seen_topics', { type: 'json' })) || {};
+      const seen = {};
+      for (const [t, ts] of Object.entries(seenRaw)) if (nowSec - ts < WINDOW) seen[t] = ts;
+      const titles = new Set();
+      for (const pf of Object.values(platformResults)) for (const it of pf.list) titles.add(it.title);
+      for (const t of titles) if (seen[t] === undefined) { seen[t] = nowSec; newTopics++; }
+      await KV.put('seen_topics', JSON.stringify(seen), { expirationTtl: WINDOW + 7200 });
+    } catch (e) { console.log('[seen FAIL] ' + e.message); }
+  }
+
+  if (KV) {
+    try {
+      const prev = await KV.get('prev_snapshot', { type: 'json' });
+      if (prev) {
+        const mark = (items, prevMap) => { if (!prevMap) return; for (const it of items) { const pr = prevMap[it.title]; if (pr === undefined) it.trend = { isNew: true, rankDelta: 0 }; else it.trend = { isNew: false, rankDelta: pr - it.rank }; } };
+        mark(overall, prev.overall);
+        for (const [key, pf] of Object.entries(platformResults)) if (prev.platforms && prev.platforms[key]) mark(pf.list, prev.platforms[key]);
+      }
+      const snap = { ts: Math.floor(Date.now() / 1000), overall: {}, platforms: {} };
+      for (const it of overall) snap.overall[it.title] = it.rank;
+      for (const [key, pf] of Object.entries(platformResults)) { snap.platforms[key] = {}; for (const it of pf.list) snap.platforms[key][it.title] = it.rank; }
+      await KV.put('prev_snapshot', JSON.stringify(snap), { expirationTtl: 3 * 3600 });
+    } catch (e) { console.log('[trend FAIL] ' + e.message); }
+  }
+
+  const now = new Date(Date.now() + 8 * 3600 * 1000);
   return {
-    version: 'v2-6源',  // 版本标记：用于确认新代码是否已部署
+    version: 'v2-8趋势搜索',
     updateTime: now.toISOString().slice(0, 16).replace('T', ' '),
     updateTimestamp: Math.floor(Date.now() / 1000),
     timeZone: 'Asia/Shanghai (UTC+8)',
     source: 'Cloudflare Worker 实时抓取（guiguiya 聚合）',
-    summary: {
-      totalTopics: total,
-      platforms: Object.keys(platformResults).length,
-      newTopics: 0,
-    },
-    overall,
-    platforms: platformResults,
-    fastestGrowing: fastest,
-    categoryStats,
-    platformHeatStats: pstats,
+    summary: { totalTopics: total, platforms: Object.keys(platformResults).length, newTopics: newTopics },
+    overall, platforms: platformResults, fastestGrowing: fastest, categoryStats, platformHeatStats: pstats,
   };
 }
 
-// ============ 主入口 ============
 export default {
   async fetch(request, env, ctx) {
-    const corsHeaders = {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
-      'Content-Type': 'application/json; charset=utf-8',
-    };
-    if (request.method === 'OPTIONS') {
-      return new Response(null, { headers: corsHeaders });
-    }
-
+    const corsHeaders = { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Content-Type': 'application/json; charset=utf-8' };
+    if (request.method === 'OPTIONS') return new Response(null, { headers: corsHeaders });
     const url = new URL(request.url);
-    const fresh = url.searchParams.get('fresh') === '1'; // 手动强制刷新
+    const fresh = url.searchParams.get('fresh') === '1';
     const KEY = 'hotdata';
-    const KV = env.HOT_DATA; // KV 未绑定时为 undefined，下面全部做可选处理，不绑也能跑
-
-    // 正常访问：优先读 KV 缓存（若绑了 KV）
+    const KV = env.HOT_DATA;
     let data = null;
-    if (!fresh && KV) {
-      try { data = await KV.get(KEY, { type: 'json' }); } catch (e) { console.log('[KV GET FAIL] ' + e.message); }
-    }
-
-    // KV 为空 或 强制刷新 → 实时抓取并写回 KV
+    if (!fresh && KV) { try { data = await KV.get(KEY, { type: 'json' }); } catch (e) { console.log('[KV GET FAIL] ' + e.message); } }
     if (!data || fresh) {
-      const built = await buildData();
-      if (built) {
-        data = built;
-        if (KV) ctx.waitUntil(KV.put(KEY, JSON.stringify(data), { expirationTtl: 3600 }));
-      } else if (!data && KV) {
-        // 实时全失败且 KV 也无 → 再读一次 KV（可能有旧数据）
-        try { data = await KV.get(KEY, { type: 'json' }); } catch (e) {}
-      }
+      const built = await buildData(env);
+      if (built) { data = built; if (KV) ctx.waitUntil(KV.put(KEY, JSON.stringify(data), { expirationTtl: 3600 })); }
+      else if (!data && KV) { try { data = await KV.get(KEY, { type: 'json' }); } catch (e) {} }
     }
-
-    if (!data) {
-      return new Response(JSON.stringify({ error: '数据暂不可用，请稍后重试' }), { status: 503, headers: corsHeaders });
-    }
+    if (!data) return new Response(JSON.stringify({ error: '数据暂不可用，请稍后重试' }), { status: 503, headers: corsHeaders });
     return new Response(JSON.stringify(data), { headers: { ...corsHeaders, 'Cache-Control': 'no-store' } });
   },
-
-  // Cron Trigger 后台定时抓取（无人访问也更新；需先绑定 KV）
   async scheduled(event, env, ctx) {
-    const data = await buildData();
-    if (data) {
-      if (env.HOT_DATA) {
-        await env.HOT_DATA.put('hotdata', JSON.stringify(data), { expirationTtl: 3600 });
-      }
-      console.log('[CRON] 数据已更新，平台数: ' + data.summary.platforms);
-    } else {
-      console.log('[CRON] 本次抓取全部失败，保留旧数据');
-    }
+    const data = await buildData(env);
+    if (data) { if (env.HOT_DATA) await env.HOT_DATA.put('hotdata', JSON.stringify(data), { expirationTtl: 3600 }); console.log('[CRON] 平台数: ' + data.summary.platforms + '，24h新增: ' + data.summary.newTopics); }
+    else console.log('[CRON] 本次抓取全部失败，保留旧数据');
   },
 };
