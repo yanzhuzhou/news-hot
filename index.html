@@ -4,44 +4,51 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>全网社交平台热点榜单</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<script defer src="./chart.umd.min.js"></script>
 <style>
   :root {
-    --bg: #0f1115;
-    --card: #1a1d24;
-    --card2: #21252e;
-    --text: #e8eaed;
-    --muted: #9aa0aa;
-    --line: #2a2f3a;
-    --accent: #ff5a5f;
-    --accent2: #4f8cff;
-    --ok: #2ecc71;
-    --warn: #f1c40f;
+    --bg1: #E6F5EE;
+    --bg2: #E7F1FB;
+    --card: #FFFFFF;
+    --card2: #F0F7F4;
+    --text: #3B4A44;
+    --muted: #5F7C72;
+    --line: #DCEBE4;
+    --accent: #F2A98E;
+    --accent-deep: #C76B4E;
+    --accent2: #9BB8E8;
+    --ok: #5FB39A;
+    --warn: #E0B15A;
     --wb: #e6162d; --zh: #0084ff; --dy: #161823; --bl: #fb7299; --xhs: #ff2741;
+    --header-grad: linear-gradient(135deg, #F2FBF8, #EAF2FC);
+    --shadow: 0 1px 3px rgba(95,140,120,.08), 0 8px 24px rgba(95,140,120,.07);
   }
   * { box-sizing: border-box; }
   body {
-    margin: 0; background: var(--bg); color: var(--text);
+    margin: 0; background: linear-gradient(160deg, var(--bg1), var(--bg2)); color: var(--text);
     font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
     line-height: 1.5;
   }
   .wrap { max-width: 1180px; margin: 0 auto; padding: 24px 18px 60px; }
   header.top {
     display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
-    padding: 18px 22px; background: linear-gradient(135deg, #1c2030, #141925);
+    padding: 18px 22px; background: var(--header-grad);
     border: 1px solid var(--line); border-radius: 16px; margin-bottom: 20px;
+    box-shadow: var(--shadow);
   }
   header.top h1 { font-size: 22px; margin: 0; letter-spacing: .5px; }
   header.top .meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
-  .badge { padding: 3px 10px; border-radius: 999px; font-size: 12px; border: 1px solid var(--line); }
-  .badge.live { color: var(--ok); border-color: rgba(46,204,113,.4); }
-  .badge.cache { color: var(--warn); border-color: rgba(241,196,15,.4); }
+  .badge { padding: 3px 10px; border-radius: 999px; font-size: 12px; border: 1px solid var(--line); background: #fff; }
+  .badge.live { color: var(--ok); border-color: rgba(24,160,88,.4); }
+  .badge.cache { color: var(--warn); border-color: rgba(217,164,0,.4); }
   .refresh-btn {
     display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
     background: var(--accent2); color: #fff; border: none; padding: 8px 14px; border-radius: 10px; font-size: 13px;
-    transition: transform .15s, opacity .15s;
+    transition: transform .15s, opacity .15s, box-shadow .15s;
+    box-shadow: 0 2px 8px rgba(120,150,210,.35);
   }
-  .refresh-btn:hover { opacity: .9; }
+  .refresh-btn:hover { opacity: .92; box-shadow: 0 4px 14px rgba(120,150,210,.45); }
   .refresh-btn:active { transform: scale(.96); }
   .refresh-btn.spin svg { animation: rot 1s linear infinite; }
   @keyframes rot { to { transform: rotate(360deg); } }
@@ -50,6 +57,7 @@
   @media (max-width: 820px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
   .card {
     background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px;
+    box-shadow: var(--shadow);
   }
   .kpi .v { font-size: 30px; font-weight: 700; }
   .kpi .l { color: var(--muted); font-size: 13px; margin-top: 4px; }
@@ -69,11 +77,11 @@
   .list li:last-child { border-bottom: none; }
   .rank { width: 26px; height: 26px; flex: 0 0 26px; border-radius: 7px; background: var(--card2);
     display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; color: var(--muted); }
-  .rank.top { background: var(--accent); color: #fff; }
+  .rank.top { background: var(--accent-deep); color: #fff; }
   .title { flex: 1; font-size: 14px; }
   .title a { color: var(--text); text-decoration: none; }
   .title a:hover { color: var(--accent2); }
-  .heat { font-size: 13px; color: var(--accent); font-weight: 600; white-space: nowrap; }
+  .heat { font-size: 13px; color: var(--accent-deep); font-weight: 600; white-space: nowrap; }
   .ptag { font-size: 11px; padding: 2px 7px; border-radius: 6px; color: #fff; white-space: nowrap; }
   .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
   .tab { cursor: pointer; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line);
@@ -85,8 +93,21 @@
   .rate.飙升 { background: #54a0ff; color: #fff; }
   footer { margin-top: 40px; color: var(--muted); font-size: 12px; text-align: center; line-height: 1.8; }
   .skeleton { color: var(--muted); }
+  .searchbar {
+    display: flex; align-items: center; gap: 10px; background: var(--card);
+    border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px;
+    margin: -4px 0 20px; box-shadow: var(--shadow);
+  }
+  .searchbar svg { color: var(--muted); flex: 0 0 auto; }
+  .searchbar input { flex: 1; border: none; outline: none; background: transparent; font-size: 14px; color: var(--text); }
+  .searchbar .hint { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .trend { font-size: 11px; font-weight: 700; padding: 1px 5px; border-radius: 5px; white-space: nowrap; }
+  .trend.up { color: #d92d20; background: rgba(217,45,32,.10); }
+  .trend.down { color: #1a7f37; background: rgba(26,127,55,.10); }
+  .trend.new { color: #B06A2E; background: rgba(200,140,60,.14); }
+  .trend.flat { color: var(--muted); background: rgba(120,130,120,.08); }
   .banner { margin-top: 14px; padding: 10px 14px; border-radius: 10px; font-size: 13px; display: none; }
-  .banner.err { background: rgba(255,90,95,.12); border: 1px solid rgba(255,90,95,.4); color: #ff9a9d; }
+  .banner.err { background: rgba(255,90,95,.1); border: 1px solid rgba(255,90,95,.35); color: #d23b40; }
 </style>
 </head>
 <body>
@@ -104,6 +125,12 @@
       <span>刷新</span>
     </button>
   </header>
+
+  <div class="searchbar">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input id="searchInput" type="search" placeholder="搜索话题关键词，实时过滤下方三张榜单" autocomplete="off" />
+    <span class="hint" id="searchHint"></span>
+  </div>
 
   <div id="errBanner" class="banner err"></div>
 
@@ -158,20 +185,12 @@
 
   <footer>
     数据聚合自微博、抖音、B站、百度、头条公开热榜接口 · 仅供趋势观察，不代表官方观点<br/>
-    更新机制：点击右上角“刷新”按钮 → Cloudflare Worker 实时抓取（?fresh=1）；可选绑定 KV 缓存 / 可选 Cron 后台定时，全程仅用 Cloudflare
+    更新机制：点击右上角"刷新"按钮 → Cloudflare Worker 实时抓取（?fresh=1）；可选绑定 KV 缓存 / 可选 Cron 后台定时，全程仅用 Cloudflare
   </footer>
 </div>
 
-<script>
-/* ============================================================
- * 配置区：把下面 WORKER_URL 改成你自己的 Cloudflare Worker 地址
- * （在 Cloudflare Workers 控制台 Deploy 后复制，形如 https://xxx.workers.dev）
- * 刷新方式：点击右上角“刷新”按钮 → 请求 Worker ?fresh=1 实时抓取最新数据。
- * 本版本为【纯手动刷新】：页面仅在首次加载时拉取一次，之后不再自动轮询，
- * 必须点击“刷新”按钮才会去 Cloudflare 抓取新数据。
- * （可选）如需无人访问时也自动更新，可在 Cloudflare 给 Worker 加 Cron 触发器，见 README。
- * ============================================================ */
-const WORKER_URL = 'https://plain-hill-9dff.yanzhuzhou1996.workers.dev/';   // ← 你的 Cloudflare Worker 地址
+<script defer>
+const WORKER_URL = 'https://plain-hill-9dff.yanzhuzhou1996.workers.dev/';   // ← 改成你自己的 Worker 地址
 
 const PLAT_ORDER = ['weibo', 'douyin', 'bilibili', 'baidu', 'toutiao'];
 const PLAT_COLOR = { weibo: '#e6162d', douyin: '#161823', bilibili: '#fb7299', baidu: '#2932e1', toutiao: '#f04142' };
@@ -179,6 +198,7 @@ const PLAT_NAME  = { weibo: '微博', douyin: '抖音', bilibili: 'B站', baidu:
 
 let heatChartObj = null, catChartObj = null;
 let currentData = null;
+let filterKw = '';
 
 function pcolor(key) { return PLAT_COLOR[key] || '#888'; }
 function pname(key) { return PLAT_NAME[key] || key; }
@@ -229,14 +249,13 @@ function showErr(msg) {
 function hideErr() { document.getElementById('errBanner').style.display = 'none'; }
 
 function render(d, source) {
-  // 顶部状态
+  currentData = d;
   const tEl = document.getElementById('updateTime');
   const badge = document.getElementById('sourceBadge');
   tEl.innerHTML = `更新于 <b>${d.updateTime || '—'}</b>` + (d.updateTimestamp ? ` <span style="color:var(--muted)">(${relTime(d.updateTimestamp)})</span>` : '');
   if (source === 'live') { badge.textContent = '实时 · 手动刷新'; badge.className = 'badge live'; }
   else { badge.textContent = '缓存 · Cron 自动'; badge.className = 'badge cache'; }
 
-  // KPI
   const s = d.summary || {};
   document.getElementById('kpiTotal').textContent = s.totalTopics ?? '—';
   document.getElementById('kpiPlat').textContent = s.platforms ?? '—';
@@ -245,47 +264,65 @@ function render(d, source) {
   document.getElementById('kpiMax').innerHTML = (maxHeat ? maxHeat : '—') + (maxHeat ? ' <small>万</small>' : '');
   document.getElementById('kpiNew').textContent = s.newTopics ?? '—';
 
-  // 图表
   renderHeatChart(d.platformHeatStats || {});
   renderCatChart(d.categoryStats || {});
 
-  // 洞察
   const plats = Object.keys(d.platforms || {}).map(pname).join('、') || '—';
   const top = (d.overall || [])[0];
+  const cross = (d.overall || []).filter(it => (it.platforms || []).length > 1).length;
   document.getElementById('insight').innerHTML =
-    `今日共聚合 <b>${s.totalTopics ?? 0}</b> 条热点，覆盖 <b>${s.platforms ?? 0}</b> 个平台（${plats}）。` +
+    `今日共聚合 <b>${s.totalTopics ?? 0}</b> 条热点，覆盖 <b>${s.platforms ?? 0}</b> 个平台（${plats}）；其中 <b>${cross}</b> 条为跨平台热点。` +
     (top ? `综合热度最高的话题是 <b>《${top.title}》</b>，热度约 <b>${top.heatText}</b>。` : '');
 
-  // 跨平台综合十大
+  renderOverallList();
+  renderPlatTabs(d.platforms || {});
+  renderFastestList();
+}
+
+let activePlat = null;
+
+function matchKw(t) {
+  return !filterKw || String(t || '').toLowerCase().includes(filterKw);
+}
+
+function trendHtml(t) {
+  if (!t) return '';
+  if (t.isNew) return '<span class="trend new">新</span>';
+  if (t.rankDelta > 0) return `<span class="trend up">↑${t.rankDelta}</span>`;
+  if (t.rankDelta < 0) return `<span class="trend down">↓${-t.rankDelta}</span>`;
+  return '<span class="trend flat">—</span>';
+}
+
+function renderOverallList() {
   const ol = document.getElementById('overallList');
+  const list = ((currentData && currentData.overall) || []).filter(it => matchKw(it.title));
   ol.innerHTML = '';
-  (d.overall || []).forEach(it => {
+  list.forEach(it => {
     const li = document.createElement('li');
     li.innerHTML = `
       <div class="rank ${it.rank <= 3 ? 'top' : ''}">${it.rank}</div>
-      <div class="title">${it.title ? `<a href="${it.url || '#'}" target="_blank" rel="noopener">${it.title}</a>` : '—'}</div>
-      <span class="ptag" style="background:${pcolor(it.platforms?.[0])}">${pname(it.platforms?.[0])}</span>
+      <div class="title">${it.title ? `<a href="${it.url || '#'}" target="_blank" rel="noopener">${it.title}</a>` : '—'} ${trendHtml(it.trend)}</div>
+      ${(it.platforms||[]).map(p=>`<span class="ptag" style="background:${pcolor(p)}">${pname(p)}</span>`).join('')}${(it.platforms||[]).length>1?`<span class="ptag" style="background:#7E9B86">多平台</span>`:''}
       <div class="heat">${it.heatText || '—'}</div>`;
     ol.appendChild(li);
   });
-  if (!(d.overall || []).length) ol.innerHTML = '<li class="skeleton">暂无数据</li>';
+  if (!list.length) ol.innerHTML = `<li class="skeleton">${filterKw ? '无匹配话题' : '暂无数据'}</li>`;
+}
 
-  // 分平台 tab
-  renderPlatTabs(d.platforms || {});
-
-  // 24h 增长最快
+function renderFastestList() {
   const fl = document.getElementById('fastList');
+  const list = ((currentData && currentData.fastestGrowing) || []).filter(it => matchKw(it.title));
   fl.innerHTML = '';
-  (d.fastestGrowing || []).forEach(it => {
+  list.forEach(it => {
     const li = document.createElement('li');
     li.innerHTML = `
       <div class="rank ${it.rank <= 3 ? 'top' : ''}">${it.rank}</div>
-      <div class="title">${it.title || '—'}</div>
-      <span class="ptag" style="background:${pcolor(it.platforms?.[0])}">${pname(it.platforms?.[0])}</span>
+      <div class="title">${it.title || '—'} ${trendHtml(it.trend)}</div>
+      ${(it.platforms||[]).map(p=>`<span class="ptag" style="background:${pcolor(p)}">${pname(p)}</span>`).join('')}${(it.platforms||[]).length>1?`<span class="ptag" style="background:#7E9B86">多平台</span>`:''}
       <span class="rate ${it.rate}">${it.rate}</span>`;
     fl.appendChild(li);
   });
-  if (!(d.fastestGrowing || []).length) fl.innerHTML = '<li class="skeleton">暂无数据</li>';
+  if (!list.length) fl.innerHTML = `<li class="skeleton">${filterKw ? '无匹配话题' : '暂无数据'}</li>`;
 }
 
 function renderPlatTabs(platforms) {
@@ -293,32 +330,35 @@ function renderPlatTabs(platforms) {
   tabs.innerHTML = '';
   const keys = PLAT_ORDER.filter(k => platforms[k]);
   if (!keys.length) { document.getElementById('platList').innerHTML = '<li class="skeleton">暂无数据</li>'; return; }
-  keys.forEach((k, i) => {
+  activePlat = keys.includes(activePlat) ? activePlat : keys[0];
+  keys.forEach(k => {
     const el = document.createElement('div');
-    el.className = 'tab' + (i === 0 ? ' active' : '');
+    el.className = 'tab' + (k === activePlat ? ' active' : '');
     el.textContent = pname(k);
     el.onclick = () => {
+      activePlat = k;
       [...tabs.children].forEach(c => c.classList.remove('active'));
       el.classList.add('active');
       renderPlatList(platforms[k]);
     };
     tabs.appendChild(el);
   });
-  renderPlatList(platforms[keys[0]]);
+  renderPlatList(platforms[activePlat]);
 }
 
 function renderPlatList(pf) {
   const ul = document.getElementById('platList');
   ul.innerHTML = '';
-  (pf.list || []).forEach(it => {
+  const list = ((pf && pf.list) || []).filter(it => matchKw(it.title));
+  list.forEach(it => {
     const li = document.createElement('li');
     li.innerHTML = `
       <div class="rank ${it.rank <= 3 ? 'top' : ''}">${it.rank}</div>
-      <div class="title">${it.title ? `<a href="${it.url || '#'}" target="_blank" rel="noopener">${it.title}</a>` : '—'}</div>
+      <div class="title">${it.title ? `<a href="${it.url || '#'}" target="_blank" rel="noopener">${it.title}</a>` : '—'} ${trendHtml(it.trend)}</div>
       <div class="heat">${it.heatText || '—'}</div>`;
     ul.appendChild(li);
   });
-  if (!(pf.list || []).length) ul.innerHTML = '<li class="skeleton">暂无数据</li>';
+  if (!list.length) ul.innerHTML = `<li class="skeleton">${filterKw ? '无匹配话题' : '暂无数据'}</li>`;
 }
 
 function renderHeatChart(stats) {
@@ -331,7 +371,7 @@ function renderHeatChart(stats) {
   heatChartObj = new Chart(canvas, {
     type: 'bar',
     data: { labels, datasets: [{ label: '热度合计', data: vals, backgroundColor: colors, borderRadius: 6 }] },
-    options: { plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#9aa0aa' }, grid: { color: '#2a2f3a' } }, y: { ticks: { color: '#9aa0aa' }, grid: { color: '#2a2f3a' } } } }
+    options: { animation: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#6b7280' }, grid: { color: '#e4e8f0' } }, y: { ticks: { color: '#6b7280' }, grid: { color: '#e4e8f0' } } } }
   });
 }
 
@@ -340,17 +380,47 @@ function renderCatChart(cats) {
   if (typeof Chart === 'undefined') return;
   const entries = Object.entries(cats).sort((a, b) => b[1] - a[1]).slice(0, 8);
   const palette = ['#ff5a5f', '#4f8cff', '#2ecc71', '#f1c40f', '#9b59b6', '#1abc9c', '#e67e22', '#95a5a6'];
+  const total = entries.reduce((s, e) => s + e[1], 0) || 1;
   if (catChartObj) catChartObj.destroy();
   catChartObj = new Chart(canvas, {
     type: 'doughnut',
-    data: { labels: entries.map(e => e[0]), datasets: [{ data: entries.map(e => e[1]), backgroundColor: palette, borderColor: '#1a1d24', borderWidth: 2 }] },
-    options: { plugins: { legend: { position: 'right', labels: { color: '#9aa0aa', boxWidth: 12 } } } }
+    data: { labels: entries.map(e => e[0]), datasets: [{ data: entries.map(e => e[1]), backgroundColor: palette, borderColor: '#ffffff', borderWidth: 2 }] },
+    options: { animation: false, plugins: { legend: { position: 'right', labels: { color: '#6b7280', boxWidth: 12, generateLabels: () => entries.map((e, i) => ({ text: ` ${e[0]}  ${Math.round(e[1]/total*100)}%`, fillStyle: palette[i], strokeStyle: '#fff', lineWidth: 2 })) } } } }
   });
 }
 
 document.getElementById('refreshBtn').addEventListener('click', () => loadData(true));
-// 首次加载（仅此一次；之后请点击右上角"刷新"按钮获取最新数据）
-loadData();
+
+document.getElementById('searchInput').addEventListener('input', (e) => {
+  filterKw = e.target.value.trim().toLowerCase();
+  renderOverallList();
+  renderFastestList();
+  if (activePlat && currentData && currentData.platforms) renderPlatList(currentData.platforms[activePlat]);
+  document.getElementById('searchHint').textContent = filterKw ? '已过滤' : '';
+});
+
+async function ensureChart() {
+  if (typeof Chart !== 'undefined') return true;
+  const srcs = [
+    './chart.umd.min.js',
+    'https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js',
+    'https://unpkg.com/chart.js@4.4.1/dist/chart.umd.min.js'
+  ];
+  for (const src of srcs) {
+    const ok = await new Promise((res) => {
+      const s = document.createElement('script');
+      s.src = src;
+      s.onload = () => res(typeof Chart !== 'undefined');
+      s.onerror = () => res(false);
+      document.head.appendChild(s);
+    });
+    if (ok) return true;
+  }
+  return false;
+}
+
+async function boot() { await ensureChart(); loadData(); }
+boot();
 </script>
 </body>
 </html>
